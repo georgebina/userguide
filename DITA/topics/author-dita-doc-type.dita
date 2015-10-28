@@ -13,8 +13,8 @@
       authoring, producing, and delivering technical information. It divides content into small,
       self-contained topics that you can reuse in various deliverables. The extensibility of DITA
       permits organizations to define specific information structures while still using standard
-      tools to work with them. <ph keyref="product"/> provides schema-driven (DTD, RNG, XSD)
-      templates for DITA documents.</p>
+      tools to work with them. Oxygen XML Author provides schema-driven (DTD, RNG, XSD) templates
+      for DITA documents.</p>
     <p><indexterm>DITA Topics document type<indexterm>association rules</indexterm></indexterm>A
       file is considered to be a DITA topic document when one of the following conditions are
       true:</p>
@@ -26,8 +26,7 @@
       <li>The root element of the file has an attribute named <codeph>DITAArchVersion</codeph> for
         the <q>http://dita.oasis-open.org/architecture/2005/</q> namespace. This enhanced case of
         matching is only applied when the <uicontrol>Enable DTD/XML Schema processing in document
-          type detection</uicontrol> option is enabled from the <ph
-          conkeyref="reusables-preferences-pages/preferences-document-type-association"/>.</li>
+          type detection</uicontrol> option is enabled from the Preferences Menu.</li>
     </ul>
     <p><indexterm>DITA Topics document type<indexterm>schema</indexterm></indexterm>Default schemas
       that are used if one is not detected in the DITA documents are stored in the various folders
