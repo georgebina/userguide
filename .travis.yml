@@ -4,7 +4,7 @@ install:
 script:
   - wget https://gist.githubusercontent.com/ctalau/5a71f250f7e1da7e86a4e428e3b12f76/raw/471c98a18b72d792e2af9c1fb99038964732fb1f/publish.sh -O - | sh
 after_success:
-  - wget https://gist.githubusercontent.com/ctalau/1c3684d3de2b900566d9b3e0c98100ea/raw/c47fd3852f6752206a3e1b7c339e6ae5219aec60/deploy.sh -O - | sh
+  - wget https://gist.githubusercontent.com/ctalau/1c3684d3de2b900566d9b3e0c98100ea/raw/d719765212506571cc8920c2bb0e0c85e5a0821f/deploy.sh -O - | sh
 env:
   global:
     - DITAMAP=DITA/UserManual.ditamap
