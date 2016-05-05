@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="copyright" path="topics/copyright.html"/>
+   <appContext helpID="using-the-webapp-reviewer" path="topics/using-the-webapp-reviewer.html"/>
+   <appContext helpID="webapp-overview" path="topics/webapp-overview.html"/>
+   <appContext helpID="editingActions" path="topics/editingActions.html"/>
+   <appContext helpID="performing-common-actions" path="topics/performing-common-actions.html"/>
+   <appContext helpID="checking-for-errors" path="topics/checking-for-errors.html"/>
+   <appContext helpID="webapp_smart_paste" path="topics/webapp_smart_paste.html"/>
+   <appContext helpID="perform_common_review_actions"
+               path="topics/perform_common_review_actions.html"/>
+   <appContext helpID="webapp-dashboard" path="topics/webapp-dashboard.html"/>
+   <appContext helpID="how_to_webapp_webdav" path="topics/how_to_webapp_webdav.html"/>
+   <appContext helpID="using-webapp-github" path="topics/using-webapp-github.html"/>
+   <appContext helpID="browser-compatibility" path="topics/browser-compatibility.html"/>
+   <appContext helpID="license_issues" path="topics/license_issues.html"/>
+</map>
