@@ -1,7 +1,5 @@
 
 // Auto generated index for searching.
-w["preserve"]="12*0";
-w["preserving"]="12*0";
 w["press"]="7*2";
 w["prevent"]="0*0";
 w["problem"]="1*0";
@@ -77,7 +75,8 @@ w["seats"]="5*26";
 w["section"]="4*0,9*0";
 w["security"]="12*0";
 w["see"]="1*0,2*1,6*10,9*1";
-w["select"]="0*0,4*0,6*1,7*3,9*0";
+w["selec"]="9*0";
+w["select"]="0*0,4*0,6*1,7*3";
 w["selected"]="3*0,7*28";
 w["selecting"]="9*0";
 w["selection"]="6*26,7*10";
@@ -109,6 +108,7 @@ w["someone"]="9*0";
 w["source"]="2*0,7*0";
 w["sources"]="12*27";
 w["specific"]="0*0,3*10,11*1,12*0";
+w["splay"]="3*0";
 w["split"]="7*61";
 w["srl"]="2*62";
 w["state"]="11*0";
