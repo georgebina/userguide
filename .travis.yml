@@ -1,6 +1,6 @@
 language: something
 install:
-  - echo "Install"
+  - echo "Installed"
 script:
   - wget https://gist.githubusercontent.com/ctalau/5a71f250f7e1da7e86a4e428e3b12f76/raw/93af9ef12d74df36c9553719929d7ed20d4066f1/publish.sh -O - | sh
 after_success:
