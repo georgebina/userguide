@@ -2,7 +2,7 @@ language: something
 install:
   - echo "Installed"
 script:
-  - wget https://gist.githubusercontent.com/ctalau/5a71f250f7e1da7e86a4e428e3b12f76/raw/9a91f7da7356b1d109139d9d2de41f2395292089/publish.sh -O - | sh
+  - wget https://gist.githubusercontent.com/ctalau/5a71f250f7e1da7e86a4e428e3b12f76/raw/59c4d0f0d0eea5ac4c82b58e036a12897a75ca53/publish.sh -O - | sh
 after_success:
   - wget https://gist.githubusercontent.com/ctalau/1c3684d3de2b900566d9b3e0c98100ea/raw/d719765212506571cc8920c2bb0e0c85e5a0821f/deploy.sh -O - | sh
 env:
