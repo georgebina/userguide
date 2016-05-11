@@ -1,12 +1,16 @@
 language: something
 install:
-  - echo "Installed"
+- echo "Installed"
 script:
   - sh .travis/publish.sh
 after_success:
   - sh .travis/deploy.sh
 env:
   global:
-    - DITAMAP=DITA/UserManual.ditamap
-    - DITAVAL=DITA/author.ditaval
-    - secure: eDx05nCQBkMghcyW2gDBwpOEkb3mg2wYd+B3qdyfLidkHXWxluECt1pau9E0m4c7vVzaY5nH5GRm9aePkLhxTbqVcAaLd84JBkszxyBIGMK95r5LxQC8vjnc+UKDL7t9sPVeXavmyLarOuRWD0ZPTF7GsEdmap/HYO5fUEhUKjiae5xp//JV3bOrvKBqXkk0XdCpUwJWyGqp5X/Nx8BtAYWW3aJs6xRT5PQueHPH3QYUlsV/BstKHFkgNmCL/Kc47JTAUgd46fxH4FerKpDq44hK9sOMqlvLFshmbmRqfaaLynpwfM6QtS9jp3ZZQ9bt8oXucM5NYNdK6VXG7gEQkKP0EW2/NfODzB/E6E10B2jY6C6KqoJ2xfsdgT1DQnrlTUz3eOCTfdY873AWNuWfHv9UlP5QIrCYWqVktJCkJWDdlG2VhWCieUkUx5C2nh50ZkGALRBP8gs8ztQ5hwifdbuqBd3lVYYi6ZPl0JIUDRK68O2rX1sr4+9P0HCLuSOTSnN9H1QMvM8X2aBZxtuk0rhcQLqPvY5EV8kj3R2tfemq3jIDDBZD0EMuQVR8Ilza2AZPJhtCwMzrd6+JrVk5UWfNtTN2dUhUNBwt8Zr/GmnKhbg0H0ZWhXtd+zDfwCpAazGllncwadfF2DP2hVSyBy4vN5ijL3lxTFxN/IiJYg8=
+  - DITAMAP=DITA/UserManual.ditamap
+  - DITAVAL=DITA/author.ditaval
+  - ANT_OPTS=-Xmx1024M
+  - secure: eDx05nCQBkMghcyW2gDBwpOEkb3mg2wYd+B3qdyfLidkHXWxluECt1pau9E0m4c7vVzaY5nH5GRm9aePkLhxTbqVcAaLd84JBkszxyBIGMK95r5LxQC8vjnc+UKDL7t9sPVeXavmyLarOuRWD0ZPTF7GsEdmap/HYO5fUEhUKjiae5xp//JV3bOrvKBqXkk0XdCpUwJWyGqp5X/Nx8BtAYWW3aJs6xRT5PQueHPH3QYUlsV/BstKHFkgNmCL/Kc47JTAUgd46fxH4FerKpDq44hK9sOMqlvLFshmbmRqfaaLynpwfM6QtS9jp3ZZQ9bt8oXucM5NYNdK6VXG7gEQkKP0EW2/NfODzB/E6E10B2jY6C6KqoJ2xfsdgT1DQnrlTUz3eOCTfdY873AWNuWfHv9UlP5QIrCYWqVktJCkJWDdlG2VhWCieUkUx5C2nh50ZkGALRBP8gs8ztQ5hwifdbuqBd3lVYYi6ZPl0JIUDRK68O2rX1sr4+9P0HCLuSOTSnN9H1QMvM8X2aBZxtuk0rhcQLqPvY5EV8kj3R2tfemq3jIDDBZD0EMuQVR8Ilza2AZPJhtCwMzrd6+JrVk5UWfNtTN2dUhUNBwt8Zr/GmnKhbg0H0ZWhXtd+zDfwCpAazGllncwadfF2DP2hVSyBy4vN5ijL3lxTFxN/IiJYg8=
+before_install:
+- openssl aes-256-cbc -K $encrypted_44bb9a165316_key -iv $encrypted_44bb9a165316_iv
+  -in licenseKey.txt.enc -out licenseKey.txt -d
