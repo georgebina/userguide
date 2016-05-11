@@ -40,7 +40,7 @@
         
     <link rel="stylesheet" type="text/css" href="../oxygen-webhelp/template/variants/tiles/oxygen/skin.css" /></head>
 
-    <body class="frmBody" onload="highlightSearchTerm()" id="dg-default-author-operations">
+    <body onload="highlightSearchTerm()" class="wh_topic_page frmBody" id="dg-default-author-operations">
         
         
 <nav class="navbar navbar-default wh_header">
@@ -90,7 +90,9 @@
             <div class="row wh_content_area">
 
                 <div class=" wh_topic_content col-lg-8 col-md-8 col-sm-8 col-xs-12 body  "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
-  <h1 class="title topictitle1" id="ariaid-title1">Author Mode Default Operations</h1>
+  <h1 class="title topictitle1" id="ariaid-title1">Author Mode Default Operations<span class="editlink" style="font-size:14px;margin-left:10px">[ 
+        <a target="_blank" href="file:/home/travis/build/ctalau/userguide/DITA/topics/dg-default-author-operations.dita">edit</a>
+      ]</span></h1>
 
   
   <div class="body">
@@ -734,30 +736,30 @@ paragraph{
           <li class="li"><code class="ph codeph">type</code> - Optional parameter, with one of the following values:
 <div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="border" border="1" rules="all"><colgroup><col style="width:21.231422505307858%" /><col style="width:78.76857749469215%" /></colgroup><thead class="thead" style="text-align:left;">
                   <tr>
-                    <th class="entry cellrowborder" style="text-align:left;vertical-align:top;" id="d185276e900">Parameter</th>
+                    <th class="entry cellrowborder" style="text-align:left;vertical-align:top;" id="d185277e900">Parameter</th>
 
-                    <th class="entry cellrowborder" style="text-align:left;vertical-align:top;" id="d185276e903"> </th>
+                    <th class="entry cellrowborder" style="text-align:left;vertical-align:top;" id="d185277e903"> </th>
 
                   </tr>
 
                 </thead>
 <tbody class="tbody">
                   <tr>
-                    <td class="entry cellrowborder" rowspan="3" style="text-align:left;vertical-align:top;" headers="d185276e900 "><code class="ph codeph">url</code></td>
+                    <td class="entry cellrowborder" rowspan="3" style="text-align:left;vertical-align:top;" headers="d185277e900 "><code class="ph codeph">url</code></td>
 
-                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185276e903 "><strong class="ph b">Format:</strong>
+                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185277e903 "><strong class="ph b">Format:</strong>
                       <code class="ph codeph">${ask('message', url, 'default_value')}</code></td>
 
                   </tr>
 
                   <tr>
-                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185276e903 "><strong class="ph b">Description:</strong> Input is considered a URL. <span class="ph">Oxygen XML Author</span>
+                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185277e903 "><strong class="ph b">Description:</strong> Input is considered a URL. <span class="ph">Oxygen XML Author</span>
                       checks that the provided URL is valid.</td>
 
                   </tr>
 
                   <tr>
-                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185276e903 "><strong class="ph b">Example:</strong><ul class="ul">
+                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185277e903 "><strong class="ph b">Example:</strong><ul class="ul">
                         <li class="li"><code class="ph codeph">${ask('Input URL', url)}</code> - The displayed dialog box has
                           the name <code class="ph codeph">Input URL</code>. The expected input type is URL.</li>
 
@@ -772,20 +774,20 @@ paragraph{
                   </tr>
 
                   <tr>
-                    <td class="entry cellrowborder" rowspan="3" style="text-align:left;vertical-align:top;" headers="d185276e900 "><code class="ph codeph">password</code></td>
+                    <td class="entry cellrowborder" rowspan="3" style="text-align:left;vertical-align:top;" headers="d185277e900 "><code class="ph codeph">password</code></td>
 
-                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185276e903 "><strong class="ph b">Format</strong>: <var class="keyword varname">${ask('message', password,
+                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185277e903 "><strong class="ph b">Format</strong>: <var class="keyword varname">${ask('message', password,
                       'default')}</var></td>
 
                   </tr>
 
                   <tr>
-                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185276e903 "><strong class="ph b">Description:</strong> The input is hidden with bullet characters.</td>
+                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185277e903 "><strong class="ph b">Description:</strong> The input is hidden with bullet characters.</td>
 
                   </tr>
 
                   <tr>
-                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185276e903 "><strong class="ph b">Example:</strong>
+                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185277e903 "><strong class="ph b">Example:</strong>
                       <ul class="ul">
                         <li class="li"><code class="ph codeph">${ask('Input password', password)}</code> - The displayed
                           dialog box has the name <code class="ph codeph">'Input password'</code> and the input is
@@ -802,21 +804,21 @@ paragraph{
                   </tr>
 
                   <tr>
-                    <td class="entry cellrowborder" rowspan="3" style="text-align:left;vertical-align:top;" headers="d185276e900 "><code class="ph codeph">generic</code></td>
+                    <td class="entry cellrowborder" rowspan="3" style="text-align:left;vertical-align:top;" headers="d185277e900 "><code class="ph codeph">generic</code></td>
 
-                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185276e903 "><strong class="ph b">Format</strong>: <var class="keyword varname">${ask('message', generic,
+                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185277e903 "><strong class="ph b">Format</strong>: <var class="keyword varname">${ask('message', generic,
                       'default')}</var></td>
 
                   </tr>
 
                   <tr>
-                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185276e903 "><strong class="ph b">Description:</strong> The input is considered to be generic text that
+                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185277e903 "><strong class="ph b">Description:</strong> The input is considered to be generic text that
                       requires no special handling.</td>
 
                   </tr>
 
                   <tr>
-                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185276e903 "><strong class="ph b">Example:</strong><ul class="ul">
+                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185277e903 "><strong class="ph b">Example:</strong><ul class="ul">
                         <li class="li"><code class="ph codeph">${ask('Hello world!')}</code> - The dialog box has a
                             <code class="ph codeph">Hello world!</code> message displayed.</li>
 
@@ -830,15 +832,15 @@ paragraph{
                   </tr>
 
                   <tr>
-                    <td class="entry cellrowborder" rowspan="3" style="text-align:left;vertical-align:top;" headers="d185276e900 "><code class="ph codeph">relative_url</code></td>
+                    <td class="entry cellrowborder" rowspan="3" style="text-align:left;vertical-align:top;" headers="d185277e900 "><code class="ph codeph">relative_url</code></td>
 
-                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185276e903 "><strong class="ph b">Format:</strong>
+                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185277e903 "><strong class="ph b">Format:</strong>
                       <code class="ph codeph">${ask('message', relative_url, 'default')}</code></td>
 
                   </tr>
 
                   <tr>
-                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185276e903 "><strong class="ph b">Description:</strong> Input is considered a URL. <span class="ph">Oxygen XML Author</span>
+                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185277e903 "><strong class="ph b">Description:</strong> Input is considered a URL. <span class="ph">Oxygen XML Author</span>
                       tries to make the URL relative to that of the document you are
                         editing.<div class="note note"><span class="notetitle">Note:</span> If the <code class="ph codeph">$ask</code> editor variable is expanded in
                         content that is not yet saved (such as an <dfn class="term">untitled</dfn> file, whose
@@ -849,7 +851,7 @@ paragraph{
                   </tr>
 
                   <tr>
-                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185276e903 ">
+                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185277e903 ">
                       <p class="p"><strong class="ph b">Example:</strong></p>
 
                       <div class="p">
@@ -868,9 +870,9 @@ paragraph{
                   </tr>
 
                   <tr>
-                    <td class="entry cellrowborder" rowspan="3" style="text-align:left;vertical-align:top;" headers="d185276e900 "><code class="ph codeph">combobox</code></td>
+                    <td class="entry cellrowborder" rowspan="3" style="text-align:left;vertical-align:top;" headers="d185277e900 "><code class="ph codeph">combobox</code></td>
 
-                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185276e903 "><strong class="ph b">Format:</strong>
+                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185277e903 "><strong class="ph b">Format:</strong>
                       <code class="ph codeph">${ask('message', combobox,
                         ('real_value1':'rendered_value1';...;'real_valueN':'rendered_valueN'),
                         'default')}</code></td>
@@ -878,7 +880,7 @@ paragraph{
                   </tr>
 
                   <tr>
-                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185276e903 "><strong class="ph b">Description:</strong> Displays a dialog box that offers a drop-down menu.
+                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185277e903 "><strong class="ph b">Description:</strong> Displays a dialog box that offers a drop-down menu.
                       The drop-down menu is populated with the given <code class="ph codeph">rendered_value</code>
                       values. Choosing such a value will return its associated value
                         (<code class="ph codeph">real_value</code>).<div class="note note"><span class="notetitle">Note:</span> The <code class="ph codeph">'default'</code> parameter
@@ -889,7 +891,7 @@ paragraph{
                   </tr>
 
                   <tr>
-                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185276e903 "><strong class="ph b">Example:</strong><div class="p">
+                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185277e903 "><strong class="ph b">Example:</strong><div class="p">
                         <ul class="ul">
                           <li class="li"><code class="ph codeph">${ask('Operating System', combobox, ('win':'Microsoft
                               Windows';'osx':'Mac OS X';'lnx':'Linux/UNIX'), 'osx')}</code> - The
@@ -915,9 +917,9 @@ paragraph{
                   </tr>
 
                   <tr>
-                    <td class="entry cellrowborder" rowspan="3" style="text-align:left;vertical-align:top;" headers="d185276e900 "><code class="ph codeph">editable_combobox</code></td>
+                    <td class="entry cellrowborder" rowspan="3" style="text-align:left;vertical-align:top;" headers="d185277e900 "><code class="ph codeph">editable_combobox</code></td>
 
-                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185276e903 "><strong class="ph b">Format:</strong>
+                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185277e903 "><strong class="ph b">Format:</strong>
                       <code class="ph codeph">${ask('message', editable_combobox,
                         ('real_value1':'rendered_value1';...;'real_valueN':'rendered_valueN'),
                         'default')}</code></td>
@@ -925,7 +927,7 @@ paragraph{
                   </tr>
 
                   <tr>
-                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185276e903 "><strong class="ph b">Description:</strong> Displays a dialog box that offers a drop-down menu
+                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185277e903 "><strong class="ph b">Description:</strong> Displays a dialog box that offers a drop-down menu
                       with editable elements. The drop-down menu is populated with the given
                         <code class="ph codeph">rendered_value</code> values. Choosing such a value will return
                       its associated real value (<code class="ph codeph">real_value</code>) or the value inserted
@@ -937,7 +939,7 @@ paragraph{
                   </tr>
 
                   <tr>
-                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185276e903 "><strong class="ph b">Example:</strong><div class="p">
+                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185277e903 "><strong class="ph b">Example:</strong><div class="p">
                         <ul class="ul">
                           <li class="li"><code class="ph codeph">${ask('Operating System', editable_combobox, ('win':'Microsoft
                               Windows';'osx':'Mac OS X';'lnx':'Linux/UNIX'), 'osx')}</code> - The
@@ -954,9 +956,9 @@ paragraph{
                   </tr>
 
                   <tr>
-                    <td class="entry cellrowborder" rowspan="3" style="text-align:left;vertical-align:top;" headers="d185276e900 "><code class="ph codeph">radio</code></td>
+                    <td class="entry cellrowborder" rowspan="3" style="text-align:left;vertical-align:top;" headers="d185277e900 "><code class="ph codeph">radio</code></td>
 
-                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185276e903 "><strong class="ph b">Format:</strong>
+                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185277e903 "><strong class="ph b">Format:</strong>
                       <code class="ph codeph">${ask('message', radio,
                         ('real_value1':'rendered_value1';...;'real_valueN':'rendered_valueN'),
                         'default')}</code></td>
@@ -964,7 +966,7 @@ paragraph{
                   </tr>
 
                   <tr>
-                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185276e903 "><strong class="ph b">Description:</strong> Displays a dialog box that offers a series of radio
+                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185277e903 "><strong class="ph b">Description:</strong> Displays a dialog box that offers a series of radio
                       buttons. Each radio button displays a <code class="ph codeph">'rendered_value</code> and
                       will return an associated <code class="ph codeph">real_value</code>.<div class="note note"><span class="notetitle">Note:</span> The
                           <code class="ph codeph">'default'</code> parameter specifies the default selected value
@@ -974,7 +976,7 @@ paragraph{
                   </tr>
 
                   <tr>
-                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185276e903 "><strong class="ph b">Example:</strong><ul class="ul">
+                    <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d185277e903 "><strong class="ph b">Example:</strong><ul class="ul">
                         <li class="li"><code class="ph codeph">${ask('Operating System', radio, ('win':'Microsoft
                             Windows';'osx':'Mac OS X';'lnx':'Linux/UNIX'), 'osx')}</code> - The
                           dialog box has the name <code class="ph codeph">'Operating System'</code>. The radio
