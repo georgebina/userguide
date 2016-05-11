@@ -6,6 +6,9 @@ unzip dita-ot-2.2.3.zip
 
 cp -R com.oxygenxml.* dita-ot-2.2.3/plugins/
 mv dita-ot-2.2.3/plugins/com.oxygenxml.webhelp/plugin_2.x.xml dita-ot-2.2.3/plugins/com.oxygenxml.webhelp/plugin.xml
+# Add the editlink plugin
+git clone https://github.com/ctalau/ditaot-editlink-plugin dita-ot-2.2.3/plugins/com.oxygenxml.editlink/
+
 cd dita-ot-2.2.3/
 bin/ant -f integrator.xml 
 cd ..
