@@ -4,7 +4,7 @@
   <title>Installation Options for <ph keyref="product"/></title>
   <conbody>
     <section product="author developer editor svnClient">
-      <title>Choosing how <ph keyref="product"/> runs</title>
+      <title>Choosing how <ph keyref="product"/> works</title>
       <p>You can install <ph keyref="product"/> to run in a number of ways:</p>
       <ul>
         <li>
