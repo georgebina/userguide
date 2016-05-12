@@ -16,4 +16,15 @@ cd ..
 cp licenseKey.txt dita-ot-2.2.3/plugins/com.oxygenxml.webhelp/licensekey.txt
 
 rm -rf out
-dita-ot-2.2.3/bin/dita -i $DITAMAP -f webhelp-responsive -filter=$DITAVAL -Dditamap=$DITAMAP
+
+REPONAME=`basename $PWD`
+PARENTDIR=`dirname $PWD`
+USERNAME=`basename $PARENTDIR`
+
+# Send some parameters to the "editlink" plugin as system properties
+export ANT_OPTS="$ANT_OPTS -Dditamap.path=$DITAMAP"
+export ANT_OPTS="$ANT_OPTS -Dcwd=`pwd`"
+export ANT_OPTS="$ANT_OPTS -Drepo.url=github://getFileContent/$USERNAME/$REPONAME/$TRAVIS_BRANCH/"
+export ANT_OPTS="$ANT_OPTS -Dwebapp.url=https://www.oxygenxml.com/webapp-demo-aws/"
+
+dita-ot-2.2.3/bin/dita -i $DITAMAP -f webhelp-responsive -filter=$DITAVAL
