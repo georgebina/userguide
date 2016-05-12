@@ -16,4 +16,4 @@ cd ..
 cp licenseKey.txt dita-ot-2.2.3/plugins/com.oxygenxml.webhelp/licensekey.txt
 
 rm -rf out
-dita-ot-2.2.3/bin/dita -i $DITAMAP -f webhelp-responsive -filter=$DITAVAL 
+dita-ot-2.2.3/bin/dita -i $DITAMAP -f webhelp-responsive -filter=$DITAVAL -Dditamap=$DITAMAP
