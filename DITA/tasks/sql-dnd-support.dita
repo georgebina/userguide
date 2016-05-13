@@ -3,21 +3,17 @@
   PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
 <task id="sql-dnd-support">
   <title>Drag and Drop from Data Source Explorer View</title>
-  <!--Proofed--><prolog>
-    <metadata>
-      <keywords><indexterm>Relational Databases<indexterm>SQL execution support<indexterm>drag and drop from the
-              Data Source Explorer</indexterm></indexterm></indexterm></keywords>
-    </metadata>
-  </prolog>
   <taskbody>
-    <context>Drag and drop operations from the <uicontrol>Data Source Explorer</uicontrol> view to
-      the SQL Editor allows you to create SQL statements quickly by inserting the names of tables
-      and columns in the SQL statements.</context>
+    <context>
+      <p>Drag and drop operations from the <uicontrol>Data Source Explorer</uicontrol> view to the
+        SQL Editor allows you to create SQL statements quickly by inserting the names of tables and
+        columns in the SQL statements.</p>
+    </context>
     <steps>
       <step>
-        <cmd>Configure a database connection (<xref
-            href="../topics/relational-database-configure-connections.dita#relational-database-configure-connections"
-            >see the specific procedure for your database server</xref>).</cmd>
+        <cmd>Configure a database connection (see the specific procedure for your database server in
+          the <xref href="../topics/database-support.dita#database-support">Database Connection
+            Support</xref> section).</cmd>
       </step>
       <step>
         <cmd>Browse to the table you will use in your statement.</cmd>
@@ -27,14 +23,18 @@
         <stepresult>
           <p>Drag and drop actions are available both on the table and on its fields. A pop-up menu
             is displayed in the SQL editor.</p>
-          <fig product="editor developer">
-            <title>SQL Statement Editing with Drag and Drop</title>
-            <image href="../img/sa_dnd_sql.png"/>
-          </fig>
-          <fig product="editorEclipse developerEclipse">
-            <title>SQL Statement Editing with Drag and Drop</title>
-            <image href="../img/ec_dnd_sql.png"/>
-          </fig>
+          <p>
+            <fig product="editor developer">
+              <title>SQL Statement Editing with Drag and Drop</title>
+              <image href="../img/sa_dnd_sql.png"/>
+            </fig>
+          </p>
+          <p>
+            <fig product="editorEclipse developerEclipse">
+              <title>SQL Statement Editing with Drag and Drop</title>
+              <image href="../img/ec_dnd_sql.png"/>
+            </fig>
+          </p>
         </stepresult>
       </step>
       <step>

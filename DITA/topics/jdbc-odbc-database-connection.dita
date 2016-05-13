@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
+<topic id="jdbc-odbc-database-connection">
+  <title>JDBC-ODBC Database Connections</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Databases<indexterm>Connections<indexterm>JDBC-ODBC</indexterm></indexterm></indexterm>
+        <indexterm>JDBC-ODBC database connection</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p><ph keyref="product"/> includes support for JDBC-ODBC database connections.</p>
+  </body>
+</topic>

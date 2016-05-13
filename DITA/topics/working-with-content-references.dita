@@ -3,13 +3,6 @@
   PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="working-with-content-references">
     <title>Working with Content References</title>
-  <prolog>
-    <metadata>
-      <keywords>
-        <indexterm>Content Reuse<indexterm>content references</indexterm></indexterm>
-      </keywords>
-    </metadata>
-  </prolog>
     <body>
         <p>The DITA <codeph>conref</codeph> feature (short for <i>content reference</i>) lets you
       insert a piece of source content by referencing it from its source. When you need to update
@@ -47,7 +40,9 @@
         <uicontrol>Editor</uicontrol>
         <uicontrol>Edit modes</uicontrol>
         <uicontrol>Author</uicontrol>
-      </menucascade>, and disable the <uicontrol>Display referenced content</uicontrol> option.</p>
+      </menucascade>, and disable the <xref
+        href="preferences-author.dita#preferences-author/display-referenced-content"
+          ><uicontrol>Display referenced content</uicontrol> option</xref>.</p>
     <note>A reference also displays tracked changes and comments that are included in the source
       fragment. To edit these comments (or accept/reject changes) right-click the comment or tracked
       change and select <uicontrol>Edit Reference</uicontrol>.</note>

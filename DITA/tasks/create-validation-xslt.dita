@@ -11,18 +11,21 @@
     </metadata>
   </prolog>
   <taskbody>
-    <context>You can validate an XSLT document using the engine defined in the transformation
-      scenario, or a custom validation scenario. If you choose to validate using the engine from
-      transformation scenario, and a transformation scenario is not associated with the current
-      document or the engine has no validation support, the default engine is used. To set the
-      default engine, <ph conkeyref="reusables-preferences-pages/open-the-preferences-page"/> and go
-      to <menucascade>
-        <uicontrol>XML</uicontrol>
-        <uicontrol>XSLT/FO/XQuery</uicontrol>
-        <uicontrol>XSLT</uicontrol>
-      </menucascade>.<p>You can also create new validation scenarios or edit existing ones, and you
-        can add jars and classes that contain extension functions. To create or edit a validation
-        scenario for an XSLT stylesheet, follow these steps:</p></context>
+    <context>
+      <p>You can validate an XSLT document using the engine defined in the transformation scenario,
+        or a custom validation scenario. If you choose to validate using the engine from
+        transformation scenario, and a transformation scenario is not associated with the current
+        document or the engine has no validation support, the default engine is used. To set the
+        default engine, <ph conkeyref="reusables-preferences-pages/open-the-preferences-page"/> and
+        go to <menucascade>
+          <uicontrol>XML</uicontrol>
+          <uicontrol>XSLT/FO/XQuery</uicontrol>
+          <uicontrol>XSLT</uicontrol>
+        </menucascade>.</p>
+      <p>You can also create new validation scenarios or edit existing ones, and you can add jars
+        and classes that contain extension functions. To create or edit a validation scenario for an
+        XSLT stylesheet, follow these steps:</p>
+    </context>
     <steps>
       <step>
         <cmd>With the XSLT file opened in <ph keyref="product"/>, select the <uicontrol><image
@@ -30,10 +33,8 @@
             Scenario(s)</uicontrol> from the <menucascade product="editor author developer">
             <uicontrol>Document</uicontrol>
             <uicontrol>Validate</uicontrol>
-          </menucascade>
-          <menucascade product="editorEclipse authorEclipse developerEclipse">
-            <uicontrol>XML</uicontrol>
-          </menucascade> menu, or the <ph product="author developer editor"><uicontrol><image
+          </menucascade><uicontrol product="authorEclipse developerEclipse editorEclipse"
+            >XML</uicontrol> menu, or the <ph product="author developer editor"><uicontrol><image
                 href="../img/ValidateDrop.png" id="image_dyn_x5v_sr"/>Validation</uicontrol> toolbar
             drop-down menu</ph><ph product="authorEclipse developerEclipse editorEclipse"
             >toolbar</ph>, or from the <uicontrol>Validate</uicontrol> submenu when invoking the
@@ -57,15 +58,18 @@
         <cmd>To add a new scenario, press the <uicontrol><image href="../img/Add16.png"
               id="image_b34_k3r_xr"/>New</uicontrol> button.</cmd>
         <stepresult>The <uicontrol>New scenarios</uicontrol> dialog box is displayed. It lists all
-          validation units of the scenario.<fig id="figure-edit-validation-scenario-oxygen"
-            product="author developer editor">
-            <title>Add / Edit a Validation Unit</title>
-            <image href="../img/sa_new_xslt_scenario.png" id="image_uss_w3r_xr"/>
-          </fig><fig id="figure-edit-validation-scenario-oxygenEclipse"
-            product="editorEclipse authorEclipse developerEclipse">
-            <title>Add / Edit a Validation Unit</title>
-            <image href="../img/ec_new_xslt_scenario.png" id="image_vss_w3r_xr"/>
-          </fig></stepresult>
+          validation units of the scenario.<p>
+            <fig id="figure-edit-validation-scenario-oxygen" product="author developer editor">
+              <title>Add / Edit a Validation Unit</title>
+              <image href="../img/sa_new_xslt_scenario.png" id="image_uss_w3r_xr"/>
+            </fig>
+          </p><p>
+            <fig id="figure-edit-validation-scenario-oxygenEclipse"
+              product="editorEclipse authorEclipse developerEclipse">
+              <title>Add / Edit a Validation Unit</title>
+              <image href="../img/ec_new_xslt_scenario.png" id="image_vss_w3r_xr"/>
+            </fig>
+          </p></stepresult>
       </step>
       <step>
         <cmd>Configure the following information in this dialog box:</cmd>
@@ -79,14 +83,15 @@
               Options</uicontrol>.</cmd>
           </substep>
           <substep>
-            <cmd><uicontrol>URL of the file to validate</uicontrol> - In most cases leave this field
+            <cmd><uicontrol>URL of the file to validate</uicontrol> - In most cases, leave this field
               as the default selection (the URL of the current file). If you want to specify a
               different URL, <ph product="author developer editor">double-</ph>click its cell and
               enter the URL in the text field, select it from the drop-down list, or use the
                   <uicontrol><image href="../img/BrowseDrop.png" id="image_utc_3tz_fs"
-                />Browse</uicontrol> drop-down menu or <uicontrol><image
-                  href="../img/InsertEditorVariables16.png" id="image_ukf_ktz_fs"/>Insert Editor
-                Variable</uicontrol> button.</cmd>
+                />Browse</uicontrol> drop-down menu or <xref
+                href="../topics/editor-variables.dita#editor-variables"><uicontrol><image
+                    href="../img/InsertEditorVariables16.png" id="image_ukf_ktz_fs"/>Insert Editor
+                  Variable</uicontrol></xref> button.</cmd>
           </substep>
           <substep>
             <cmd><uicontrol>File type</uicontrol> - The file type should be <userinput>XSLT
@@ -107,11 +112,10 @@
         </substeps>
       </step>
       <step id="vd_3">
-        <cmd>To add or edit extensions, click the <uicontrol><image
-              href="../img/OptionsShortcut16.gif" id="image_kr3_vvz_fs"/>Edit extensions</uicontrol>
-          button. This button is only available if the <uicontrol>File type</uicontrol> is set as
-            <userinput>XSLT Document</userinput> and a <uicontrol>Validation engine</uicontrol> is
-          chosen.</cmd>
+        <cmd>To add or edit extensions, click the <uicontrol><image href="../img/Options16.png"
+            />Edit extensions</uicontrol> button. This button is only available if the
+            <uicontrol>File type</uicontrol> is set as <userinput>XSLT Document</userinput> and a
+            <uicontrol>Validation engine</uicontrol> is chosen.</cmd>
         <stepresult>The <uicontrol>Libraries</uicontrol> dialog box is opened. It is used to specify
           the jars and classes that contain extension functions called from the XSLT file of the
           current validation scenario. They will be searched, in the specified extensions, in the

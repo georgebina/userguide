@@ -7,8 +7,10 @@
     other components by allowing or filtering them from the user interface.</shortdesc>
   <prolog>
     <metadata>
-      <keywords><indexterm>Extend Oxygen with Plugins<indexterm>implement plugin<indexterm>components validation
-              plugin</indexterm></indexterm></indexterm></keywords>
+      <keywords>
+        <indexterm>Plugin extensions<indexterm>Components Validation</indexterm></indexterm>
+        <indexterm>Components Validation plugin extension</indexterm>
+      </keywords>
     </metadata>
   </prolog>
   <conbody>
@@ -17,7 +19,7 @@
       <li>The interface <apiname>ComponentsValidatorPluginExtension</apiname> - There is one method
         that must be implemented:<ul>
           <li><apiname>getComponentsValidator()</apiname> - Returns a <xref
-              href="http://archives.oxygenxml.com/Oxygen/Editor/InstData17.0/SDK/javadoc/ro/sync/exml/ComponentsValidator.html"
+              href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/exml/ComponentsValidator.html"
               format="html" scope="external"
               ><codeph>ro.sync.exml.ComponentsValidator</codeph></xref> implementation class used
             for validating the menus, toolbars, and their actions.</li>
@@ -45,8 +47,8 @@
           <li><apiname>validateContentType(String contentType)</apiname> - Checks if the given
             content type is allowed and returns a <codeph>boolean</codeph> value. The
               <apiname>String</apiname> argument represents the content type. You can instruct <ph
-              keyref="product"/> to ignore
-            content types like <codeph>text / xsl</codeph> or <codeph>text / xquery</codeph>.</li>
+              keyref="product"/> to ignore content types such as <codeph>text / xsl</codeph> or
+              <codeph>text / xquery</codeph>.</li>
           <li><apiname>validateOptionPane(String optionPaneKey)</apiname> - Checks if the given
             options page can be added in the preferences option tree and returns a
               <codeph>boolean</codeph> value. The <apiname>String</apiname> argument is the option
@@ -79,8 +81,10 @@
     </ul>
     <note type="tip">The best way to decide what to filter is to observe the values that <ph
         keyref="product"/> passes when
-      these callbacks are called. You have to create an implementation for this interface which
+      these callbacks are called. You have to create an implementation for this interface that
       lists in the console all values received by each function. Then you can decide on the values
       to filter and act accordingly.</note>
   </conbody>
 </concept>
+
+

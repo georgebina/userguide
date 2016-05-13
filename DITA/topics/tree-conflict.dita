@@ -3,14 +3,6 @@
   PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="tree-conflict">
   <title>Tree Conflicts</title>
-  <prolog>
-    <metadata>
-      <keywords>
-        <indexterm>Synchronize with the SVN Repository<indexterm>resolve conflicts<indexterm>tree
-              conflicts</indexterm></indexterm></indexterm>
-      </keywords>
-    </metadata>
-  </prolog>
   <body>
     <p>A <i>tree conflict</i> is a conflict at the directory tree structure level and occurs when
       the user runs an update action on a resource that has the following conditions:</p>
@@ -23,13 +15,15 @@
     <p>The same conflict situation can occur after a merge or a switch action. The action ends with
       an error and the folder containing the file that is now in the tree conflict state is also
       marked with a conflict icon.</p>
-    <p>Such a conflict can be resolved in one of the following ways which are available when the
+    <p>Such a conflict can be resolved in one of the following ways that are available when the
       user double clicks on the conflicting resource or when running the <uicontrol>Edit
         conflict</uicontrol> action:</p>
-    <fig>
-      <title>Resolve a tree conflict</title>
-      <image href="../img/sa_svn_tree_conflict.png"/>
-    </fig>
+    <p>
+      <fig>
+        <title>Resolve a tree conflict</title>
+        <image href="../img/sa_svn_tree_conflict.png"/>
+      </fig>
+    </p>
     <ul>
       <li><uicontrol>Keep local change (delete resource)</uicontrol> - Keeps the incoming change
         that comes from the repository.</li>

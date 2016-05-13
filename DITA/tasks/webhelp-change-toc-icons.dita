@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="webhelp-change-toc-icons">
-  <title>Changing the Icons in a WebHelp Table of Contents</title>
+  <title>Changing the Icons in a WebHelp Classic Table of Contents</title>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>Customizing WebHelp Systems <indexterm>Customizing icons in the Table of
-            Contents</indexterm></indexterm>
+        <indexterm>WebHelp Classic system<indexterm>Changing icons in the table of
+            contents</indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <taskbody>
     <context>
-      <p>You can change the icons that appear in a WebHelp table of contents by assigning new image
-        files in a custom CSS file. By default, the icons for the WebHelp table of contents are
-        defined with the following CSS codes (the first example is the icon that appears for a
-        collapsed menu and the second for an expanded menu):
-        <codeblock outputclass="language-css">.hasSubMenuClosed{
+      <p>You can change the icons that appear in a WebHelp Classic table of contents by assigning
+        new image files in a custom CSS file. By default, the icons for the WebHelp Classic table of
+        contents are defined with the following CSS codes (the first example is the icon that
+        appears for a collapsed menu and the second for an expanded menu):</p>
+      <codeblock outputclass="language-css">.hasSubMenuClosed{
     background: url('../img/book_closed16.png') no-repeat;
     padding-left: 16px;
     cursor: pointer;
-}</codeblock></p>
+}</codeblock>
       <codeblock outputclass="language-css">.hasSubMenuOpened{
     background: url('../img/book_opened16.png') no-repeat;
     padding-left: 16px;
     cursor: pointer;
 }</codeblock>
-      <p>To assign different icons use the following procedure:</p>
+      <p>To assign other icons, use the following procedure:</p>
     </context>
     <steps>
       <step>

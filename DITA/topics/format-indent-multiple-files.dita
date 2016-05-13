@@ -2,6 +2,15 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="format-indent-multiple-files">
   <title>Format and Indent (Pretty Print) Multiple Files</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Format and Indent Files tool</indexterm>
+        <indexterm>Pretty Print multiple files</indexterm>
+        <indexterm>Format/Indent multiple files</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <body>
     <p><ph keyref="product"/> provides support for formatting and indenting (<term>pretty
         printing</term>) multiple files at once. This action is available for any document in XML
@@ -15,10 +24,12 @@
         product="author developer editor"> or from the <uicontrol>Tools</uicontrol> menu</ph>. This
       opens the <uicontrol>Format and Indent Files</uicontrol> dialog box that allows you to
       configure options for the action.</p>
-    <fig id="fig_n32_1xg_wr">
-      <title>The Format and Indent Files Dialog Box</title>
-      <image href="../img/format_indent_dialog.png" id="image_pg4_pxg_wr"/>
-    </fig>
+    <p>
+      <fig id="fig_n32_1xg_wr">
+        <title>Format and Indent Files Dialog Box</title>
+        <image href="../img/format_indent_dialog.png" id="image_pg4_pxg_wr"/>
+      </fig>
+    </p>
     <p>The <uicontrol>Scope</uicontrol> section allows you choose from the following scopes:</p>
     <ul id="ul_mbw_tvg_wr">
       <li><uicontrol>All opened files</uicontrol> - The <term>pretty print</term> is performed in

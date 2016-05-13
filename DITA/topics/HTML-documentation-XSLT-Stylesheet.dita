@@ -23,17 +23,19 @@
             <li>The stylesheet location.</li>
           </ul></li>
       </ul></p>
-    <fig>
-      <title>Information About an XSLT Stylesheet</title>
-      <image href="../img/xslt_doc_stylesheet_info.png"/>
-    </fig>
+    <p>
+      <fig>
+        <title>Information About an XSLT Stylesheet</title>
+        <image href="../img/xslt_doc_stylesheet_info.png"/>
+      </fig>
+    </p>
     <p>If you choose to split the output into multiple files, the table of contents is displayed in
       the left frame. The contents are grouped using the same criteria as the split. </p>
     <p>After the documentation is generated, you can collapse or expand details for some stylesheet
       XSLT elements by using the <uicontrol>Showing</uicontrol> options or the <uicontrol><image
           href="../img/DocCollapse16.png" id="image_m2r_vxh_gs"/>Collapse</uicontrol> or
           <uicontrol><image href="../img/DocExpand16.png" id="image_n2r_vxh_gs"/>Expand</uicontrol> buttons.<fig>
-        <title>The Showing Options</title>
+        <title>Showing Options</title>
         <image href="../img/xslt_doc_showing_view.png"/>
       </fig></p>
     <p>For each element included in the documentation, the section presents the element type

@@ -2,20 +2,24 @@
 <!DOCTYPE task
   PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
 <task id="configure-marklogic-datasource">
-  <title>How to Configure a MarkLogic Data Source</title>
-  <!--Proofed-->
-  <prolog>
-    <metadata>
-      <keywords>
-        <indexterm>Native XML Databases (NXD)<indexterm>data sources
-              configuration<indexterm>MarkLogic</indexterm></indexterm></indexterm>
-      </keywords>
-    </metadata>
-  </prolog>
+  <title>How to Configure MarkLogic Data Source Drivers</title>
   <taskbody>
-    <prereq>Available in the Enterprise edition only.<note><ph keyref="product"/> supports MarkLogic
-        version 4.0 or later.</note></prereq>
+    <prereq>
+      <p>Available in the Enterprise edition only.<note><ph keyref="product"/> supports MarkLogic
+          version 4.0 or later.</note></p>
+    </prereq>
+    <context>
+      <p>To configure a data source for MarkLogic, follow this procedure:</p>
+    </context>
     <steps>
+      <step>
+        <cmd>Download the <uicontrol>XCC Java distribution</uicontrol> zip file from: <xref
+            href="http://developer.marklogic.com/products/xcc" format="html" scope="external"
+          />.</cmd>
+      </step>
+      <step>
+        <cmd>Unzip the downloaded archive.</cmd>
+      </step>
       <step>
         <cmd><ph conkeyref="reusables-working-with-databases/open-ds"/></cmd>
       </step>
@@ -30,16 +34,18 @@
           list.</cmd>
       </step>
       <step>
-        <cmd>Click the <uicontrol>Add</uicontrol> button to add the MarkLogic driver file
-            (<filepath> marklogic-xcc-{server_version}</filepath>, where <i>{server_version}</i> is
-          the MarkLogic server version.)</cmd>
-        <info>
-          <p>You can download the driver file from: <xref scope="external" format="html"
-              href="http://community.marklogic.com/download"/>.</p>
-        </info>
+        <cmd>Click the <uicontrol>Add Files</uicontrol> button and select the MarkLogic driver file
+          from the <filepath>lib</filepath> folder of the archive that you downloaded and unzipped.
+          The driver file name is <filepath>marklogic-xcc-{server_version}.jar</filepath>, where
+            <i>{server_version}</i> is the MarkLogic server version.</cmd>
       </step>
       <step>
         <cmd><ph conkeyref="reusables-working-with-databases/step6"/></cmd>
+      </step>
+      <step>
+        <cmd>Continue on to <xref
+            href="configure-marklogic-connection.dita#configure-marklogic-connection">configure your
+            MarkLogic Connection</xref>.</cmd>
       </step>
     </steps>
   </taskbody>

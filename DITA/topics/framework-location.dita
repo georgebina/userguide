@@ -2,22 +2,32 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="framework-location">
   <title>Locations Preferences</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Preferences<indexterm>Document Type
+            Association<indexterm>Locations</indexterm></indexterm></indexterm>
+        <indexterm>Framework directory locations</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <body>
     <p><ph keyref="product"/> allows you to change the location where <xref
         keyref="doctypes_doctype">document types (frameworks)</xref> are stored, and to specify
       additional framework directories. The <uicontrol>Locations</uicontrol> preferences page allows
       you to specify the main <filepath>frameworks</filepath> folder location. You can choose
-      between the <uicontrol>Default</uicontrol> directory
-        (<filepath>[OXYGEN_DIR]/frameworks</filepath>) or a <uicontrol>Custom</uicontrol> specified
-      directory. <ph product="author developer editor">You can also change the current
-          <filepath>frameworks</filepath> folder location value using the
-          <codeph>com.oxygenxml.editor.frameworks.url</codeph> system property set either in the
-        application's <xref
-          href="set-parameter-in-startup-script.dita#set-parameter-in-startup-script" format="dita"
-            ><filepath>.vmoptions</filepath> configuration files or in the startup
-        scripts</xref>.</ph><ph product="authorEclipse developerEclipse editorEclipse">You can also
-        change the current <filepath>frameworks</filepath> folder location value using the
-          <codeph>com.oxygenxml.editor.frameworks.url</codeph> system property.</ph></p>
+      between the <uicontrol>Default</uicontrol> directory (<filepath><term
+          conkeyref="reusables-user-guide/oxy-install-dir"/>/frameworks</filepath>) or a
+        <uicontrol>Custom</uicontrol> specified directory. <ph product="author developer editor">You
+        can also change the current <filepath>frameworks</filepath> folder location value using the
+          <codeph>com.oxygenxml.editor.frameworks.url</codeph> system property set in either the
+          <xref
+          href="set-parameters-for-application-launchers.dita#set-parameters-for-application-launchers"
+            ><filepath>.vmoptions</filepath> configuration files</xref> or in the <xref
+          href="set-parameters-command-line-scripts.dita#set-parameters-command-line-scripts"
+          >startup scripts</xref>.</ph><ph product="authorEclipse developerEclipse editorEclipse"
+        >You can also change the current <filepath>frameworks</filepath> folder location value using
+        the <codeph>com.oxygenxml.editor.frameworks.url</codeph> system property.</ph></p>
     <p>A list of additional <filepath>frameworks</filepath> directories can also be specified. The
       application will look in each of those folders for additional document type configurations to
       load. Use the <uicontrol>Add</uicontrol>, <uicontrol>Edit</uicontrol> and
@@ -39,7 +49,7 @@
     <p>All loaded document type configurations are first sorted by priority, then by document type
       name and then by load location (in the exact order specified above). When an XML document is
       opened, the application chooses the first document type configuration from the sorted list
-      which matches the specific document.</p>
+      that matches the specific document.</p>
     <p>All loaded document type configurations are first sorted by priority, then by document type. </p>
   </body>
 </topic>

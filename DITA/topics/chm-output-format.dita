@@ -2,6 +2,15 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="chm-output-format">
   <title>Compiled HTML Help (CHM) Output Format</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Transformation Scenarios<indexterm>DITA Map to CHM (Compiled
+          Help</indexterm></indexterm>
+        <indexterm>DITA Map to CHM (Compiled Help) transformation</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <body>
     <p>To perform a <uicontrol>Compiled HTML Help (CHM)</uicontrol> transformation <ph
         keyref="product"/> needs <codeph>Microsoft HTML Help Workshop</codeph> to be installed on
@@ -12,7 +21,7 @@
         produce the CHM output but the <i>.hhp</i> (HTML Help Project) file is already generated,
         you can manually try to build the CHM output using <codeph>HTML Help Workshop</codeph>.
       </note></p>
-    <section>
+    <section id="changing_the_output_encoding">
       <title>Changing the Output Encoding</title>
     </section>
     <p><ph keyref="product"/> uses the <codeph>htmlhelp.locale</codeph> parameter to correctly
@@ -27,8 +36,8 @@
       button. In the parameter tab search for the <codeph>htmlhelp.locale</codeph> parameter and
       change its value to the desired language tag.</p>
     <p>The format of the <codeph>htmlhelp.locale</codeph> parameter is <codeph>LL-CC</codeph>, where
-        <codeph>LL</codeph> represents the language code (<codeph>en</codeph> for example) and
-        <codeph>CC</codeph> represents the country code (<codeph>US</codeph> for example). The
+        <codeph>LL</codeph> represents the language code (<codeph>en</codeph>, for example) and
+        <codeph>CC</codeph> represents the country code (<codeph>US</codeph>, for example). The
       language codes are contained in the <codeph>ISO 639-1</codeph> standard and the country codes
       are contained in the <codeph>ISO 3166-1</codeph> standard. For further details about language
       tags, go to <xref href="http://www.rfc-editor.org/rfc/rfc5646.txt" format="txt"

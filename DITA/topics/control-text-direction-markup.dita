@@ -7,22 +7,22 @@
     <table frame="all">
       <title>CSS Properties Controlling Text Direction</title>
       <tgroup cols="2">
-        <colspec colname="c1" colnum="1" colwidth="1.0*"/>
-        <colspec colname="newCol2" colnum="2" colwidth="1*"/>
+        <colspec colname="c1" colnum="1" colwidth="1*" colsep="1" rowsep="1"/>
+        <colspec colname="newCol2" colnum="2" colwidth="6.39*" colsep="1" rowsep="1"/>
         <tbody>
           <row>
             <entry><codeph>direction</codeph></entry>
             <entry>Specifies the writing direction of the text. The possible values are
                 <codeph>ltr</codeph> (the text direction is left to right), <codeph>rtl</codeph>
-              (the text direction is right to left, and <codeph>inherit</codeph> (specifies whether
-              the value of the direction property is inherited from the parent element). </entry>
+              (the text direction is right to left, and <codeph>inherit</codeph> (the direction
+              property is inherited from the parent element). </entry>
           </row>
           <row>
             <entry><codeph>unicodeBidi</codeph></entry>
-            <entry>Used with the <codeph>direction</codeph> property, sets or returns whether the
-              text is overridden to support multiple languages in the same document. The possible
-              values of this property are <codeph>bidi-override</codeph> (creates an additional
-              level of embedding and forces all strong characters to the direction specified in the
+            <entry>Used along with the <codeph>direction</codeph> property to create levels of
+              embedded text with different text directions in the same document. The possible values
+              of this property are <codeph>bidi-override</codeph> (creates an additional level of
+              embedding and forces all strong characters to the direction specified in the
                 <codeph>direction</codeph>), <codeph>embed</codeph> (creates an additional level of
               embedding), <codeph>normal</codeph> (does not use an additional level of embedding),
               and <codeph>inherit</codeph> ( the value of the <codeph>unicodeBidi</codeph> property
@@ -46,7 +46,7 @@
     </example>
     <p><ph keyref="product"/> recognizes the <codeph>dir</codeph> attribute on any XML document. The
       supported values are:</p>
-    <table>
+    <table colsep="1" rowsep="1">
       <tgroup cols="2">
         <tbody>
           <row>

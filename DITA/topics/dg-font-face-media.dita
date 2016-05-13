@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="dg-font-face-media">
-  <title>The @font-face At-Rule</title>
+  <title>@font-face At-Rule</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>CSS @font-face rule</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <body>
     <p><ph keyref="product"/> allows you to use custom fonts in the <uicontrol>Author</uicontrol>
       mode by specifying them in the CSS using the <codeph>@font-face</codeph> media type. Only the

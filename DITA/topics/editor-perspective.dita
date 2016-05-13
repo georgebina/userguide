@@ -3,13 +3,15 @@
   PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="editor-perspective">
   <title><ph product="editor author developer">Editor Perspective</ph><ph
-      product="authorEclipse developerEclipse editorEclipse">&lt;oXygen/> XML
-    Perspective</ph></title>
+      product="authorEclipse developerEclipse editorEclipse">oXygen XML Perspective</ph></title>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>Getting
-          Started<indexterm>perspectives<indexterm>editor</indexterm></indexterm></indexterm>
+        <indexterm product="author developer editor"
+          >Perspectives<indexterm>Editor</indexterm></indexterm>
+        <indexterm product="authorEclipse developerEclipse editorEclipse"
+            >Perspective<indexterm>XML</indexterm></indexterm>
+        <indexterm>Editor perspective</indexterm>
       </keywords>
     </metadata>
   </prolog>
@@ -32,14 +34,14 @@
         </menucascade> menu.</ph></p>
     <p>The layout of this perspective is composed of the following components:<dl>
         <dlentry>
-          <dt><uicontrol>Menus</uicontrol></dt>
+          <dt>Menus</dt>
           <dd>Provides menu driven access to all the features and functions available in <ph
               keyref="product"/>. Most of the menus are common for all types of documents. However,
               <ph keyref="product"/> also includes some context-sensitive and framework-specific
             menus that are only available for a specific context or type of document.</dd>
         </dlentry>
         <dlentry>
-          <dt><uicontrol>Toolbars</uicontrol></dt>
+          <dt>Toolbars</dt>
           <dd>Provides easy access to common and frequently used functions. Each icon is a button
             that acts as a shortcut to a related function.<ph
               product="author editor authorEclipse editorEclipse"> Most of the toolbars are common
@@ -52,13 +54,12 @@
               to suit your specific needs.</ph></dd>
         </dlentry>
         <dlentry>
-          <dt><xref href="oxygen-editing-modes.dita#oxygen-editing-modes"
-                ><uicontrol>Editor</uicontrol> Pane</xref></dt>
+          <dt>Editor Pane</dt>
           <dd>The main editing pane where you spend most of your time reading, editing, applying
             markup, and validating your documents.</dd>
         </dlentry>
         <dlentry>
-          <dt><uicontrol>Views</uicontrol></dt>
+          <dt>Views</dt>
           <dd><ph keyref="product"/> includes a large variety of views to assist you with editing,
             viewing, searching, validating, transforming, and organizing your documents. The most
             commonly used views are displayed by default and you can choose to display others by
@@ -94,7 +95,7 @@
                   href="open-find-resource-view.dita#open-find-resource-view"><uicontrol>Open/Find
                     Resource</uicontrol> view</xref> - Designed to offer advanced search
                 capabilities in various scopes.</li>
-              <li><xref href="navigation-using-outline-view.dita#navigation-using-outline-view"
+              <li><xref href="outliner-view.dita#outliner-view"
                     ><uicontrol>Outline</uicontrol> view</xref> - It provides an XML tag overview
                 and offers a variety of functions, such as modifications follow-up, document
                 structure change, document tag selection, and elements filtering. </li>
@@ -131,9 +132,7 @@
               <li><xref href="scenarios-view.dita#scenarios-view"><uicontrol>Transformation
                     Scenarios</uicontrol> view</xref> - Displays a list with all currently
                 configured transformation scenarios.</li>
-              <li><xref href="xpath-results.dita#xpath-results"><uicontrol
-                    product="authorEclipse developerEclipse editorEclipse">XPath
-                    Results</uicontrol><uicontrol product="author developer editor">XPath/XQuery
+              <li><xref href="xpath-builder-view.dita#xpath-builder-view"><uicontrol>XPath/XQuery
                     Builder</uicontrol> view</xref> - Displays the results from running an XPath
                 expression.</li>
               <li product="authorEclipse developerEclipse editorEclipse"><xref

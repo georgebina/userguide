@@ -5,46 +5,53 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>Insert DITA Content Reference</indexterm>
+        <indexterm>DITA<indexterm>Reusing content<indexterm>Content
+            References</indexterm></indexterm></indexterm>
+        <indexterm>DITA<indexterm>Content References</indexterm></indexterm>
+        <indexterm>DITA<indexterm>Conref</indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <body>
-    <section>
+    <section id="dita_content_reference">
       <title>DITA Content Reference</title>
       <p>A DITA content reference, or <codeph>conref</codeph>, is one of the main <xref
           keyref="dita_pathfinder_reuse">content <term>reuse</term> features of DITA</xref>. It is a
         mechanism for re-using the same content in multiple topics (or even in multiple locations
         within the same topic).</p>
-      <p>In order for a <codeph>conref</codeph> to be created, the source content must have an
+      <p>For a <codeph>conref</codeph> to be created, the source content must have an
           <codeph>id</codeph> attribute that the <codeph>conref</codeph> can reference. Therefore,
         creating a <codeph>conref</codeph> requires that you add an <codeph>id</codeph> to the
         content to be reused before inserting a <codeph>conref</codeph> into the topic that reuses
         the referenced content. </p>
     </section>
-    <section id="assign-id-section"><title>Assigning an <term>ID</term> to the Referenced
-        Content</title>To add an <codeph>id</codeph> to a DITA element in a topic, place the cursor
-      on the element and select <uicontrol><image href="../img/Attribute16.gif"
-          id="image_rt3_hnq_js"/>Edit Attributes</uicontrol> from the contextual menu <ph
-        product="author editor">(or simply press <uicontrol>Alt+Enter</uicontrol>)</ph> to open the
-        <xref href="author-attributes-view.dita#author-attributes-view/in-place-attr-editor"
-        >in-place attribute editor</xref>. Enter <userinput>id</userinput> as the
-        <uicontrol>Name</uicontrol> of the attribute and a value of your choice in the
-        <uicontrol>Value</uicontrol> field. You can also use <xref
-        href="author-attributes-view.dita#author-attributes-view">the
-          <uicontrol>Attributes</uicontrol> view</xref> to enter a value in the
-        <uicontrol>id</uicontrol> attribute.<note>The element may already have an
-          <codeph>id</codeph>, since in some cases <ph keyref="product"/> automatically generates an
-          <term>id</term> value when the <codeph>id</codeph> attribute is created. </note></section>
-    <section>
+    <section id="assign-id-section">
+      <title>Assigning an <term>ID</term> to the Referenced Content</title>
+      <p>To add an <codeph>id</codeph> to a DITA element in a topic, place the cursor on the element
+        and select <uicontrol><image href="../img/Attribute16.gif" id="image_rt3_hnq_js"/>Edit
+          Attributes</uicontrol> from the contextual menu <ph product="author editor">(or simply
+          press <uicontrol>Alt+Enter</uicontrol>)</ph> to open the <xref
+          href="author-attributes-view.dita#author-attributes-view/in-place-attr-editor">in-place
+          attribute editor</xref>. Enter <userinput>id</userinput> as the
+          <uicontrol>Name</uicontrol> of the attribute and a value of your choice in the
+          <uicontrol>Value</uicontrol> field. You can also use <xref
+          href="author-attributes-view.dita#author-attributes-view">the
+            <uicontrol>Attributes</uicontrol> view</xref> to enter a value in the
+          <uicontrol>id</uicontrol> attribute.</p>
+      <note>The element may already have an <codeph>id</codeph>, since in some cases <ph
+          keyref="product"/> automatically generates an <term>id</term> value when the
+          <codeph>id</codeph> attribute is created. </note>
+    </section>
+    <section id="creating_a_content_reference">
       <title>Creating a Content Reference</title>
       <p>To create a content reference (<codeph>conref</codeph>), follow these steps:</p>
       <ol id="ol_ocz_fcb_bq">
         <li>Make sure the element you want to reference has an <xref
             href="#eppo-create-conref/assign-id-section" format="dita"><term>id</term> assigned to
             it</xref>.</li>
-        <li>In <xref keyref="mode_author"><uicontrol>Author</uicontrol> mode</xref>, place the
-          cursor at the location where you want the reused content to be inserted.</li>
+        <li>In <xref href="author-editor.dita#author-editor"><uicontrol>Author</uicontrol>
+            mode</xref>, place the cursor at the location where you want the reused content to be
+          inserted.</li>
         <li>Select the <uicontrol><image href="../img/Conref20.png" id="image_gmv_hrx_xr"/>Reuse
             Content</uicontrol> action on the main toolbar (or from the <uicontrol>DITA</uicontrol>
           menu or <uicontrol>Reuse</uicontrol> submenu of the contextual menu). The <xref
@@ -53,7 +60,7 @@
         <li>In the <uicontrol>Location</uicontrol> field of the <uicontrol>Reuse Content</uicontrol>
           dialog box, select the topic that contains the element you want to reference. The elements
           that you can reference are presented in a table.</li>
-        <li>Select the <uicontrol>Element ID</uicontrol> of the element (or elements) from which you
+        <li>Select the <uicontrol>Target ID</uicontrol> of the element (or elements) from which you
           want to insert the content, and verify the content in the <wintitle>Preview</wintitle>
           pane. The <codeph>id</codeph> value of the element that you select is automatically added
           to the <uicontrol>Reference to (conref)</uicontrol> field. </li>
@@ -62,10 +69,30 @@
           elements, the <uicontrol>Expand to (conrefend)</uicontrol> field is automatically filled
           with the <codeph>id</codeph> value of the last element in your selection.</li>
         <li>Click <uicontrol>Insert</uicontrol> or <uicontrol>Insert and close</uicontrol> to create
-          the content reference.</li>
+          the content reference. </li>
       </ol>
     </section>
-    <section>
+    <section id="using_copypaste_actions_to_create_a_content_refer">
+      <title>Using Copy/Paste Actions to Create a Content Reference</title>
+      <p><ph keyref="product"/> also includes support for creating content references with simple
+        copy/paste actions. The copied content must be an entire DITA XML element with an ID
+        attribute. Also, the location in the document where you paste the element must be valid,
+        although as long as the <xref
+          href="preferences-schema-aware.dita#preferences-schema-aware/smart-paste-drag-drop"
+            ><uicontrol>Smart paste and drag and drop</uicontrol> option</xref> is enabled in the
+          <uicontrol>Schema Aware</uicontrol> preferences page, if you try to paste it in an invalid
+        location, <ph keyref="product"/> will attempt to place it in a valid location, and may
+        prompt you with one or more choices for where to place it.</p>
+      <p>To create a content reference (<codeph>conref</codeph>) using copy/paste actions, follow
+        these steps:<ol>
+          <li>Copy an entire DITA element that has an ID attribute assigned to it.</li>
+          <li>Place the cursor at a location where the copied element will be valid.</li>
+          <li>Select the <uicontrol>Paste as Content Reference</uicontrol> action from the
+                <uicontrol><image href="../img/PasteSpecialDITA16.png"/>Paste Special</uicontrol>
+            submenu from the contextual menu.</li>
+        </ol></p>
+    </section>
+    <section id="other_ways_to_reuse_content">
       <title>Other Ways to Reuse Content</title>
       <p>An alternate way to reuse content is to use the <ph keyref="product"/>
         <xref keyref="dita_create-reusable-component"><uicontrol>Create Reusable
@@ -83,5 +110,6 @@
   <related-links>
     <link href="insert-dita-content-reference.dita#insert-dita-content-reference"/>
     <link href="dita-reusable-components.dita#dita-reusable-components"/>
+    <link href="edit-dita-content-reference.dita#edit-dita-content-reference"/>
   </related-links>
 </topic>

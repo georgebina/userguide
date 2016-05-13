@@ -3,12 +3,6 @@
   PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
 <task id="installation-instructions-linux-server" >
     <title>Unix / Linux Server Configuration</title>
-  <prolog>
-    <metadata>
-      <keywords><indexterm>Installation
-                    <indexterm>multiple instances (Unix / Linux server)</indexterm></indexterm></keywords>
-    </metadata>
-  </prolog>
     <taskbody>
         <context>
             <p>To install <ph keyref="product"/> on a Unix / Linux server:</p>
@@ -25,7 +19,7 @@
           startup script.</cmd>
         <info>The default value of the <codeph>-Xmx</codeph> parameter is 512 MB. To avoid <xref
             href="../topics/performance-problems-large-documents.dita#performance-problems-large-documents"
-          />, you may need to adjust it.</info>
+            >performance issues with large documents</xref>, you may need to adjust it.</info>
       </step>
             <step>
         <cmd>Make sure the X server processes located on the workstations allow connections from the

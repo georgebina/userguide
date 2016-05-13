@@ -5,24 +5,25 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>Java system properties <indexterm>custom system
-          properties</indexterm></indexterm>
+        <indexterm>Java system properties</indexterm>
+        <indexterm>Custom system properties</indexterm>
+        <indexterm>System properties</indexterm>
       </keywords>
     </metadata>
   </prolog>
   <body>
-    <p>A number of Java system properties can be set in the application to influence its behavior.
-      For information about how to do this, see the <xref
+    <p>A variety of Java system properties can be set in the application to influence its behavior.
+      For information about how to do this, see <xref
         href="set-parameters-for-application-launchers.dita#set-parameters-for-application-launchers/setting-a-system-property"
-      /> section.</p>
+      />.</p>
     <p>
       <table frame="all" id="table_xdw_hvv_j3">
         <title>Custom System Properties</title>
         <tgroup cols="4">
-          <colspec colname="c1" colnum="1" colwidth="3.44*"/>
-          <colspec colname="c3" colnum="2" colwidth="1.24*"/>
-          <colspec colname="c2" colnum="3" colwidth="1*" align="center"/>
-          <colspec colname="c4" colnum="4" colwidth="2.75*"/>
+          <colspec colname="c1" colnum="1" colwidth="3.79*" colsep="1" rowsep="1"/>
+          <colspec colname="c3" colnum="2" colwidth="1.14*" colsep="1" rowsep="1" align="center"/>
+          <colspec colname="c2" colnum="3" colwidth="1*" align="center" colsep="1" rowsep="1"/>
+          <colspec colname="c4" colnum="4" colwidth="2.39*" colsep="1" rowsep="1"/>
           <thead>
             <row>
               <entry>Property</entry>
@@ -52,9 +53,9 @@
               <entry><varname>com.oxygenxml.customOptionsDir</varname></entry>
               <entry>A file system absolute path pointing to a folder.</entry>
               <entry>N/A</entry>
-              <entry>Sets a different folder to be used by the application to load and save
-                preference files. The default location where the options are saved varies according
-                to the operating system. See <xref href="import-export-preferences.dita"/>.</entry>
+              <entry>Sets a folder to be used by the application to load and save preference files.
+                The default location where the options are saved varies according to the operating
+                system. See <xref href="import-export-preferences.dita"/>.</entry>
             </row>
             <row>
               <entry><varname>com.oxygenxml.ApplicationDataFolder</varname> (Windows only)</entry>
@@ -66,11 +67,12 @@
             </row>
             <row>
               <entry><varname>com.oxygenxml.editor.frameworks.url</varname></entry>
-              <entry>An URL-type absolute path.</entry>
+              <entry>A URL-type absolute path.</entry>
               <entry><filepath>OXYGEN_DIR \frameworks</filepath></entry>
               <entry>Changes the folder where the application considers that the main frameworks are
                 installed. It has the same effect as changing the custom frameworks directory value
-                in the <xref href="framework-location.dita"/> page.</entry>
+                in the <xref href="framework-location.dita"><uicontrol>Location</uicontrol>
+                  preferences page</xref>.</entry>
             </row>
             <row>
               <entry><varname>com.oxygenxml.MultipleInstances</varname></entry>
@@ -84,7 +86,8 @@
               <entry>A file system absolute path pointing to a folder.</entry>
               <entry>N/A</entry>
               <entry>Points to a folder where RenderX XEP is installed. Has the same effect as
-                configuring XEP in the <xref href="preferences-fo-processors.dita"/> page.</entry>
+                configuring XEP in the <xref href="preferences-fo-processors.dita"><uicontrol>FO
+                    Processors</uicontrol> preferences page</xref>.</entry>
             </row>
             <row>
               <entry><varname>com.oxygenxml.additional.classpath</varname></entry>
@@ -116,8 +119,8 @@
               <entry>The number of bytes used for validation threads.</entry>
               <entry>5*1024*1024</entry>
               <entry>Some parts of the application (validation, content completion) that use the
-                Relax NG parser sometimes require a larger <i>Thread</i> stack size in order to
-                parse complex schemas. The default value should be more than enough.</entry>
+                Relax NG parser sometimes require a larger <i>Thread</i> stack size to parse complex
+                schemas. The default value should be more than enough.</entry>
             </row>
             <row>
               <entry><varname>com.oxygenxml.jing.skip.validation.xhtml.data.attrs</varname></entry>

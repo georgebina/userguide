@@ -3,14 +3,7 @@
 <topic id="using-retina-hidpi-images">
   <title><?oxy_comment_start author="steven_higgs" timestamp="20150622T160239+0300" comment="Perhaps this should be split into two topics.  The second would be &quot;Adding Retina/HiDPI Icons in a Framework&quot; (the section at the end of this topic). That topic would go in the customizing frameworks section while the rest of this topic should go in a different section entirely."?>Using
     Retina/HiDPI Images in Author Mode</title>
-  <prolog>
-    <metadata>
-      <?oxy_comment_end?>
-      <keywords>
-        <indexterm>Retina HiDPI images <indexterm>Accessibility</indexterm></indexterm>
-      </keywords>
-    </metadata>
-  </prolog>
+  <?oxy_comment_end?>
   <body>
     <p><ph keyref="product"/> provides support for Retina and HiDPI images through simple naming
       conventions. The higher resolution images are stored in the same images folder as the normal
@@ -27,7 +20,7 @@
       before the <codeph>listItem</codeph> element. However, if you are using a Retina display (on a
       Mac), the icon looks a bit blurry as it automatically gets scaled, or if you are using an
       HiDPI display (on a Windows-based PC), the icon remains at the original size, thus it will
-      look very small. To solve this rendering problem you need to be able to reference both a
+      look very small. To solve this rendering problem, you need to be able to reference both a
         <i>normal</i> DPI image and a <i>high</i> DPI image. However, referencing both of them from
       the CSS is not practical, as there is no standard way of doing this.</p>
     <p>Starting with version 17, <ph keyref="product"/> interprets the argument of the
@@ -48,17 +41,19 @@
         is used in <ph keyref="product"/>:</p>
       <table id="table_myp_5sh_sr">
         <tgroup cols="4">
-          <colspec colnum="1" colname="col1"/>
-          <colspec colnum="2" colname="col2"/>
-          <colspec colnum="3" colname="col3"/>
-          <colspec colnum="4" colname="col4"/>
-          <tbody>
+          <colspec colnum="1" colname="col1" colsep="1" rowsep="1"/>
+          <colspec colnum="2" colname="col2" colsep="1" rowsep="1"/>
+          <colspec colnum="3" colname="col3" colsep="1" rowsep="1"/>
+          <colspec colnum="4" colname="col4" colsep="1" rowsep="1"/>
+          <thead>
             <row>
               <entry>Color Theme</entry>
               <entry>Referred Image File</entry>
               <entry>Double Density Image File</entry>
               <entry>Triple Density Image File</entry>
             </row>
+          </thead>
+          <tbody>
             <row>
               <entry>normal</entry>
               <entry>../img/myImage.png</entry>

@@ -2,7 +2,16 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="configuring_calabash_with_xep">
   <title>Configuring Calabash with XEP </title>
-  <!--Proofed-->
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Transformation Scenarios<indexterm>Configure Calabash with
+          XEP</indexterm></indexterm>
+        <indexterm>Transformation Scenarios<indexterm>PDF output using Calabash XProc
+            processor</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <taskbody>
     <context>
       <p>To generate PDF output from your XProc pipeline (when using the Calabash XProc processor),
@@ -10,8 +19,8 @@
     </context>
     <steps>
       <step>
-        <cmd>Open the <filepath>[OXYGEN INSTALLATION
-            DIRECTORY]/lib/xproc/calabash/engine.xml</filepath> file.</cmd>
+        <cmd>Open the <filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+            />/lib/xproc/calabash/engine.xml</filepath> file.</cmd>
       </step>
       <step>
         <cmd>Uncomment the <codeph>&lt;system-property name="com.xmlcalabash.fo-processor"

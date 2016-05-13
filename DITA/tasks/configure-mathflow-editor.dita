@@ -3,6 +3,14 @@
   PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
 <task id="configure-mathflow-editor">
   <title>Configure the <term>MathFlow</term> Editor</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>MathFlow editor</indexterm>
+        <indexterm>MathML Editor</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <taskbody>
     <context>
       <p>The <term>MathFlow</term> Components product (<term>MathFlow</term> SDK) can replace the
@@ -10,10 +18,12 @@
         to <xref href="http://www.dessci.com/en/products/mathflow/" scope="external" format="html"
           >purchase a <term>MathFlow</term> Component from Design Science</xref> and configure it in
           <ph keyref="product"/> with the following procedure:</p>
-      <fig id="figure-MathFlow-editor">
-        <title>The default MathML editor</title>
-        <image href="../img/sa_author_MathFlow_editor.png"/>
-      </fig>
+      <p>
+        <fig id="figure-MathFlow-editor">
+          <title>Default MathFlow Editor</title>
+          <image href="../img/sa_author_MathFlow_editor.png"/>
+        </fig>
+      </p>
     </context>
     <steps>
       <step>
@@ -26,13 +36,13 @@
       </step>
       <step>
         <cmd>Set the path to the <term>MathFlow</term> install folder <xref
-            href="../topics/preferences-author-mathml.dita">in the
-              <uicontrol>Preferences</uicontrol></xref>.</cmd>
+            href="../topics/preferences-author-mathml.dita">in the <uicontrol>MathML</uicontrol>
+            preferences page</xref>.</cmd>
       </step>
       <step>
         <cmd>Set the path to the <term>MathFlow</term> license file <xref
-            href="../topics/preferences-author-mathml.dita">in the
-              <uicontrol>Preferences</uicontrol></xref>.</cmd>
+            href="../topics/preferences-author-mathml.dita">in the <uicontrol>MathML</uicontrol>
+            preferences page</xref>.</cmd>
       </step>
     </steps>
   </taskbody>

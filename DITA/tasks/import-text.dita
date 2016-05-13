@@ -12,7 +12,9 @@
     </metadata>
   </prolog>
   <taskbody>
-    <context>To import a text file into an XML file, follow these steps:</context>
+    <context>
+      <p>To import a text file into an XML file, follow these steps:</p>
+    </context>
     <steps>
       <step>
         <cmd>Go to <menucascade product="author developer editor">
@@ -22,11 +24,10 @@
           </menucascade><ph product="authorEclipse developerEclipse editorEclipse"><menucascade>
               <uicontrol>File</uicontrol>
               <uicontrol>Import</uicontrol>
-              <uicontrol>oXygen</uicontrol>
+            <uicontrol keyref="product"/>
               <uicontrol>Text File</uicontrol>
             </menucascade> and click <uicontrol>Next</uicontrol></ph>.</cmd>
-        <stepresult>The <uicontrol>Select text file</uicontrol> dialog box is
-          displayed.</stepresult>
+        <stepresult>A <uicontrol>Select text file</uicontrol> dialog box is displayed.</stepresult>
       </step>
       <step>
         <cmd>Select the URL of the text file.</cmd>
@@ -38,14 +39,17 @@
         <cmd>Click the <uicontrol>Next</uicontrol> button.</cmd>
         <stepresult>The <uicontrol product="author developer editor">Import
             Criteria</uicontrol><uicontrol product="authorEclipse developerEclipse editorEclipse"
-            >Import from text file</uicontrol> dialog box is displayed.<fig id="fig_nv3_l3x_ls"
-            product="author developer editor">
-            <title>Import Criteria Dialog Box</title>
-            <image href="../img/sa_import_text_file.png" id="image_zjb_43x_ls"/>
-          </fig><fig id="fig_bsy_43x_ls" product="authorEclipse developerEclipse editorEclipse">
-            <title>Import from Text File Dialog Box</title>
-            <image href="../img/ec_import_text_file.png" id="image_fr2_r3x_ls"/>
-          </fig></stepresult>
+            >Import from text file</uicontrol> dialog box is displayed.<p>
+            <fig id="fig_nv3_l3x_ls" product="author developer editor">
+              <title>Import Criteria Dialog Box</title>
+              <image href="../img/sa_import_text_file.png" id="image_zjb_43x_ls"/>
+            </fig>
+          </p><p>
+            <fig id="fig_bsy_43x_ls" product="authorEclipse developerEclipse editorEclipse">
+              <title>Import from Text File Dialog Box</title>
+              <image href="../img/ec_import_text_file.png" id="image_fr2_r3x_ls"/>
+            </fig>
+          </p></stepresult>
       </step>
       <step>
         <cmd>Configure the settings for the conversion.</cmd>
@@ -84,12 +88,11 @@
                 <userinput>SKIPPED</userinput>. </cmd>
           </substep>
           <substep>
-            <cmd><uicontrol><image href="../img/Options16.png" product="author developer editor"
-                  id="image_zfm_4qw_ls"/><image href="../img/OptionsShortcut16.gif"
-                  product="authorEclipse developerEclipse editorEclipse" id="image_agm_4qw_ls"
-                />Import Settings</uicontrol> - Clicking this button opens the <xref
-                href="../topics/preferences-xml-import.dita#preferences-xml-import"/> page that
-              allows you to configure more import options.</cmd>
+            <cmd><uicontrol><image href="../img/Options16.png" id="image_zfm_4qw_ls"/>Import
+                Settings</uicontrol> - Clicking this button opens the <xref
+                href="../topics/preferences-xml-import.dita#preferences-xml-import"
+                  ><uicontrol>Import</uicontrol> preferences page</xref> that allows you to
+              configure more import options.</cmd>
           </substep>
           <substep>
             <cmd>The <uicontrol>XML Import Preview</uicontrol> panel contains an example of what the

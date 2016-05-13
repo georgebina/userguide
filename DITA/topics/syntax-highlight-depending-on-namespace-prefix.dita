@@ -4,7 +4,8 @@
 <topic id="syntax-highlight-depending-on-namespace-prefix">
   <title>Syntax Highlight Depending on Namespace Prefix</title><prolog>
     <metadata>
-      <keywords><indexterm>syntax highlight depending on namespace prefix</indexterm></keywords>
+      <keywords>
+        <indexterm>Text editing mode<indexterm>Syntax highlights</indexterm></indexterm><indexterm>Syntax highlights in Text mode</indexterm></keywords>
     </metadata>
   </prolog>
   <body>
@@ -12,17 +13,27 @@
         type</xref> allows the configuration of a color per each type of token that can appear in an
       XML file. Distinguishing between the XML tag tokens based on the namespace prefix brings
       additional visual help in editing some XML file types. For example, in XSLT stylesheets,
-      elements from different namespaces (such as XSLT, XHTML, XSL:FO, or XForms) are inserted in
-      the same document and the editor panel can become cluttered. <xref
+      elements from various namespaces (such as XSLT, XHTML, XSL:FO, or XForms) are inserted in the
+      same document and the editor panel can become cluttered. <xref
         href="preferences-colors-elements-by-prefix.dita">Marking tags with different colors based
         on the namespace prefix</xref> allows easier identification of the tags.</p>
-    <fig id="figure-elements-by-prefix-xslt-example-oxygen" product="editor author developer">
-      <title>Example of Coloring XML Tags by Prefix</title>
-      <image href="../img/sa_elements_by_prefix_xslt.png"/>
-    </fig>
-    <fig id="figure-elements-by-prefix-xslt-example-oxygenEclipse" product="editorEclipse authorEclipse developerEclipse">
-      <title>Example of Coloring XML Tags by Prefix</title>
-      <image href="../img/ec_elements_by_prefix_xslt.png"/>
-    </fig>
+    <p>
+      <fig id="figure-elements-by-prefix-xslt-example-oxygen" product="editor author developer">
+        <title>Example of Coloring XML Tags by Prefix</title>
+        <image href="../img/sa_elements_by_prefix_xslt.png"/>
+      </fig>
+    </p>
+    <p>
+      <fig id="figure-elements-by-prefix-xslt-example-oxygenEclipse"
+        product="editorEclipse authorEclipse developerEclipse">
+        <title>Example of Coloring XML Tags by Prefix</title>
+        <image href="../img/ec_elements_by_prefix_xslt.png"/>
+      </fig>
+    </p>
   </body>
+  <related-links>
+    <link href="preferences-colors-sh.dita#preferences-colors-sh">
+      <linktext>Changing the colors displayed in the Text Mode Editor</linktext>
+    </link>
+  </related-links>
 </topic>

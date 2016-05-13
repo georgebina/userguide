@@ -3,12 +3,20 @@
   PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="description-of-editor-types">
   <title>Supported Document Types</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Getting Started with Oxygen<indexterm>Supported document
+          types</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <body>
-    <p>You can use the main editing pane in the <uicontrol>Editor</uicontrol> perspective to edit a
-      large variety of types of documents. <ph
-        product="authorEclipse developerEclipse editorEclipse">You can see that a document is
-        associated with <ph keyref="product"/> by the special icons displayed in the tabs of the
-        editor title bar. </ph>The supported document types include:</p>
+    <p>You can use the main editing pane in <ph keyref="product"/> to edit a large variety of
+      document types. <ph product="authorEclipse developerEclipse editorEclipse">You can see the
+        type of document association by the special icons displayed in the tabs of the editor title
+        bar.</ph></p>
+    <p>The supported document types include the following:</p>
     <ul>
       <li>
         <p>
@@ -80,7 +88,7 @@
           <uicontrol><image href="../img/CssIcon16.gif" id="image_b5j_5sz_tr"/></uicontrol><ph> -
               <ph>CSS</ph> documents</ph></p>
       </li>
-      <li>
+      <li product="author developer editor">
         <p>
           <uicontrol><image href="../img/LessIcon16.gif"/></uicontrol><ph> - <ph>LESS</ph>
             documents</ph></p>

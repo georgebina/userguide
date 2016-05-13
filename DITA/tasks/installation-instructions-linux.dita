@@ -4,13 +4,10 @@
 <task id="installation-instructions-linux" >
   <title>Linux Installation</title>
   <shortdesc>Linux installation procedure.</shortdesc>
-  <prolog>
-    <metadata>
-      <keywords><indexterm>Installation <indexterm>Linux</indexterm></indexterm></keywords>
-    </metadata>
-  </prolog>
   <taskbody>
-    <context>To install <ph keyref="product"/> on Linux, follow these steps:</context>
+    <context>
+      <p>To install <ph keyref="product"/> on Linux, follow these steps:</p>
+    </context>
     <steps>
       <step>
           <cmd>Download the Linux installer.</cmd>

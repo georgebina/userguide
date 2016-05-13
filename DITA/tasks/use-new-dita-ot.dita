@@ -6,8 +6,8 @@
   <prolog>
     <metadata>
       <keywords>
-        <keyword>custom DITA Open Toolkit</keyword>
-        <keyword>external DITA Open Toolkit</keyword>
+        <indexterm>DITA<indexterm>Open Toolkit<indexterm>Use external DITA
+            OT</indexterm></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
@@ -49,5 +49,8 @@
     <link
       href="../topics/defining-new-transformation-scenario.dita#defining-new-transformation-scenario"
     />
+    <link href="http://www.dita-ot.org/" format="html" scope="external">
+      <linktext>DITA Open Toolkit Documentation</linktext>
+    </link>
   </related-links>
 </task>

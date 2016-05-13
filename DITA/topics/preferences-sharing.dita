@@ -2,14 +2,13 @@
 <!DOCTYPE topic
   PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="preferences-sharing">
-  <title>Sharing and Storing Preferences</title>
-  <!--Proofed-->
+  <title>Sharing and Storing Options</title>
   <prolog>
     <metadata>
-      <keywords><indexterm>Sharing preferences<indexterm>project options</indexterm><indexterm>global
-            options</indexterm></indexterm>
-        <indexterm>Storing preferences<indexterm>project options</indexterm><indexterm>global
-            options</indexterm></indexterm></keywords>
+      <keywords><indexterm>Sharing options</indexterm>
+        <indexterm>Storing options</indexterm>
+        <indexterm>Global Options</indexterm>
+        <indexterm>Project Options</indexterm></keywords>
     </metadata>
   </prolog>
   <body>
@@ -17,10 +16,12 @@
       them to a specific project by choosing the appropriate setting in the preferences pages. They
       can then be shared with others by exporting the global options or by sharing the stored
       project-level files. The same is true with transformation and validation scenarios.</p>
-    <fig>
-      <title>Controlling the Storage of the Preferences</title>
-      <image href="../img/sa_preferences_control_global_project.png"/>
-    </fig>
+    <p>
+      <fig>
+        <title>Controlling the Storage of the Preferences</title>
+        <image href="../img/sa_preferences_control_global_project.png"/>
+      </fig>
+    </p>
     <section id="global_options">
       <title>Global Options</title>
       <p>By default, <uicontrol>Global Options</uicontrol> is selected in the preferences pages,
@@ -53,8 +54,8 @@
             page will be preserved. </li>
         </ul></note>
     </p>
-    <p>For more information about sharing project files, see the <xref
-        href="sharing-projects.dita#sharing-projects"/> section.</p>
+    <p>For more information about sharing project files, see <xref
+        href="sharing-projects.dita#sharing-projects"/>.</p>
   </body>
   <related-links>
     <link href="validation-scenarios-sharing.dita#validation-scenarios-sharing"/>

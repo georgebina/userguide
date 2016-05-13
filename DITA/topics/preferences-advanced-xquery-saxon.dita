@@ -4,29 +4,36 @@
 <topic id="preferences-advanced-xquery-saxon">
   <title>Saxon HE/PE/EE Advanced Preferences</title><prolog>
     <metadata>
-      <keywords><indexterm>Configure the Application<indexterm>XSLT/FO/XQuery preferences<indexterm>Saxon HE/PE/EE advanced options</indexterm></indexterm></indexterm></keywords>
+      <keywords><indexterm><indexterm>Preferences<indexterm>XML<indexterm>XSLT-FO-XQuery<indexterm>XQuery<indexterm>Saxon-HE/PE/EE<indexterm>Advanced</indexterm></indexterm></indexterm></indexterm></indexterm></indexterm></indexterm>
+        <indexterm>Saxon HE/PE/EE advanced XQuery preferences</indexterm></keywords>
     </metadata>
   </prolog>
   <body>
     <p>To configure <uicontrol>Saxon HE/PE/EE Advanced</uicontrol> preferences, <ph
         conkeyref="reusables-preferences-pages/open-the-preferences-page"/> and go to <menucascade>
         <uicontrol>XML</uicontrol>
-        <uicontrol>XSLT/FO/XQuery</uicontrol>
+        <uicontrol>XSLT-FO-XQuery</uicontrol>
         <uicontrol>XQuery</uicontrol>
-        <uicontrol>Saxon HE/PE/EE</uicontrol>
+        <uicontrol>Saxon-HE/PE/EE</uicontrol>
         <uicontrol>Advanced</uicontrol>
       </menucascade>.</p>
-    <fig id="figure-advanced-xquery-saxon-options-oxygen" product="editor author developer">
-      <title>The Saxon HE/PE/EE XQuery Advanced Preferences Panel</title>
-      <image href="../img/sa_advanced_xquery_saxon_options.png"/>
-    </fig>
-    <fig id="figure-advanced-xquery-saxon-options-oxygenEclipse" product="editorEclipse
+    <p>
+      <fig id="figure-advanced-xquery-saxon-options-oxygen" product="editor author developer">
+        <title>Saxon HE/PE/EE XQuery Advanced Preferences Panel</title>
+        <image href="../img/sa_advanced_xquery_saxon_options.png"/>
+      </fig>
+    </p>
+    <p>
+      <fig id="figure-advanced-xquery-saxon-options-oxygenEclipse"
+        product="editorEclipse
       authorEclipse developerEclipse">
-      <title>The Saxon HE/PE/EE XQuery Advanced Preferences Panel</title>
-      <image href="../img/ec_advanced_xquery_saxon_options.png"/>
-    </fig>
-    <p>The advanced XQuery options which can be configured for the Saxon <ph keyref="saxon9FullVersion"/> XQuery transformer
-      (all editions: Home Edition, Professional Edition, Enterprise Edition) are the following:</p>
+        <title>Saxon HE/PE/EE XQuery Advanced Preferences Panel</title>
+        <image href="../img/ec_advanced_xquery_saxon_options.png"/>
+      </fig>
+    </p>
+    <p>The advanced XQuery options that can be configured for the Saxon <ph
+        keyref="saxon9FullVersion"/> XQuery transformer (all editions: Home Edition, Professional
+      Edition, Enterprise Edition) are as follows:</p>
     <ul>
       <li><uicontrol>URI Resolver class name</uicontrol> - Allows you to specify a custom
         implementation for the URI resolver used by the XQuery Saxon <ph keyref="saxon9FullVersion"

@@ -2,6 +2,14 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="apply-batch-transformation">
   <title>Apply Batch Transformations</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Transformation Scenarios<indexterm>Batch transformation</indexterm></indexterm>
+        <indexterm>Batch transformation</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <taskbody>
     <context>
       <p>A transformation action can be applied on a batch of selected files <xref

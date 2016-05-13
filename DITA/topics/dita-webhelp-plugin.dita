@@ -5,16 +5,23 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>integrate WebHelp plugin with DITA</indexterm>
+        <indexterm>WebHelp Plugin<indexterm>DITA</indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <body>
     <p>To transform DITA documents using the <ph keyref="webhelp"/> plugin, first integrate the
       plugin with the DITA Open Toolkit. The purpose of the integration is to add the following
-      transformation types to the DITA Open Toolkit:<ul
-        conkeyref="reusables-transforming-documents/webhelp-plugin-outputs">
-        <li/>
+      transformation types to the DITA Open Toolkit:<ul>
+        <li
+          conref="../reusables/topics/reusables-transforming-documents.dita#reusables-transforming-documents/webhelp-responsive"/>
+        <li
+          conref="../reusables/topics/reusables-transforming-documents.dita#reusables-transforming-documents/webhelp-classic"/>
+        <li
+          conref="../reusables/topics/reusables-transforming-documents.dita#reusables-transforming-documents/webhelp-classic-feedback"/>
+        <li
+          conref="../reusables/topics/reusables-transforming-documents.dita#reusables-transforming-documents/webhelp-mobile"
+        />
       </ul></p>
   </body>
 </topic>

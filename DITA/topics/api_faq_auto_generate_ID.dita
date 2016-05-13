@@ -3,24 +3,24 @@
 <topic id="api_faq_auto_generate_ID">
   <title>Auto-Generate an ID When a Document is Opened or Created</title>
   <body>
-    <section>
+    <section id="question">
       <title>Question</title>
       <p>Is it possible to configure how the application generates ids? For project compliance we
         need ids having a certain format for each created topic. </p>
     </section>
-    <section>
+    <section id="answer">
       <title>Answer</title>
       <p>This could be done implementing a plugin for <ph keyref="product"/> using the Plugins
         SDK:</p>
       <p><xref href="http://www.oxygenxml.com/oxygen_sdk.html#Developer_Plugins" format="html"
           scope="external"/></p>
-      <p>There is a type of plugin called "Workspace Access" which can be used to add a listener to
+      <p>There is a type of plugin called "Workspace Access" that can be used to add a listener to
         be notified when an editor is opened.</p>
-      <p>The implemented plugin would intercept the editor opened and editor page changed events
+      <p>The implemented plugin would intercept the opened editor and editor page change events
         (which occur when a new editor is created) and generate a new ID attribute value on the root
         element.</p>
-      <p>The Java code for this would look
-        like:<codeblock outputclass="language-java">      pluginWorkspaceAccess.addEditorChangeListener(new WSEditorChangeListener() {
+      <p>The Java code would look like
+        this:<codeblock outputclass="language-java">      pluginWorkspaceAccess.addEditorChangeListener(new WSEditorChangeListener() {
       /**
        * @see ro.sync.exml.workspace.api.listeners.WSEditorChangeListener#editorOpened(java.net.URL)
        */

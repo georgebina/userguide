@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="integrate-facebook">
-  <title>How to Add a Facebook Like Button in WebHelp Output</title>
+  <title>How to Add a Facebook Like Button in WebHelp Classic Output</title>
   <shortdesc>See how you can add a Facebook widget into your WebHelp output.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>Facebook widget</indexterm>
-        <indexterm>Social media</indexterm>
-        <indexterm>Social plugin</indexterm>
+        <indexterm>WebHelp Classic system<indexterm>Add Facebook widget</indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>

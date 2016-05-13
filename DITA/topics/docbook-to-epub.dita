@@ -2,6 +2,15 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="docbook-to-epub">
   <title>DocBook to EPUB Transformation</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Transformation Scenarios<indexterm>DocBook 4 to EPUB</indexterm></indexterm>
+        <indexterm>Transformation Scenarios<indexterm>DocBook 5 to EPUB</indexterm></indexterm>
+        <indexterm>DocBook to EPUB transformation</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <body>
     <p>The EPUB specification recommends the use of <i>OpenType</i> fonts (recognized by their
         <filepath>.otf</filepath> file extension) when possible. To use a specific font, follow

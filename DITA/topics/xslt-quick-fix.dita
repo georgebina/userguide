@@ -10,7 +10,7 @@
       where a validation error or warning occurs. If a Quick Fix is available for that particular
       error or warning, you can access the Quick Fix proposals with any of the following methods:<ul
         id="ul_p4y_jl3_ss">
-        <li>When hovering over the error or warning, the proposals are presented in a tooltip popup
+        <li>When hovering over the error or warning, the proposals are presented in a tooltip pop-up
           window.</li>
         <li>If you place the cursor in the highlighted area where a validation error or warning
           occurs, a quick fix icon (<image href="../img/AutomaticErrorQF.gif" id="image_w2j_s2y_xn"
@@ -26,14 +26,18 @@
       </ul></p>
     <note>The quick fixes are available only when validating an XSLT file with Saxon
       HE/PE/EE.</note>
-    <fig id="fig_kx2_lnx_xn">
-      <title>Example of an Undefined XSLT Functions Quick Fix</title>
-      <p><image href="../img/quickFixes.png" id="image_zcj_tnx_xn"/></p>
-    </fig>
-    <fig id="fig_axz_34x_xn">
-      <title>Example of an Undeclared XSLT Variables/Parameters Quick Fix</title>
-      <image href="../img/quickFixesVar.png" id="image_scv_j4x_xn"/>
-    </fig>
+    <p>
+      <fig id="fig_kx2_lnx_xn">
+        <title>Example of an Undefined XSLT Functions Quick Fix</title>
+        <p><image href="../img/quickFixes.png" id="image_zcj_tnx_xn"/></p>
+      </fig>
+    </p>
+    <p>
+      <fig id="fig_axz_34x_xn">
+        <title>Example of an Undeclared XSLT Variables/Parameters Quick Fix</title>
+        <image href="../img/quickFixesVar.png" id="image_scv_j4x_xn"/>
+      </fig>
+    </p>
     <p><ph keyref="product"/> provides XSLT quick fixes for the following types of instances:<ul
         id="ul_ugd_p4x_xn">
         <li><b>Template does not exist</b>, when the template name referenced in a

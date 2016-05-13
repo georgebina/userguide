@@ -3,17 +3,18 @@
   PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
 <task id="import-db-table-content-to-xml">
   <title>Import Database Data as an XML Document</title>
-  <!--Proofed--><prolog>
+  <prolog>
     <metadata>
       <keywords><indexterm>Importing Data<indexterm>from a database<indexterm>table content as XML
               document</indexterm></indexterm></indexterm>
-        <indexterm><indexterm>File Menu <indexterm>Import Database
-          Data</indexterm></indexterm></indexterm></keywords>
+        <indexterm>File Menu <indexterm>Import Database Data</indexterm></indexterm></keywords>
     </metadata>
   </prolog>
   <taskbody>
-    <context>To import the data from a relational database table as an XML document, follow these
-      steps:</context>
+    <context>
+      <p>To import the data from a relational database table as an XML document, follow these
+        steps:</p>
+    </context>
     <steps>
       <step>
         <cmd><ph product="author developer editor">Go to <menucascade>
@@ -29,14 +30,18 @@
         <stepresult>
           <p>This opens a <uicontrol>Select database table</uicontrol> dialog box that lists all the
             defined database connections:</p>
-          <fig product="author developer editor">
-            <title>Select Database Table Dialog Box</title>
-            <image href="../img/sa_select_database_table.png"/>
-          </fig>
-          <fig product="authorEclipse developerEclipse editorEclipse">
-            <title>Select Database Table Dialog Box</title>
-            <image href="../img/ec_select_database_table.png"/>
-          </fig>
+          <p>
+            <fig product="author developer editor">
+              <title>Select Database Table Dialog Box</title>
+              <image href="../img/sa_select_database_table.png"/>
+            </fig>
+          </p>
+          <p>
+            <fig product="authorEclipse developerEclipse editorEclipse">
+              <title>Select Database Table Dialog Box</title>
+              <image href="../img/ec_select_database_table.png"/>
+            </fig>
+          </p>
         </stepresult>
       </step>
       <step>
@@ -61,14 +66,18 @@
         <stepresult>
           <p>The <uicontrol>Import Criteria</uicontrol> dialog box is opened with a default query
             string in the <uicontrol>SQL Query</uicontrol> pane.</p>
-          <fig product="author developer editor">
-            <title>Import from Database Criteria Dialog Box</title>
-            <image href="../img/sa_import_criteria_db.png"/>
-          </fig>
-          <fig product="authorEclipse developerEclipse editorEclipse">
-            <title>Import from Database Criteria Dialog Box</title>
-            <image href="../img/ec_import_criteria_db.png"/>
-          </fig>
+          <p>
+            <fig product="author developer editor">
+              <title>Import from Database Criteria Dialog Box</title>
+              <image href="../img/sa_import_criteria_db.png"/>
+            </fig>
+          </p>
+          <p>
+            <fig product="authorEclipse developerEclipse editorEclipse">
+              <title>Import from Database Criteria Dialog Box</title>
+              <image href="../img/ec_import_criteria_db.png"/>
+            </fig>
+          </p>
         </stepresult>
       </step>
       <step>
@@ -99,12 +108,11 @@
                 <userinput>SKIPPED</userinput>. </cmd>
           </substep>
           <substep>
-            <cmd><uicontrol><image href="../img/Options16.png" product="author developer editor"
-                  id="image_zfm_4qw_ls"/><image href="../img/OptionsShortcut16.gif"
-                  product="authorEclipse developerEclipse editorEclipse" id="image_agm_4qw_ls"
-                />Import Settings</uicontrol> - Clicking this button opens the <xref
-                href="../topics/preferences-xml-import.dita#preferences-xml-import"/> page that
-              allows you to configure more import options.</cmd>
+            <cmd><uicontrol><image href="../img/Options16.png" id="image_zfm_4qw_ls"/>Import
+                Settings</uicontrol> - Clicking this button opens the <xref
+                href="../topics/preferences-xml-import.dita#preferences-xml-import"
+                  ><uicontrol>Import</uicontrol> preferences page</xref> that allows you to
+              configure more import options.</cmd>
           </substep>
           <substep>
             <cmd>The <uicontrol>XML Import Preview</uicontrol> panel contains an example of what the

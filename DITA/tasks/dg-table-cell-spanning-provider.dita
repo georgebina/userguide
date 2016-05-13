@@ -6,22 +6,24 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>Author Settings<indexterm>Java API<indexterm>table cell span provider</indexterm></indexterm></indexterm>
+        <indexterm>Document Type Association (Framework)<indexterm>Extensions<indexterm>Author Table
+              Cell Span Provider</indexterm></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <taskbody>
-    <context><p>In the sample documentation framework the <codeph>table</codeph> element can have cells
-      that span over multiple columns and rows. As explained in <xref
-        href="../topics/dg-styling-table-element.dita#dg-styling-table-element"/>, you need to
-      indicate <ph keyref="product"/> a method to determine the cell spanning. If you use the cell
-      element attributes <codeph>rowspan</codeph> and <codeph>colspan</codeph> or <codeph>rows</codeph> and <codeph>cols</codeph>, <ph
-        keyref="product"/> can determine the cell spanning automatically. In our example the
-        <codeph>td</codeph> element uses the attributes <codeph>row_span</codeph> and <codeph>column_span</codeph> that
-      are not recognized by default. You will need to implement a Java extension class for defining
-      the cell spanning.</p>
-      <note conkeyref="reusable_notes_java-files/javadoc-ref"/>
-      </context>
+    <context>
+      <p>In a custom framework, the <codeph>table</codeph> element can have cells that span over
+        multiple columns and rows. As explained in <xref
+          href="../topics/dg-styling-table-element.dita#dg-styling-table-element"/>, you need to
+        indicate <ph keyref="product"/> a method to determine the cell spanning. If you use the cell
+        element attributes <codeph>rowspan</codeph> and <codeph>colspan</codeph> or
+          <codeph>rows</codeph> and <codeph>cols</codeph>, <ph keyref="product"/> can determine the
+        cell spanning automatically. In our example the <codeph>td</codeph> element uses the
+        attributes <codeph>row_span</codeph> and <codeph>column_span</codeph> that are not
+        recognized by default. You will need to implement a Java extension class for defining the
+        cell spanning.</p>
+    </context>
     <steps>
       <step>
         <cmd>Create the class
@@ -46,9 +48,9 @@ public class TableCellSpanProvider
             format="html" scope="external"
               ><apiname>ro.sync.ecss.extensions.api.node.AuthorElement</apiname></xref> that
           represents the XML <codeph>table</codeph> element. In our case the cell span is specified
-          for each of the cells so you leave this method empty. However there are cases like the
-          table CALS model when the cell spanning is specified in the <codeph>table</codeph>
-          element. In such cases you must collect the span information by analyzing the
+          for each of the cells so you leave this method empty. However, there are cases (such as
+          the CALS table model) when the cell spanning is specified in the <codeph>table</codeph>
+          element. In such cases, you must collect the span information by analyzing the
             <codeph>table</codeph> element.</cmd>
         <info>
           <codeblock outputclass="language-java">public void init(AuthorElement table) {
@@ -145,15 +147,20 @@ public class TableCellSpanProvider
     </steps>
     <result>
       <p>When no table cell span provider is specified, the table has the following layout:</p>
-      <fig>
-        <title>Table layout when no cell span provider is specified</title>
-        <image href="../img/dg_table_no_span_provider.png"/>
-      </fig>
+      <p>
+        <fig>
+          <title>Table layout when no cell span provider is specified</title>
+          <image href="../img/dg_table_no_span_provider.png"/>
+        </fig>
+      </p>
       <p>When the above implementation is configured, the table has the correct layout:</p>
-      <fig>
-        <title>Cells spanning multiple rows and columns.</title>
-        <image href="../img/dg_cells_spanning_multiple_rows_and_cols.png"/>
-      </fig>
+      <p>
+        <fig>
+          <title>Cells spanning multiple rows and columns.</title>
+          <image href="../img/dg_cells_spanning_multiple_rows_and_cols.png"/>
+        </fig>
+      </p>
+      <note conkeyref="reusable_notes_java-files/sdf_project"/>
     </result>
   </taskbody>
 </task>

@@ -3,16 +3,7 @@
   PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="dg-sdf-files">
   <?oxy_comment_start author="steven_higgs" timestamp="20150622T155002+0300" comment="These examples should be integrated into the relevant topics. There is no context for them as they are."?>
-  <title>Listing of the Example Files<?oxy_comment_end?> - The Simple Documentation Framework
-    Files</title>
-  <prolog>
-    <metadata>
-      <keywords>
-        <indexterm>Customization Support<indexterm>example files<indexterm>the Simple Documentation
-              Framework Files</indexterm></indexterm></indexterm>
-      </keywords>
-    </metadata>
-  </prolog>
+  <title>Example Files<?oxy_comment_end?> for a Custom Framework</title>
   <body>
     <p>This section lists the files used in the customization tutorials: the XML Schema, CSS files,
       XML files, XSLT stylesheets.</p>

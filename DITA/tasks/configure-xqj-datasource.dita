@@ -3,17 +3,12 @@
   PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
 <task id="configure-xqj-datasource">
   <title>How to Configure an XQJ Data Source</title>
-  <prolog>
-    <metadata>
-      <keywords>
-        <indexterm>XQJ Support<indexterm>XQJ processor configuration</indexterm></indexterm>
-      </keywords>
-    </metadata>
-  </prolog>
   <taskbody>
-    <context>Any transformer that offers an XQJ API implementation can be used when validating
-      XQuery or transforming XML documents. An example of an XQuery engine that implements the XQJ
-      API is <xref href="http://www.zorba.io" format="html" scope="external">Zorba</xref>.</context>
+    <context>
+      <p>Any transformer that offers an XQJ API implementation can be used when validating XQuery or
+        transforming XML documents. An example of an XQuery engine that implements the XQJ API is
+          <xref href="http://www.zorba.io" format="html" scope="external">Zorba</xref>.</p>
+    </context>
     <steps>
       <step>
         <cmd>If your XQJ Implementation is native, make sure the directory containing the native
@@ -23,9 +18,8 @@
           configuring the environment variables.</cmd>
       </step>
       <step>
-        <cmd><ph conkeyref="reusables-preferences-pages/Open-the-preferences-page"/> and go to <menucascade>
-            <uicontrol>Data Sources</uicontrol>
-          </menucascade>.</cmd>
+        <cmd><ph conkeyref="reusables-preferences-pages/Open-the-preferences-page"/> and go to
+            <uicontrol>Data Sources</uicontrol>.</cmd>
       </step>
       <step>
         <cmd>Click the <uicontrol>New</uicontrol> button in the <uicontrol>Data Sources</uicontrol>

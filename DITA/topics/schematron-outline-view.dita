@@ -11,25 +11,25 @@
     </metadata>
   </prolog>
   <body>
-    <p>The Schematron <uicontrol>Outline</uicontrol> view presents a list of components in a
-      tree-like structure. It allows a quick access to a component by name. By default it is
-      displayed on screen, but if you closed it you can reopen it from <menucascade>
-        <uicontrol>Window</uicontrol>
-        <uicontrol>Show View</uicontrol>
-        <uicontrol>Outline</uicontrol>
-      </menucascade>.</p>
-
+    <p>The <uicontrol>Outline</uicontrol> view for Schematron schemas presents a list of components
+      in a tree-like structure and it allows for quick access to a component by name. By default, it
+      is displayed on the left side of the editor. <ph
+        conkeyref="reusables-user-guide/reopen-view"/></p>
+    <p>
       <fig product="editor developer" id="fig_pyr_qjm_ks">
-      <title>Schematron Outline View</title>
-      <image href="../img/sa_schematron_outline_view.png" id="image_qyr_qjm_ks"/>
-    </fig>
+        <title>Schematron Outline View</title>
+        <image href="../img/sa_schematron_outline_view.png" id="image_qyr_qjm_ks"/>
+      </fig>
+    </p>
+    <p>
       <fig product="editorEclipse developerEclipse" id="fig_ryr_qjm_ks">
-      <title>Schematron Outline View</title>
-      <image href="../img/ec_schematron_outline_view.png" id="image_syr_qjm_ks"/>
-    </fig>
-      <p>The following actions are available in the <ph product="editor developer"><image
-          href="../img/Settings16.png" id="image_hgq_dhg_ks"/><uicontrol>Settings</uicontrol> menu
-        on the <uicontrol>Outline</uicontrol> view toolbar</ph><ph
+        <title>Schematron Outline View</title>
+        <image href="../img/ec_schematron_outline_view.png" id="image_syr_qjm_ks"/>
+      </fig>
+    </p>
+      <p>The following actions are available in the <ph product="editor developer"><uicontrol><image
+            href="../img/Settings16.png" id="image_hgq_dhg_ks"/>Settings</uicontrol> menu on the
+          <uicontrol>Outline</uicontrol> view toolbar</ph><ph
         product="editorEclipse developerEclipse"><uicontrol>View menu</uicontrol> on the
           <uicontrol>Outline</uicontrol> view action bar</ph>:</p>
       <p>
@@ -90,6 +90,7 @@
       </p>
       <p>The following contextual menu actions are also available in the
         <uicontrol>Outline</uicontrol> view:</p>
+    <p>
       <dl>
         <dlentry>
           <dt><uicontrol>Append Child</uicontrol></dt>
@@ -106,11 +107,11 @@
           <dd>Displays a list of elements that you can insert as siblings of the current element,
             after the current element.</dd>
         </dlentry>
-      <dlentry>
-        <dt><uicontrol>Edit Attributes</uicontrol></dt>
-        <dd>Opens a dialog box that allows you to edit the attributes of the currently selected
-          component.</dd>
-      </dlentry>
+        <dlentry>
+          <dt><uicontrol>Edit Attributes</uicontrol></dt>
+          <dd>Opens a dialog box that allows you to edit the attributes of the currently selected
+            component.</dd>
+        </dlentry>
         <dlentry>
           <dt><uicontrol><image href="../img/ToggleComment16.png" id="image_bsr_brd_cs"/>Toggle
               Comment</uicontrol></dt>
@@ -144,6 +145,7 @@
             view.</dd>
         </dlentry>
       </dl>
+    </p>
       <p
       conkeyref="reusables-editing-documents/outliner-filter-box"/>
     </body>

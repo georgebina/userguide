@@ -3,17 +3,13 @@
   PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="unattended-installation">
     <title>Unattended Installation</title>
-    <prolog>
-    <metadata>
-      <keywords><indexterm>Installation<indexterm>unattended (Windows and Linux
-                only)</indexterm></indexterm></keywords>
-    </metadata>
-  </prolog>
     <body>
     <p>You can run the installation in unattended mode by running the installer from the command
       line with the <parmname>-q</parmname> parameter. By default, running the installer in
       unattended mode installs <ph keyref="product"/> with the default options and does not
       overwrite existing files. You can change many options for the unattended installer using the
-        <xref keyref="install_command-line-reference">installer command line parameters</xref>. </p>
+        <xref
+        href="install-installer-command-line-reference.dita#install-installer-command-line-reference"
+        >installer command line parameters</xref>. </p>
   </body>
 </topic>

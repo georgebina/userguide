@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="dg-form-controls-properties-matrix">
-  <title><ph keyref="webappComponent"/> Form Controls Properties</title>
-  <shortdesc>A variety of form control properties are supported in the <ph keyref="webappComponent"/>. </shortdesc>
+  <title><ph product="author editor authorEclipse editorEclipse"><ph keyref="webappProduct"/>
+    </ph>Form Controls</title>
+  <shortdesc>A variety of form control properties are supported in the <ph keyref="webappProduct"/>. </shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>Built-in Form Controls <indexterm>WebApp form control</indexterm></indexterm>
+        <indexterm product="author editor authorEclipse editorEclipse">Web Author Form controls and
+          properties</indexterm>
+        <indexterm product="webauthor">Form controls in Web Author</indexterm>
       </keywords>
     </metadata>
   </prolog>
   <body>
     <p>The following table displays the available form controls properties for the <ph
-      keyref="webappComponent"/>:</p>
+      keyref="webappProduct"/>:</p>
     <p>
       <table frame="all">
-        <title>Properties supported in the <ph keyref="webappComponent"/></title>
+        <title>Properties supported in the <ph keyref="webappProduct"/></title>
         <tgroup cols="2">
-          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
-          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+          <colspec colname="c1" colnum="1" colwidth="1.0*" colsep="1" rowsep="1"/>
+          <colspec colname="c2" colnum="2" colwidth="1.0*" colsep="1" rowsep="1"/>
           <thead>
             <row>
               <entry>Form control</entry>
@@ -66,7 +69,7 @@
               </entry>
             </row>
             <row>
-              <entry>The <b>Check Box</b> form control</entry>
+              <entry>The <b>Checkbox</b> form control</entry>
               <entry>
                 <lines><codeph>resultSeparator</codeph>
 <codeph>tooltips</codeph>

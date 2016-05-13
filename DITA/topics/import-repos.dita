@@ -3,6 +3,14 @@
   PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="import-repos">
   <title>Importing Resources Into a Repository</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>SVN Client<indexterm>Branches/Tags<indexterm>Importing
+            resources</indexterm></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <body>
     <p>Importing resources into a repository is the process of copying local files and directories
       into a repository so that they can be managed by an <ph keyref="apacheSubversion"/> server. If
@@ -17,7 +25,7 @@
       location.</p>
     <p>The <uicontrol>Import folder</uicontrol> action opens the <uicontrol>Import
         folder</uicontrol> dialog box.<fig id="fig_flg_r4y_4r">
-        <title>The <uicontrol>Import Folder</uicontrol> Dialog Box</title>
+        <title><uicontrol>Import Folder</uicontrol> Dialog Box</title>
         <image href="../img/svn_import_folder.png" id="image_mpb_x4y_4r"/>
       </fig></p>
     <p>You can configure the following options:<dl>

@@ -3,6 +3,14 @@
   PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="preferences-content-completion-xpath">
   <title>XPath Preferences</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Preferences<indexterm>Editor<indexterm>Content
+                Completion<indexterm>XPath</indexterm></indexterm></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <body>
     <p><ph keyref="product"/> provides content-completion support for XPath expressions. To
       configure the options for the content completion in XPath expressions, <ph
@@ -18,7 +26,7 @@
             href="content-completion-xpath-expressions.dita">the <uicontrol>Content Completion
               Assistant</uicontrol> in XPath expressions</xref>
         </ph>
-        <ph product="author authorEclipse">the <uicontrol>Content Completion Assistant</uicontrol>
+        <ph product="author authorEclipse">the <wintitle>Content Completion Assistant</wintitle>
           in XPath expressions</ph> that you enter in the <codeph>match</codeph>,
           <codeph>select</codeph>, and <codeph>test</codeph> XSL attributes and also in the XPath
         toolbar. <ul>

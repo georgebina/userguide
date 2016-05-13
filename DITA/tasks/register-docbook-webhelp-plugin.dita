@@ -4,9 +4,19 @@
     <title>Licensing the <ph keyref="webhelp"/> Plugin for DocBook</title>
   <shortdesc>This topic explains how to register the license for the <ph keyref="webhelp"/> plugin
     for the DocBook XSL distribution.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>WebHelp
+          Plugin<indexterm>DocBook<indexterm>Licensing</indexterm></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
     <taskbody>
-        <context>To register the license for the <ph keyref="webhelp"/> plugin for the DocBook XSL
-      distribution, follow these steps:</context>
+        <context>
+      <p>To register the license for the <ph keyref="webhelp"/> plugin for the DocBook XSL
+        distribution, follow these steps:</p>
+    </context>
         <steps>
             <step>
         <cmd>Create a <filepath>.txt</filepath> file named <filepath>license</filepath> in the
@@ -14,10 +24,11 @@
           directory.</cmd>
       </step>
       <step>
-        <cmd>In this file, copy the license key, which you purchased for your <ph
-            keyref="webhelp"/> plugin.</cmd>
-        <info>The WebHelp transformation process reads the <ph keyref="product"/> license key from this file. If the file does not exit, or it contains an invalid license, an error message is
-          displayed.</info>
+        <cmd>In this file, copy the license key that you purchased for your <ph keyref="webhelp"/>
+          plugin.</cmd>
+        <info>The WebHelp transformation process reads the <ph keyref="product"/> license key from
+          this file. If the file does not exit, or it contains an invalid license, an error message
+          is displayed.</info>
       </step>
         </steps>
     </taskbody>

@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="customizing-options">
-  <title>Customizing <ph keyref="webappComponent"/> Options</title>
-  <shortdesc>Functionality is common with the standalone distribution of <ph keyref="product"/>, as
-    they share the same options. This allows you to configure a consistent editing experience for
-    all users.</shortdesc>
+  <title>Customizing Options</title>
+  <shortdesc>The <ph keyref="webappProduct"/> functionality is common with the standalone
+    distribution of <ph keyref="product"/>, as they share the same options. This allows you to
+    configure a consistent editing experience for all users.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>WebApp Customizing Options</indexterm>
+        <indexterm>Oxygen XML Web Author Component<indexterm>Customize
+          options</indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <body>
-    <section>
+    <section product="author editor" id="author_mode_options">
       <title>Author Mode Options</title>
       <p>You can modify the options in the <ph keyref="product"/> standalone application and then
         export them as an XML file by clicking the <menucascade>
@@ -26,16 +27,16 @@
           >oXygen XML SDK project</xref>.</p>
     </section>
     <section id="webapp_config_file">
-      <title>WebApp Configuration File</title>
-      <p>A small number of options are specific only to the <ph keyref="webappComponent"/> and they can be
+      <title><ph keyref="webappProduct"/> Configuration File</title>
+      <p>A small number of options are specific only to the <ph keyref="webappProduct"/> and they can be
         configured in the <filepath>WEB-INF/web.xml</filepath> file. Each option is specified as a
           <codeph>context-param</codeph> element.</p>
       <p>The following is a list of options and their accepted values:<table frame="all" rowsep="1"
           colsep="1" id="table_qhw_t1t_1r">
           <tgroup cols="3">
-            <colspec colname="c1" colnum="1" colwidth="3.48*"/>
-            <colspec colname="c2" colnum="2" colwidth="1*"/>
-            <colspec colname="c3" colnum="3" colwidth="1.94*"/>
+            <colspec colname="c1" colnum="1" colwidth="3.37*"/>
+            <colspec colname="c2" colnum="2" colwidth="1*" align="center"/>
+            <colspec colname="c3" colnum="3" colwidth="3.64*"/>
             <thead>
               <row>
                 <entry>Option name</entry>
@@ -52,7 +53,7 @@
               </row>
               <row id="mem_size_param">
                 <entry><codeph>com.oxygenxml.webapp.datastore.docs.memory.size</codeph></entry>
-                <entry>An integer number.</entry>
+                <entry>An integer number</entry>
                 <entry>Indicates the number of editing sessions stored in memory.</entry>
               </row>
               <row>
@@ -62,7 +63,7 @@
               </row>
               <row>
                 <entry><codeph>com.oxygenxml.webapp.datastore.docs.disk.size</codeph></entry>
-                <entry>An integer number.</entry>
+                <entry>An integer number</entry>
                 <entry>Indicates the number of inactive editing sessions that can be stored on
                   disk.</entry>
               </row>

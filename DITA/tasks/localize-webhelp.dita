@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="localize-webhelp">
-  <title>How to Localize the Interface of WebHelp Output (for DITA Map Transformations)</title>
+  <title>Localizing the Interface of WebHelp Output (for DITA Map Transformations)</title>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>WebHelp Internationalization<indexterm>DITA WebHelp
-              localization<indexterm>WebHelp i18n</indexterm></indexterm></indexterm>
+        <indexterm>WebHelp Responsive system<indexterm>Localizing the interface for DITA
+            transformations</indexterm></indexterm>
+        <indexterm>WebHelp Classic system<indexterm>Localizing the interface for DITA
+            transformations</indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
@@ -32,6 +34,15 @@
         <cmd>Translate all the labels from the above language file. Labels are stored in XML
           elements that have the following format: <codeph>&lt;str name="Label
             name">Caption&lt;/str></codeph>.</cmd>
+      </step>
+      <step>
+        <cmd>Run the predefined transformation scenario called <uicontrol>Run DITA OT
+            Integrator</uicontrol> by executing it from the <uicontrol><image
+              href="../img/ApplyStyleSheet16.png" id="image_qwt_3ts_yq"/> Apply Transformation
+            Scenario(s)</uicontrol> dialog box. If the <term>integrator</term> is not visible,
+          enable the <b>Show all scenarios</b> action that is available in the <uicontrol><image
+              href="../img/Settings16.png" id="image_km5_xrs_yq"/>Settings</uicontrol> drop-down
+          menu.</cmd>
       </step>
       <step>
         <cmd>Make sure that the new XML file that you created in the previous two steps is listed in

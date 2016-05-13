@@ -3,6 +3,12 @@
 <map title="Author Mode Customization" id="chapter.authoring-customization-guide" collection-type="sequence"
   product="editor author editorEclipse authorEclipse ">
   <topicref href="topics/authoring_customization.dita">
+    <topicmeta>
+      <data name="wh-menu">
+        <data name="hide" value="yes"/>                
+      </data>
+    </topicmeta>
+    
     <topicref keys="chapter_authoring-customization-guide"
       href="topics/author-devel-guide-intro.dita" collection-type="sequence">
       <topicref href="topics/dg-simple-customization-tutorial.dita" collection-type="sequence">
@@ -51,22 +57,21 @@
           <topicref href="topics/dg-organize-framework-files.dita"/>
           <topicref href="topics/dg-packaging-and-deploying.dita"/>
         </topicref>
-        <topicref href="tasks/dg-file-templates.dita" collection-type="sequence">
-          <topicref keys="editor-variables" href="topics/editor-variables.dita" toc="no"/>
-          <topicref keys="custom-editor-variables" href="topics/custom-editor-variables.dita" toc="no"/>
-          <topicref href="topics/create-your-own-stylesheet-templates.dita"/>
-        </topicref>
+        <topicref href="tasks/dg-file-templates.dita" collection-type="sequence"/>
         <topicref href="tasks/dg-xml-catalogs.dita" collection-type="sequence"/>
         <topicref href="tasks/dg-transformation-scenarios.dita" collection-type="sequence"/>
         <topicref href="tasks/dg-validation-scenarios.dita"/>
+        <topicref href="topics/author-customize-smart-paste.dita"/>
         <topicref href="tasks/dg-configure-extensions.dita" collection-type="sequence">
           <topicref href="tasks/dg-extensions-bundle.dita" collection-type="sequence"
             keys="customize_extensions-bundle"/>
           <topicref href="topics/customize-profiling-conditions.dita"/>
-          <topicref href="topics/author-customize-smart-paste.dita"/>
-          <topicref href="topics/dg-author-extension-state-listener.dita" collection-type="sequence"/>
           <topicref href="topics/dg-author-schema-aware-editing-handler.dita"
             collection-type="sequence" keys="customize_schema-aware-editing-handler"/>
+          <topicref href="topics/edit-properties-handler.dita"/>
+          <topicref href="topics/author-action-event-handler.dita"/>
+          <topicref href="topics/author-image-decorator.dita"/>
+          <topicref href="topics/dg-author-extension-state-listener.dita" collection-type="sequence"/>
           <topicref href="topics/dg-author-content-completion-handler.dita"
             collection-type="sequence"/>
           <topicref href="topics/dg-author-link-target-reference-finder.dita"
@@ -90,14 +95,18 @@
           </topicref>
           <topicref href="topics/unique_attributes_recognizer.dita" collection-type="sequence"/>
           <topicref href="topics/configuring-xml-node-renderer-customizer.dita"/>
+          <topicref href="topics/author-other-features.dita"/>
         </topicref>
         <topicref href="tasks/dg-customize-default-CSS.dita" collection-type="sequence"/>
         <topicref href="topics/author-document-type-sharing.dita" collection-type="sequence"/>
         <topicref href="topics/author-document-type-extension-sharing.dita"
           collection-type="sequence"/>
-        <topicref href="topics/author-other-features.dita"/>
-        <topicref href="tasks/author-styleguide-annotations.dita"/>
-        <topicref href="topics/configuring-content-completion-proposals.dita"/>
+        <topicref href="topics/customize-content-completion.dita">
+          <topicref href="topics/configuring-content-completion-proposals.dita"/>
+          <topicref href="topics/configure-elements-attr-cc-individually.dita"/>
+          <topicref href="topics/rendering-elements-cc-author.dita"/>
+          <topicref href="tasks/author-styleguide-annotations.dita"/>
+        </topicref>
       </topicref>
       <topicref href="topics/dg-sdf-files.dita" collection-type="sequence">
         <topicref href="topics/dg-annex-xml-schema-files.dita" collection-type="sequence">
@@ -116,25 +125,26 @@
       </topicref>
     </topicref>
     <topicref href="topics/dg-css-support-in-author.dita" collection-type="sequence">
-      <topicref href="topics/handling-css-imports.dita"/>
       <topicref href="topics/selecting-combining-multiple-css-styles.dita"/>
+      <topicref href="topics/handling-css-imports.dita"/>
       <topicref href="topics/dg-oxygen-media-type.dita" collection-type="sequence"/>
+      <topicref href="topics/dg-standard-css-at-rules.dita">
+        <topicref href="topics/dg-font-face-media.dita"/>
+        <topicref href="topics/dg-media-at-rule.dita"/>
+      </topicref>
       <topicref href="topics/dg-standard-css-support.dita">
-        <topicref href="references/dg-supported-selectors.dita" collection-type="sequence">
+        <topicref href="topics/dg-supported-selectors.dita">
           <topicref href="topics/dg-namespace-selectors.dita" collection-type="sequence"/>
           <topicref href="topics/dg-subject-selector.dita"/>
           <topicref href="topics/has-selector.dita"/>
         </topicref>
-        <topicref href="references/dg-properties-support.dita" collection-type="sequence">
+        <topicref href="topics/dg-properties-support.dita">
           <topicref href="topics/transparent-colors.dita"/>
           <topicref href="topics/dg-attr-function.dita" collection-type="sequence"/>
         </topicref>
-        <topicref href="topics/dg-standard-css-at-rules.dita">
-          <topicref href="topics/dg-font-face-media.dita"/>
-          <topicref href="topics/dg-media-at-rule.dita"/>
-        </topicref>
       </topicref>
       <topicref href="concepts/dg-oXygen-css-extensions.dita" collection-type="sequence">
+        <topicref href="topics/builtin-css-selectors.dita" collection-type="sequence"/>
         <topicref href="topics/dg-additional-custom-selectors.dita" collection-type="sequence"/>
         <topicref href="topics/dg-css-additional-properties.dita">
           <topicref href="topics/dg-folding-elements.dita" collection-type="sequence"/>
@@ -167,6 +177,12 @@
           <topicref href="concepts/dg-index-of-function.dita"/>
           <topicref href="concepts/dg-last-index-of-function.dita"/>
           <topicref href="concepts/dg-xpath-function.dita"/>
+          <topicref href="concepts/dg-action-function.dita"/>
+          <topicref href="concepts/dg-action-list-function.dita"/>
+          <topicref href="concepts/dg-oxy-label-function.dita"/>
+          <topicref href="concepts/dg-oxy-link-text.dita"/>
+          <topicref href="concepts/dg-oxy-unescapeURLValue.dita"/>
+          <topicref href="concepts/dg-css-arithmetic-functions.dita"/>
           <topicref href="concepts/form-controls.dita">
             <topicref href="topics/text-field-editor.dita"/>
             <topicref href="topics/combo-box-editor.dita"/>
@@ -178,21 +194,13 @@
             <topicref href="topics/url-chooser-editor.dita"/>
             <topicref href="topics/date-picker-editor.dita"/>
             <topicref href="topics/html-content-form-control.dita"/>
-            <topicref href="topics/oxy-editor-properties.dita" processing-role="resource-only"/>
             <topicref href="topics/implementing-custom-form-controls.dita"/>
             <topicref href="topics/editing-pis-using-form-controls.dita"/>
             <topicref processing-role="resource-only"
               href="topics/dg-form-controls-properties-matrix.dita"/>
           </topicref>
-          <topicref href="concepts/dg-action-function.dita"/>
-          <topicref href="concepts/dg-action-list-function.dita"/>
-          <topicref href="concepts/dg-oxy-label-function.dita"/>
-          <topicref href="concepts/dg-oxy-link-text.dita"/>
-          <topicref href="concepts/dg-oxy-unescapeURLValue.dita"/>
-          <topicref href="concepts/dg-css-arithmetic-functions.dita"/>
         </topicref>
         <topicref href="topics/dg-custom-css-pseudo-classes.dita"/>
-        <topicref href="topics/builtin-css-selectors.dita" collection-type="sequence"/>
       </topicref>
       <topicref href="topics/debugging-css-stylesheets.dita"/>
     </topicref>

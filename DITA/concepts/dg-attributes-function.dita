@@ -2,17 +2,27 @@
 <!DOCTYPE concept
   PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
 <concept id="dg-attributes-function">
-  <title>The <codeph>oxy_attributes()</codeph> Function</title>
+  <title><codeph>oxy_attributes()</codeph> Function</title>
   <shortdesc>The <codeph>oxy_attributes()</codeph> function concatenates the attributes for an
     element and returns the serialization.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>CSS extensions<indexterm>Custom
+            functions<indexterm>oxy_attributes</indexterm></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <conbody>
-    <syntaxdiagram>
-      <groupseq>
-        <kwd>oxy_attributes</kwd>
-        <sep>(</sep>
-        <sep>)</sep>
-      </groupseq>
-    </syntaxdiagram>
+    <p>
+      <syntaxdiagram>
+        <groupseq>
+          <kwd>oxy_attributes</kwd>
+          <sep>(</sep>
+          <sep>)</sep>
+        </groupseq>
+      </syntaxdiagram>
+    </p>
     <example>
       <title>oxy_attributes()</title>
       <p>For the following XML fragment:<codeph>&lt;element att1="x" xmlns:a="2" x="&amp;quot;"/&gt;

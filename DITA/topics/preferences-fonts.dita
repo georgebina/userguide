@@ -6,7 +6,8 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>Configure the Application<indexterm>fonts</indexterm></indexterm>
+        <indexterm>Preferences<indexterm>Appearance<indexterm>Fonts</indexterm></indexterm></indexterm>
+        <indexterm>Font preferences</indexterm>
       </keywords>
     </metadata>
   </prolog>
@@ -20,10 +21,10 @@
           <uicontrol>Author</uicontrol> mode that are not specified in the associated CSS
         stylesheet</ph>. To configure the font options, <ph
         conkeyref="reusables-preferences-pages/open-the-preferences-page"/> and go to <menucascade
-        product="author developer editor">
+        product="author developer editor svnClient">
         <uicontrol>Appearance</uicontrol>
         <uicontrol>Fonts</uicontrol>
-      </menucascade><uicontrol product="authorEclipse developerEclipse editorEclipse svnClient"
+      </menucascade><uicontrol product="authorEclipse developerEclipse editorEclipse"
         >Fonts</uicontrol>.</p>
     <p>The following options are available:<dl>
         <dlentry product="author developer editor svnClient">
@@ -34,7 +35,7 @@
           </dd>
         </dlentry>
         <dlentry product="authorEclipse developerEclipse editorEclipse">
-          <dt><uicontrol>Text</uicontrol></dt>
+          <dt><uicontrol>Text</uicontrol> mode default font</dt>
           <dd>This option allows you to choose the font used in <uicontrol>Text</uicontrol> mode.
             There are two options available:<ul id="ul_bpp_mq3_5s">
               <li><uicontrol>Map to text font</uicontrol> - Uses the same font for the basic text
@@ -47,13 +48,13 @@
             </ul></dd>
         </dlentry>
         <dlentry product="author authorEclipse editor editorEclipse" id="author_default_font">
-          <dt><uicontrol>Author default font</uicontrol></dt>
+          <dt><uicontrol>Author</uicontrol> mode default font</dt>
           <dd>This option allows you to choose the default font that will be used in
               <uicontrol>Author</uicontrol> mode. The default font will be overridden by the fonts
             specified in any CSS file associated with the opened document.</dd>
         </dlentry>
         <dlentry product="developer editor developerEclipse editorEclipse">
-          <dt><uicontrol>Schema default font</uicontrol></dt>
+          <dt><uicontrol>Schema</uicontrol> default font</dt>
           <dd>This option allows you to choose the font to be used in:<ul id="ul_czs_w53_5s">
               <li>The <uicontrol>Design</uicontrol> mode of the <xref keyref="editing_XML-schemas"
                   >XML Schema editor</xref>.</li>
@@ -61,7 +62,7 @@
                 generated from an XML Schema.</li>
             </ul></dd>
         </dlentry>
-        <dlentry product="author developer editor svnClient">
+        <dlentry product="author developer editor svnClient" id="text-antialiasing">
           <dt><uicontrol>Text antialiasing</uicontrol></dt>
           <dd>This option allows you to set the text anti-aliasing behavior:<ul id="ul_wrj_z53_5s">
               <li><uicontrol>Default</uicontrol> - Allows the application to use the setting of the
@@ -81,8 +82,17 @@
           <dt><uicontrol>GUI</uicontrol></dt>
           <dd>This option allows you to choose the font to be used for user interface labels.</dd>
         </dlentry>
+        <dlentry product="author developer editor svnClient">
+          <dt><uicontrol>View titles font</uicontrol></dt>
+          <dd>This option allows you to choose the font to be used in the titles of the various
+            views that are opened within the interface.</dd>
+        </dlentry>
       </dl></p>
-    <p>After changing the font in any of these options, restart the application for the change to
-      take full effect.</p>
+    <note conkeyref="reusables-configuring-oxygen/restart-app-note"/>
   </body>
+  <related-links product="author developer editor">
+    <link href="word-line-actions.dita#word-line-actions/changing-font-size">
+      <linktext>Changing the Font Size in the Editor</linktext>
+    </link>
+  </related-links>
 </topic>

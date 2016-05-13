@@ -4,8 +4,8 @@
 <topic id="spell-check-in-files">
   <title>Spell Checking in Multiple Files</title><prolog>
     <metadata>
-      <keywords><indexterm>Edit<indexterm>check spelling in files</indexterm></indexterm>
-        <indexterm>Edit Menu<indexterm>Check Spelling in files</indexterm></indexterm></keywords>
+      <keywords><indexterm>Spell checking<indexterm>Multiple files</indexterm></indexterm>
+        <indexterm>Check Spelling in Files</indexterm></keywords>
     </metadata>
   </prolog>
   <body>
@@ -13,9 +13,8 @@
       action allows you to check the spelling on multiple local or remote documents. This action is
       available in the following locations:<ul>
         <li><ph product="editor
-      author developer">The <menucascade>
-              <uicontrol>Edit</uicontrol>
-            </menucascade> menu.</ph></li>
+      author developer">The <uicontrol>Edit</uicontrol>
+          menu.</ph></li>
         <li>The contextual menu of the <uicontrol product="author developer editor"
             >Project</uicontrol><uicontrol product="authorEclipse developerEclipse editorEclipse"
             >Navigator</uicontrol> view.</li>
@@ -24,15 +23,19 @@
       </ul>The spelling corrections are displayed in <xref href="results-view.dita#results-view"
         format="dita">the <uicontrol>Results</uicontrol> view</xref>, that allows you to group the
       reported errors as a tree with two levels.</p>
-    <fig id="check-spelling-in-files-dialog-oxygen" product="editor author developer">
-      <title>Check Spelling in Files Dialog Box</title>
-      <image href="../img/sa_check_spelling_in_files.png"/>
-    </fig>
-    <fig id="check-spelling-in-files-dialog-oxygenEclipse"
-      product="editorEclipse authorEclipse developerEclipse">
-      <title>Check Spelling in Files Dialog Box</title>
-      <image href="../img/ec_check_spelling_in_files.png"/>
-    </fig>
+    <p>
+      <fig id="check-spelling-in-files-dialog-oxygen" product="editor author developer">
+        <title>Check Spelling in Files Dialog Box</title>
+        <image href="../img/sa_check_spelling_in_files.png"/>
+      </fig>
+    </p>
+    <p>
+      <fig id="check-spelling-in-files-dialog-oxygenEclipse"
+        product="editorEclipse authorEclipse developerEclipse">
+        <title>Check Spelling in Files Dialog Box</title>
+        <image href="../img/ec_check_spelling_in_files.png"/>
+      </fig>
+    </p>
     <p>The following scopes are available:</p>
     <ul>
       <li><uicontrol>All opened files</uicontrol> - The spell check is performed in all opened

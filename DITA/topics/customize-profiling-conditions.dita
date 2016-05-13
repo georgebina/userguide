@@ -2,6 +2,14 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="customize-profiling-conditions">
   <title>Customize Profiling Conditions</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Document Type Association (Framework)<indexterm>Extensions<indexterm>Profiling
+              Conditional Text Provider</indexterm></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <body>
     <p>For each document type, you can configure the phrase-type elements that wrap the profiled
       content by setting a custom <xref

@@ -2,31 +2,35 @@
 <!DOCTYPE topic
   PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="xslt-debugger-perspective">
-  <title> XSLT Debugger Perspective</title>
+  <title><ph product="developer editor">XSLT Debugger Perspective</ph><ph
+      product="developerEclipse editorEclipse">oXygen XSLT Debugger Perspective</ph></title>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>Getting Started<indexterm>perspectives<indexterm>XSLT
-            debugger</indexterm></indexterm></indexterm>
+        <indexterm>Perspectives<indexterm>XSLT Debugger</indexterm></indexterm>
+        <indexterm>XSLT Debugger perspective</indexterm>
       </keywords>
     </metadata>
   </prolog>
   <body>
     <p>The XSLT Debugger perspective allows you to detect problems in an XSLT transformation by
       executing the process step by step. To switch the focus to this perspective, select <ph
-        product="developer editor">the <uicontrol>XSLT Debugger</uicontrol> button in the top-right
-        corner of <ph keyref="product"/>
-        <image href="../img/xslt_perspective.png"/> or select <uicontrol>XSLT
-        Debugger</uicontrol></ph><uicontrol product="developerEclipse editorEclipse">&lt;oXygen/>
-        XSLT Debugger</uicontrol> from the <menucascade>
+        product="developer editor">the <uicontrol><image href="../img/Debugger18.png"/>XSLT
+          Debugger</uicontrol> button in the top-right corner of the interface or <menucascade>
+          <uicontrol>Window</uicontrol>
+          <uicontrol>Open perspective</uicontrol>
+          <uicontrol>XSLT Debugger</uicontrol>
+        </menucascade></ph><menucascade product="editorEclipse developerEclipse">
         <uicontrol>Window</uicontrol>
-        <uicontrol>Open perspective</uicontrol>
-      </menucascade> menu.</p>
+        <uicontrol>Open Perspective</uicontrol>
+        <uicontrol>Other </uicontrol>
+        <uicontrol>&lt;oXygen/> XSLT Debugger</uicontrol>
+      </menucascade>.</p>
     <p>The workspace in this perspective is organized as an editing area assisted by special helper
       views. The editing area contains editor panels that you can <xref
         href="preferences-debugger.dita">split horizontally or vertically</xref> in a stack of XML
       editor panels and a stack of XSLT editor panels. The XML files and XSL files can be edited in
-        <xref href="text-editor-specific-actions.dita#text-editor-specific-actions">Text mode</xref>
+        <xref href="text-mode-editor.dita#text-mode-editor"><uicontrol>Text</uicontrol> mode</xref>
       only.</p>
     <p>The layout of this perspective is composed of the following components:<dl>
         <dlentry>
@@ -36,10 +40,9 @@
         </dlentry>
         <dlentry>
           <dt><uicontrol>Toolbars</uicontrol></dt>
-          <dd>Contains all actions needed in order to configure and control the debugging process.
-              <ph product="developer editor">The <xref
-                href="configure-toolbars.dita#configure-toolbars">toolbars can be configured</xref>
-              to suit your specific needs.</ph></dd>
+          <dd>Contains all actions needed to configure and control the debugging process. <ph
+              product="developer editor">The <xref href="configure-toolbars.dita#configure-toolbars"
+                >toolbars can be configured</xref> to suit your specific needs.</ph></dd>
         </dlentry>
         <dlentry>
           <dt>XML Source Pane</dt>
@@ -57,7 +60,7 @@
             dynamically written as the transformation is processed. There are three types of views
             for the output: a text view (with XML syntax highlight), an XHTML view, and one text
             view for each <codeph>xsl:result-document</codeph> element used in the stylesheet (if it
-            is a XSLT 2.0 / 3.0 stylesheet).</dd>
+            is an XSLT 2.0 / 3.0 stylesheet).</dd>
         </dlentry>
         <dlentry>
           <dt><xref href="debug-info-view.dita#debug-info-view">Debugging Information
@@ -68,7 +71,7 @@
             various information views. This allows you to obtain a clear view of the transformation
             progress. See the <xref href="debug-info-view.dita#debug-info-view">Debugging
               Information Views</xref> topic for a list of all the information views (and links to
-            more details on each view).<note>You are able to add XPath expression automatically in
+            more details on each view).<note>You can add XPath expression automatically in
               the <uicontrol>XWatch</uicontrol> view using the <uicontrol>Watch
                 expression</uicontrol> action from the contextual menu. In case you select an
               expression or a fragment of it and then click <uicontrol>Watch expression</uicontrol>

@@ -5,11 +5,12 @@
   <title>Import Preferences</title>
   <prolog>
     <metadata>
-      <keywords><indexterm>Configure the Application<indexterm>import</indexterm></indexterm></keywords>
+      <keywords><indexterm><indexterm>Preferences<indexterm>XML<indexterm>Import</indexterm></indexterm></indexterm></indexterm>
+        <indexterm>Import preferences</indexterm></keywords>
     </metadata>
   </prolog>
   <body>
-    <p>To configure the <uicontrol>Import</uicontrol> options, <ph
+    <p>To configure importing options, <ph
         conkeyref="reusables-preferences-pages/open-the-preferences-page"/> and go to <menucascade>
         <uicontrol>XML</uicontrol>
         <uicontrol>Import</uicontrol>
@@ -17,39 +18,208 @@
       values are handled when they are encountered in imported database tables or Excel sheets. Also
       you can configure the format of date / time values recognized in the imported database tables
       or Excel sheets.</p>
-    <p>The following options are available:</p>
-    <ul>
-      <li><uicontrol>Create empty elements for empty values</uicontrol> - If checked, an empty value
-        from a database column or from a text file is imported as an empty element.</li>
-      <li><uicontrol>Create empty elements for null values</uicontrol> - If checked,
-          <codeph>null</codeph> values from a database column are imported as empty elements.</li>
-      <li><uicontrol>Escape XML content</uicontrol> - Enabled by default, this option instructs <ph
-          keyref="product"/> to escape the
-        imported content to an XML-safe form.</li>
-      <li><uicontrol>Add annotations for generated XML Schema</uicontrol> - If checked, the
-        generated XML Schema contains an annotation for each of the imported table columns. The
-        documentation inside the annotation tag contains the remarks of the database columns (if
-        available) and also information about the conversion between the column type and the
-        generated XML Schema type.</li>
-    </ul>
-    <p>The section <uicontrol>Date / Time Format</uicontrol> specifies the format used for importing
-      date and time values from Excel spreadsheets or database tables and in the generated XML
-      schemas. The following format types are available:</p>
-    <ul>
-      <li><uicontrol>Unformatted</uicontrol> - If checked, the date and time formats specific to the
-        database are used for import. When importing data from Excel a string representation of date
-        or time values are used. The type used in the generated XML Schema is
-          <codeph>xs:string</codeph>.</li>
-      <li><uicontrol>XML Schema date format</uicontrol> - If checked, the XML Schema-specific format
-        ISO8601 is used for imported date / time data (<codeph>yyyy-MM-dd'T'HH:mm:ss</codeph> for
-          <codeph>datetime</codeph>, <codeph>yyyy-MM-dd</codeph> for <codeph>date</codeph> and
-          <codeph>HH:mm:ss</codeph> for <codeph>time</codeph>). The types used in the generated XML
-        Schema are <codeph>xs:datetime</codeph>, <codeph>xs:date</codeph> and
-          <codeph>xs:time</codeph>.</li>
-      <li><uicontrol>Custom format</uicontrol> - If checked, you can define a custom format for
-        timestamp, date, and time values or choose one of the predefined formats. A preview of the
-        values is presented when a format is used. The type used in the generated XML Schema is
-          <codeph>xs:string</codeph>.</li>
-    </ul>
+    <p>The following options are available:<dl>
+        <dlentry>
+          <dt><uicontrol>Create empty elements for empty values</uicontrol></dt>
+          <dd>If checked, an empty value from a database column or from a text file is imported as
+            an empty element.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol>Create empty elements for null values</uicontrol></dt>
+          <dd>If checked, <codeph>null</codeph> values from a database column are imported as empty
+            elements.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol>Escape XML content</uicontrol></dt>
+          <dd>Enabled by default, this option instructs <ph keyref="product"/> to escape the
+            imported content to an XML-safe form.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol>Add annotations for generated XML Schema</uicontrol></dt>
+          <dd>If checked, the generated XML Schema contains an annotation for each of the imported
+            table columns. The documentation inside the annotation tag contains the remarks of the
+            database columns (if available) and also information about the conversion between the
+            column type and the generated XML Schema type.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol>Date / Time Format</uicontrol> section</dt>
+          <dd>Specifies the format used for importing date and time values from Excel spreadsheets
+            or database tables, and in the generated XML schemas. You can choose from the following
+            format types:<ul>
+              <li><uicontrol>Unformatted</uicontrol> - The date and time formats specific to the
+                database are used for import. When importing data from Excel a string representation
+                of date or time values are used. The type used in the generated XML Schema is
+                  <codeph>xs:string</codeph>.</li>
+              <li><uicontrol>XML Schema date format</uicontrol> -The XML Schema-specific format
+                ISO8601 is used for imported date / time data
+                  (<codeph>yyyy-MM-dd'T'HH:mm:ss</codeph> for <codeph>datetime</codeph>,
+                  <codeph>yyyy-MM-dd</codeph> for <codeph>date</codeph> and
+                  <codeph>HH:mm:ss</codeph> for <codeph>time</codeph>). The types used in the
+                generated XML Schema are <codeph>xs:datetime</codeph>, <codeph>xs:date</codeph> and
+                  <codeph>xs:time</codeph>.</li>
+              <li><uicontrol>Custom format</uicontrol> - If selected, you can define a custom format
+                for timestamp, date, and time values or choose one of the predefined formats. A
+                preview of the values is presented when a format is used. The type used in the
+                generated XML Schema is <codeph>xs:string</codeph>.</li>
+            </ul></dd>
+          <dd>
+            <table id="date-time-pattern-letters-table">
+              <title>Pattern Letters</title>
+              <tgroup cols="4">
+                <thead>
+                  <row>
+                    <entry>Letter</entry>
+                    <entry>Date or Time Component</entry>
+                    <entry>Presentation</entry>
+                    <entry>Examples</entry>
+                  </row>
+                </thead>
+                <tbody>
+                  <row>
+                    <entry>G</entry>
+                    <entry>Era designator</entry>
+                    <entry>Text</entry>
+                    <entry>AD</entry>
+                  </row>
+                  <row>
+                    <entry>y</entry>
+                    <entry>Year</entry>
+                    <entry>Year</entry>
+                    <entry>1996; 96</entry>
+                  </row>
+                  <row>
+                    <entry>M</entry>
+                    <entry>Month in year</entry>
+                    <entry>Month</entry>
+                    <entry>July; Jul; 07</entry>
+                  </row>
+                  <row>
+                    <entry>w</entry>
+                    <entry>Week in year</entry>
+                    <entry>Number</entry>
+                    <entry>27</entry>
+                  </row>
+                  <row>
+                    <entry>W</entry>
+                    <entry>Week in month</entry>
+                    <entry>Number</entry>
+                    <entry>2</entry>
+                  </row>
+                  <row>
+                    <entry>D</entry>
+                    <entry>Day in year</entry>
+                    <entry>Number</entry>
+                    <entry>189</entry>
+                  </row>
+                  <row>
+                    <entry>d</entry>
+                    <entry>Day in month</entry>
+                    <entry>Number</entry>
+                    <entry>10</entry>
+                  </row>
+                  <row>
+                    <entry>F</entry>
+                    <entry>Day of week in month</entry>
+                    <entry>Number</entry>
+                    <entry>2</entry>
+                  </row>
+                  <row>
+                    <entry>E</entry>
+                    <entry>Day in week</entry>
+                    <entry>Text</entry>
+                    <entry>Tuesday; Tue</entry>
+                  </row>
+                  <row>
+                    <entry>a</entry>
+                    <entry>Am / pm marker</entry>
+                    <entry>Text</entry>
+                    <entry>PM</entry>
+                  </row>
+                  <row>
+                    <entry>H</entry>
+                    <entry>Hour in day (0-23)</entry>
+                    <entry>Number</entry>
+                    <entry>0</entry>
+                  </row>
+                  <row>
+                    <entry>k</entry>
+                    <entry>Hour in day (1-24)</entry>
+                    <entry>Number</entry>
+                    <entry>24</entry>
+                  </row>
+                  <row>
+                    <entry>K</entry>
+                    <entry>Hour in am / pm (0-11)</entry>
+                    <entry>Number</entry>
+                    <entry>0</entry>
+                  </row>
+                  <row>
+                    <entry>h</entry>
+                    <entry>Hour in am / pm (1-12)</entry>
+                    <entry>Number</entry>
+                    <entry>12</entry>
+                  </row>
+                  <row>
+                    <entry>m</entry>
+                    <entry>Minute in hour</entry>
+                    <entry>Number</entry>
+                    <entry>30</entry>
+                  </row>
+                  <row>
+                    <entry>s</entry>
+                    <entry>Second in minute</entry>
+                    <entry>Number</entry>
+                    <entry>55</entry>
+                  </row>
+                  <row>
+                    <entry>S</entry>
+                    <entry>Millisecond</entry>
+                    <entry>Number</entry>
+                    <entry>978</entry>
+                  </row>
+                  <row>
+                    <entry>z</entry>
+                    <entry>Time zone</entry>
+                    <entry>General time zone</entry>
+                    <entry>Pacific Standard Time; PST; GMT-08:00</entry>
+                  </row>
+                  <row>
+                    <entry>Z</entry>
+                    <entry>Time zone</entry>
+                    <entry>RFC 822 time zone</entry>
+                    <entry>-0800</entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+            <p>Pattern letters are usually repeated, as their number determines the exact
+              presentation:</p>
+            <ul>
+              <li><i>Text</i> - If the number of pattern letters is 4 or more, the full form is
+                used. Otherwise, a short or abbreviated form is used if available.</li>
+              <li><i>Number</i> - The number of pattern letters is the minimum number of digits, and
+                shorter numbers are zero-padded to this amount.</li>
+              <li><i>Year</i> - If the number of pattern letters is 2, the year is truncated to 2
+                digits. Otherwise, it is interpreted as a number.</li>
+              <li><i>Month</i> - If the number of pattern letters is 3 or more, the month is
+                interpreted as text. Otherwise, it is interpreted as a number.</li>
+              <li><i>General time zone</i> - Time zones are interpreted as text if they have names.
+                For time zones representing a GMT offset value, the following syntax is used: <ul>
+                  <li><i>GMTOffsetTimeZone</i> - GMT Sign Hours : Minutes</li>
+                  <li><i>Sign</i> - one of + or -</li>
+                  <li><i>Hours</i> - one or two digits</li>
+                  <li><i>Minutes</i> - two digits</li>
+                  <li><i>Digit</i> - one of 0 1 2 3 4 5 6 7 8 9</li>
+                </ul><p>Hours must be between 0 and 23, and Minutes must be between 00 and 59. The
+                  format is locale independent and digits must be taken from the Basic Latin block
+                  of the Unicode standard.</p></li>
+              <li><i>RFC 822 time zone</i>: The RFC 822 4-digit time zone format is used: <ul>
+                  <li><i>RFC822TimeZone</i></li>
+                  <li><i>TwoDigitHours</i></li>
+                </ul><p>TwoDigitHours must be between 00 and 23.</p></li>
+            </ul>
+          </dd>
+        </dlentry>
+      </dl></p>
   </body>
 </topic>

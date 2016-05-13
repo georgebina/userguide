@@ -3,18 +3,11 @@
   PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
 <task id="dg-configuring-author-menu">
   <title>Configure the Main Menu for a Framework</title>
-  <prolog>
-    <metadata>
-      <keywords>
-        <indexterm>Author Mode Settings<indexterm>menus<indexterm>main
-          menu</indexterm></indexterm></indexterm>
-      </keywords>
-    </metadata>
-  </prolog>
   <taskbody>
-    <context>Defined actions can be grouped into customized menus in the <ph
-        keyref="product"/> menu
-      bar.</context>
+    <context>
+      <p>Defined actions can be grouped into customized menus in the <ph keyref="product"/> menu
+        bar.</p>
+    </context>
     <steps>
       <step>
         <cmd>Open the <xref href="../topics/the-document-type-dialog.dita#the-document-type-dialog"
@@ -36,7 +29,9 @@
         <cmd>The right side of the panel displays the menu tree with <uicontrol>Menu</uicontrol>
           entry as root. To change its name, click this label to select it, then press the <uicontrol>
             <image href="../img/Wrench16.png" id="image_q23_lns_tr"/>Edit</uicontrol> button. Enter
-            <b>SD Framework</b> as name, and <b>D</b> as menu access key.</cmd>
+            <b>SD Framework</b> as name, and
+            <?oxy_comment_start author="steven_higgs" timestamp="20160310T124244+0200" comment="Just one of many examples of something that should be linked to a topic that explains this."?><b>D</b>
+          as menu access key<?oxy_comment_end?>.</cmd>
       </step>
       <step>
         <cmd>Select the <uicontrol>Submenu</uicontrol> label in the left panel section and the
@@ -55,32 +50,40 @@
           the <uicontrol>Table</uicontrol> in the right panel section. Press the <uicontrol>
             <image href="../img/AddAsChild16.png"/>Add as child</uicontrol> button.</cmd>
         <info>
-          <fig product="editor author ">
-            <title>Configuring the Menu</title>
-            <image href="../img/sa_dg_configuring_menu.png"/>
-          </fig>
-          <fig product="editorEclipse authorEclipse">
-            <title>Configuring the Menu</title>
-            <image href="../img/ec_dg_configuring_menu.png"/>
-          </fig>
+          <p>
+            <fig product="editor author ">
+              <title>Configuring the Menu</title>
+              <image href="../img/sa_dg_configuring_menu.png"/>
+            </fig>
+          </p>
+          <p>
+            <fig product="editorEclipse authorEclipse">
+              <title>Configuring the Menu</title>
+              <image href="../img/ec_dg_configuring_menu.png"/>
+            </fig>
+          </p>
         </info>
       </step>
     </steps>
     <result>
-      <p>When opening a <b>Simple Documentation Framework</b> test document in
-          <uicontrol>Author</uicontrol> mode, the menu you created is displayed in the editor menu
-        bar, between the <uicontrol>Tools</uicontrol> and the <uicontrol>Document</uicontrol> menus.
-        The upper part of the menu contains generic <uicontrol>Author</uicontrol> mode actions
-        (common to all document types) and the two actions created previously (with <b>Insert
-          table</b> under the <b>Table</b> submenu).</p>
-      <fig product="editor author ">
-        <title>Author Mode Menu</title>
-        <image href="../img/sa_dg_author_menu.png"/>
-      </fig>
-      <fig product="editorEclipse authorEclipse">
-        <title>Author Mode Menu</title>
-        <image href="../img/ec_dg_author_menu.png"/>
-      </fig>
+      <p>When opening a custom framework test document in <uicontrol>Author</uicontrol> mode, the
+        menu you created is displayed in the editor menu bar, between the
+          <uicontrol>Tools</uicontrol> and the <uicontrol>Document</uicontrol> menus. The upper part
+        of the menu contains generic <uicontrol>Author</uicontrol> mode actions (common to all
+        document types) and the two actions created previously (with <b>Insert table</b> under the
+          <b>Table</b> submenu).</p>
+      <p>
+        <fig product="editor author ">
+          <title>Author Mode Menu</title>
+          <image href="../img/sa_dg_author_menu.png"/>
+        </fig>
+      </p>
+      <p>
+        <fig product="editorEclipse authorEclipse">
+          <title>Author Mode Menu</title>
+          <image href="../img/ec_dg_author_menu.png"/>
+        </fig>
+      </p>
     </result>
   </taskbody>
 </task>

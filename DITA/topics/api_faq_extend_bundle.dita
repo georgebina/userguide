@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api_faq_extend_bundle">
-  <title>Extending the Java Functionality of an Existing Framework (Document Type)</title>
+  <title>Extend the Java Functionality of an Existing Framework (Document Type)</title>
   <body>
-    <section>
+    <section id="question">
       <title>Question</title>
       <p>How can I change the way a DocBook 4 <codeph>xref</codeph> displays in
           <uicontrol>Author</uicontrol> mode based on what element is at the
           <codeph>linkend</codeph>?</p>
     </section>
-    <section>
+    <section id="solution">
+      <title>Answer</title>
       <p>Follow these steps:<ol id="ol_6114a4af-a0ed-46f8-bb76-aaccadecc310">
           <li>Create a Maven Java project and add a dependency on the <ph keyref="product"/>
             classes:<codeblock outputclass="language-xml">&lt;dependency>
@@ -21,8 +22,8 @@
               />.<p>Alternatively, if the project does not use Maven, all the transitive
               dependencies of the above Maven artifact need to be added to the classpath of the
               project.</p></li>
-          <li>Also add the <filepath>[OXYGEN_DIR]\frameworks\docbook\docbook.jar</filepath> to the
-            class path of the project.</li>
+          <li>Also add the <filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+              />\frameworks\docbook\docbook.jar</filepath> to the class path of the project.</li>
           <li>Create a class that extends <xref
               href="http://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/docbook/DocBook4ExtensionsBundle.html"
               format="html" scope="external"
@@ -39,8 +40,9 @@
             (the Java code for the entire DocBook customization is present in a subfolder in the
               <xref href="http://www.oxygenxml.com/oxygen_sdk.html#XML_Editor_Authoring_SDK"
               format="html" scope="external">oXygen SDK</xref>).</li>
-          <li>Pack your extension classes in a JAR file. Copy the JAR to:
-              <filepath>[OXYGEN_DIR]\frameworks\docbook\custom.jar</filepath>.</li>
+          <li>Pack your extension classes in a JAR file. Copy the JAR to: <filepath><term
+                conkeyref="reusables-user-guide/oxy-install-dir"
+              />\frameworks\docbook\custom.jar</filepath>.</li>
           <li>Start <ph keyref="product"/>.</li>
           <li><ph conkeyref="reusables-preferences-pages/Open-the-preferences-page"/> and go to
               <uicontrol>Document Type Association</uicontrol>. Edit the DocBook 4 document type. In

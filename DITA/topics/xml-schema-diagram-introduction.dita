@@ -2,10 +2,14 @@
 <!DOCTYPE topic
   PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="xml-schema-diagram-introduction">
-  <title>XML Schema Diagram Editor (Design Mode)</title>
+  <title>Design Editing Mode (XML Schema Diagram Editor)</title>
   <prolog>
     <metadata>
-      <keywords><indexterm>XML Schema Diagram Editor</indexterm></keywords>
+      <keywords>
+        <indexterm>Editing Modes<indexterm>Design</indexterm></indexterm><indexterm>XML Schema Diagram Editor</indexterm>
+        <indexterm>Schema Diagram Editor</indexterm>
+        <indexterm>Schema Design mode</indexterm>
+        <indexterm>XML Schema Design mode</indexterm></keywords>
     </metadata>
   </prolog>
   <body>
@@ -24,10 +28,12 @@
       can also be zoomed with one of the predefined factors <xref
         href="preferences-editor-schema.dita">available in the Schema preferences panel</xref>. The
       same zoom factor is applied for the print and save actions.</p>
-    <fig id="figure-schema-diagram-example">
-      <title>XML Schema Diagram</title>
-      <image href="../img/xml_schema_diagram.png"/>
-    </fig>
+    <p>
+      <fig id="figure-schema-diagram-example">
+        <title>XML Schema Diagram</title>
+        <image href="../img/xml_schema_diagram.png"/>
+      </fig>
+    </p>
     <p>To watch our video demonstration about the basic aspects of designing an XML Schema using the
       new Schema Editor, go to <xref href="http://oxygenxml.com/demo/XML_Schema_Editing.html"
         format="html" scope="external"/>.</p>

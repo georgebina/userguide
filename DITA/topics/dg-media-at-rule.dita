@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="dg-media-at-rule">
-  <title>The @media Rule</title>
+  <title>@media Rule</title>
   <prolog>
     <metadata>
       <keywords>
@@ -9,13 +9,14 @@
       </keywords>
     </metadata>
   </prolog>
-  <!--Proofed-->
   <body>
-    <p>The @media rule allows you to set different style rules for various types of media in the
+    <p>The @media rule allows you to set different style rules for multiple types of media in the
       same stylesheet. For example, you can set the font size to be different on the screen than on
       paper. <ph keyref="product"/> supports several media types, allowing you to set the style
       rules for presenting a document on various media (on screen, paper, etc.)</p>
-    <section><b>Supported Media Types</b></section>
+    <section id="d2e25">
+      <title>Supported Media Types</title>
+    </section>
     <p>
       <ul id="ul_u4n_slb_zq">
         <li><codeph>screen</codeph> - The styles marked with this media type are used only for
@@ -27,7 +28,7 @@
         <li><codeph>oxygen</codeph> - The styles marked with this media type are used only for
           rendering a document in the <ph keyref="product"/>
           <uicontrol>Author</uicontrol> mode. For more information, see <xref
-            href="dg-oxygen-media-type.dita"/> section.</li>
+            href="dg-oxygen-media-type.dita"/>.</li>
         <li><codeph>oxygen-dark-theme</codeph> - The styles marked with this media type are used only
           for rendering a document in the <ph keyref="product"/>
           <uicontrol>Author</uicontrol> mode when a dark theme is used (for example,
@@ -54,7 +55,9 @@
  }
 }</codeblock>
     </example>
-    <section><b>Supported Properties</b></section>
+    <section id="d2e102">
+      <title>Supported Properties</title>
+    </section>
     <p><ph keyref="product"/> also supports a few properties to set specific style rules that depend
       upon the size of the visible area in <uicontrol>Author</uicontrol> mode. These supported
       properties are as follows:<ul id="ul_hkl_5kb_zq">
@@ -78,4 +81,7 @@
 }</codeblock>
     </example>
   </body>
+  <related-links>
+    <link href="dg-oxygen-media-type.dita#dg-oxygen-media-type"/>
+  </related-links>
 </topic>

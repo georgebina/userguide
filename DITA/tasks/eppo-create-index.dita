@@ -2,22 +2,28 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="eppo-create-index">
   <title>Creating an Index in DITA</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>DITA<indexterm>Index creation</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <taskbody>
     <context>
       <p>In DITA, indexes are created from <codeph>indexterm</codeph> elements. You can insert index
-        term elements:</p>
-      <ul id="ul_tf2_tr1_bq">
-        <li>In the header of a topic. In paginated media, such as a printed book or a PDF, this
-          results in an index entry that points to the page in which the topic starts, even if it is
-          not the page in which the indexed term occurs. </li>
-        <li>In the <codeph>topicref</codeph> element in a map that references the topic. This
-          applies those index terms to that topic only when used in that map, allowing you to index
-          topics differently in various publications. In paginated media, index entries point to the
-          page in which the topic starts.</li>
-        <li>In the body of a topic. In paginated media, this results in an index entry that points
-          to the page in which the <codeph>indexterm</codeph> element occurs, even if that is not
-          the page in which the topic starts.</li>
-      </ul>
+        term elements:<ul id="ul_tf2_tr1_bq">
+          <li>In the header of a topic. In paginated media, such as a printed book or a PDF, this
+            results in an index entry that points to the page in which the topic starts, even if it
+            is not the page in which the indexed term occurs. </li>
+          <li>In the <codeph>topicref</codeph> element in a map that references the topic. This
+            applies those index terms to that topic only when used in that map, allowing you to
+            index topics differently in various publications. In paginated media, index entries
+            point to the page in which the topic starts.</li>
+          <li>In the body of a topic. In paginated media, this results in an index entry that points
+            to the page in which the <codeph>indexterm</codeph> element occurs, even if that is not
+            the page in which the topic starts.</li>
+        </ul></p>
       <p>To add index terms to the text of a topic of the topic header, <xref
           keyref="dita_edit-topics">create the elements, as you normally would, in <ph
             keyref="product"/></xref>. To add index terms to a map, open the map in the editor and
@@ -33,7 +39,7 @@
             Manager</uicontrol>.</cmd>
       </step>
       <step>
-        <cmd>Right-click the book map and select <menucascade>
+        <cmd>Right-click the bookmap and select <menucascade>
             <uicontrol>Append child</uicontrol>
             <uicontrol>Backmatter</uicontrol>
           </menucascade>. The <xref

@@ -5,7 +5,7 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>DITA - keys</indexterm>
+        <indexterm>DITA<indexterm>Keys</indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
@@ -13,38 +13,38 @@
     <p>DITA uses keys to insert content that may have different values in various circumstances.
       Keys provide a way to reference something indirectly. This can make it easier to manage and to
       reuse content in a number of ways.</p>
-    <p>You can think of keys like renting a post office box. Instead of the mail going directly from
-      the sender to your house, it now goes to the post office box. You then go to the post office
-      box and bring the mail back to your house. If you move to a new house, your mail still gets to
-      you because it comes to the same post office box. You do not have to send change of address
-      cards to all the people who send you mail. Your mailbox address is the key that makes sure
-      your mail always reaches you, even if you move.</p>
+    <p>You can think of keys as like renting a post office box. Instead of the mail going directly
+      from the sender to your house, it now goes to the post office box. You then go to the post
+      office box and bring the mail back to your house. If you move to a new house, your mail still
+      gets to you because it comes to the same post office box. You do not have to send change of
+      address cards to all the people who send you mail. Your mailbox address is the key that makes
+      sure your mail always reaches you, even if you move.</p>
     <p>Similarly, if you use keys in your content to reference other content, you do not have to
-      update the source content in order to change the value of the key or what it points to. You
-      just change the definition of the key. </p>
-    <p>Keys are thus a very general mechanism. DITA uses keys for referencing different kinds of
-      content for various purposes. </p>
-    <section>
+      update the source content to change the value of the key or what it points to. You just change
+      the definition of the key. </p>
+    <section id="using_keys_for_values">
       <title>Using Keys for Values</title>
-      <p>You can use keys to represent <xref keyref="dita_variables">values that may vary in
-          different outputs</xref>. For instance, you may have several products that share a common
-        feature. When you want to describe that feature, you need a way to insert the name of the
-        product, even though that name is different depending on which product the feature
-        description is being used for. </p>
+      <p>You can use keys to represent values that may vary depending on the type of output. For
+        instance, you may have several products that share a common feature. When you want to
+        describe that feature, you need a way to insert the name of the product, even though that
+        name is different depending on which product the feature description is being used for. For
+        more information, see <xref href="eppo-variables.dita#eppo-variables"/>.</p>
     </section>
-    <section><title>Assigning Keys to Topics</title><p>You can assign a key to a topic and use that
-        key to reference that topic for various purposes, such as reuse or linking. As always, keys
-        are defined in maps, so the key definition is done using the keys attribute of the
-          <codeph>topicref</codeph>
-      element:</p><codeblock outputclass="language-xml">&lt;topicref href="quick-heat.dita" keys="feature.quick-heat"/></codeblock>You
-      can also assign keys to a topic (and insert the <codeph>topicref</codeph> element in its DITA
-      map) by using the <uicontrol>Keys</uicontrol> tab in the <uicontrol>Edit
-        Properties</uicontrol> dialog box. In the <uicontrol>DITA Maps Manager</uicontrol>, invoke
-      the contextual menu on the topic for which you want to assign a key and select
-          <uicontrol><image href="../img/DockableFrameProperties16.png"/>Edit
-      Properties</uicontrol>. Go to the <uicontrol>Keys</uicontrol> tab and enter the name of the
-      key in the <uicontrol>Define keys</uicontrol> field.<p>Once a key is assigned to a topic, you
-        can use it to reference that topic for various purposes:<ul id="ul_ubr_vwd_zp">
+    <section id="assigning_keys_to_topics">
+      <title>Assigning Keys to Topics</title>
+      <p>You can assign a key to a topic and use that key to reference that topic for various
+        purposes, such as reuse or linking. As always, keys are defined in maps, so the key
+        definition is done using the keys attribute of the <codeph>topicref</codeph> element:</p>
+      <codeblock outputclass="language-xml">&lt;topicref href="quick-heat.dita" keys="feature.quick-heat"/></codeblock>
+      <p>You can also assign keys to a topic (and insert the <codeph>topicref</codeph> element in
+        its DITA map) by using the <uicontrol>Keys</uicontrol> tab in the <uicontrol>Edit
+          Properties</uicontrol> dialog box. In the <uicontrol>DITA Maps Manager</uicontrol>, invoke
+        the contextual menu on the topic for which you want to assign a key and select
+            <uicontrol><image href="../img/DockableFrameProperties16.png"/>Edit
+          Properties</uicontrol>. Go to the <uicontrol>Keys</uicontrol> tab and enter the name of
+        the key in the <uicontrol>Define keys</uicontrol> field.</p>
+      <p>Once a key is assigned to a topic, you can use it to reference that topic for various
+          purposes:<ul id="ul_ubr_vwd_zp">
           <li>You can <xref keyref="dita_linking_inline">create a link</xref> to it using
               <codeph>&lt;xref keyref="feature.quick-heat"/></codeph>. This allows you to change the
             target of the link by changing the topic that is pointed to by the key (for example, by
@@ -62,8 +62,9 @@
             key. Using this mechanism, you could have multiple versions of the preheat procedure in
             various topics and control which one is inserted by changing the topic that is pointed
             to by the key.</li>
-        </ul></p></section>
-    <section>
+        </ul></p>
+    </section>
+    <section id="assigning_keys_to_graphics">
       <title>Assigning Keys to Graphics</title>
       <p>You can assign a key to an image (using a map to point to the image file) and <xref
           keyref="dita_images">insert the image using the key</xref>. </p>

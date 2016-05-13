@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="server-replace-floating-license">
-  <title>Upgrading Your Floating License Server</title>
+  <title>Upgrading Your TCP Floating License Server</title>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>Floating license key replacement </indexterm>
+        <indexterm>Installing Oxygen<indexterm>TCP floating license server<indexterm>Windows
+                32-bit<indexterm>Upgrading</indexterm></indexterm></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>

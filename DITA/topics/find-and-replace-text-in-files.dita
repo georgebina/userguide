@@ -19,9 +19,8 @@
         <li>The main toolbar.</li>
         <li>The contextual menu of the <uicontrol>DITA Maps Manager</uicontrol> view.</li>
         <li>The contextual menu of the <uicontrol>Project</uicontrol> view.</li>
-        <li>The contextual menu of the <uicontrol>Data Source Explorer</uicontrol> view for
-          Documentum xDb (X-Hive/DB), eXist and WebDAV connections. This action is available for
-          Documentum (CMS), but lacks the <i>replace</i> feature.</li>
+        <li>The contextual menu of the <uicontrol>Data Source Explorer</uicontrol> view for most
+          types of database connections.</li>
       </ul></p>
     <p>The operation works on both local and remote files from an (S)FTP, WebDAV or <xref
         href="cms-integration.dita#cms-integration" format="dita">CMS</xref> server.</p>
@@ -51,10 +50,12 @@
     <p>Since the content of read-only files cannot be modified, the <uicontrol>Replace</uicontrol>
       operation is not processing those files. For every such file, a warning message is displayed
       in the message panel.</p>
-    <fig id="figure-find-replace-in-files-dialog">
-      <title>Find / Replace in Files Dialog Box</title>
-      <image href="../img/sa_find_replace_in_files.png"/>
-    </fig>
+    <p>
+      <fig id="figure-find-replace-in-files-dialog">
+        <title>Find / Replace in Files Dialog Box</title>
+        <image href="../img/sa_find_replace_in_files.png"/>
+      </fig>
+    </p>
     <p>The dialog box contains the following options:</p>
     <ul>
       <li><uicontrol>Text to find</uicontrol> - The target character string to search for. You can

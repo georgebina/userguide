@@ -2,6 +2,13 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="getting-familiar">
   <title>Getting Familiar with the Layout</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Getting Started with Oxygen <indexterm>Layout</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <body>
     <p><ph keyref="product"/> includes several <xref
         href="editing-perspectives.dita#editing-perspectives">perspectives</xref> and <xref
@@ -34,7 +41,7 @@
             viewing, searching, validating, transforming, and organizing your documents. Many of the
             views also contain useful contextual menu actions, toolbar buttons, or menus. The most
             commonly used views for each perspective and editing mode are displayed by default and
-            you can choose to display others to suite your specific needs. <ph
+            you can choose to display others to suit your specific needs. <ph
               product="author developer editor">The <xref
                 href="dockable-views-and-editors.dita#dockable-views-and-editors">layout of the
                 views can also be configured</xref> according to your preferences. </ph></dd>
@@ -76,9 +83,8 @@
               <li>The status of the current document. The status of <uicontrol>Modified</uicontrol>
                 is displayed for documents that have not yet been saved. Otherwise, this section is
                 left blank.</li>
-              <li>In <xref href="text-editor-specific-actions.dita#text-editor-specific-actions"
-                    ><uicontrol>Text</uicontrol> editing mode</xref>, the current line and character
-                position is displayed.</li>
+              <li>In <xref href="text-mode-editor.dita#text-mode-editor"><uicontrol>Text</uicontrol>
+                  editing mode</xref>, the current line and character position is displayed.</li>
               <li>If the <xref
                   href="preferences-global.dita#preferences-global/check-for-notifications"
                     ><uicontrol>Check for notifications</uicontrol> option</xref> is enabled, this

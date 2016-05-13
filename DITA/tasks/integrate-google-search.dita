@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="integrate-google-search">
-    <title>How to Integrate Google Search in WebHelp Output</title>
+    <title>How to Integrate Google Search in WebHelp Classic Output</title>
   <shortdesc>See how you can integrate a Google Custom Search Engine into WebHelp
     output.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>Google Search Integration</indexterm>
+        <indexterm>WebHelp Classic system<indexterm>Integrate Google Search</indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
     <taskbody>
-        <context>You can integrate Google Search into your WebHelp output.<p>To enable your WebHelp
-        system to use Google Search, follow these steps:</p></context>
+        <context>
+      <p>You can integrate Google Search into your WebHelp output.</p>
+      <p>To enable your WebHelp system to use Google Search, follow these steps:</p>
+    </context>
         <steps>
             <step>
         <cmd>Go to the Google Custom Search Engine page using your Google account.</cmd>

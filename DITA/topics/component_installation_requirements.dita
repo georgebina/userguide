@@ -2,14 +2,21 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="component_installation_requirements">
   <title>Installation Requirements</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Oxygen XML Author Component<indexterm>Installation
+          requirements</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <body>
     <p>Running the <ph keyref="authorComponent"/> as a Java applet requires:<ul>
         <li>Oracle (Sun) Java JRE version 1.6 update 10 or newer.</li>
         <li>At least 100 MB disk space and 100MB free memory.</li>
         <li>The applet needs to be signed with a valid certificate and will request full access to
-          the user machine, in order to store customization data (like options and framework
-          files).</li>
-        <li>A table of supported browsers can be found here:<xref
+          the user machine to store customization data (such as options and framework files).</li>
+        <li>A table of supported browsers can be found in <xref
             href="supported_browsers.dita#supported_browsers" format="dita"/>.</li>
       </ul></p>
     <p>Running the <ph keyref="authorComponent"/> embedded in a third-party Java/Swing application requires:<ul>

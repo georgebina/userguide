@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="eppo-adding-images">
-  <title>Adding Images to a DITA Topic</title>
+  <title>Adding Images in DITA Topics</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>DITA<indexterm>Topics<indexterm>Add images</indexterm></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <body>
     <p>There are several ways to add images to a DITA topic, depending on if you want to create a
-      figure element (with a title and caption) or just insert an image inline, and if you want to
-      use different versions of a graphic in various different situations. For instance, you might
-      want to use a specific image for each different product version or output media.</p>
+      figure element (with a title and caption), just insert an image inline, or if you want to use
+      multiple versions of a graphic depending on the situation. For instance, you might want to use
+      a specific image for each different product version or output media.</p>
     <section id="adding-image-inline">
       <title>Adding an Image Inline</title>
       <p>Use the following procedure to add an image inline:</p>
       <ol id="ol_eb4_q5d_xp">
         <li>Place the cursor in the position you want the graphic to be inserted. </li>
         <li>Select the <uicontrol><image href="../img/Image16.gif" id="image_nt1_rzy_tr"/>Insert
-            Image</uicontrol> action. The <wintitle>Insert Image</wintitle> dialog box appears.<fig
-            id="fig_gbc_c2z_jr">
-            <title>The Insert Image Dialog Box</title>
-            <image href="../img/insert_image_dialog.png" id="image_ssk_prz_jr"/>
-          </fig></li>
+            Image</uicontrol> action. The <wintitle>Insert Image</wintitle> dialog box appears.<p>
+            <fig id="fig_gbc_c2z_jr">
+              <title>Insert Image Dialog Box</title>
+              <image href="../img/insert_image_dialog.png" id="image_ssk_prz_jr"/>
+            </fig>
+          </p></li>
         <li>Configure the options in this dialog box and click <uicontrol>Insert</uicontrol>.<p>The
               <uicontrol>Insert Image</uicontrol> dialog box includes the following options for
             inserting images into a DITA document:<dl>
@@ -54,10 +62,10 @@
                     <codeph>keyref</codeph> attribute. All keys that are presented in the dialog box
                   are gathered from the root map of the current DITA map. Elements that have the
                     <codeph>keyref</codeph> attribute set are displayed as links. For more
-                  information, see the <xref href="#./adding-image-using-key" format="dita"/>
-                    section.<note>If your defined keys are not listed in this dialog box, it is most
-                    likely trying to gather keys from the wrong root map. You can change the root
-                    map by using the <uicontrol>Change Root Map</uicontrol> link.</note></dd>
+                  information, see <xref href="#eppo-adding-images/adding-image-using-key"
+                    format="dita"/>.<note>If your defined keys are not listed in this dialog box, it
+                    is most likely trying to gather keys from the wrong root map. You can change the
+                    root map by using the <uicontrol>Change Root Map</uicontrol> link.</note></dd>
               </dlentry>
               <dlentry>
                 <dt><uicontrol>Figure title</uicontrol></dt>
@@ -98,7 +106,7 @@
       </ol>
       <note>The <codeph>fig</codeph> element has a number of other child elements that may be
         appropriate to your content. See the <xref
-          href="http://docs.oasis-open.org/dita/v1.2/os/spec/DITA1.2-spec.html#fig" format="html"
+          href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/fig.html#fig" format="html"
           scope="external">DITA documentation</xref> for complete information about the
           <codeph>fig</codeph> element.</note>
       <note>The order in which the <codeph>image</codeph>, <codeph>title</codeph>, and
@@ -108,15 +116,15 @@
     </section>
     <section id="adding-image-using-key">
       <title>Adding an Image Using a Key Reference</title>
-      <p>If you want to use a different version of the image in various situations, such as
-        screenshots for multiple platforms or different formats for various types of output media,
-        you can reference the image using a key reference:</p>
+      <p>If you want to use a different version of the image depending on the situation (for
+        example, screenshots for multiple platforms or types of output media), you can reference the
+        image using a key reference:</p>
       <ol id="ol_lkz_vk2_xp">
         <li>Create a DITA map to hold your image keys. You can create one map for each use or create
           a single map and profile the key definitions for multiple uses. For instance, you might
           create one map of images to be used in PDF and one for images to be used in Web output, or
-          you might use the platform profiling attribute to manage different versions of a
-          screenshot (one for Macintosh and another for the Windows version of your product).</li>
+          you might use the platform profiling attribute to manage multiple versions of a screenshot
+          (one for Macintosh and another for the Windows version of your product).</li>
         <li>For each image, create a <codeph>keydef</codeph> element with the following
             structure:<codeblock outputclass="language-xml">&lt;keydef keys="image.test" href="img/test.png" format="png"></codeblock><note
             type="tip">You can easily create a <codeph>keydef</codeph> element that targets an image
@@ -136,20 +144,24 @@
               dialog box</xref> to easily add profiling attributes to the target.</note></li>
         <li>If you are using separate maps, repeat in each map. For instance, if you are using a
           separate map for images in PDF output, add a topic ref to that map like
-          this:<codeblock outputclass="language-xml">&lt;keydef keys="image.test" href="img/test.eps"  format="eps"></codeblock></li>
+          this:<codeblock outputclass="language-xml">&lt;topicref href="images.ditamap" format="ditamap"></codeblock></li>
         <li>To insert an image by key, insert an <codeph>image</codeph> element and use a
             <codeph>keyref</codeph> attribute to point to the
             image:<codeblock outputclass="language-xml">&lt;image keyref="image.test"/></codeblock><note
-            type="tip">You can also use the <xref href="#eppo-adding-images/keyref-field" format="dita"
-                ><uicontrol>Keyref</uicontrol> section of the <uicontrol>Insert Image</uicontrol>
-              dialog box</xref> to insert a <codeph>keyref</codeph> attribute inside an
-              <codeph>image</codeph> element.</note><ph keyref="product"/> displays the image in
-            <xref keyref="mode_author"><uicontrol>Author</uicontrol> mode</xref>. Which image is
-          displayed depends on the current profiling set that is applied and which <xref
-            keyref="dita_root-map">root map</xref> is being used to resolve references.</li>
+            type="tip">You can also use the <xref href="#eppo-adding-images/keyref-field"
+              format="dita"><uicontrol>Keyref</uicontrol> section of the <uicontrol>Insert
+                Image</uicontrol> dialog box</xref> to insert a <codeph>keyref</codeph> attribute
+            inside an <codeph>image</codeph> element.</note><ph keyref="product"/> displays the
+          image in <xref href="author-editor.dita#author-editor"><uicontrol>Author</uicontrol>
+            mode</xref>. Which image is displayed depends on the current profiling set that is
+          applied and which <xref keyref="dita_root-map">root map</xref> is being used to resolve
+          references.</li>
         <li>Configure your build so that the appropriate image map is included for each output type
           and/or the appropriate profiling conditions are applied to each output. </li>
       </ol>
     </section>
   </body>
+  <related-links>
+    <link href="image-map-dita.dita#image-map-dita"/>
+  </related-links>
 </topic>

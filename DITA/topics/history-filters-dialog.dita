@@ -2,12 +2,7 @@
 <!DOCTYPE topic
   PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="history-filters-dialog">
-  <title>The History Filter Dialog Box</title><prolog>
-    <metadata>
-      <keywords><indexterm>SVN Client<indexterm>History view<indexterm>history filter dialog
-            box</indexterm></indexterm></indexterm></keywords>
-    </metadata>
-  </prolog>
+  <title>History Filter Dialog Box</title>
   <body>
     <p>The <uicontrol>History view</uicontrol> does not always show all the changes ever made to a
       resource because there may be thousands of changes and retrieving the entire list can take a
@@ -15,10 +10,12 @@
       the criteria for the revisions displayed in the <uicontrol>History view</uicontrol> by
       selecting one of several options presented in the <uicontrol>History</uicontrol> dialog box
       that is displayed when you invoke the <uicontrol>Show History</uicontrol> action.</p>
-    <fig id="figure-history-filter-dialog">
-      <title>History Filters Dialog Box</title>
-      <image href="../img/sa_svn_history_filters_dialog.png"/>
-    </fig>
+    <p>
+      <fig id="figure-history-filter-dialog">
+        <title>History Filters Dialog Box</title>
+        <image href="../img/sa_svn_history_filters_dialog.png"/>
+      </fig>
+    </p>
     <p>Options for the set of revisions presented in the History view are: <ul>
         <li>
           <p>All revisions of the selected resource.</p>

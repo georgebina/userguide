@@ -1,13 +1,13 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api_faq_control_component_indentation">
-  <title>Controlling XML Serialization in the <ph keyref="authorComponent"/></title>
+  <title>Control XML Serialization in the <ph keyref="authorComponent"/></title>
   <body>
-    <section>
+    <section id="question">
       <title>Question</title>
-      <p>How can I force the <ph keyref="authorComponent"/> to save the XML with zero indent size and not
-        to break the line inside block-level elements?</p>
+      <p>How can I force the <ph keyref="authorComponent"/> to save the XML with zero indent size
+        and not to break the line inside block-level elements?</p>
     </section>
-    <section>
+    <section id="answer">
       <title>Answer</title>
       <p>Usually, in a standalone version of <ph keyref="product"/>, the <menucascade>
           <uicontrol>Editor </uicontrol>
@@ -19,8 +19,7 @@
         </menucascade> preferences pages allow you to control the way the XML is saved on the disk
         after you edit it in the <uicontrol>Author</uicontrol> mode.</p>
       <p>In the editor application (Standalone or Eclipse-based), you can either bundle a <xref
-          href="default-options.dita">default
-          set of options</xref> or use the
+          href="default-options.dita">default set of options</xref> or use the
           <codeph>PluginWorkspace.setGlobalObjectProperty(String, Object)</codeph>
         API:<codeblock outputclass="language-java">//For not breaking the line
 //Long line
@@ -35,7 +34,7 @@ pluginWorkspace.setObjectProperty("editor.detect.indent.on.open", false);
 pluginWorkspace.setObjectProperty("editor.indent.size.v9.2", 0);</codeblock></p>
       <p>In the <ph keyref="authorComponent"/>, you can either bundle a <xref
           href="api_faq_enable_change_tracking_at_startup.dita">fixed set of options</xref>, or use
-        our Java API to set properties which overwrite the default
+        our Java API to set properties that overwrite the default
         options:<codeblock outputclass="language-java">//For not breaking the line
 //Long line
 AuthorComponentFactory.getInstance().setObjectProperty("editor.line.width", new Integer(100000));

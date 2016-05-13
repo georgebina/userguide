@@ -14,14 +14,19 @@
     </metadata>
   </prolog>
   <body>
-    <image href="../img/schema_diagram_constraints.png"/>
+    <p>
+      <fig>
+        <title>Constraints Construct</title>
+        <image href="../img/schema_diagram_constraints.png"/>
+      </fig>
+    </p>
     <p>Groups all constraints (<xref href="xml-schema-diagram-key-properties.dita"
           ><codeph>xs:key</codeph></xref>, <xref href="xml-schema-diagram-keyRef-properties.dita"
           ><codeph>xs:keyRef</codeph></xref> or <xref
         href="xml-schema-diagram-unique-properties.dita"><codeph>xs:unique</codeph></xref>)
       belonging to an element.</p>
-    <table>
-      <desc>Attributes properties</desc>
+    <table colsep="1" rowsep="1">
+      <title><codeph>constraints</codeph> Properties</title>
       <tgroup cols="3">
         <thead>
           <row>

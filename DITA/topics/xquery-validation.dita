@@ -5,8 +5,7 @@
   <title>XQuery Validation</title>
   <prolog>
     <metadata>
-      <keywords><indexterm>Querying
-          Documents<indexterm>XQuery<indexterm>validation</indexterm></indexterm></indexterm><indexterm>Databases<indexterm>XQuery<indexterm>validation</indexterm></indexterm></indexterm></keywords>
+      <keywords><indexterm>XQuery<indexterm>Validation</indexterm></indexterm><indexterm>Databases<indexterm>XQuery<indexterm>Validation</indexterm></indexterm></indexterm></keywords>
     </metadata>
   </prolog>
   <body>
@@ -22,14 +21,18 @@
       syntactically, without executing it. The errors that occurred in the document are presented in
       the messages view at the bottom of editor window, with a full description message. As with all
       error messages, if you click an entry, the line where the error appeared is highlighted.</p>
-    <fig product="editor developer">
-      <title>XQuery Validation</title>
-      <image href="../img/sa_xquery_validation.png"/>
-    </fig>
-    <fig product="editorEclipse developerEclipse">
-      <title>XQuery Validation</title>
-      <image href="../img/ec_xquery_validation.png"/>
-    </fig>
+    <p>
+      <fig product="editor developer">
+        <title>XQuery Validation</title>
+        <image href="../img/sa_xquery_validation.png"/>
+      </fig>
+    </p>
+    <p>
+      <fig product="editorEclipse developerEclipse">
+        <title>XQuery Validation</title>
+        <image href="../img/ec_xquery_validation.png"/>
+      </fig>
+    </p>
     <note>If you choose a processor that does not support XQuery validation, <ph keyref="product"/>
       displays a warning when trying to validate.</note>
     <p product="editor developer">The <uicontrol><image href="../img/Options16.png"
@@ -38,7 +41,7 @@
         <uicontrol>Validate</uicontrol>
       </menucascade> menu, allows quick access to the <xref href="preferences-xquery.dita">XQuery
         options</xref> in the <ph keyref="product"/> preferences.</p>
-    <p>When you open an XQuery document from a connection that supports validation (for example
+    <p>When you open an XQuery document from a connection that supports validation (for example,
       MarkLogic, or eXist), by default <ph keyref="product"/> uses this connection for validation.
       If you open an XQuery file using a MarkLogic connection, the validation better resolves
       imports. </p>

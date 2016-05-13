@@ -3,24 +3,17 @@
   PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
 <task id="configure-generic-jdbc-connection">
   <title>How to Configure a Generic JDBC Connection</title>
-  <!--Proofed-->
-  <prolog>
-    <metadata>
-      <keywords>
-        <indexterm>Relational Databases<indexterm>connections configuration<indexterm>generic
-              JDBC</indexterm></indexterm></indexterm>
-      </keywords>
-    </metadata>
-  </prolog>
   <taskbody>
-    <context>To configure a connection to a generic JDBC database, follow these steps:</context>
+    <context>
+      <p>To configure a connection to a generic JDBC database, follow these steps:</p>
+    </context>
     <steps>
       <step conref="configure-db2-connection.dita#configure-db2-connection/step1">
         <cmd/>
       </step>
       <step>
         <cmd>In the <uicontrol>Connections</uicontrol> panel, click the <uicontrol><image
-              href="../img/Add16.png"/> New</uicontrol> button.</cmd>
+              href="../img/Add16.png"/>New</uicontrol> button.</cmd>
       </step>
       <step conref="configure-db2-connection.dita#configure-db2-connection/step3">
         <cmd/>

@@ -6,11 +6,12 @@
     Plugins</title>
     <prolog>
     <metadata>
-      <keywords><indexterm>Extend Oxygen with Plugins</indexterm></keywords>
+      <keywords><indexterm>Oxygen SDK</indexterm>
+        <indexterm>Extending Oxygen with plugins</indexterm></keywords>
     </metadata>
   </prolog>
     <body>
-    <p>A plugin is a software component which adds extra functionality to the standalone version of
+      <p>A plugin is a software component that adds extra functionality to the standalone version of
       the application using a series of application-provided extension points.</p>
     <p>This chapter explains how to write and install a plugin for the standalone version of <ph
         keyref="product"/>. The <xref href="http://www.oxygenxml.com/pluginsSDK.html"

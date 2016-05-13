@@ -5,7 +5,7 @@
   <title>Certificates</title>
   <prolog>
     <metadata>
-      <keywords><indexterm>Digital Signature<indexterm>certificates</indexterm></indexterm></keywords>
+      <keywords><indexterm>Digital Signature<indexterm>Certificates</indexterm></indexterm></keywords>
     </metadata>
   </prolog>
   <body>
@@ -35,4 +35,7 @@
       </menucascade>. This opens <xref href="preferences-certificates.dita#preferences-certificates"
         >the certificates preferences page</xref>.</p>
   </body>
+  <related-links>
+    <link href="digital-signature-overview.dita#digital-signature-overview"/>
+  </related-links>
 </topic>

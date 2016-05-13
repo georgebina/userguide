@@ -6,7 +6,7 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>Author Editor<indexterm>attributes view</indexterm></indexterm>
+        <indexterm>Attributes view in Author mode</indexterm>
       </keywords>
     </metadata>
   </prolog>
@@ -26,18 +26,22 @@
       </ul></p>
     <p conkeyref="reusables-editing-modes/attribute-view-rendering"/>
     <p conkeyref="reusables-editing-modes/attribute-view-sorting"/>
-    <fig product="editor author">
-      <title>The Attributes View</title>
-      <image href="../img/sa_author_attributes_panel.png"/>
-    </fig>
-    <fig product="editorEclipse authorEclipse">
-      <title>The Attributes View</title>
-      <image href="../img/ec_author_attributes_panel.png"/>
-    </fig>
+    <p>
+      <fig product="editor author">
+        <title>Attributes View</title>
+        <image href="../img/sa_author_attributes_panel.png"/>
+      </fig>
+    </p>
+    <p>
+      <fig product="editorEclipse authorEclipse">
+        <title>Attributes View</title>
+        <image href="../img/ec_author_attributes_panel.png"/>
+      </fig>
+    </p>
     <p>A drop-down list located in the upper part of the view allows you to select the current
       element or its ancestors.</p>
-    <section conkeyref="reusables-editing-modes/expand-section" product="author editor"/>
-    <section>
+    <section conkeyref="reusables-editing-modes/expand-section" product="author editor" id="d2e74"/>
+    <section id="contextual_menu_actions_in_the_attributes_view">
       <title>Contextual Menu Actions in the Attributes View</title>
       <p>The following actions are available in the contextual menu of the
           <uicontrol>Attributes</uicontrol> view when editing in <uicontrol>Author</uicontrol> mode:<dl>

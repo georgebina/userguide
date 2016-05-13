@@ -2,10 +2,13 @@
 <!DOCTYPE topic
   PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="author-tei-odd-doc-type">
-  <title>The TEI ODD Document Type</title>
+  <title>TEI ODD Document Type</title>
   <prolog>
     <metadata>
-      <keywords><indexterm>TEI ODD Document Type</indexterm></keywords>
+      <keywords>
+        <indexterm>Predefined Document Types<indexterm>TEI ODD</indexterm></indexterm>
+        <indexterm>TEI ODD document type</indexterm>
+      </keywords>
     </metadata>
   </prolog>
   <body>
@@ -16,25 +19,25 @@
       XSLT stylesheets called <xref href="http://wiki.tei-c.org/index.php/Roma" scope="external"
         format="html">Roma</xref> was created by the TEI Consortium for manipulating the ODD
       files.</p>
-    <p><indexterm>TEI ODD document type<indexterm>association rules</indexterm></indexterm>A file is
-      considered to be a TEI ODD document when the following conditions are true:</p>
+    <p>A file is considered to be a TEI ODD document when the following conditions are true:</p>
     <ul>
       <li>The file extension is <filepath>.odd</filepath>.</li>
       <li>The document namespace is <i>http://www.tei-c.org/ns/1.0</i>.</li>
     </ul>
-    <p><indexterm>TEI ODD document type<indexterm>schema</indexterm></indexterm>The default schema
-      that is used if one is not detected in the TEI ODD document is
-        <filepath>tei_odds.rng</filepath> and it is stored in
-        <filepath>[OXYGEN_DIR]/frameworks/tei/xml/tei/custom/schema/relaxng/</filepath>.</p>
+    <p>The default schema that is used if one is not detected in the TEI ODD document is
+        <filepath>tei_odds.rng</filepath> and it is stored in <filepath><term
+          conkeyref="reusables-user-guide/oxy-install-dir"
+        />/frameworks/tei/xml/tei/custom/schema/relaxng/</filepath>.</p>
     <p product="author authorEclipse editor editorEclipse">The default CSS files used for rendering
-      TEI ODD content in <uicontrol>Author</uicontrol> mode are stored in
-        <filepath>[OXYGEN_DIR]/frameworks/tei/xml/tei/css/</filepath>.</p>
-    <p><indexterm>TEI ODD document type<indexterm>Author
-          extensions<indexterm>catalogs</indexterm></indexterm></indexterm>The default catalogs for
-      the TEI ODD document type are as follows:</p>
+      TEI ODD content in <uicontrol>Author</uicontrol> mode are stored in <filepath><term
+          conkeyref="reusables-user-guide/oxy-install-dir"
+      />/frameworks/tei/xml/tei/css/</filepath>.</p>
+    <p>The default catalogs for the TEI ODD document type are as follows:</p>
     <ul>
-      <li><filepath>[OXYGEN_DIR]/frameworks/tei/xml/tei/custom/schema/catalog.xml</filepath></li>
-      <li><filepath>[OXYGEN_DIR]/frameworks/tei/xml/tei/schema/catalog.xml</filepath></li>
+      <li><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+          />/frameworks/tei/xml/tei/custom/schema/catalog.xml</filepath></li>
+      <li><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+          />/frameworks/tei/xml/tei/schema/catalog.xml</filepath></li>
     </ul>
     <p product="author editor authorEclipse editorEclipse">To watch our video demonstration about
       TEI editing, go to <xref href="http://oxygenxml.com/demo/WYSIWYG_TEI_Editing.html"

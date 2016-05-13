@@ -2,14 +2,20 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="component_web_deployment">
   <title>Web Deployment</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Oxygen XML Author Component<indexterm>Web deployment</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <body>
     <p>The <ph keyref="authorComponent"/> can be deployed as a Java Applet using the new Applet with JNLP
       Java technology, available in Oracle (Sun) Java JRE version 1.6 update 10 or newer.</p>
     <p>The <xref href="http://www.oxygenxml.com/oxygen_sdk.html#oXygen_component" format="html"
       scope="external">sample project</xref> demonstrates how the <ph keyref="authorComponent"/> can be
       distributed as an applet.</p>
-    <p>Here are the main steps you need to follow in order to deploy the <ph keyref="authorComponent"/> as
-      a Java Applet:<ul>
+    <p>To deploy the <ph keyref="authorComponent"/> as a Java Applet, consider the following notes:<ul>
         <li>Follow the instructions <xref href="http://www.oxygenxml.com/oxygen_sdk_maven.html"
             format="html" scope="external">here</xref> to setup the sample project and look for Java
           sources of the sample Applet implementation in the sample project module
@@ -33,9 +39,11 @@
           in the <filepath>target/jnlp/</filepath> directory. From this on, you can copy the applet
           files on your web server.</li>
       </ul></p>
-    <fig>
-      <title>The <ph keyref="authorComponent"/> Deployed as a Java Applet</title>
-      <image href="../img/diag_CMSOxygenComponent.png"/>
-    </fig>
+    <p>
+      <fig>
+        <title><ph keyref="authorComponent"/> Deployed as a Java Applet</title>
+        <image href="../img/diag_CMSOxygenComponent.png"/>
+      </fig>
+    </p>
   </body>
 </topic>

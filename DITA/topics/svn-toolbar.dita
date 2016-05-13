@@ -5,8 +5,7 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>SVN Client<indexterm>main window<indexterm>status
-          bar</indexterm></indexterm></indexterm>
+        <indexterm>SVN Client<indexterm>Status bar</indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
@@ -14,14 +13,16 @@
         <p>The status bar of the <ph keyref="svnProduct"/> window displays important details of the
       current status of the application. This information is available only in the
         <uicontrol>Working Copy</uicontrol> view.</p>
-        <fig>
-            <title>Status bar</title>
-            <image href="../img/sa_svn_toolbar.png"/>
-        </fig>
+    <p>
+      <fig>
+        <title>Status bar</title>
+        <image href="../img/sa_svn_toolbar.png"/>
+      </fig>
+    </p>
         <p>The status bar is composed of the following areas:</p>
         <ul>
             <li>The path of the currently processed file from the current working copy (during an
-        operation like <b>Check out</b> or <b>Synchronize</b>) or the result of the last
+        operation such as <b>Check out</b> or <b>Synchronize</b>) or the result of the last
         operation.</li>
             <li>The current status of the following working copy options:<ul>
           <li>Show ignored files (<uicontrol><image href="../img/SVNStatusBarShowIgnored12.png"

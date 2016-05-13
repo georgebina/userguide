@@ -2,16 +2,11 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="installation-instructions-windows" >
     <title>Install Using the Windows Installer</title>
-
-  <prolog>
-    <metadata>
-      <keywords><indexterm>Installation <indexterm>Windows installation</indexterm></indexterm></keywords>
-    </metadata>
-  </prolog>
   
     <taskbody>
-      <context>To install <ph keyref="product"/> using the Windows installer, follow these
-      steps:</context>
+      <context>
+      <p>To install <ph keyref="product"/> using the Windows installer, follow these steps:</p>
+    </context>
          
          
         <steps>

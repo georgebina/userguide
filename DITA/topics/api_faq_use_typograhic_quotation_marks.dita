@@ -3,11 +3,11 @@
 <topic id="api_faq_use_typograhic_quotation_marks">
   <title>Dynamically Modify the Content Inserted by the Author</title>
   <body>
-    <section>
+    <section id="question">
       <title>Question</title>
       <p>Is there a way to insert typographic quotation marks instead of double quotes?</p>
     </section>
-    <section>
+    <section id="answer">
       <title>Answer</title>
       <p>By using the API you can set a document filter to change the text that is inserted in the
         document in <uicontrol>Author</uicontrol> mode. You can use this method to change the
@@ -66,7 +66,7 @@
       <p>An alternative to using a document filtering is the use of a <xref
           href="http://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/AuthorSchemaAwareEditingHandlerAdapter.html"
           format="html" scope="external"
-            ><apiname>ro.sync.ecss.extensions.api.AuthorSchemaAwareEditingHandlerAdapter</apiname></xref>
+            ><apiname>ro.sync.ecss.extensions.api.AuthorSchemaAwareEditingHandlerAdapter</apiname></xref>,
         which has clear callbacks indicating the source from where the API is called (Paste, Drag
         and Drop, Typing).</p>
     </section>

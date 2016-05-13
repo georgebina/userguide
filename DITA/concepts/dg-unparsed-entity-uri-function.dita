@@ -2,25 +2,37 @@
 <!DOCTYPE concept
   PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
 <concept id="dg-unparsed-entity-uri-function">
-  <title>The <codeph>oxy_unparsed-entity-uri()</codeph> Function</title>
+  <title><codeph>oxy_unparsed-entity-uri()</codeph> Function</title>
   <shortdesc>The <codeph>oxy_unparsed-entity-uri()</codeph> function returns the URI value of an
     unparsed entity name.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>CSS extensions<indexterm>Custom
+              functions<indexterm>oxy_unparsed-entity-uri</indexterm></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <conbody>
-    <syntaxdiagram>
-      <groupseq>
-        <kwd>oxy_unparsed-entity-uri</kwd>
-        <sep>(</sep>
-        <kwd> unparsedEntityName </kwd>
-        <sep>)</sep>
-      </groupseq>
-    </syntaxdiagram>
-    <dl>
-      <dlentry>
-        <dt>unparsedEntityName </dt>
-        <dd>The name of an unparsed entity defined in the DTD.</dd>
-      </dlentry>
-    </dl>
-    <p>This function can be useful to display images which are referenced with unparsed entity
+    <p>
+      <syntaxdiagram>
+        <groupseq>
+          <kwd>oxy_unparsed-entity-uri</kwd>
+          <sep>(</sep>
+          <kwd> unparsedEntityName </kwd>
+          <sep>)</sep>
+        </groupseq>
+      </syntaxdiagram>
+    </p>
+    <p>
+      <dl>
+        <dlentry>
+          <dt>unparsedEntityName </dt>
+          <dd>The name of an unparsed entity defined in the DTD.</dd>
+        </dlentry>
+      </dl>
+    </p>
+    <p>This function can be useful to display images that are referenced with unparsed entity
       names.</p>
     <example>
       <title>CSS for displaying the image in Author for an <i>

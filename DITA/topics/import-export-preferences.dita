@@ -2,14 +2,13 @@
 <!DOCTYPE topic
   PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="import-export-preferences">
-  <title>Importing / Exporting Global Options</title>
+  <title>Importing/Exporting/Resetting Global Options</title>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>Configure the Application<indexterm>import/export global
-          options</indexterm></indexterm>
-        <indexterm>Options Menu<indexterm>Import Global Options</indexterm><indexterm>Export Global
-            Options</indexterm></indexterm>
+        <indexterm>Import Global Options</indexterm>
+        <indexterm>Export Global Options</indexterm>
+        <indexterm>Reset Global Options</indexterm>
       </keywords>
     </metadata>
   </prolog>
@@ -36,7 +35,9 @@
           <dd product="svnClient">Restores the preferences to the factory defaults.</dd>
           <dd product="author developer editor authorEclipse developerEclipse editorEclipse"
             >Restores the preference to the factory defaults or to <xref
-              keyref="options_customizing-default">customized defaults</xref>.</dd>
+              keyref="options_customizing-default">customized defaults</xref>. This action also
+            resets the transformation and validation scenarios to the default scenarios and clears
+            recently used file templates.</dd>
         </dlentry>
         <dlentry>
           <dt><uicontrol>Import Global Options</uicontrol></dt>
@@ -47,10 +48,10 @@
               product="authorEclipse developerEclipse editorEclipse">project file</ph>
               (<filepath>.xpr</filepath>) to import all the <term>Global Options</term> that are set
             in that project file. After you select a file, the <uicontrol>Import Global
-              Options</uicontrol> dialog box is displayed and it informs you that the operation will
-            only override the options that are included in the imported file. You can enable the
-              <uicontrol>Reset all other options to their default values</uicontrol> option to reset
-            all options to the default values before the file is imported.</dd>
+              Options</uicontrol> dialog box is displayed, and it informs you that the operation
+            will only override the options that are included in the imported file. You can enable
+            the <uicontrol>Reset all other options to their default values</uicontrol> option to
+            reset all options to the default values before the file is imported.</dd>
         </dlentry>
         <dlentry>
           <dt><uicontrol>Export Global Options</uicontrol></dt>
@@ -62,16 +63,42 @@
       </dl></p>
     <p><ph product="author developer editor"><ph keyref="product"/> automatically stores your
         options in an XML <filepath>options</filepath> file. Depending on the platform you are
-        using, this file is located in the following directories:</ph><ul
-        product="author developer editor">
+        using, this file is located in the following directories:</ph></p>
+    <p>  
+    <ul product="editor">
         <li><filepath>[user-home-folder]\AppData\Roaming\com.oxygenxml</filepath> for Windows
           Vista/7/8/10</li>
         <li><filepath>[user-home-folder]\Application Data\com.oxygenxml</filepath> for Windows
           XP</li>
         <li><filepath>[user-home-folder]/Library/Preferences/com.oxygenxml</filepath> for OS X</li>
         <li><filepath>[user-home-folder]/.com.oxygenxml</filepath> for Linux</li>
-      </ul><ph product="svnClient"><ph keyref="product"/> automatically stores your options in an
-        XML <filepath>options</filepath> file. Depending on the platform you are using, this file is
+      </ul>
+    </p>
+    <p>
+      <ul product="author">
+        <li><filepath>[user-home-folder]\AppData\Roaming\com.oxygenxml.author</filepath> for Windows
+          Vista/7/8/10</li>
+        <li><filepath>[user-home-folder]\Application Data\com.oxygenxml.author</filepath> for
+          Windows XP</li>
+        <li><filepath>[user-home-folder]/Library/Preferences/com.oxygenxml.author</filepath> for OS
+          X</li>
+        <li><filepath>[user-home-folder]/.com.oxygenxml.author</filepath> for Linux</li>
+      </ul>
+    </p>
+    <p>
+        <ul product="developer">
+        <li><filepath>[user-home-folder]\AppData\Roaming\com.oxygenxml.developer</filepath> for
+          Windows Vista/7/8/10</li>
+        <li><filepath>[user-home-folder]\Application Data\com.oxygenxml.developer</filepath> for
+          Windows XP</li>
+        <li><filepath>[user-home-folder]/Library/Preferences/com.oxygenxml.developer</filepath> for
+          OS X</li>
+        <li><filepath>[user-home-folder]/.com.oxygenxml.developer</filepath> for Linux</li>
+      </ul>
+    </p>
+    <p>
+      <ph product="svnClient"><ph keyref="product"/> automatically stores your options in an XML
+          <filepath>options</filepath> file. Depending on the platform you are using, this file is
         located in the following directories:</ph><ul product="svnClient">
         <li><filepath>[user-home-folder]\AppData\Roaming\ com.syncrosvnclient</filepath> for Windows
           Vista/7/8/10</li>
@@ -79,7 +106,7 @@
           Windows XP</li>
         <li><filepath>[user-home-folder]/Library/Preferences/ com.syncrosvnclient</filepath> for OS
           X</li>
-        <li><filepath>[user-home-folder]/. com.syncrosvnclient</filepath> for Linux</li>
+        <li><filepath>[user-home-folder]/. com.syncrosvnclient</filepath> for Linux </li>
       </ul></p>
     <p><ph product="author developer editor svnClient"><ph product="editor">The name of the
       <filepath>options</filepath> file of <ph keyref="product"/> <ph

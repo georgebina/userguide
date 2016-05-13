@@ -2,31 +2,24 @@
 <!DOCTYPE topic
   PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="xml-schema-diagram-facets-view">
-  <title>The Facets View</title>
+  <title>XML Schema Facets View</title>
   <prolog>
     <metadata>
-      <keywords><indexterm>XML Schema Diagram Editor<indexterm>Facets
-      view</indexterm></indexterm></keywords>
+      <keywords>
+        <indexterm>Design editing mode<indexterm>Facets view</indexterm></indexterm>
+        <indexterm>XML Schema Diagram Editor<indexterm>Facets view</indexterm></indexterm>
+        <indexterm>Facets view in Design mode</indexterm>
+      </keywords>
     </metadata>
   </prolog>
   <body>
-    <p>The <uicontrol>Facets</uicontrol> view presents the facets for the selected component, if
-      available. If hidden, you can open it from <menucascade product="editor developer">
-        <uicontrol>Window</uicontrol>
-        <uicontrol>Show View</uicontrol>
-        <uicontrol>Facets</uicontrol>
-      </menucascade>
-      <menucascade product="editorEclipse developerEclipse">
-        <uicontrol>Window</uicontrol>
-        <uicontrol>Show View</uicontrol>
-        <uicontrol>Other</uicontrol>
-        <uicontrol>oXygen</uicontrol>
-        <uicontrol>Facets</uicontrol>
-      </menucascade>.<fig product="editor developer">
-        <title>The Facets View</title>
+    <p>The <uicontrol>Facets</uicontrol> view for XML Schemas presents the facets for the selected
+      component, if available. <ph conkeyref="reusables-user-guide/reopen-view"/><fig
+        product="editor developer">
+        <title>Facets View</title>
         <image href="../img/sa_diagram_schema_facets_view.png"/>
       </fig><fig product="editorEclipse developerEclipse">
-        <title>The Facets View</title>
+        <title>Facets View</title>
         <image href="../img/ec_diagram_schema_facets_view.png"/>
       </fig></p>
     <p>The default value of a facet is rendered in the <uicontrol>Facets</uicontrol> view with a
@@ -40,57 +33,59 @@
       specified in the current simple type only the current specified patterns will be presented.
       You can see the effective pattern value obtained by combining the inherited and the specified
       patterns as a tooltip on the <uicontrol>Patterns</uicontrol> category.</note>
-    <p>Facets for components which do not belong to the current edited schema are read-only but if
+    <p>Facets for components that do not belong to the current edited schema are read-only but if
       you double-click them you can choose to open the corresponding schema and edit them.</p>
     <p>You can edit a facet by double-clicking it or by pressing Enter, when that facet is selected.
       For some facets you can choose valid values from a list or you can specify another value. If a
       facet has an invalid value or a warning, it will be highlighted in the table with the
-      corresponding foreground color. By default facets with errors are presented with red and the
+      corresponding foreground color. By default, facets with errors are presented with red and the
       facets with warnings with yellow. You can customize the error colors from the <xref
         href="preferences-editor-document-checking.dita">Document Checking user
       preferences</xref>.</p>
     <p>The <uicontrol>Facets</uicontrol> view provides the following actions in its toolbar and
       contextual menu:</p>
-    <dl>
-      <dlentry>
-        <dt><uicontrol>
-            <image href="../img/Add16.png" id="image_ydz_jt1_5r"/>Add</uicontrol></dt>
-        <dd>Allows you to add a new enumeration or a new pattern.</dd>
-      </dlentry>
-      <dlentry>
-        <dt><uicontrol>
-            <image href="../img/Remove16.png" id="image_kpl_pt1_5r"/>Remove</uicontrol></dt>
-        <dd>Allows you to remove the value of a facet.</dd>
-      </dlentry>
-      <dlentry>
-        <dt><uicontrol>Edit Annotations</uicontrol></dt>
-        <dd>Allows you to edit an annotation for the selected facet.</dd>
-      </dlentry>
-      <dlentry>
-        <dt><uicontrol>
-            <image href="../img/MoveUp16.gif" id="image_o1m_3r1_5r"/>Move Up</uicontrol></dt>
-        <dd>Allows you to move up the current enumeration/pattern in
-            <uicontrol>Enumerations/Patterns</uicontrol> category.</dd>
-      </dlentry>
-      <dlentry>
-        <dt><uicontrol>
-            <image href="../img/MoveDown16.gif" id="image_cy2_fr1_5r"/>Move Down</uicontrol></dt>
-        <dd>Allows you to move down the current enumeration/pattern in
-            <uicontrol>Enumerations/Patterns</uicontrol> category.</dd>
-      </dlentry>
-      <dlentry>
-        <dt><uicontrol>
-            <image href="../img/Copy16.png" id="image_ekp_4st_tr"/>Copy</uicontrol></dt>
-        <dd>Copy the attribute value.</dd>
-      </dlentry>
-      <dlentry>
-        <dt><uicontrol>Open in Regular Expressions Builder</uicontrol></dt>
-        <dd>Rather than editing regular expressions manually, this action allows you to open the
-          pattern in the <xref href="XML-schema-regexp-builder.dita">XML Schema Regular Expressions
-            Builder</xref> that guides you through the process of testing and constructing the
-          pattern..</dd>
-      </dlentry>
-    </dl>
+    <p>
+      <dl>
+        <dlentry>
+          <dt><uicontrol>
+              <image href="../img/Add16.png" id="image_ydz_jt1_5r"/>Add</uicontrol></dt>
+          <dd>Allows you to add a new enumeration or a new pattern.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol>
+              <image href="../img/Remove16.png" id="image_kpl_pt1_5r"/>Remove</uicontrol></dt>
+          <dd>Allows you to remove the value of a facet.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol>Edit Annotations</uicontrol></dt>
+          <dd>Allows you to edit an annotation for the selected facet.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol>
+              <image href="../img/MoveUp16.gif" id="image_o1m_3r1_5r"/>Move Up</uicontrol></dt>
+          <dd>Allows you to move up the current enumeration/pattern in
+              <uicontrol>Enumerations/Patterns</uicontrol> category.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol>
+              <image href="../img/MoveDown16.gif" id="image_cy2_fr1_5r"/>Move Down</uicontrol></dt>
+          <dd>Allows you to move down the current enumeration/pattern in
+              <uicontrol>Enumerations/Patterns</uicontrol> category.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol>
+              <image href="../img/Copy16.png" id="image_ekp_4st_tr"/>Copy</uicontrol></dt>
+          <dd>Copy the attribute value.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol>Open in Regular Expressions Builder</uicontrol></dt>
+          <dd>Rather than editing regular expressions manually, this action allows you to open the
+            pattern in the <xref href="XML-schema-regexp-builder.dita">XML Schema Regular
+              Expressions Builder</xref> that guides you through the process of testing and
+            constructing the pattern..</dd>
+        </dlentry>
+      </dl>
+    </p>
     <p>Facets can be fixed to prevent a derivation from modifying its value. To fix a facet value
       just press the <uicontrol><image href="../img/UnpinValue16.gif" id="image_qjb_fxz_vr"
         />Pin</uicontrol> button.</p>

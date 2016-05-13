@@ -5,8 +5,8 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>Customizing DITA OT Transformations <indexterm>Add Watermark to XHTML
-            Output</indexterm></indexterm>
+        <indexterm>DITA<indexterm>Output<indexterm>XHTML output
+            customization</indexterm></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
@@ -43,4 +43,7 @@
       </step>
     </steps>
   </taskbody>
+  <related-links>
+    <link href="add-watermark-pdf-output.dita#add-watermark-pdf-output"/>
+  </related-links>
 </task>

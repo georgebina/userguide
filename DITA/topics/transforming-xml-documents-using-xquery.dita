@@ -5,13 +5,14 @@
   <title>Transforming XML Documents Using XQuery</title>
   <prolog>
     <metadata>
-      <keywords><indexterm>Querying Documents<indexterm>XQuery<indexterm>transforming XML documents; advanced Saxon
-              B/SA options</indexterm></indexterm></indexterm></keywords>
+      <keywords>
+        <indexterm>XQuery<indexterm>Transformations</indexterm></indexterm>
+      </keywords>
     </metadata>
   </prolog>
   <body>
-    <p>XQueries are similar with the XSL stylesheets, both being capable of transforming an XML
-      input into another format. You specify the input URL when you <xref
+    <p>XQuery is similar to XSL stylesheets, both being capable of transforming an XML input into
+      another format. You specify the input URL when you <xref
         href="defining-new-transformation-scenario.dita">define the transformation scenario</xref>.
       The result can be saved and opened in the associated application. You can even run a <xref
         href="xsl-fo-processors.dita">FO processor</xref> on the output of an XQuery. The
@@ -29,9 +30,9 @@
         <uicontrol>XML URL</uicontrol> field, or, if this field is empty, the documents referenced
       from the query expression. The parameters of XQuery transforms must be set in <xref
         href="xml-transformation-with-xslt.dita">the <uicontrol>Parameters</uicontrol> dialog
-        box</xref>. Parameters that are in a namespace must be specified using the qualified name,
-      for example a <codeph>param</codeph> parameter in the <i>http://www.oxygenxml.com/ns</i>
-      namespace must be set with the name <codeph>{http://www.oxygenxml.com/ns}param</codeph>.</p>
+        box</xref>. Parameters that are in a namespace must be specified using the qualified name
+      (for example, a <codeph>param</codeph> parameter in the <i>http://www.oxygenxml.com/ns</i>
+      namespace must be set with the name <codeph>{http://www.oxygenxml.com/ns}param</codeph>).</p>
     <p>The transformation uses one of the Saxon <ph
         keyref="saxon9FullVersion"/> HE, Saxon <ph
         keyref="saxon9FullVersion"/> PE, Saxon <ph
@@ -41,7 +42,7 @@
         chapter - in the <xref href="../tasks/xquery-db-tranformation.dita">XQuery
           transformation</xref> section) </ph> or any XQuery processor that provides an XQJ API
       implementation.</p>
-    <p>The Saxon <ph keyref="saxon9FullVersion"/> EE processor supports also XQuery 3.0
+    <p>The Saxon <ph keyref="saxon9FullVersion"/> EE processor also supports XQuery 3.0
       transformations. </p>
   </body>
 </topic>
