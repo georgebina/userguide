@@ -206,6 +206,7 @@ function normalizeQuery(query) {
     query = query.replace(/ and not /g, " not ");
     query = query.replace(/ or not /g, " not ");
 
+		query = query.trim();
     query = query.indexOf("or ")==0 ? query.substring(3) : query;
     query = query.indexOf("and ")==0 ? query.substring(4) : query;
     query = query.indexOf("not ")==0 ? query.substring(4) : query;

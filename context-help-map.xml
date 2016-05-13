@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
-   <appContext helpID="copyright" path="topics/copyright.html"/>
    <appContext helpID="introduction" path="introduction.html#introduction"/>
    <appContext helpID="getting-started-intro" path="topics/getting-started-intro.html"/>
    <appContext helpID="what-is-oxygen" path="topics/what-is-oxygen.html"/>
    <appContext helpID="getting-familiar" path="topics/getting-familiar.html"/>
+   <appContext helpID="description-of-editor-types"
+               path="topics/description-of-editor-types.html"/>
    <appContext helpID="videos-other-resources" path="topics/videos-other-resources.html"/>
    <appContext helpID="getting-started-task" path="topics/getting-started-task.html"/>
    <appContext helpID="getting-started-first-XML-document"
@@ -92,33 +93,30 @@
    <appContext helpID="installation-licensing-multiple-named-user-licenses"
                path="topics/installation-licensing-multiple-named-user-licenses.html"/>
    <appContext helpID="installation-setting-up-license-server"
-               path="installation-setting-up-license-server.html#installation-setting-up-license-server"/>
+               path="topics/installation-setting-up-license-server.html"/>
    <appContext helpID="floating-license-servlet-setup"
-               path="installation-setting-up-license-server.html#floating-license-servlet-setup"/>
-   <appContext helpID="upgrade-license-servlet"
-               path="installation-setting-up-license-server.html#upgrade-license-servlet"/>
-   <appContext helpID="replace-floating-license"
-               path="installation-setting-up-license-server.html#replace-floating-license"/>
-   <appContext helpID="servlet-report-page"
-               path="installation-setting-up-license-server.html#servlet-report-page"/>
+               path="topics/floating-license-servlet-setup.html"/>
+   <appContext helpID="upgrade-license-servlet" path="topics/upgrade-license-servlet.html"/>
+   <appContext helpID="replace-floating-license" path="topics/replace-floating-license.html"/>
+   <appContext helpID="servlet-report-page" path="topics/servlet-report-page.html"/>
    <appContext helpID="floating-license-server-setup"
-               path="installation-setting-up-license-server.html#floating-license-server-setup"/>
+               path="tasks/floating-license-server-setup.html"/>
    <appContext helpID="server-replace-floating-license"
-               path="installation-setting-up-license-server.html#server-replace-floating-license"/>
+               path="topics/server-replace-floating-license.html"/>
    <appContext helpID="server-replace-license-key"
-               path="installation-setting-up-license-server.html#server-replace-license-key"/>
+               path="topics/server-replace-license-key.html"/>
    <appContext helpID="floating-license-server-setup-common-problems"
-               path="installation-setting-up-license-server.html#floating-license-server-setup-common-problems"/>
+               path="topics/floating-license-server-setup-common-problems.html"/>
    <appContext helpID="windows-service-reports-incorrect-function"
-               path="installation-setting-up-license-server.html#windows-service-reports-incorrect-function"/>
+               path="topics/windows-service-reports-incorrect-function.html"/>
    <appContext helpID="windows-service-reports-error-1067"
-               path="installation-setting-up-license-server.html#windows-service-reports-error-1067"/>
+               path="topics/windows-service-reports-error-1067.html"/>
    <appContext helpID="install-license-server-osx"
-               path="installation-setting-up-license-server.html#install-license-server-osx"/>
+               path="tasks/install-license-server-osx.html"/>
    <appContext helpID="server-pi-replace-floating-license"
-               path="installation-setting-up-license-server.html#server-pi-replace-floating-license"/>
+               path="topics/server-pi-replace-floating-license.html"/>
    <appContext helpID="server-pi-replace-license-key"
-               path="installation-setting-up-license-server.html#server-pi-replace-license-key"/>
+               path="topics/server-pi-replace-license-key.html"/>
    <appContext helpID="unregister-license-key" path="tasks/unregister-license-key.html"/>
    <appContext helpID="upgrading" path="topics/upgrading.html"/>
    <appContext helpID="check-for-new-versions" path="topics/check-for-new-versions.html"/>
@@ -135,29 +133,214 @@
    <appContext helpID="unattended-uninstall"
                path="uninstall-application.html#unattended-uninstall"/>
    <appContext helpID="install-installer-command-line-reference"
-               path="references/install-installer-command-line-reference.html"/>
+               path="topics/install-installer-command-line-reference.html"/>
+   <appContext helpID="configure-application" path="topics/configure-application.html"/>
+   <appContext helpID="preferences" path="topics/preferences.html"/>
+   <appContext helpID="preferences-global" path="topics/preferences-global.html"/>
+   <appContext helpID="preferences-appearance" path="topics/preferences-appearance.html"/>
+   <appContext helpID="preferences-colors" path="topics/preferences-colors.html"/>
+   <appContext helpID="preferences-fonts" path="topics/preferences-fonts.html"/>
+   <appContext helpID="preferences-application-layout"
+               path="topics/preferences-application-layout.html"/>
+   <appContext helpID="preferences-extensions" path="topics/preferences-extensions.html"/>
+   <appContext helpID="preferences-document-type-association"
+               path="topics/preferences-document-type-association.html"/>
+   <appContext helpID="framework-location" path="topics/framework-location.html"/>
+   <appContext helpID="the-document-type-dialog" path="topics/the-document-type-dialog.html"/>
+   <appContext helpID="document-type-association-rules-tab"
+               path="topics/document-type-association-rules-tab.html"/>
+   <appContext helpID="document-type-schema-tab" path="topics/document-type-schema-tab.html"/>
+   <appContext helpID="document-type-classpath-tab"
+               path="topics/document-type-classpath-tab.html"/>
+   <appContext helpID="document-type-author-tab" path="topics/document-type-author-tab.html"/>
+   <appContext helpID="the-css-sub-tab" path="topics/the-css-sub-tab.html"/>
+   <appContext helpID="the-actions-sub-tab" path="topics/the-actions-sub-tab.html"/>
+   <appContext helpID="the-action-dialog" path="topics/the-action-dialog.html"/>
+   <appContext helpID="xpath-activation-expressions"
+               path="topics/xpath-activation-expressions.html"/>
+   <appContext helpID="oxy-allows-child-element" path="topics/oxy-allows-child-element.html"/>
+   <appContext helpID="oxy-current-selected-element"
+               path="topics/oxy-current-selected-element.html"/>
+   <appContext helpID="the-menu-sub-tab" path="topics/the-menu-sub-tab.html"/>
+   <appContext helpID="the-contextual-menu-sub-tab"
+               path="topics/the-contextual-menu-sub-tab.html"/>
+   <appContext helpID="the-toolbar-tab" path="topics/the-toolbar-tab.html"/>
+   <appContext helpID="the-content-completion-tab"
+               path="topics/the-content-completion-tab.html"/>
+   <appContext helpID="document-type-templates-tab"
+               path="topics/document-type-templates-tab.html"/>
+   <appContext helpID="document-type-catalogs-tab"
+               path="topics/document-type-catalogs-tab.html"/>
+   <appContext helpID="document-type-transformation-tab"
+               path="topics/document-type-transformation-tab.html"/>
+   <appContext helpID="document-type-validation-tab"
+               path="topics/document-type-validation-tab.html"/>
+   <appContext helpID="document-type-extensions-tab"
+               path="topics/document-type-extensions-tab.html"/>
+   <appContext helpID="preferences-encoding" path="topics/preferences-encoding.html"/>
+   <appContext helpID="preferences-editor" path="topics/preferences-editor.html"/>
+   <appContext helpID="preferences-editor-print" path="topics/preferences-editor-print.html"/>
+   <appContext helpID="preferences-editor-pages" path="topics/preferences-editor-pages.html"/>
+   <appContext helpID="preferences-editor-text" path="topics/preferences-editor-text.html"/>
+   <appContext helpID="preferences-grid" path="topics/preferences-grid.html"/>
+   <appContext helpID="preferences-author" path="topics/preferences-author.html"/>
+   <appContext helpID="caret-navigation" path="topics/caret-navigation.html"/>
+   <appContext helpID="preferences-schema-aware" path="topics/preferences-schema-aware.html"/>
+   <appContext helpID="preferences-track-changes" path="topics/preferences-track-changes.html"/>
+   <appContext helpID="callouts-preferences-page" path="topics/callouts-preferences-page.html"/>
+   <appContext helpID="preferences-profiling-conditions"
+               path="topics/preferences-profiling-conditions.html"/>
+   <appContext helpID="colors-and-styles-preferences"
+               path="topics/colors-and-styles-preferences.html"/>
+   <appContext helpID="attributes-rendering-page" path="topics/attributes-rendering-page.html"/>
+   <appContext helpID="preferences-author-mathml" path="topics/preferences-author-mathml.html"/>
+   <appContext helpID="autocorrect-preferences-page"
+               path="topics/autocorrect-preferences-page.html"/>
+   <appContext helpID="autocorrect-dictionaries-preferences"
+               path="topics/autocorrect-dictionaries-preferences.html"/>
+   <appContext helpID="preferences-editor-spell-check"
+               path="topics/preferences-editor-spell-check.html"/>
+   <appContext helpID="dictionaries-preferences-page"
+               path="topics/dictionaries-preferences-page.html"/>
+   <appContext helpID="preferences-editor-document-checking"
+               path="topics/preferences-editor-document-checking.html"/>
+   <appContext helpID="preferences-editor-format" path="topics/preferences-editor-format.html"/>
+   <appContext helpID="preferences-editor-format-xml"
+               path="topics/preferences-editor-format-xml.html"/>
+   <appContext helpID="preferences-editor-format-xml-whitespaces"
+               path="topics/preferences-editor-format-xml-whitespaces.html"/>
+   <appContext helpID="preferences-editor-format-css"
+               path="topics/preferences-editor-format-css.html"/>
+   <appContext helpID="preferences-editor-format-js"
+               path="topics/preferences-editor-format-js.html"/>
+   <appContext helpID="preferences-content-completion"
+               path="topics/preferences-content-completion.html"/>
+   <appContext helpID="preferences-content-completion-annotations"
+               path="topics/preferences-content-completion-annotations.html"/>
+   <appContext helpID="preferences-content-completion-xpath"
+               path="topics/preferences-content-completion-xpath.html"/>
+   <appContext helpID="preferences-content-completion-js"
+               path="topics/preferences-content-completion-js.html"/>
+   <appContext helpID="preferences-colors-sh" path="topics/preferences-colors-sh.html"/>
+   <appContext helpID="preferences-colors-elements-by-prefix"
+               path="topics/preferences-colors-elements-by-prefix.html"/>
+   <appContext helpID="preferences-editor-open-save"
+               path="topics/preferences-editor-open-save.html"/>
+   <appContext helpID="save-hooks" path="topics/save-hooks.html"/>
+   <appContext helpID="preferences-templates" path="topics/preferences-templates.html"/>
+   <appContext helpID="preferences-editor-code-templates"
+               path="topics/preferences-editor-code-templates.html"/>
+   <appContext helpID="preferences-editor-document-templates"
+               path="topics/preferences-editor-document-templates.html"/>
+   <appContext helpID="preferences-editor-custom-validation"
+               path="topics/preferences-editor-custom-validation.html"/>
+   <appContext helpID="increasing-stack" path="topics/increasing-stack.html"/>
+   <appContext helpID="preferences-css-validator" path="topics/preferences-css-validator.html"/>
+   <appContext helpID="preferences-xml" path="topics/preferences-xml.html"/>
+   <appContext helpID="preferences-xml-catalog" path="topics/preferences-xml-catalog.html"/>
+   <appContext helpID="preferences-xml-parser" path="topics/preferences-xml-parser.html"/>
+   <appContext helpID="xml-schema-preferences-page"
+               path="topics/xml-schema-preferences-page.html"/>
+   <appContext helpID="relax-ng-preferences-page" path="topics/relax-ng-preferences-page.html"/>
+   <appContext helpID="schematron-preferences-page"
+               path="topics/schematron-preferences-page.html"/>
+   <appContext helpID="preferences-xproc-engines" path="topics/preferences-xproc-engines.html"/>
+   <appContext helpID="preferences-xslt-fo-xquery"
+               path="topics/preferences-xslt-fo-xquery.html"/>
+   <appContext helpID="preferences-xslt" path="topics/preferences-xslt.html"/>
+   <appContext helpID="preferences-xslt-saxon6" path="topics/preferences-xslt-saxon6.html"/>
+   <appContext helpID="preferences-xslt-saxon8" path="topics/preferences-xslt-saxon8.html"/>
+   <appContext helpID="preferences-advanced-xslt-saxon8"
+               path="topics/preferences-advanced-xslt-saxon8.html"/>
+   <appContext helpID="preferences-xsltproc" path="topics/preferences-xsltproc.html"/>
+   <appContext helpID="preferences-msxml-3-and-4" path="topics/preferences-msxml-3-and-4.html"/>
+   <appContext helpID="preferences-msxml-dot-net" path="topics/preferences-msxml-dot-net.html"/>
+   <appContext helpID="preferences-fo-processors" path="topics/preferences-fo-processors.html"/>
+   <appContext helpID="preferences-xpath" path="topics/preferences-xpath.html"/>
+   <appContext helpID="preferences-custom-engines"
+               path="topics/preferences-custom-engines.html"/>
+   <appContext helpID="ant-preferences" path="topics/ant-preferences.html"/>
+   <appContext helpID="preferences-xml-import" path="topics/preferences-xml-import.html"/>
+   <appContext helpID="preferences-certificates" path="topics/preferences-certificates.html"/>
+   <appContext helpID="preferences-xml-refactoring"
+               path="topics/preferences-xml-refactoring.html"/>
+   <appContext helpID="preferences-dita" path="topics/preferences-dita.html"/>
+   <appContext helpID="preferences-data-sources" path="topics/preferences-data-sources.html"/>
+   <appContext helpID="preferences-database-filters"
+               path="topics/preferences-database-filters.html"/>
+   <appContext helpID="download-database-drivers" path="topics/download-database-drivers.html"/>
+   <appContext helpID="preferences-svn" path="topics/preferences-svn.html"/>
+   <appContext helpID="preferences-svn-working-copy"
+               path="topics/preferences-svn-working-copy.html"/>
+   <appContext helpID="preferences-svn-diff" path="topics/preferences-svn-diff.html"/>
+   <appContext helpID="preferences-svn-messages" path="topics/preferences-svn-messages.html"/>
+   <appContext helpID="diff-preferences" path="topics/diff-preferences.html"/>
+   <appContext helpID="preferences-diff-files" path="topics/preferences-diff-files.html"/>
+   <appContext helpID="preferences-diff-appearance"
+               path="topics/preferences-diff-appearance.html"/>
+   <appContext helpID="preferences-diff-dirs" path="topics/preferences-diff-dirs.html"/>
+   <appContext helpID="preferences-diff-dir-appearance"
+               path="topics/preferences-diff-dir-appearance.html"/>
+   <appContext helpID="preferences-archive" path="topics/preferences-archive.html"/>
+   <appContext helpID="preferences-plugins" path="topics/preferences-plugins.html"/>
+   <appContext helpID="preferences-external-tools"
+               path="topics/preferences-external-tools.html"/>
+   <appContext helpID="preferences-menu-shortcut-keys"
+               path="topics/preferences-menu-shortcut-keys.html"/>
+   <appContext helpID="preferences-file-types" path="topics/preferences-file-types.html"/>
+   <appContext helpID="preferences-open-find-resources"
+               path="topics/preferences-open-find-resources.html"/>
+   <appContext helpID="preferences-custom-editor-variables"
+               path="topics/preferences-custom-editor-variables.html"/>
+   <appContext helpID="connection-settings" path="topics/connection-settings.html"/>
+   <appContext helpID="proxy-preferences" path="topics/proxy-preferences.html"/>
+   <appContext helpID="proxy-using-pac" path="topics/proxy-using-pac.html"/>
+   <appContext helpID="https-webdav-preferences" path="topics/https-webdav-preferences.html"/>
+   <appContext helpID="preferences-ftp-configuration"
+               path="topics/preferences-ftp-configuration.html"/>
+   <appContext helpID="trusted-hosts-settings" path="topics/trusted-hosts-settings.html"/>
+   <appContext helpID="ssh-preferences" path="topics/ssh-preferences.html"/>
+   <appContext helpID="preferences-outline" path="topics/preferences-outline.html"/>
+   <appContext helpID="preferences-view" path="topics/preferences-view.html"/>
+   <appContext helpID="preferences-messages" path="topics/preferences-messages.html"/>
+   <appContext helpID="option-layers" path="topics/option-layers.html"/>
+   <appContext helpID="default-options" path="topics/default-options.html"/>
+   <appContext helpID="preferences-sharing" path="topics/preferences-sharing.html"/>
+   <appContext helpID="import-export-preferences" path="topics/import-export-preferences.html"/>
+   <appContext helpID="associate-file-extension" path="topics/associate-file-extension.html"/>
+   <appContext helpID="dockable-views-and-editors"
+               path="topics/dockable-views-and-editors.html"/>
+   <appContext helpID="configure-toolbars" path="topics/configure-toolbars.html"/>
+   <appContext helpID="import-export-global-scenarios"
+               path="topics/import-export-global-scenarios.html"/>
+   <appContext helpID="editor-variables" path="topics/editor-variables.html"/>
+   <appContext helpID="custom-editor-variables" path="topics/custom-editor-variables.html"/>
+   <appContext helpID="custom-system-properties" path="topics/custom-system-properties.html"/>
+   <appContext helpID="changing-user-interface-language"
+               path="changing-user-interface-language.html#changing-user-interface-language"/>
+   <appContext helpID="localizeGUI-using-xml-file"
+               path="changing-user-interface-language.html#localizeGUI-using-xml-file"/>
+   <appContext helpID="set-parameter-in-startup-script"
+               path="topics/set-parameter-in-startup-script.html"/>
+   <appContext helpID="set-parameters-for-application-launchers"
+               path="topics/set-parameters-for-application-launchers.html"/>
+   <appContext helpID="set-parameters-command-line-scripts"
+               path="topics/set-parameters-command-line-scripts.html"/>
+   <appContext helpID="custom-startup-parameters-file"
+               path="topics/custom-startup-parameters-file.html"/>
    <appContext helpID="editing-perspectives" path="topics/editing-perspectives.html"/>
    <appContext helpID="editor-perspective" path="topics/editor-perspective.html"/>
-   <appContext helpID="description-of-editor-types"
-               path="topics/description-of-editor-types.html"/>
    <appContext helpID="database-perspective" path="topics/database-perspective.html"/>
    <appContext helpID="oxygen-editing-modes" path="topics/oxygen-editing-modes.html"/>
-   <appContext helpID="text-editor-specific-actions"
-               path="topics/text-editor-specific-actions.html"/>
    <appContext helpID="text-mode-editor" path="topics/text-mode-editor.html"/>
    <appContext helpID="text-navigate-document-content"
                path="topics/text-navigate-document-content.html"/>
-   <appContext helpID="quick-document-browsing" path="topics/quick-document-browsing.html"/>
    <appContext helpID="text-mode-views" path="topics/text-mode-views.html"/>
    <appContext helpID="using-the-project-view" path="topics/using-the-project-view.html"/>
    <appContext helpID="open-find-resource-view" path="topics/open-find-resource-view.html"/>
    <appContext helpID="outliner-view" path="topics/outliner-view.html"/>
-   <appContext helpID="overview-outliner" path="topics/overview-outliner.html"/>
-   <appContext helpID="followup-outliner" path="topics/followup-outliner.html"/>
-   <appContext helpID="structure-change-outliner" path="topics/structure-change-outliner.html"/>
    <appContext helpID="filters-outliner" path="topics/filters-outliner.html"/>
    <appContext helpID="outliner-popup-menu" path="topics/outliner-popup-menu.html"/>
-   <appContext helpID="selection-outliner" path="topics/selection-outliner.html"/>
    <appContext helpID="attributes-panel" path="topics/attributes-panel.html"/>
    <appContext helpID="model-panel" path="topics/model-panel.html"/>
    <appContext helpID="text-elements-view" path="topics/text-elements-view.html"/>
@@ -166,25 +349,14 @@
    <appContext helpID="syntax-highlight-depending-on-namespace-prefix"
                path="topics/syntax-highlight-depending-on-namespace-prefix.html"/>
    <appContext helpID="marking-validation-errors" path="topics/marking-validation-errors.html"/>
-   <appContext helpID="grid-editor-introduction" path="topics/grid-editor-introduction.html"/>
+   <appContext helpID="bidirectional-support" path="topics/bidirectional-support.html"/>
    <appContext helpID="grid-mode-editor" path="topics/grid-mode-editor.html"/>
    <appContext helpID="grid-modes" path="topics/grid-modes.html"/>
    <appContext helpID="grid-navigation" path="topics/grid-navigation.html"/>
    <appContext helpID="grid-bidi" path="topics/grid-bidi.html"/>
-   <appContext helpID="tagless-editor" path="topics/tagless-editor.html"/>
    <appContext helpID="author-editor" path="topics/author-editor.html"/>
    <appContext helpID="author-navigate-document-content"
                path="topics/author-navigate-document-content.html"/>
-   <appContext helpID="author-display-markup" path="topics/author-display-markup.html"/>
-   <appContext helpID="author-bookmarks" path="topics/author-bookmarks.html"/>
-   <appContext helpID="author-position-information"
-               path="topics/author-position-information.html"/>
-   <appContext helpID="author-displaying-referenced-content"
-               path="topics/author-displaying-referenced-content.html"/>
-   <appContext helpID="author-validation-error-presenting"
-               path="topics/author-validation-error-presenting.html"/>
-   <appContext helpID="author-whitespace-handling"
-               path="topics/author-whitespace-handling.html"/>
    <appContext helpID="author-views" path="topics/author-views.html"/>
    <appContext helpID="using-the-project-view" path="topics/using-the-project-view-1.html"/>
    <appContext helpID="open-find-resource-view" path="topics/open-find-resource-view-1.html"/>
@@ -192,9 +364,20 @@
    <appContext helpID="filters-author-outliner" path="topics/filters-author-outliner.html"/>
    <appContext helpID="author-outline-popup-menu" path="topics/author-outline-popup-menu.html"/>
    <appContext helpID="author-attributes-view" path="topics/author-attributes-view.html"/>
+   <appContext helpID="model-panel" path="topics/model-panel-1.html"/>
    <appContext helpID="author-elements-view" path="topics/author-elements-view.html"/>
+   <appContext helpID="entities-view" path="topics/entities-view-1.html"/>
    <appContext helpID="results-view" path="topics/results-view-1.html"/>
    <appContext helpID="author-css-inspector-view" path="topics/author-css-inspector-view.html"/>
+   <appContext helpID="author-display-markup" path="topics/author-display-markup.html"/>
+   <appContext helpID="author-displaying-referenced-content"
+               path="topics/author-displaying-referenced-content.html"/>
+   <appContext helpID="author-position-information"
+               path="topics/author-position-information.html"/>
+   <appContext helpID="author-validation-error-presenting"
+               path="topics/author-validation-error-presenting.html"/>
+   <appContext helpID="author-whitespace-handling"
+               path="topics/author-whitespace-handling.html"/>
    <appContext helpID="bidi-support" path="topics/bidi-support.html"/>
    <appContext helpID="control-text-direction-markup"
                path="topics/control-text-direction-markup.html"/>
@@ -209,7 +392,9 @@
    <appContext helpID="opening-and-closing-documents"
                path="topics/opening-and-closing-documents.html"/>
    <appContext helpID="creating-new-documents" path="topics/creating-new-documents.html"/>
-   <appContext helpID="new-dialog-sa" path="tasks/new-dialog-sa.html"/>
+   <appContext helpID="new-dialog-sa" path="topics/new-dialog-sa.html"/>
+   <appContext helpID="create-your-own-templates" path="topics/create-your-own-templates.html"/>
+   <appContext helpID="customizing-templates" path="topics/customizing-templates.html"/>
    <appContext helpID="opening-existing-documents"
                path="topics/opening-existing-documents.html"/>
    <appContext helpID="opening-current-document-in-browser"
@@ -248,12 +433,11 @@
                path="topics/move-rename-resources-project-view.html"/>
    <appContext helpID="problems-updating-references"
                path="topics/problems-updating-references.html"/>
+   <appContext helpID="image-preview" path="topics/image-preview.html"/>
    <appContext helpID="sharing-projects" path="topics/sharing-projects.html"/>
    <appContext helpID="author-minimize-differences-between-saved-versions"
                path="tasks/author-minimize-differences-between-saved-versions.html"/>
    <appContext helpID="defining_master_files" path="topics/defining_master_files.html"/>
-   <appContext helpID="introduction-to-master-files"
-               path="topics/introduction-to-master-files.html"/>
    <appContext helpID="master-files-benefits" path="topics/master-files-benefits.html"/>
    <appContext helpID="enabling-the-master-files-support"
                path="topics/enabling-the-master-files-support.html"/>
@@ -267,21 +451,47 @@
    <appContext helpID="editing-xml-documents" path="topics/editing-xml-documents.html"/>
    <appContext helpID="xml-editor-specific-actions"
                path="topics/xml-editor-specific-actions.html"/>
-   <appContext helpID="text-mode-actions" path="topics/text-mode-actions.html"/>
+   <appContext helpID="text-navigate-document-content"
+               path="topics/text-navigate-document-content-1.html"/>
    <appContext helpID="smart-editing" path="topics/smart-editing.html"/>
-   <appContext helpID="using-go-to-dialog" path="topics/using-go-to-dialog.html"/>
-   <appContext helpID="highlight-xml-id-idrefs" path="topics/highlight-xml-id-idrefs.html"/>
+   <appContext helpID="word-line-actions" path="topics/word-line-actions.html"/>
+   <appContext helpID="editing-markup-text" path="topics/editing-markup-text.html"/>
+   <appContext helpID="folding-of-the-xml-elements"
+               path="topics/folding-of-the-xml-elements.html"/>
+   <appContext helpID="drag-and-drop-selected-text"
+               path="topics/drag-and-drop-selected-text.html"/>
+   <appContext helpID="rectangular-selection" path="topics/rectangular-selection.html"/>
+   <appContext helpID="streamline-with-content-completion"
+               path="topics/streamline-with-content-completion.html"/>
+   <appContext helpID="content-completion-set-schema"
+               path="topics/content-completion-set-schema.html"/>
+   <appContext helpID="content-completion-schema-annotations"
+               path="topics/content-completion-schema-annotations.html"/>
+   <appContext helpID="content-completion-helper-panels"
+               path="topics/content-completion-helper-panels.html"/>
+   <appContext helpID="model-panel" path="topics/model-panel-2.html"/>
+   <appContext helpID="attributes-panel" path="topics/attributes-panel-1.html"/>
+   <appContext helpID="text-elements-view" path="topics/text-elements-view-1.html"/>
+   <appContext helpID="entities-view" path="topics/entities-view-2.html"/>
+   <appContext helpID="code-templates" path="topics/code-templates.html"/>
+   <appContext helpID="outliner-view" path="topics/outliner-view-1.html"/>
+   <appContext helpID="filters-outliner" path="topics/filters-outliner-1.html"/>
    <appContext helpID="xml-id-idrefs-quick-assist"
                path="topics/xml-id-idrefs-quick-assist.html"/>
-   <appContext helpID="word-line-actions" path="topics/word-line-actions.html"/>
    <appContext helpID="inserting-a-file-at-caret-position"
                path="topics/inserting-a-file-at-caret-position.html"/>
+   <appContext helpID="adjusting-transparency-of-markup"
+               path="topics/adjusting-transparency-of-markup.html"/>
+   <appContext helpID="locking-and-unlocking-XML-markup"
+               path="topics/locking-and-unlocking-XML-markup.html"/>
    <appContext helpID="format-and-indent-xml" path="topics/format-and-indent-xml.html"/>
    <appContext helpID="setting-an-indent-of-zero" path="topics/setting-an-indent-of-zero.html"/>
    <appContext helpID="format-indent-multiple-files"
                path="topics/format-indent-multiple-files.html"/>
    <appContext helpID="managing-highlighted-content"
                path="topics/managing-highlighted-content.html"/>
+   <appContext helpID="highlight-xml-id-idrefs" path="topics/highlight-xml-id-idrefs.html"/>
+   <appContext helpID="text-mode-actions" path="topics/text-mode-actions.html"/>
    <appContext helpID="editing-docs-grid-mode" path="topics/editing-docs-grid-mode.html"/>
    <appContext helpID="grid-actions" path="topics/grid-actions.html"/>
    <appContext helpID="grid-sort" path="topics/grid-sort.html"/>
@@ -296,82 +506,135 @@
    <appContext helpID="grid-copy-paste" path="topics/grid-copy-paste.html"/>
    <appContext helpID="editing-xml-documents-author"
                path="topics/editing-xml-documents-author.html"/>
-   <appContext helpID="tagless-editor-introduction"
-               path="topics/tagless-editor-introduction.html"/>
-   <appContext helpID="author-contextual-menu" path="topics/author-contextual-menu.html"/>
-   <appContext helpID="author-editing-text" path="topics/author-editing-text.html"/>
+   <appContext helpID="author-user-roles" path="topics/author-user-roles.html"/>
+   <appContext helpID="rendering-xml-author-mode" path="topics/rendering-xml-author-mode.html"/>
+   <appContext helpID="author-navigate-document-content"
+               path="topics/author-navigate-document-content-1.html"/>
+   <appContext helpID="editing-content-author" path="topics/editing-content-author.html"/>
    <appContext helpID="author-editing-markup" path="topics/author-editing-markup.html"/>
-   <appContext helpID="code-templates" path="topics/code-templates.html"/>
+   <appContext helpID="editing-attributes-author-mode"
+               path="topics/editing-attributes-author-mode.html"/>
+   <appContext helpID="folding-author-mode" path="topics/folding-author-mode.html"/>
+   <appContext helpID="author-drag-drop" path="topics/author-drag-drop.html"/>
+   <appContext helpID="smart-paste-support" path="topics/smart-paste-support.html"/>
+   <appContext helpID="content-completion-author-mode"
+               path="topics/content-completion-author-mode.html"/>
+   <appContext helpID="content-completion-set-schema-author"
+               path="topics/content-completion-set-schema-author.html"/>
+   <appContext helpID="content-completion-schema-annotations-author"
+               path="topics/content-completion-schema-annotations-author.html"/>
+   <appContext helpID="model-panel" path="topics/model-panel-3.html"/>
+   <appContext helpID="author-attributes-view" path="topics/author-attributes-view-1.html"/>
+   <appContext helpID="author-elements-view" path="topics/author-elements-view-1.html"/>
+   <appContext helpID="entities-view" path="topics/entities-view-3.html"/>
+   <appContext helpID="code-templates" path="topics/code-templates-1.html"/>
+   <appContext helpID="author-outline-view" path="topics/author-outline-view-1.html"/>
+   <appContext helpID="filters-author-outliner" path="topics/filters-author-outliner-1.html"/>
+   <appContext helpID="author-outline-popup-menu"
+               path="topics/author-outline-popup-menu-1.html"/>
    <appContext helpID="author-finding-and-replacing-text"
                path="topics/author-finding-and-replacing-text.html"/>
-   <appContext helpID="smart-paste-support" path="topics/smart-paste-support.html"/>
    <appContext helpID="author-change-tracking" path="topics/author-change-tracking.html"/>
    <appContext helpID="author-managing-changes" path="topics/author-managing-changes.html"/>
    <appContext helpID="track-changes-behaviour" path="topics/track-changes-behaviour.html"/>
-   <appContext helpID="keep-tracking-inserted-content"
-               path="topics/keep-tracking-inserted-content.html"/>
-   <appContext helpID="keep-tracking-surround" path="topics/keep-tracking-surround.html"/>
-   <appContext helpID="keep-tracking-deleted-characters"
-               path="topics/keep-tracking-deleted-characters.html"/>
-   <appContext helpID="keep-tracking-deleted-content"
-               path="topics/keep-tracking-deleted-content.html"/>
-   <appContext helpID="keep-tracking-copied-content"
-               path="topics/keep-tracking-copied-content.html"/>
-   <appContext helpID="keep-tracking-pasted-content"
-               path="topics/keep-tracking-pasted-content.html"/>
-   <appContext helpID="keep-tracking-attribute-changes"
-               path="topics/keep-tracking-attribute-changes.html"/>
    <appContext helpID="track-changes-limitations" path="topics/track-changes-limitations.html"/>
    <appContext helpID="track-changes-format" path="topics/track-changes-format.html"/>
    <appContext helpID="author-managing-comments" path="topics/author-managing-comments.html"/>
    <appContext helpID="text-highlight" path="topics/text-highlight.html"/>
-   <appContext helpID="highlight-text" path="tasks/highlight-text.html"/>
-   <appContext helpID="highlight-fragments" path="tasks/highlight-fragments.html"/>
-   <appContext helpID="remove-highlighting" path="tasks/remove-highlighting.html"/>
    <appContext helpID="author-callouts" path="topics/author-callouts.html"/>
    <appContext helpID="review-view" path="topics/review-view.html"/>
    <appContext helpID="profiling-conditional-text"
                path="topics/profiling-conditional-text.html"/>
    <appContext helpID="profiling-attributes-management"
-               path="tasks/profiling-attributes-management.html"/>
-   <appContext helpID="condition-sets-management" path="tasks/condition-sets-management.html"/>
+               path="topics/profiling-attributes-management.html"/>
+   <appContext helpID="apply-profiling-attributes"
+               path="topics/apply-profiling-attributes.html"/>
+   <appContext helpID="condition-sets-management" path="topics/condition-sets-management.html"/>
    <appContext helpID="apply-profiling-conditional-set"
                path="topics/apply-profiling-conditional-set.html"/>
-   <appContext helpID="apply-profiling-attributes"
-               path="tasks/apply-profiling-attributes.html"/>
    <appContext helpID="profiling-conditional-text-menu"
                path="topics/profiling-conditional-text-menu.html"/>
    <appContext helpID="apply-styles" path="topics/apply-styles.html"/>
+   <appContext helpID="adding-tables-author" path="topics/adding-tables-author.html"/>
    <appContext helpID="author-editing-tables" path="topics/author-editing-tables.html"/>
+   <appContext helpID="add-docbook-table" path="topics/add-docbook-table.html"/>
    <appContext helpID="author-editing-tables-docbook"
                path="topics/author-editing-tables-docbook.html"/>
    <appContext helpID="docbook-table-properties" path="topics/docbook-table-properties.html"/>
-   <appContext helpID="author-editing-tables-xhtml"
-               path="topics/author-editing-tables-xhtml.html"/>
+   <appContext helpID="eppo-tables" path="topics/eppo-tables.html"/>
    <appContext helpID="author-editing-tables-dita"
                path="topics/author-editing-tables-dita.html"/>
    <appContext helpID="dita-table-properties" path="topics/dita-table-properties.html"/>
+   <appContext helpID="add-table-xhtml" path="topics/add-table-xhtml.html"/>
+   <appContext helpID="author-editing-tables-xhtml"
+               path="topics/author-editing-tables-xhtml.html"/>
    <appContext helpID="sorting-support" path="topics/sorting-support.html"/>
    <appContext helpID="sort-entire-table" path="topics/sort-entire-table.html"/>
    <appContext helpID="sort-row-selection" path="topics/sort-row-selection.html"/>
    <appContext helpID="sort-merged-cells-table" path="topics/sort-merged-cells-table.html"/>
    <appContext helpID="sort-list-items" path="topics/sort-list-items.html"/>
+   <appContext helpID="author_adding_images" path="topics/author_adding_images.html"/>
+   <appContext helpID="image-map-editor" path="topics/image-map-editor.html"/>
+   <appContext helpID="image-map-dita" path="topics/image-map-dita.html"/>
+   <appContext helpID="image-map-docbook" path="topics/image-map-docbook.html"/>
+   <appContext helpID="image-map-tei" path="topics/image-map-tei.html"/>
+   <appContext helpID="image-map-xhtml" path="topics/image-map-xhtml.html"/>
    <appContext helpID="author-image-rendering" path="topics/author-image-rendering.html"/>
-   <appContext helpID="author-image-rendering-jai"
-               path="tasks/author-image-rendering-jai.html"/>
    <appContext helpID="installing-cgm-library" path="tasks/installing-cgm-library.html"/>
    <appContext helpID="installing-pdf-library" path="tasks/installing-pdf-library.html"/>
    <appContext helpID="installing-psd-library" path="tasks/installing-psd-library.html"/>
    <appContext helpID="eps-ai-support" path="topics/eps-ai-support.html"/>
-   <appContext helpID="author_adding_images" path="topics/author_adding_images.html"/>
+   <appContext helpID="author-image-rendering-jai"
+               path="topics/author-image-rendering-jai.html"/>
    <appContext helpID="author-editing-mathml" path="topics/author-editing-mathml.html"/>
    <appContext helpID="configure-mathflow-editor" path="tasks/configure-mathflow-editor.html"/>
    <appContext helpID="mathjax-webhelp" path="topics/mathjax-webhelp.html"/>
    <appContext helpID="author-editing-refreshing" path="topics/author-editing-refreshing.html"/>
-   <appContext helpID="editing-attributes-author-mode"
-               path="topics/editing-attributes-author-mode.html"/>
    <appContext helpID="generate-ids" path="topics/generate-ids.html"/>
    <appContext helpID="using-form-controls" path="topics/using-form-controls.html"/>
+   <appContext helpID="author-contextual-menu" path="topics/author-contextual-menu.html"/>
+   <appContext helpID="validating-XML-documents" path="topics/validating-XML-documents.html"/>
+   <appContext helpID="checking-xml-well-formedness"
+               path="topics/checking-xml-well-formedness.html"/>
+   <appContext helpID="validating-XML-documents-against-schema"
+               path="topics/validating-XML-documents-against-schema.html"/>
+   <appContext helpID="automatic-validation" path="topics/automatic-validation.html"/>
+   <appContext helpID="validation-actions-in-user-interface"
+               path="topics/validation-actions-in-user-interface.html"/>
+   <appContext helpID="marking-validation-errors"
+               path="topics/marking-validation-errors-1.html"/>
+   <appContext helpID="author-validation-error-presenting"
+               path="topics/author-validation-error-presenting-1.html"/>
+   <appContext helpID="customizing-assert-error-messages"
+               path="topics/customizing-assert-error-messages.html"/>
+   <appContext helpID="custom-validation" path="topics/custom-validation.html"/>
+   <appContext helpID="linked-output-messages-of-external-engine"
+               path="topics/linked-output-messages-of-external-engine.html"/>
+   <appContext helpID="validation-scenario" path="concepts/validation-scenario.html"/>
+   <appContext helpID="create-validation-scenario"
+               path="tasks/create-validation-scenario.html"/>
+   <appContext helpID="edit-validation-scenario" path="tasks/edit-validation-scenario.html"/>
+   <appContext helpID="validation-scenarios-sharing"
+               path="topics/validation-scenarios-sharing.html"/>
+   <appContext helpID="validate-XML-references-to-XML-Schema-spec"
+               path="topics/validate-XML-references-to-XML-Schema-spec.html"/>
+   <appContext helpID="validation-resolve-schema-ref-with-xml-catalog"
+               path="topics/validation-resolve-schema-ref-with-xml-catalog.html"/>
+   <appContext helpID="validation-example" path="topics/validation-example.html"/>
+   <appContext helpID="validate-xml-with-sch" path="topics/validate-xml-with-sch.html"/>
+   <appContext helpID="finding-replacing-text" path="topics/finding-replacing-text.html"/>
+   <appContext helpID="find-replace-dialog" path="topics/find-replace-dialog.html"/>
+   <appContext helpID="find-all-elements-dialog" path="topics/find-all-elements-dialog.html"/>
+   <appContext helpID="quick-find-toolbar" path="topics/quick-find-toolbar.html"/>
+   <appContext helpID="shortcuts-for-finding-next-previous-match"
+               path="topics/shortcuts-for-finding-next-previous-match.html"/>
+   <appContext helpID="regular-expressions" path="topics/regular-expressions.html"/>
+   <appContext helpID="find-and-replace-text-in-files"
+               path="topics/find-and-replace-text-in-files.html"/>
+   <appContext helpID="regular-expressions" path="topics/regular-expressions-1.html"/>
+   <appContext helpID="search-refactor-operations-xml-id-idrefs"
+               path="topics/search-refactor-operations-xml-id-idrefs.html"/>
+   <appContext helpID="search-refactor-scope" path="topics/search-refactor-scope.html"/>
    <appContext helpID="associate-schema-to-document"
                path="topics/associate-schema-to-document.html"/>
    <appContext helpID="set-schema-for-content-completion"
@@ -388,95 +651,24 @@
                path="topics/learning-document-structure.html"/>
    <appContext helpID="create-DTD-from-learned-document-structure"
                path="tasks/create-DTD-from-learned-document-structure.html"/>
-   <appContext helpID="streamline-with-content-completion"
-               path="topics/streamline-with-content-completion.html"/>
-   <appContext helpID="content-completion-set-schema"
-               path="topics/content-completion-set-schema.html"/>
-   <appContext helpID="content-completion-relax-ng"
-               path="topics/content-completion-relax-ng.html"/>
-   <appContext helpID="content-completion-schema-annotations"
-               path="topics/content-completion-schema-annotations.html"/>
-   <appContext helpID="content-completion-helper-panels"
-               path="topics/content-completion-helper-panels.html"/>
-   <appContext helpID="attributes-panel" path="topics/attributes-panel-1.html"/>
-   <appContext helpID="code-templates" path="topics/code-templates-1.html"/>
-   <appContext helpID="configuring-content-completion-proposals"
-               path="topics/configuring-content-completion-proposals.html"/>
-   <appContext helpID="validating-XML-documents" path="topics/validating-XML-documents.html"/>
-   <appContext helpID="checking-xml-well-formedness"
-               path="topics/checking-xml-well-formedness.html"/>
-   <appContext helpID="validating-XML-documents-against-schema"
-               path="topics/validating-XML-documents-against-schema.html"/>
-   <appContext helpID="marking-validation-errors"
-               path="topics/marking-validation-errors-1.html"/>
-   <appContext helpID="author-validation-error-presenting"
-               path="topics/author-validation-error-presenting-1.html"/>
-   <appContext helpID="customizing-assert-error-messages"
-               path="topics/customizing-assert-error-messages.html"/>
-   <appContext helpID="validation-example" path="topics/validation-example.html"/>
-   <appContext helpID="automatic-validation" path="topics/automatic-validation.html"/>
-   <appContext helpID="custom-validation" path="topics/custom-validation.html"/>
-   <appContext helpID="linked-output-messages-of-external-engine"
-               path="topics/linked-output-messages-of-external-engine.html"/>
-   <appContext helpID="validation-scenario" path="concepts/validation-scenario.html"/>
-   <appContext helpID="create-validation-scenario"
-               path="tasks/create-validation-scenario.html"/>
-   <appContext helpID="validation-scenarios-sharing"
-               path="topics/validation-scenarios-sharing.html"/>
-   <appContext helpID="validation-actions-in-user-interface"
-               path="topics/validation-actions-in-user-interface.html"/>
-   <appContext helpID="validate-XML-references-to-XML-Schema-spec"
-               path="topics/validate-XML-references-to-XML-Schema-spec.html"/>
-   <appContext helpID="validation-resolve-schema-ref-with-xml-catalog"
-               path="topics/validation-resolve-schema-ref-with-xml-catalog.html"/>
-   <appContext helpID="document-navigation" path="topics/document-navigation.html"/>
-   <appContext helpID="folding-of-the-xml-elements"
-               path="topics/folding-of-the-xml-elements.html"/>
-   <appContext helpID="navigation-using-outline-view"
-               path="topics/navigation-using-outline-view.html"/>
-   <appContext helpID="overview-outliner" path="topics/overview-outliner-1.html"/>
-   <appContext helpID="navigation-buttons" path="topics/navigation-buttons.html"/>
-   <appContext helpID="change-font-size" path="topics/change-font-size.html"/>
-   <appContext helpID="undoing-and-redoing-user-actions"
-               path="topics/undoing-and-redoing-user-actions.html"/>
-   <appContext helpID="drag-and-drop-selected-text"
-               path="topics/drag-and-drop-selected-text.html"/>
-   <appContext helpID="copying-and-pasting-text" path="topics/copying-and-pasting-text.html"/>
-   <appContext helpID="printing-a-file" path="topics/printing-a-file.html"/>
-   <appContext helpID="finding-replacing-text" path="topics/finding-replacing-text.html"/>
-   <appContext helpID="find-replace-dialog" path="topics/find-replace-dialog.html"/>
-   <appContext helpID="find-all-elements-dialog" path="topics/find-all-elements-dialog.html"/>
-   <appContext helpID="quick-find-toolbar" path="topics/quick-find-toolbar.html"/>
-   <appContext helpID="shortcuts-for-finding-next-previous-match"
-               path="topics/shortcuts-for-finding-next-previous-match.html"/>
-   <appContext helpID="regular-expressions" path="topics/regular-expressions.html"/>
-   <appContext helpID="find-and-replace-text-in-files"
-               path="topics/find-and-replace-text-in-files.html"/>
+   <appContext helpID="xml-contextual-editing" path="topics/xml-contextual-editing.html"/>
+   <appContext helpID="xml-resource-hierarchy-view"
+               path="topics/xml-resource-hierarchy-view.html"/>
+   <appContext helpID="move-rename-resource-xml-hierarchy-view"
+               path="topics/move-rename-resource-xml-hierarchy-view.html"/>
+   <appContext helpID="using-XML-Catalogs" path="topics/using-XML-Catalogs.html"/>
+   <appContext helpID="resolve-xml-schema-location-through-xml-catalogs"
+               path="topics/resolve-xml-schema-location-through-xml-catalogs.html"/>
    <appContext helpID="large-documents" path="topics/large-documents.html"/>
    <appContext helpID="large-documents-DTD-entities"
                path="topics/large-documents-DTD-entities.html"/>
    <appContext helpID="including-document-parts-with-XInclude"
                path="topics/including-document-parts-with-XInclude.html"/>
-   <appContext helpID="using-XML-Catalogs" path="topics/using-XML-Catalogs.html"/>
-   <appContext helpID="resolve-xml-schema-location-through-xml-catalogs"
-               path="topics/resolve-xml-schema-location-through-xml-catalogs.html"/>
-   <appContext helpID="xml-resource-hierarchy-view"
-               path="topics/xml-resource-hierarchy-view.html"/>
-   <appContext helpID="move-rename-resource-xml-hierarchy-view"
-               path="topics/move-rename-resource-xml-hierarchy-view.html"/>
-   <appContext helpID="xml-contextual-editing" path="topics/xml-contextual-editing.html"/>
-   <appContext helpID="search-refactor-operations-xml-id-idrefs"
-               path="topics/search-refactor-operations-xml-id-idrefs.html"/>
-   <appContext helpID="search-refactor-scope" path="topics/search-refactor-scope.html"/>
    <appContext helpID="view-status-information" path="topics/view-status-information.html"/>
-   <appContext helpID="image-preview" path="topics/image-preview.html"/>
    <appContext helpID="making-persistent-copy-of-results"
                path="topics/making-persistent-copy-of-results.html"/>
-   <appContext helpID="locking-and-unlocking-XML-markup"
-               path="topics/locking-and-unlocking-XML-markup.html"/>
-   <appContext helpID="adjusting-transparency-of-markup"
-               path="topics/adjusting-transparency-of-markup.html"/>
    <appContext helpID="editor-highlights" path="topics/editor-highlights.html"/>
+   <appContext helpID="printing-a-file" path="topics/printing-a-file.html"/>
    <appContext helpID="xml-quick-fixes" path="topics/xml-quick-fixes.html"/>
    <appContext helpID="xsd-rng-quick-fixes" path="topics/xsd-rng-quick-fixes.html"/>
    <appContext helpID="schematron-quick-fixes" path="topics/schematron-quick-fixes.html"/>
@@ -512,11 +704,11 @@
    <appContext helpID="editing-xliff" path="topics/editing-xliff.html"/>
    <appContext helpID="editing-JavaScript" path="topics/editing-JavaScript.html"/>
    <appContext helpID="text-mode-javascript" path="topics/text-mode-javascript.html"/>
+   <appContext helpID="validating-JavaScript-files"
+               path="topics/validating-JavaScript-files.html"/>
    <appContext helpID="content-completion-JavaScript"
                path="topics/content-completion-JavaScript.html"/>
    <appContext helpID="outline-view-JavaScript" path="topics/outline-view-JavaScript.html"/>
-   <appContext helpID="validating-JavaScript-files"
-               path="topics/validating-JavaScript-files.html"/>
    <appContext helpID="SVG-documents" path="topics/SVG-documents.html"/>
    <appContext helpID="the-standalone-svg-viewer" path="topics/the-standalone-svg-viewer.html"/>
    <appContext helpID="preview-result-pane" path="topics/preview-result-pane.html"/>
@@ -540,189 +732,537 @@
    <appContext helpID="scratch-buffer" path="topics/scratch-buffer.html"/>
    <appContext helpID="handling-read-only-files" path="topics/handling-read-only-files.html"/>
    <appContext helpID="long-lines-document" path="topics/long-lines-document.html"/>
-   <appContext helpID="associate-file-extension" path="topics/associate-file-extension.html"/>
-   <appContext helpID="author-dita" path="topics/author-dita.html"/>
-   <appContext helpID="eppo-pathfinder-documents" path="topics/eppo-pathfinder-documents.html"/>
-   <appContext helpID="dita-maps-manager" path="topics/dita-maps-manager.html"/>
-   <appContext helpID="creating-dita-map" path="tasks/creating-dita-map.html"/>
-   <appContext helpID="root-map" path="topics/root-map.html"/>
-   <appContext helpID="eppo-submaps" path="topics/eppo-submaps.html"/>
-   <appContext helpID="eppo-create-book-map" path="tasks/eppo-create-book-map.html"/>
-   <appContext helpID="eppo-manage-map" path="topics/eppo-manage-map.html"/>
-   <appContext helpID="organize-topics-in-map" path="tasks/organize-topics-in-map.html"/>
-   <appContext helpID="eppo-add-topic-to-map" path="topics/eppo-add-topic-to-map.html"/>
-   <appContext helpID="move-rename-resource" path="topics/move-rename-resource.html"/>
-   <appContext helpID="dita-maps-inserting-references"
-               path="topics/dita-maps-inserting-references.html"/>
-   <appContext helpID="dita-insert-topic-ref" path="topics/dita-insert-topic-ref.html"/>
-   <appContext helpID="dita-insert-topic-head" path="topics/dita-insert-topic-head.html"/>
-   <appContext helpID="dita-insert-topic-group" path="topics/dita-insert-topic-group.html"/>
-   <appContext helpID="insert-define-keys" path="topics/insert-define-keys.html"/>
-   <appContext helpID="dita-edit-properties" path="topics/dita-edit-properties.html"/>
-   <appContext helpID="eppo-create-toc" path="tasks/eppo-create-toc.html"/>
-   <appContext helpID="dita-map-resolve-references-through-catalog"
-               path="topics/dita-map-resolve-references-through-catalog.html"/>
-   <appContext helpID="find-unreferenced-resources"
-               path="topics/find-unreferenced-resources.html"/>
-   <appContext helpID="eppo-chunking" path="topics/eppo-chunking.html"/>
-   <appContext helpID="dita-map-validate" path="topics/dita-map-validate.html"/>
-   <appContext helpID="eppo-validate-map" path="tasks/eppo-validate-map.html"/>
-   <appContext helpID="eppo-pathfinder-structure" path="topics/eppo-pathfinder-structure.html"/>
-   <appContext helpID="create-topic-in-map" path="tasks/create-topic-in-map.html"/>
-   <appContext helpID="eppo-edit-topics" path="topics/eppo-edit-topics.html"/>
-   <appContext helpID="eppo-pathfinder-reuse" path="topics/eppo-pathfinder-reuse.html"/>
-   <appContext helpID="eppo-reuse-topics" path="tasks/eppo-reuse-topics.html"/>
-   <appContext helpID="working-with-content-references"
-               path="topics/working-with-content-references.html"/>
-   <appContext helpID="eppo-create-conref" path="topics/eppo-create-conref.html"/>
-   <appContext helpID="eppo-create-conkeyref" path="topics/eppo-create-conkeyref.html"/>
-   <appContext helpID="edit-dita-content-reference"
-               path="topics/edit-dita-content-reference.html"/>
-   <appContext helpID="insert-dita-content-reference"
-               path="topics/insert-dita-content-reference.html"/>
-   <appContext helpID="conref-push-mechanism" path="topics/conref-push-mechanism.html"/>
-   <appContext helpID="dita-reusable-components" path="topics/dita-reusable-components.html"/>
-   <appContext helpID="eppo-creating-reusable-content"
-               path="tasks/eppo-creating-reusable-content.html"/>
-   <appContext helpID="eppo-reuse-content" path="tasks/eppo-reuse-content.html"/>
-   <appContext helpID="eppo-variables" path="topics/eppo-variables.html"/>
-   <appContext helpID="eppo-pathfinder-linking" path="topics/eppo-pathfinder-linking.html"/>
-   <appContext helpID="eppo-hierarchical-linking" path="topics/eppo-hierarchical-linking.html"/>
-   <appContext helpID="eppo-inline-linking" path="topics/eppo-inline-linking.html"/>
-   <appContext helpID="eppo-relationship-table-linking"
-               path="tasks/eppo-relationship-table-linking.html"/>
-   <appContext helpID="create-relationships-between-topics"
-               path="tasks/create-relationships-between-topics.html"/>
-   <appContext helpID="eppo-adding-images" path="topics/eppo-adding-images.html"/>
-   <appContext helpID="eppo-tables" path="topics/eppo-tables.html"/>
-   <appContext helpID="working-with-mathml" path="topics/working-with-mathml.html"/>
-   <appContext helpID="eppo-background-keys" path="topics/eppo-background-keys.html"/>
-   <appContext helpID="eppo-pathfinder-output" path="topics/eppo-pathfinder-output.html"/>
-   <appContext helpID="eppo-generate-output" path="tasks/eppo-generate-output.html"/>
-   <appContext helpID="dita-map-transform" path="topics/dita-map-transform.html"/>
-   <appContext helpID="dita-ot-transformation" path="topics/dita-ot-transformation.html"/>
-   <appContext helpID="dita-pdf-select-processor" path="topics/dita-pdf-select-processor.html"/>
-   <appContext helpID="dita-map-edit-parameters" path="topics/dita-map-edit-parameters.html"/>
-   <appContext helpID="dita-map-edit-filters" path="topics/dita-map-edit-filters.html"/>
-   <appContext helpID="dita-map-edit-advanced" path="topics/dita-map-edit-advanced.html"/>
-   <appContext helpID="dita-map-edit-output" path="topics/dita-map-edit-output.html"/>
-   <appContext helpID="dita-transformation-skins-tab"
-               path="topics/dita-transformation-skins-tab.html"/>
-   <appContext helpID="dita-ot-customization" path="topics/dita-ot-customization.html"/>
-   <appContext helpID="dita-map-use-your-own-build-file"
-               path="topics/dita-map-use-your-own-build-file.html"/>
-   <appContext helpID="dita-pdf-output" path="topics/dita-pdf-output.html"/>
-   <appContext helpID="dita_pdf_output_customization"
-               path="topics/dita_pdf_output_customization.html"/>
-   <appContext helpID="dita_pdf_header_footer_customization"
-               path="topics/dita_pdf_header_footer_customization.html"/>
-   <appContext helpID="add-watermark-pdf-output" path="tasks/add-watermark-pdf-output.html"/>
-   <appContext helpID="page-breaks-between-block-elements"
-               path="topics/page-breaks-between-block-elements.html"/>
-   <appContext helpID="dita_pdf_output_note_images"
-               path="topics/dita_pdf_output_note_images.html"/>
-   <appContext helpID="DITA-map-set-font-Apache-FOP"
-               path="topics/DITA-map-set-font-Apache-FOP.html"/>
-   <appContext helpID="add-watermark-xhtml-output"
-               path="tasks/add-watermark-xhtml-output.html"/>
-   <appContext helpID="ditamap-pdf-css" path="topics/ditamap-pdf-css.html"/>
-   <appContext helpID="dita-profiling-conditional-text"
-               path="topics/dita-profiling-conditional-text.html"/>
-   <appContext helpID="dita-profiling-conditions-tutorial"
-               path="tasks/dita-profiling-conditions-tutorial.html"/>
-   <appContext helpID="profiling-conditional-text-markers"
-               path="topics/profiling-conditional-text-markers.html"/>
-   <appContext helpID="subject-scheme-map" path="topics/subject-scheme-map.html"/>
-   <appContext helpID="publish-profiled-text" path="topics/publish-profiled-text.html"/>
-   <appContext helpID="dita-ot-support" path="topics/dita-ot-support.html"/>
-   <appContext helpID="simple-dita-ot-plugin" path="topics/simple-dita-ot-plugin.html"/>
-   <appContext helpID="dita-ot-install-plugin" path="topics/dita-ot-install-plugin.html"/>
-   <appContext helpID="use-new-dita-ot" path="tasks/use-new-dita-ot.html"/>
-   <appContext helpID="dita-specialization-support"
-               path="topics/dita-specialization-support.html"/>
-   <appContext helpID="dita-integrate-specialization"
-               path="topics/dita-integrate-specialization.html"/>
-   <appContext helpID="dita-map-edit-map-specializations"
-               path="topics/dita-map-edit-map-specializations.html"/>
-   <appContext helpID="dita-map-edit-topic-specializations"
-               path="topics/dita-map-edit-topic-specializations.html"/>
-   <appContext helpID="eppo-pathfinder-metadata" path="topics/eppo-pathfinder-metadata.html"/>
-   <appContext helpID="eppo-create-index" path="tasks/eppo-create-index.html"/>
-   <appContext helpID="dita1-3-support" path="topics/dita1-3-support.html"/>
-   <appContext helpID="doc-type" path="topics/doc-type.html"/>
-   <appContext helpID="predefined-document-types" path="topics/predefined-document-types.html"/>
-   <appContext helpID="author-docbook4-doc-type" path="topics/author-docbook4-doc-type.html"/>
-   <appContext helpID="author-docbook4-extensions"
-               path="topics/author-docbook4-extensions.html"/>
+   <appContext helpID="digital-signature" path="topics/digital-signature.html"/>
+   <appContext helpID="digital-signature-overview"
+               path="topics/digital-signature-overview.html"/>
+   <appContext helpID="certificates" path="topics/certificates.html"/>
+   <appContext helpID="canonicalizing-files" path="topics/canonicalizing-files.html"/>
+   <appContext helpID="signing-files" path="topics/signing-files.html"/>
+   <appContext helpID="verifying-signature" path="topics/verifying-signature.html"/>
+   <appContext helpID="example-signing-files" path="tasks/example-signing-files.html"/>
+   <appContext helpID="comparing-and-merging-documents"
+               path="topics/comparing-and-merging-documents.html"/>
+   <appContext helpID="file-comparison" path="topics/file-comparison.html"/>
+   <appContext helpID="files-comparison-main-menu"
+               path="topics/files-comparison-main-menu.html"/>
+   <appContext helpID="file-menu" path="topics/file-menu.html"/>
+   <appContext helpID="edit-menu" path="topics/edit-menu.html"/>
+   <appContext helpID="find-menu" path="topics/find-menu.html"/>
+   <appContext helpID="file-operations-menu" path="topics/file-operations-menu.html"/>
+   <appContext helpID="option-menu" path="topics/option-menu.html"/>
+   <appContext helpID="diff-help-menu" path="topics/diff-help-menu.html"/>
+   <appContext helpID="file-compare-toolbar" path="topics/file-compare-toolbar.html"/>
+   <appContext helpID="directories-comparison" path="topics/directories-comparison.html"/>
+   <appContext helpID="directories-comparison-user-interface"
+               path="topics/directories-comparison-user-interface.html"/>
+   <appContext helpID="dir-operations-menu" path="topics/dir-operations-menu.html"/>
+   <appContext helpID="diff-help-menu" path="topics/diff-help-menu-1.html"/>
+   <appContext helpID="dir-compare-toolbar" path="topics/dir-compare-toolbar.html"/>
+   <appContext helpID="compare-images" path="topics/compare-images.html"/>
+   <appContext helpID="transforming-documents" path="topics/transforming-documents.html"/>
+   <appContext helpID="transformation-scenario" path="concepts/transformation-scenario.html"/>
+   <appContext helpID="builtin-transformation-scenarios"
+               path="topics/builtin-transformation-scenarios.html"/>
    <appContext helpID="author-docbook4-transformation-scenarios"
                path="topics/author-docbook4-transformation-scenarios.html"/>
    <appContext helpID="docbook4_webhelp_output" path="topics/docbook4_webhelp_output.html"/>
    <appContext helpID="docbook-pdf-output-customization"
                path="tasks/docbook-pdf-output-customization.html"/>
    <appContext helpID="docbook-to-epub" path="topics/docbook-to-epub.html"/>
-   <appContext helpID="author-docbook4-templates" path="topics/author-docbook4-templates.html"/>
-   <appContext helpID="olink-links" path="tasks/olink-links.html"/>
-   <appContext helpID="author-docbook5-doc-type" path="topics/author-docbook5-doc-type.html"/>
-   <appContext helpID="author-docbook5-extensions"
-               path="topics/author-docbook5-extensions.html"/>
+   <appContext helpID="docbook-2-dita-transform" path="topics/docbook-2-dita-transform.html"/>
    <appContext helpID="author-docbook5-transformation-scenarios"
                path="topics/author-docbook5-transformation-scenarios.html"/>
    <appContext helpID="docbook5_webhelp_output" path="topics/docbook5_webhelp_output.html"/>
    <appContext helpID="docbook-pdf-output-customization"
                path="tasks/docbook-pdf-output-customization-1.html"/>
-   <appContext helpID="author-docbook5-templates" path="topics/author-docbook5-templates.html"/>
-   <appContext helpID="author-dita-doc-type" path="topics/author-dita-doc-type.html"/>
-   <appContext helpID="author-dita-extensions" path="topics/author-dita-extensions.html"/>
+   <appContext helpID="docbook-2-dita-transform" path="topics/docbook-2-dita-transform-1.html"/>
    <appContext helpID="author-dita-transformation-scenarios"
                path="topics/author-dita-transformation-scenarios.html"/>
+   <appContext helpID="author-dita-map-transformation-scenarios"
+               path="topics/author-dita-map-transformation-scenarios.html"/>
+   <appContext helpID="dita_webhelp_output" path="topics/dita_webhelp_output.html"/>
+   <appContext helpID="wh-responsive-output" path="topics/wh-responsive-output.html"/>
+   <appContext helpID="wh-responsive-feedback-output"
+               path="topics/wh-responsive-feedback-output.html"/>
+   <appContext helpID="wh-classic-output" path="topics/wh-classic-output.html"/>
+   <appContext helpID="wh-classic-mobile" path="topics/wh-classic-mobile.html"/>
+   <appContext helpID="wh-classic-feedback" path="topics/wh-classic-feedback.html"/>
+   <appContext helpID="ditamap-pdf-css" path="topics/ditamap-pdf-css.html"/>
+   <appContext helpID="chm-output-format" path="topics/chm-output-format.html"/>
+   <appContext helpID="kindle-transformation-output"
+               path="topics/kindle-transformation-output.html"/>
+   <appContext helpID="author-xhtml-transformation-scenarios"
+               path="topics/author-xhtml-transformation-scenarios.html"/>
+   <appContext helpID="author-tei-odd-transformation-scenarios"
+               path="topics/author-tei-odd-transformation-scenarios.html"/>
+   <appContext helpID="author-teip4-transformation-scenarios"
+               path="topics/author-teip4-transformation-scenarios.html"/>
+   <appContext helpID="author-teip5-transformation-scenarios"
+               path="topics/author-teip5-transformation-scenarios.html"/>
+   <appContext helpID="author-jats-transformation-scenarios"
+               path="topics/author-jats-transformation-scenarios.html"/>
+   <appContext helpID="defining-new-transformation-scenario"
+               path="topics/defining-new-transformation-scenario.html"/>
+   <appContext helpID="xml-transformation-with-xslt"
+               path="topics/xml-transformation-with-xslt.html"/>
+   <appContext helpID="xslt-tab" path="topics/xslt-tab.html"/>
+   <appContext helpID="xslt-stylesheet-parameters"
+               path="topics/xslt-stylesheet-parameters.html"/>
+   <appContext helpID="xslt-xquery-extensions" path="topics/xslt-xquery-extensions.html"/>
+   <appContext helpID="additional-xslt-stylesheets"
+               path="topics/additional-xslt-stylesheets.html"/>
+   <appContext helpID="advanced-saxon-xslt-options"
+               path="topics/advanced-saxon-xslt-options.html"/>
+   <appContext helpID="fo-processor-tab" path="topics/fo-processor-tab.html"/>
+   <appContext helpID="the-output-tab" path="topics/the-output-tab.html"/>
+   <appContext helpID="xml-transformation-with-xquery"
+               path="topics/xml-transformation-with-xquery.html"/>
+   <appContext helpID="the-xquery-tab" path="topics/the-xquery-tab.html"/>
+   <appContext helpID="xquery-parameters" path="topics/xquery-parameters.html"/>
+   <appContext helpID="xquery-extensions" path="topics/xquery-extensions.html"/>
+   <appContext helpID="transform-xquery-advanced-saxon-options"
+               path="topics/transform-xquery-advanced-saxon-options.html"/>
+   <appContext helpID="fo-processor-tab--xml-xquery"
+               path="topics/fo-processor-tab--xml-xquery.html"/>
+   <appContext helpID="output-xml-xquery" path="topics/output-xml-xquery.html"/>
+   <appContext helpID="dita-ot-transformation" path="topics/dita-ot-transformation.html"/>
+   <appContext helpID="dita-transformation-skins-tab"
+               path="topics/dita-transformation-skins-tab.html"/>
+   <appContext helpID="templates-tab-whr" path="topics/templates-tab-whr.html"/>
+   <appContext helpID="dita-pdf-select-processor" path="topics/dita-pdf-select-processor.html"/>
+   <appContext helpID="dita-map-edit-parameters" path="topics/dita-map-edit-parameters.html"/>
+   <appContext helpID="dita-map-edit-filters" path="topics/dita-map-edit-filters.html"/>
+   <appContext helpID="dita-map-edit-advanced" path="topics/dita-map-edit-advanced.html"/>
+   <appContext helpID="dita-map-edit-output" path="topics/dita-map-edit-output.html"/>
+   <appContext helpID="fixing-dita-transformation-errors"
+               path="topics/fixing-dita-transformation-errors.html"/>
+   <appContext helpID="ant-transformation" path="topics/ant-transformation.html"/>
+   <appContext helpID="ant-transformation-options-tab"
+               path="topics/ant-transformation-options-tab.html"/>
+   <appContext helpID="ant-transformation-parameters-tab"
+               path="topics/ant-transformation-parameters-tab.html"/>
+   <appContext helpID="ant-transformation-output-tab"
+               path="topics/ant-transformation-output-tab.html"/>
+   <appContext helpID="xslt-transformation" path="topics/xslt-transformation.html"/>
+   <appContext helpID="xslt-tab" path="topics/xslt-tab-1.html"/>
+   <appContext helpID="advanced-saxon-xslt-options"
+               path="topics/advanced-saxon-xslt-options-1.html"/>
+   <appContext helpID="fo-processor-tab" path="topics/fo-processor-tab-1.html"/>
+   <appContext helpID="the-output-tab" path="topics/the-output-tab-1.html"/>
+   <appContext helpID="xproc-transformation-scenario"
+               path="topics/xproc-transformation-scenario.html"/>
+   <appContext helpID="xproc-transformation-xproc-tab"
+               path="topics/xproc-transformation-xproc-tab.html"/>
+   <appContext helpID="xproc-transformation-inputs-tab"
+               path="topics/xproc-transformation-inputs-tab.html"/>
+   <appContext helpID="xproc-transformation-parameters-tab"
+               path="topics/xproc-transformation-parameters-tab.html"/>
+   <appContext helpID="xproc-transformation-outputs-tab"
+               path="topics/xproc-transformation-outputs-tab.html"/>
+   <appContext helpID="xproc-transformation-options-tab"
+               path="topics/xproc-transformation-options-tab.html"/>
+   <appContext helpID="xquery-transformation" path="topics/xquery-transformation.html"/>
+   <appContext helpID="the-xquery-tab" path="topics/the-xquery-tab-1.html"/>
+   <appContext helpID="transform-xquery-advanced-saxon-options"
+               path="topics/transform-xquery-advanced-saxon-options-1.html"/>
+   <appContext helpID="fo-processor-tab--xml-xquery"
+               path="topics/fo-processor-tab--xml-xquery-1.html"/>
+   <appContext helpID="output-xml-xquery" path="topics/output-xml-xquery-1.html"/>
+   <appContext helpID="sql-transformation" path="topics/sql-transformation.html"/>
+   <appContext helpID="edit-scenario-dialog" path="topics/edit-scenario-dialog.html"/>
+   <appContext helpID="duplicating-transformations"
+               path="topics/duplicating-transformations.html"/>
+   <appContext helpID="configure-transformation-dialog"
+               path="topics/configure-transformation-dialog.html"/>
+   <appContext helpID="apply-batch-transformation"
+               path="tasks/apply-batch-transformation.html"/>
+   <appContext helpID="transformation-scenarios-sharing"
+               path="topics/transformation-scenarios-sharing.html"/>
+   <appContext helpID="scenarios-view" path="topics/scenarios-view.html"/>
+   <appContext helpID="debugging-pdf-transformation"
+               path="tasks/debugging-pdf-transformation.html"/>
+   <appContext helpID="configuring_calabash_with_xep"
+               path="tasks/configuring_calabash_with_xep.html"/>
+   <appContext helpID="xproc-API-external-engine" path="tasks/xproc-API-external-engine.html"/>
+   <appContext helpID="xslt-processors" path="topics/xslt-processors.html"/>
+   <appContext helpID="supported-XSLT-processors" path="topics/supported-XSLT-processors.html"/>
+   <appContext helpID="configuring-custom-xslt-processors"
+               path="topics/configuring-custom-xslt-processors.html"/>
+   <appContext helpID="configuring-XSLT-processor-extensions-paths"
+               path="topics/configuring-XSLT-processor-extensions-paths.html"/>
+   <appContext helpID="xsl-fo-processors" path="topics/xsl-fo-processors.html"/>
+   <appContext helpID="builtin-xsl-fo-processor" path="topics/builtin-xsl-fo-processor.html"/>
+   <appContext helpID="add-font-to-builtin-FOP-simplified"
+               path="tasks/add-font-to-builtin-FOP-simplified.html"/>
+   <appContext helpID="add-font-to-builtin-FOP" path="tasks/add-font-to-builtin-FOP.html"/>
+   <appContext helpID="built-in-fop-additional-libraries"
+               path="topics/built-in-fop-additional-libraries.html"/>
+   <appContext helpID="adding-libraries-fop-dita-ot"
+               path="topics/adding-libraries-fop-dita-ot.html"/>
+   <appContext helpID="webhelp-output" path="topics/webhelp-output.html"/>
+   <appContext helpID="webhelp-responsive-description"
+               path="topics/webhelp-responsive-description.html"/>
+   <appContext helpID="webhelp-responsive-feedback-system"
+               path="topics/webhelp-responsive-feedback-system.html"/>
+   <appContext helpID="deploying-webhelp-responsive-feedback"
+               path="topics/deploying-webhelp-responsive-feedback.html"/>
+   <appContext helpID="refreshing-webhelp-responsive-feedback"
+               path="topics/refreshing-webhelp-responsive-feedback.html"/>
+   <appContext helpID="managing-webhelp-responsive-feedback"
+               path="topics/managing-webhelp-responsive-feedback.html"/>
+   <appContext helpID="webhelp_templates_mechanism"
+               path="topics/webhelp_templates_mechanism.html"/>
+   <appContext helpID="webhelp_template_resources"
+               path="topics/webhelp_template_resources.html"/>
+   <appContext helpID="webhelp_template_pages" path="topics/webhelp_template_pages.html"/>
+   <appContext helpID="whr-main-page-template" path="topics/whr-main-page-template.html"/>
+   <appContext helpID="whr-topic-template" path="topics/whr-topic-template.html"/>
+   <appContext helpID="whr-search-template" path="topics/whr-search-template.html"/>
+   <appContext helpID="whr-index-terms-template" path="topics/whr-index-terms-template.html"/>
+   <appContext helpID="webhelp_template_components"
+               path="topics/webhelp_template_components.html"/>
+   <appContext helpID="wh-responsive-customization-tips"
+               path="topics/wh-responsive-customization-tips.html"/>
+   <appContext helpID="webhelp_responsive_customization"
+               path="topics/webhelp_responsive_customization.html"/>
+   <appContext helpID="add-favicon-webhelp" path="tasks/add-favicon-webhelp.html"/>
+   <appContext helpID="webhelp-customization-add-image-to-title"
+               path="topics/webhelp-customization-add-image-to-title.html"/>
+   <appContext helpID="whr-set-welcome-message" path="topics/whr-set-welcome-message.html"/>
+   <appContext helpID="whr-add-videos" path="topics/whr-add-videos.html"/>
+   <appContext helpID="whr-configure-tiles" path="topics/whr-configure-tiles.html"/>
+   <appContext helpID="webhelp-customization-ol-numbering"
+               path="topics/webhelp-customization-ol-numbering.html"/>
+   <appContext helpID="whr-customize-menu" path="topics/whr-customize-menu.html"/>
+   <appContext helpID="scoring-properties-search-results"
+               path="tasks/scoring-properties-search-results.html"/>
+   <appContext helpID="flagging-dita-content" path="tasks/flagging-dita-content.html"/>
+   <appContext helpID="index-japanese-content-webhelp"
+               path="topics/index-japanese-content-webhelp.html"/>
+   <appContext helpID="webhelp-social-media-integration"
+               path="topics/webhelp-social-media-integration.html"/>
+   <appContext helpID="whr-add-facebook-button" path="tasks/whr-add-facebook-button.html"/>
+   <appContext helpID="whr-add-google-plus-button"
+               path="tasks/whr-add-google-plus-button.html"/>
+   <appContext helpID="whr-add-tweet-button" path="tasks/whr-add-tweet-button.html"/>
+   <appContext helpID="whr-google-analytics" path="tasks/whr-google-analytics.html"/>
+   <appContext helpID="notifications-localization"
+               path="topics/notifications-localization.html"/>
+   <appContext helpID="localize-webhelp" path="tasks/localize-webhelp.html"/>
+   <appContext helpID="webhelp-seo" path="topics/webhelp-seo.html"/>
+   <appContext helpID="rtl-webhelp" path="topics/rtl-webhelp.html"/>
+   <appContext helpID="whr-additional-runtime-params"
+               path="topics/whr-additional-runtime-params.html"/>
+   <appContext helpID="context-sensitive-help-system-resp"
+               path="topics/context-sensitive-help-system-resp.html"/>
+   <appContext helpID="webhelp_system_description"
+               path="topics/webhelp_system_description.html"/>
+   <appContext helpID="webhelp_with_feedback_system"
+               path="topics/webhelp_with_feedback_system.html"/>
+   <appContext helpID="installation-dita-webhelp-feedback"
+               path="topics/installation-dita-webhelp-feedback.html"/>
+   <appContext helpID="refreshing-webhelp-content"
+               path="topics/refreshing-webhelp-content.html"/>
+   <appContext helpID="manage-comments-webhelp-feedback"
+               path="topics/manage-comments-webhelp-feedback.html"/>
+   <appContext helpID="customize_webhelp" path="topics/customize_webhelp.html"/>
+   <appContext helpID="adding-select-all-button" path="tasks/adding-select-all-button.html"/>
+   <appContext helpID="embed_videos" path="topics/embed_videos.html"/>
+   <appContext helpID="webhelp-change-toc-icons" path="tasks/webhelp-change-toc-icons.html"/>
+   <appContext helpID="webhelp-customizations-toc"
+               path="topics/webhelp-customizations-toc.html"/>
+   <appContext helpID="webhelp-customization-custom-header-footer"
+               path="topics/webhelp-customization-custom-header-footer.html"/>
+   <appContext helpID="webhelp-customization-css" path="topics/webhelp-customization-css.html"/>
+   <appContext helpID="disable-caching-in-webhelp-pages"
+               path="topics/disable-caching-in-webhelp-pages.html"/>
+   <appContext helpID="scoring-properties-search-results"
+               path="tasks/scoring-properties-search-results-1.html"/>
+   <appContext helpID="index-japanese-content-webhelp"
+               path="topics/index-japanese-content-webhelp-1.html"/>
+   <appContext helpID="webhelp-social-media-integration"
+               path="topics/webhelp-social-media-integration-1.html"/>
+   <appContext helpID="integrate-facebook" path="tasks/integrate-facebook.html"/>
+   <appContext helpID="integrate-google-plus" path="tasks/integrate-google-plus.html"/>
+   <appContext helpID="integrate-twitter" path="tasks/integrate-twitter.html"/>
+   <appContext helpID="integrate-google-analytics"
+               path="tasks/integrate-google-analytics.html"/>
+   <appContext helpID="integrate-google-search" path="tasks/integrate-google-search.html"/>
+   <appContext helpID="notifications-localization"
+               path="topics/notifications-localization-1.html"/>
+   <appContext helpID="localizing-interface-webhelp-output"
+               path="topics/localizing-interface-webhelp-output.html"/>
+   <appContext helpID="localize-webhelp" path="tasks/localize-webhelp-1.html"/>
+   <appContext helpID="docbook-localize-webhelp" path="tasks/docbook-localize-webhelp.html"/>
+   <appContext helpID="webhelp-customization-remove-next-previous-links"
+               path="topics/webhelp-customization-remove-next-previous-links.html"/>
+   <appContext helpID="webhelp-seo" path="topics/webhelp-seo-1.html"/>
+   <appContext helpID="webhelp_skin_builder" path="topics/webhelp_skin_builder.html"/>
+   <appContext helpID="webhelp_runtime_additional_parameters"
+               path="topics/webhelp_runtime_additional_parameters.html"/>
+   <appContext helpID="context-sensitive-help-system"
+               path="topics/context-sensitive-help-system.html"/>
+   <appContext helpID="webhelp-mobile-systems" path="topics/webhelp-mobile-systems.html"/>
+   <appContext helpID="customizing-wh-mobile" path="topics/customizing-wh-mobile.html"/>
+   <appContext helpID="adding-select-all-button" path="tasks/adding-select-all-button-1.html"/>
+   <appContext helpID="changing-color-theme-webhelp"
+               path="topics/changing-color-theme-webhelp.html"/>
+   <appContext helpID="webhelp-customizations-toc"
+               path="topics/webhelp-customizations-toc-1.html"/>
+   <appContext helpID="scoring-properties-search-results"
+               path="tasks/scoring-properties-search-results-2.html"/>
+   <appContext helpID="index-japanese-content-webhelp"
+               path="topics/index-japanese-content-webhelp-2.html"/>
+   <appContext helpID="webhelp-social-media-integration"
+               path="topics/webhelp-social-media-integration-2.html"/>
+   <appContext helpID="integrate-facebook" path="tasks/integrate-facebook-1.html"/>
+   <appContext helpID="integrate-google-plus" path="tasks/integrate-google-plus-1.html"/>
+   <appContext helpID="integrate-twitter" path="tasks/integrate-twitter-1.html"/>
+   <appContext helpID="integrate-google-analytics"
+               path="tasks/integrate-google-analytics-1.html"/>
+   <appContext helpID="integrate-google-search" path="tasks/integrate-google-search-1.html"/>
+   <appContext helpID="localize-webhelp" path="tasks/localize-webhelp-2.html"/>
+   <appContext helpID="docbook-localize-webhelp" path="tasks/docbook-localize-webhelp-1.html"/>
+   <appContext helpID="webhelp-seo" path="topics/webhelp-seo-2.html"/>
+   <appContext helpID="context-sensitive-help-system"
+               path="topics/context-sensitive-help-system-1.html"/>
+   <appContext helpID="using-the-webhelp-plugin" path="topics/using-the-webhelp-plugin.html"/>
+   <appContext helpID="dita-webhelp-plugin" path="topics/dita-webhelp-plugin.html"/>
+   <appContext helpID="integrating-webhelp-plugin-with-dita-ot"
+               path="tasks/integrating-webhelp-plugin-with-dita-ot.html"/>
+   <appContext helpID="register-webhelp-plugin" path="tasks/register-webhelp-plugin.html"/>
+   <appContext helpID="upgrading-webhelp-plugin-dita"
+               path="tasks/upgrading-webhelp-plugin-dita.html"/>
+   <appContext helpID="running-dita-transformation-webhelp-plugin"
+               path="topics/running-dita-transformation-webhelp-plugin.html"/>
+   <appContext helpID="webhelp-plugin-additional-parameters"
+               path="topics/webhelp-plugin-additional-parameters.html"/>
+   <appContext helpID="webhelp-feedback-database-configuration"
+               path="topics/webhelp-feedback-database-configuration.html"/>
+   <appContext helpID="docbook-webhelp-plugin" path="topics/docbook-webhelp-plugin.html"/>
+   <appContext helpID="webhelp-plugin-docbook-integration"
+               path="tasks/webhelp-plugin-docbook-integration.html"/>
+   <appContext helpID="register-docbook-webhelp-plugin"
+               path="tasks/register-docbook-webhelp-plugin.html"/>
+   <appContext helpID="upgrading-webhelp-plugin-docbook"
+               path="tasks/upgrading-webhelp-plugin-docbook.html"/>
+   <appContext helpID="running-docbook-transformation-webhelp-plugin"
+               path="topics/running-docbook-transformation-webhelp-plugin.html"/>
+   <appContext helpID="webhelp-plugin-additional-parameters-docbook"
+               path="topics/webhelp-plugin-additional-parameters-docbook.html"/>
+   <appContext helpID="webhelp-feedback-database-configuration-docbook"
+               path="topics/webhelp-feedback-database-configuration-docbook.html"/>
+   <appContext helpID="querying-documents" path="topics/querying-documents.html"/>
+   <appContext helpID="running-xpath-expressions" path="topics/running-xpath-expressions.html"/>
+   <appContext helpID="what-is-XPath" path="topics/what-is-XPath.html"/>
+   <appContext helpID="xpath-console" path="topics/xpath-console.html"/>
+   <appContext helpID="xpath-builder-view" path="topics/xpath-builder-view.html"/>
+   <appContext helpID="xpath-results" path="topics/xpath-results.html"/>
+   <appContext helpID="xpath-catalogs" path="topics/xpath-catalogs.html"/>
+   <appContext helpID="xpath-namespace" path="topics/xpath-namespace.html"/>
+   <appContext helpID="working-with-xquery" path="topics/working-with-xquery.html"/>
+   <appContext helpID="what-is-XQuery" path="topics/what-is-XQuery.html"/>
+   <appContext helpID="xpath-builder-view" path="topics/xpath-builder-view-1.html"/>
+   <appContext helpID="xslt-input-view" path="topics/xslt-input-view.html"/>
+   <appContext helpID="transforming-xml-documents-using-xquery"
+               path="topics/transforming-xml-documents-using-xquery.html"/>
+   <appContext helpID="xqj-transformers" path="topics/xqj-transformers.html"/>
+   <appContext helpID="configure-xqj-datasource" path="tasks/configure-xqj-datasource.html"/>
+   <appContext helpID="configure-xqj-connection" path="tasks/configure-xqj-connection.html"/>
+   <appContext helpID="transform-xquery-sequence-view"
+               path="topics/transform-xquery-sequence-view.html"/>
+   <appContext helpID="transform-xquery-advanced-saxon-options"
+               path="topics/transform-xquery-advanced-saxon-options-2.html"/>
+   <appContext helpID="update-xml-documents-using-xquery"
+               path="topics/update-xml-documents-using-xquery.html"/>
+   <appContext helpID="working-with-archives" path="topics/working-with-archives.html"/>
+   <appContext helpID="archive-browser-view" path="topics/archive-browser-view.html"/>
+   <appContext helpID="working-with-epub" path="topics/working-with-epub.html"/>
+   <appContext helpID="create_new_epub" path="tasks/create_new_epub.html"/>
+   <appContext helpID="publish-to-epub" path="tasks/publish-to-epub.html"/>
+   <appContext helpID="archive-file-edit" path="topics/archive-file-edit.html"/>
+   <appContext helpID="db-and-cms-integration" path="topics/db-and-cms-integration.html"/>
+   <appContext helpID="working-with-databases" path="topics/working-with-databases.html"/>
+   <appContext helpID="relational-database-explorer"
+               path="topics/relational-database-explorer.html"/>
+   <appContext helpID="relational-table-explorer" path="topics/relational-table-explorer.html"/>
+   <appContext helpID="database-support" path="topics/database-support.html"/>
+   <appContext helpID="ibm-db2-connection" path="topics/ibm-db2-connection.html"/>
+   <appContext helpID="how-to-ibm-db2" path="topics/how-to-ibm-db2.html"/>
+   <appContext helpID="configure-db2-datasource" path="tasks/configure-db2-datasource.html"/>
+   <appContext helpID="configure-db2-connection" path="tasks/configure-db2-connection.html"/>
+   <appContext helpID="db2-xml-schema-repository-level"
+               path="topics/db2-xml-schema-repository-level.html"/>
+   <appContext helpID="ms-sql-server-connection" path="topics/ms-sql-server-connection.html"/>
+   <appContext helpID="how-to-ms-sql" path="topics/how-to-ms-sql.html"/>
+   <appContext helpID="configure-sql-server-datasource"
+               path="tasks/configure-sql-server-datasource.html"/>
+   <appContext helpID="configure-sql-server-connection"
+               path="tasks/configure-sql-server-connection.html"/>
+   <appContext helpID="sqlserver-xml-schema-repository-level"
+               path="topics/sqlserver-xml-schema-repository-level.html"/>
+   <appContext helpID="oracle-xml-db-connection" path="topics/oracle-xml-db-connection.html"/>
+   <appContext helpID="how-to-oracle11g" path="topics/how-to-oracle11g.html"/>
+   <appContext helpID="configure-oracle-datasource"
+               path="tasks/configure-oracle-datasource.html"/>
+   <appContext helpID="configure-oracle-connection"
+               path="tasks/configure-oracle-connection.html"/>
+   <appContext helpID="oracle-xml-schema-repository-level"
+               path="topics/oracle-xml-schema-repository-level.html"/>
+   <appContext helpID="postgresql-connection" path="topics/postgresql-connection.html"/>
+   <appContext helpID="how_to_postgresql" path="topics/how_to_postgresql.html"/>
+   <appContext helpID="configure-postgreSQL-datasource"
+               path="tasks/configure-postgreSQL-datasource.html"/>
+   <appContext helpID="configure-postgreSQL-connection"
+               path="tasks/configure-postgreSQL-connection.html"/>
+   <appContext helpID="postgresql-contextual-actions"
+               path="topics/postgresql-contextual-actions.html"/>
+   <appContext helpID="berkeley-db-connection" path="topics/berkeley-db-connection.html"/>
+   <appContext helpID="how-to-berkeley" path="topics/how-to-berkeley.html"/>
+   <appContext helpID="configure-berkeley-datasource"
+               path="tasks/configure-berkeley-datasource.html"/>
+   <appContext helpID="configure-berkeley-connection"
+               path="tasks/configure-berkeley-connection.html"/>
+   <appContext helpID="berkeley-connection-level" path="topics/berkeley-connection-level.html"/>
+   <appContext helpID="exist-connection" path="topics/exist-connection.html"/>
+   <appContext helpID="how-to-exist" path="topics/how-to-exist.html"/>
+   <appContext helpID="configure-exist-datasource"
+               path="tasks/configure-exist-datasource.html"/>
+   <appContext helpID="configure-exist-connection"
+               path="tasks/configure-exist-connection.html"/>
+   <appContext helpID="eXist-connection-level" path="topics/eXist-connection-level.html"/>
+   <appContext helpID="marklogic-connection" path="topics/marklogic-connection.html"/>
+   <appContext helpID="how-to-marklogic" path="topics/how-to-marklogic.html"/>
+   <appContext helpID="configure-marklogic-datasource"
+               path="tasks/configure-marklogic-datasource.html"/>
+   <appContext helpID="configure-marklogic-connection"
+               path="tasks/configure-marklogic-connection.html"/>
+   <appContext helpID="marklogic-contextual-actions"
+               path="topics/marklogic-contextual-actions.html"/>
+   <appContext helpID="documentum-connection" path="topics/documentum-connection.html"/>
+   <appContext helpID="how-to-documentum-xdb" path="topics/how-to-documentum-xdb.html"/>
+   <appContext helpID="configure-xhive-datasource"
+               path="tasks/configure-xhive-datasource.html"/>
+   <appContext helpID="configure-xhive-connection"
+               path="tasks/configure-xhive-connection.html"/>
+   <appContext helpID="xhive-connection-level" path="topics/xhive-connection-level.html"/>
+   <appContext helpID="xhive-parser-configuration"
+               path="topics/xhive-parser-configuration.html"/>
+   <appContext helpID="troubleshooting" path="topics/troubleshooting.html"/>
+   <appContext helpID="mysql-database-connection" path="topics/mysql-database-connection.html"/>
+   <appContext helpID="how-to-mysql" path="topics/how-to-mysql.html"/>
+   <appContext helpID="configure-mysql-datasource"
+               path="tasks/configure-mysql-datasource.html"/>
+   <appContext helpID="configure-mysql-connection"
+               path="tasks/configure-mysql-connection.html"/>
+   <appContext helpID="generic-database-connection"
+               path="topics/generic-database-connection.html"/>
+   <appContext helpID="how-to-generic-jdbc" path="topics/how-to-generic-jdbc.html"/>
+   <appContext helpID="configure-generic-jdbc-datasource"
+               path="tasks/configure-generic-jdbc-datasource.html"/>
+   <appContext helpID="configure-generic-jdbc-connection"
+               path="tasks/configure-generic-jdbc-connection.html"/>
+   <appContext helpID="jdbc-odbc-database-connection"
+               path="topics/jdbc-odbc-database-connection.html"/>
+   <appContext helpID="configure-jdbc-odbc-connection"
+               path="tasks/configure-jdbc-odbc-connection.html"/>
+   <appContext helpID="basex-support" path="topics/basex-support.html"/>
+   <appContext helpID="resource-management-basex" path="topics/resource-management-basex.html"/>
+   <appContext helpID="basex-contextual-actions" path="topics/basex-contextual-actions.html"/>
+   <appContext helpID="xquery-execution-basex" path="topics/xquery-execution-basex.html"/>
+   <appContext helpID="webdav-connection" path="topics/webdav-connection.html"/>
+   <appContext helpID="configure-webdav-connection"
+               path="tasks/configure-webdav-connection.html"/>
+   <appContext helpID="webdav-connection-actions" path="topics/webdav-connection-actions.html"/>
+   <appContext helpID="relational-sql-execution-support"
+               path="topics/relational-sql-execution-support.html"/>
+   <appContext helpID="sql-dnd-support" path="tasks/sql-dnd-support.html"/>
+   <appContext helpID="sql-validation" path="topics/sql-validation.html"/>
+   <appContext helpID="executing-sql-statements" path="tasks/executing-sql-statements.html"/>
+   <appContext helpID="cms-integration" path="topics/cms-integration.html"/>
+   <appContext helpID="documentumcms-support" path="topics/documentumcms-support.html"/>
+   <appContext helpID="configure-documentumcms" path="topics/configure-documentumcms.html"/>
+   <appContext helpID="configure-documentumcms-datasource"
+               path="tasks/configure-documentumcms-datasource.html"/>
+   <appContext helpID="configure-documentumcms-connection"
+               path="tasks/configure-documentumcms-connection.html"/>
+   <appContext helpID="known-issues-documentum" path="topics/known-issues-documentum.html"/>
+   <appContext helpID="documentumcms-connection-actions"
+               path="topics/documentumcms-connection-actions.html"/>
+   <appContext helpID="sharepoint-connection" path="topics/sharepoint-connection.html"/>
+   <appContext helpID="configure-sharepoint-connection"
+               path="tasks/configure-sharepoint-connection.html"/>
+   <appContext helpID="sharepoint-view" path="topics/sharepoint-view.html"/>
+   <appContext helpID="sharepoint-connection-actions"
+               path="topics/sharepoint-connection-actions.html"/>
+   <appContext helpID="import-introduction" path="topics/import-introduction.html"/>
+   <appContext helpID="import-text" path="tasks/import-text.html"/>
+   <appContext helpID="import-from-ms-excel-files"
+               path="tasks/import-from-ms-excel-files.html"/>
+   <appContext helpID="import-excel-new-format" path="topics/import-excel-new-format.html"/>
+   <appContext helpID="import-db-table-content-to-xml"
+               path="tasks/import-db-table-content-to-xml.html"/>
+   <appContext helpID="import-html" path="tasks/import-html.html"/>
+   <appContext helpID="import-dynamic-conversions"
+               path="topics/import-dynamic-conversions.html"/>
+   <appContext helpID="doc-type" path="topics/doc-type.html"/>
+   <appContext helpID="predefined-document-types" path="topics/predefined-document-types.html"/>
+   <appContext helpID="author-docbook4-doc-type" path="topics/author-docbook4-doc-type.html"/>
+   <appContext helpID="author-docbook4-extensions"
+               path="topics/author-docbook4-extensions.html"/>
+   <appContext helpID="docbook4_webhelp_output" path="topics/docbook4_webhelp_output-1.html"/>
+   <appContext helpID="docbook-pdf-output-customization"
+               path="tasks/docbook-pdf-output-customization-2.html"/>
+   <appContext helpID="docbook-2-dita-transform" path="topics/docbook-2-dita-transform-2.html"/>
+   <appContext helpID="author-docbook4-templates" path="topics/author-docbook4-templates.html"/>
+   <appContext helpID="olink-links" path="tasks/olink-links.html"/>
+   <appContext helpID="author-docbook5-doc-type" path="topics/author-docbook5-doc-type.html"/>
+   <appContext helpID="author-docbook5-extensions"
+               path="topics/author-docbook5-extensions.html"/>
+   <appContext helpID="docbook5_webhelp_output" path="topics/docbook5_webhelp_output-1.html"/>
+   <appContext helpID="docbook-pdf-output-customization"
+               path="tasks/docbook-pdf-output-customization-3.html"/>
+   <appContext helpID="docbook-2-dita-transform" path="topics/docbook-2-dita-transform-3.html"/>
+   <appContext helpID="author-docbook5-templates" path="topics/author-docbook5-templates.html"/>
+   <appContext helpID="author-docbook-targetset-doc-type"
+               path="topics/author-docbook-targetset-doc-type.html"/>
+   <appContext helpID="author-dita-doc-type" path="topics/author-dita-doc-type.html"/>
+   <appContext helpID="author-dita-extensions" path="topics/author-dita-extensions.html"/>
    <appContext helpID="author-dita-templates" path="topics/author-dita-templates.html"/>
    <appContext helpID="author-dita-map-doc-type" path="topics/author-dita-map-doc-type.html"/>
    <appContext helpID="author-dita-map-extensions"
                path="topics/author-dita-map-extensions.html"/>
-   <appContext helpID="author-dita-map-transformation-scenarios"
-               path="topics/author-dita-map-transformation-scenarios.html"/>
-   <appContext helpID="dita_webhelp_output" path="topics/dita_webhelp_output.html"/>
-   <appContext helpID="rtl-webhelp" path="topics/rtl-webhelp.html"/>
-   <appContext helpID="webhelp-seo" path="topics/webhelp-seo.html"/>
-   <appContext helpID="index-japanese-content-webhelp"
-               path="topics/index-japanese-content-webhelp.html"/>
-   <appContext helpID="chm-output-format" path="topics/chm-output-format.html"/>
+   <appContext helpID="wh-responsive-output" path="topics/wh-responsive-output-1.html"/>
+   <appContext helpID="wh-responsive-feedback-output"
+               path="topics/wh-responsive-feedback-output-1.html"/>
+   <appContext helpID="wh-classic-output" path="topics/wh-classic-output-1.html"/>
+   <appContext helpID="wh-classic-mobile" path="topics/wh-classic-mobile-1.html"/>
+   <appContext helpID="wh-classic-feedback" path="topics/wh-classic-feedback-1.html"/>
+   <appContext helpID="ditamap-pdf-css" path="topics/ditamap-pdf-css-1.html"/>
+   <appContext helpID="chm-output-format" path="topics/chm-output-format-1.html"/>
    <appContext helpID="kindle-transformation-output"
-               path="topics/kindle-transformation-output.html"/>
-   <appContext helpID="ooxml-to-dita" path="topics/ooxml-to-dita.html"/>
+               path="topics/kindle-transformation-output-1.html"/>
    <appContext helpID="author-dita-map-templates" path="topics/author-dita-map-templates.html"/>
    <appContext helpID="author-xhtml-doc-type" path="topics/author-xhtml-doc-type.html"/>
    <appContext helpID="author-xhtml-extensions" path="topics/author-xhtml-extensions.html"/>
-   <appContext helpID="author-xhtml-transformation-scenarios"
-               path="topics/author-xhtml-transformation-scenarios.html"/>
    <appContext helpID="author-xhtml-templates" path="topics/author-xhtml-templates.html"/>
    <appContext helpID="author-tei-odd-doc-type" path="topics/author-tei-odd-doc-type.html"/>
    <appContext helpID="author-tei-odd-extensions" path="topics/author-tei-odd-extensions.html"/>
-   <appContext helpID="author-tei-odd-transformation-scenarios"
-               path="topics/author-tei-odd-transformation-scenarios.html"/>
    <appContext helpID="author-tei-odd-templates" path="topics/author-tei-odd-templates.html"/>
    <appContext helpID="author-teip4-doc-type" path="topics/author-teip4-doc-type.html"/>
    <appContext helpID="author-teip4-extenssions" path="topics/author-teip4-extenssions.html"/>
-   <appContext helpID="author-teip4-transformation-scenarios"
-               path="topics/author-teip4-transformation-scenarios.html"/>
    <appContext helpID="author-teip4-templates" path="topics/author-teip4-templates.html"/>
    <appContext helpID="customization-of-TEI-framework"
                path="tasks/customization-of-TEI-framework.html"/>
    <appContext helpID="author-teip5-doc-type" path="topics/author-teip5-doc-type.html"/>
    <appContext helpID="author-teip5-actions" path="topics/author-teip5-actions.html"/>
-   <appContext helpID="author-teip5-transformation-scenarios"
-               path="topics/author-teip5-transformation-scenarios.html"/>
    <appContext helpID="author-teip5-templates" path="topics/author-teip5-templates.html"/>
    <appContext helpID="customization-of-TEI-framework-stable"
                path="tasks/customization-of-TEI-framework-stable.html"/>
    <appContext helpID="author-jats-doc-type" path="topics/author-jats-doc-type.html"/>
    <appContext helpID="author-jats-actions" path="topics/author-jats-actions.html"/>
-   <appContext helpID="author-jats-transformation-scenarios"
-               path="topics/author-jats-transformation-scenarios.html"/>
    <appContext helpID="author-jats-templates" path="topics/author-jats-templates.html"/>
    <appContext helpID="epub-document-type" path="topics/epub-document-type.html"/>
-   <appContext helpID="author-docbook-targetset-doc-type"
-               path="topics/author-docbook-targetset-doc-type.html"/>
    <appContext helpID="authoring_customization" path="topics/authoring_customization.html"/>
    <appContext helpID="author-devel-guide-intro" path="topics/author-devel-guide-intro.html"/>
    <appContext helpID="dg-simple-customization-tutorial"
@@ -775,24 +1315,24 @@
    <appContext helpID="dg-packaging-and-deploying"
                path="topics/dg-packaging-and-deploying.html"/>
    <appContext helpID="dg-file-templates" path="tasks/dg-file-templates.html"/>
-   <appContext helpID="editor-variables" path="topics/editor-variables.html"/>
-   <appContext helpID="custom-editor-variables" path="topics/custom-editor-variables.html"/>
-   <appContext helpID="create-your-own-stylesheet-templates"
-               path="topics/create-your-own-stylesheet-templates.html"/>
    <appContext helpID="dg-xml-catalogs" path="tasks/dg-xml-catalogs.html"/>
    <appContext helpID="dg-transformation-scenarios"
                path="tasks/dg-transformation-scenarios.html"/>
    <appContext helpID="dg-validation-scenarios" path="tasks/dg-validation-scenarios.html"/>
+   <appContext helpID="author-customize-smart-paste"
+               path="topics/author-customize-smart-paste.html"/>
    <appContext helpID="dg-configure-extensions" path="tasks/dg-configure-extensions.html"/>
    <appContext helpID="dg-extensions-bundle" path="tasks/dg-extensions-bundle.html"/>
    <appContext helpID="customize-profiling-conditions"
                path="topics/customize-profiling-conditions.html"/>
-   <appContext helpID="author-customize-smart-paste"
-               path="topics/author-customize-smart-paste.html"/>
-   <appContext helpID="dg-author-extension-state-listener"
-               path="topics/dg-author-extension-state-listener.html"/>
    <appContext helpID="dg-author-schema-aware-editing-handler"
                path="topics/dg-author-schema-aware-editing-handler.html"/>
+   <appContext helpID="edit-properties-handler" path="topics/edit-properties-handler.html"/>
+   <appContext helpID="author-action-event-handler"
+               path="topics/author-action-event-handler.html"/>
+   <appContext helpID="author-image-decorator" path="topics/author-image-decorator.html"/>
+   <appContext helpID="dg-author-extension-state-listener"
+               path="topics/dg-author-extension-state-listener.html"/>
    <appContext helpID="dg-author-content-completion-handler"
                path="topics/dg-author-content-completion-handler.html"/>
    <appContext helpID="dg-author-link-target-reference-finder"
@@ -821,16 +1361,22 @@
                path="topics/unique_attributes_recognizer.html"/>
    <appContext helpID="configuring-xml-node-renderer-customizer"
                path="topics/configuring-xml-node-renderer-customizer.html"/>
+   <appContext helpID="author-other-features" path="topics/author-other-features.html"/>
    <appContext helpID="dg-customize-default-CSS" path="tasks/dg-customize-default-CSS.html"/>
    <appContext helpID="author-document-type-sharing"
                path="topics/author-document-type-sharing.html"/>
    <appContext helpID="author-document-type-extension-sharing"
                path="topics/author-document-type-extension-sharing.html"/>
-   <appContext helpID="author-other-features" path="topics/author-other-features.html"/>
+   <appContext helpID="customize-content-completion"
+               path="topics/customize-content-completion.html"/>
+   <appContext helpID="configuring-content-completion-proposals"
+               path="topics/configuring-content-completion-proposals.html"/>
+   <appContext helpID="configure-elements-attr-cc-individually"
+               path="topics/configure-elements-attr-cc-individually.html"/>
+   <appContext helpID="rendering-elements-cc-author"
+               path="topics/rendering-elements-cc-author.html"/>
    <appContext helpID="author-styleguide-annotations"
                path="tasks/author-styleguide-annotations.html"/>
-   <appContext helpID="configuring-content-completion-proposals"
-               path="topics/configuring-content-completion-proposals-1.html"/>
    <appContext helpID="dg-sdf-files" path="topics/dg-sdf-files.html"/>
    <appContext helpID="dg-annex-xml-schema-files" path="topics/dg-annex-xml-schema-files.html"/>
    <appContext helpID="dg-sdf-files-xml-schema" path="topics/dg-sdf-files-xml-schema.html"/>
@@ -843,22 +1389,23 @@
    <appContext helpID="dg-annex-xsl-files" path="topics/dg-annex-xsl-files.html"/>
    <appContext helpID="dg-sdf-files-sdf-xsl" path="topics/dg-sdf-files-sdf-xsl.html"/>
    <appContext helpID="dg-css-support-in-author" path="topics/dg-css-support-in-author.html"/>
-   <appContext helpID="handling-css-imports" path="topics/handling-css-imports.html"/>
    <appContext helpID="selecting-combining-multiple-css-styles"
                path="topics/selecting-combining-multiple-css-styles.html"/>
+   <appContext helpID="handling-css-imports" path="topics/handling-css-imports.html"/>
    <appContext helpID="dg-oxygen-media-type" path="topics/dg-oxygen-media-type.html"/>
-   <appContext helpID="dg-standard-css-support" path="topics/dg-standard-css-support.html"/>
-   <appContext helpID="dg-supported-selectors" path="references/dg-supported-selectors.html"/>
-   <appContext helpID="dg-namespace-selectors" path="topics/dg-namespace-selectors.html"/>
-   <appContext helpID="dg-subject-selector" path="topics/dg-subject-selector.html"/>
-   <appContext helpID="has-selector" path="topics/has-selector.html"/>
-   <appContext helpID="dg-properties-support" path="references/dg-properties-support.html"/>
-   <appContext helpID="transparent-colors" path="topics/transparent-colors.html"/>
-   <appContext helpID="dg-attr-function" path="topics/dg-attr-function.html"/>
    <appContext helpID="dg-standard-css-at-rules" path="topics/dg-standard-css-at-rules.html"/>
    <appContext helpID="dg-font-face-media" path="topics/dg-font-face-media.html"/>
    <appContext helpID="dg-media-at-rule" path="topics/dg-media-at-rule.html"/>
+   <appContext helpID="dg-standard-css-support" path="topics/dg-standard-css-support.html"/>
+   <appContext helpID="dg-supported-selectors" path="topics/dg-supported-selectors.html"/>
+   <appContext helpID="dg-namespace-selectors" path="topics/dg-namespace-selectors.html"/>
+   <appContext helpID="dg-subject-selector" path="topics/dg-subject-selector.html"/>
+   <appContext helpID="has-selector" path="topics/has-selector.html"/>
+   <appContext helpID="dg-properties-support" path="topics/dg-properties-support.html"/>
+   <appContext helpID="transparent-colors" path="topics/transparent-colors.html"/>
+   <appContext helpID="dg-attr-function" path="topics/dg-attr-function.html"/>
    <appContext helpID="dg-oXygen-css-extensions" path="concepts/dg-oXygen-css-extensions.html"/>
+   <appContext helpID="builtin-css-selectors" path="topics/builtin-css-selectors.html"/>
    <appContext helpID="dg-additional-custom-selectors"
                path="topics/dg-additional-custom-selectors.html"/>
    <appContext helpID="dg-css-additional-properties"
@@ -900,6 +1447,13 @@
    <appContext helpID="dg-last-index-of-function"
                path="concepts/dg-last-index-of-function.html"/>
    <appContext helpID="dg-xpath-function" path="concepts/dg-xpath-function.html"/>
+   <appContext helpID="dg-action-function" path="concepts/dg-action-function.html"/>
+   <appContext helpID="dg-action-list-function" path="concepts/dg-action-list-function.html"/>
+   <appContext helpID="dg-oxy-label-function" path="concepts/dg-oxy-label-function.html"/>
+   <appContext helpID="dg-oxy-link-text" path="concepts/dg-oxy-link-text.html"/>
+   <appContext helpID="dg-oxy-unescapeURLValue" path="concepts/dg-oxy-unescapeURLValue.html"/>
+   <appContext helpID="dg-css-arithmetic-functions"
+               path="concepts/dg-css-arithmetic-functions.html"/>
    <appContext helpID="form-controls" path="concepts/form-controls.html"/>
    <appContext helpID="text-field-editor" path="topics/text-field-editor.html"/>
    <appContext helpID="combo-box-editor" path="topics/combo-box-editor.html"/>
@@ -915,427 +1469,51 @@
                path="topics/implementing-custom-form-controls.html"/>
    <appContext helpID="editing-pis-using-form-controls"
                path="topics/editing-pis-using-form-controls.html"/>
-   <appContext helpID="dg-action-function" path="concepts/dg-action-function.html"/>
-   <appContext helpID="dg-action-list-function" path="concepts/dg-action-list-function.html"/>
-   <appContext helpID="dg-oxy-label-function" path="concepts/dg-oxy-label-function.html"/>
-   <appContext helpID="dg-oxy-link-text" path="concepts/dg-oxy-link-text.html"/>
-   <appContext helpID="dg-oxy-unescapeURLValue" path="concepts/dg-oxy-unescapeURLValue.html"/>
-   <appContext helpID="dg-css-arithmetic-functions"
-               path="concepts/dg-css-arithmetic-functions.html"/>
    <appContext helpID="dg-custom-css-pseudo-classes"
                path="topics/dg-custom-css-pseudo-classes.html"/>
-   <appContext helpID="builtin-css-selectors" path="topics/builtin-css-selectors.html"/>
    <appContext helpID="debugging-css-stylesheets" path="topics/debugging-css-stylesheets.html"/>
    <appContext helpID="automated-tests" path="topics/automated-tests.html"/>
    <appContext helpID="api_faq_introduction" path="topics/api_faq_introduction.html"/>
-   <appContext helpID="api_faq_plugin_framework_difference"
-               path="topics/api_faq_plugin_framework_difference.html"/>
-   <appContext helpID="api_faq_use_typograhic_quotation_marks"
-               path="topics/api_faq_use_typograhic_quotation_marks.html"/>
-   <appContext helpID="api_faq_split_on_enter" path="topics/api_faq_split_on_enter.html"/>
-   <appContext helpID="api_faq_enable_change_tracking_at_startup"
-               path="topics/api_faq_enable_change_tracking_at_startup.html"/>
-   <appContext helpID="api_faq_highlight_content" path="topics/api_faq_highlight_content.html"/>
    <appContext helpID="api_faq_customize_author_popup"
                path="topics/api_faq_customize_author_popup.html"/>
    <appContext helpID="api_faq_custom_callouts" path="topics/api_faq_custom_callouts.html"/>
-   <appContext helpID="api_faq_change_doctype" path="topics/api_faq_change_doctype.html"/>
-   <appContext helpID="api_faq_use_custom_icons" path="topics/api_faq_use_custom_icons.html"/>
-   <appContext helpID="api_faq_disable_contextual_actions"
-               path="topics/api_faq_disable_contextual_actions.html"/>
-   <appContext helpID="api_faq_javawebstart_open_file_at_startup"
-               path="topics/api_faq_javawebstart_open_file_at_startup.html"/>
+   <appContext helpID="api_faq_highlight_content" path="topics/api_faq_highlight_content.html"/>
+   <appContext helpID="api_faq_auto_generate_ID" path="topics/api_faq_auto_generate_ID.html"/>
    <appContext helpID="api_faq_review_user_name" path="topics/api_faq_review_user_name.html"/>
-   <appContext helpID="api_faq_multiple_rendering_same_document"
-               path="topics/api_faq_multiple_rendering_same_document.html"/>
-   <appContext helpID="api_faq_obtain_w3cElement" path="topics/api_faq_obtain_w3cElement.html"/>
-   <appContext helpID="api_faq_print_document_in_applet"
-               path="topics/api_faq_print_document_in_applet.html"/>
-   <appContext helpID="api-faq-transform" path="topics/api-faq-transform.html"/>
-   <appContext helpID="api-faq-style-entities" path="topics/api-faq-style-entities.html"/>
-   <appContext helpID="api-faq-insert-element-with-required-content"
-               path="topics/api-faq-insert-element-with-required-content.html"/>
-   <appContext helpID="api-faq-current-selected-node"
-               path="topics/api-faq-current-selected-node.html"/>
-   <appContext helpID="debug-plugin" path="topics/debug-plugin.html"/>
-   <appContext helpID="debug-sdk" path="topics/debug-sdk.html"/>
-   <appContext helpID="api_faq_extend_bundle" path="topics/api_faq_extend_bundle.html"/>
+   <appContext helpID="api_faq_change_doctype" path="topics/api_faq_change_doctype.html"/>
    <appContext helpID="api_faq_control_component_indentation"
                path="topics/api_faq_control_component_indentation.html"/>
+   <appContext helpID="api_faq_use_custom_icons" path="topics/api_faq_use_custom_icons.html"/>
    <appContext helpID="api_faq_simplified_text_outline"
                path="topics/api_faq_simplified_text_outline.html"/>
+   <appContext helpID="api_faq_plugin_framework_difference"
+               path="topics/api_faq_plugin_framework_difference.html"/>
+   <appContext helpID="api_faq_disable_contextual_actions"
+               path="topics/api_faq_disable_contextual_actions.html"/>
    <appContext helpID="api_faq_add_form_control_from_filter"
                path="topics/api_faq_add_form_control_from_filter.html"/>
+   <appContext helpID="api_faq_use_typograhic_quotation_marks"
+               path="topics/api_faq_use_typograhic_quotation_marks.html"/>
+   <appContext helpID="api_faq_javawebstart_open_file_at_startup"
+               path="topics/api_faq_javawebstart_open_file_at_startup.html"/>
+   <appContext helpID="api_faq_extend_bundle" path="topics/api_faq_extend_bundle.html"/>
+   <appContext helpID="api_faq_enable_change_tracking_at_startup"
+               path="topics/api_faq_enable_change_tracking_at_startup.html"/>
+   <appContext helpID="api-faq-insert-element-with-required-content"
+               path="topics/api-faq-insert-element-with-required-content.html"/>
    <appContext helpID="api_faq_auto_modify_content"
                path="topics/api_faq_auto_modify_content.html"/>
    <appContext helpID="api_faq_auto_modify_content_save"
                path="topics/api_faq_auto_modify_content_save.html"/>
+   <appContext helpID="api_faq_multiple_rendering_same_document"
+               path="topics/api_faq_multiple_rendering_same_document.html"/>
+   <appContext helpID="api_faq_obtain_w3cElement" path="topics/api_faq_obtain_w3cElement.html"/>
+   <appContext helpID="api-faq-current-selected-node"
+               path="topics/api-faq-current-selected-node.html"/>
+   <appContext helpID="api-faq-transform" path="topics/api-faq-transform.html"/>
    <appContext helpID="api_faq_save_untitled" path="topics/api_faq_save_untitled.html"/>
-   <appContext helpID="api_faq_auto_generate_ID" path="topics/api_faq_auto_generate_ID.html"/>
-   <appContext helpID="transforming-documents" path="topics/transforming-documents.html"/>
-   <appContext helpID="transformation-scenario" path="concepts/transformation-scenario.html"/>
-   <appContext helpID="defining-new-transformation-scenario"
-               path="topics/defining-new-transformation-scenario.html"/>
-   <appContext helpID="xml-transformation-with-xslt"
-               path="topics/xml-transformation-with-xslt.html"/>
-   <appContext helpID="xslt-tab" path="topics/xslt-tab.html"/>
-   <appContext helpID="xslt-stylesheet-parameters"
-               path="topics/xslt-stylesheet-parameters.html"/>
-   <appContext helpID="xslt-xquery-extensions" path="topics/xslt-xquery-extensions.html"/>
-   <appContext helpID="fo-processor-tab" path="topics/fo-processor-tab.html"/>
-   <appContext helpID="the-output-tab" path="topics/the-output-tab.html"/>
-   <appContext helpID="additional-xslt-stylesheets"
-               path="topics/additional-xslt-stylesheets.html"/>
-   <appContext helpID="xml-transformation-with-xquery"
-               path="topics/xml-transformation-with-xquery.html"/>
-   <appContext helpID="the-xquery-tab" path="topics/the-xquery-tab.html"/>
-   <appContext helpID="fo-processor-tab--xml-xquery"
-               path="topics/fo-processor-tab--xml-xquery.html"/>
-   <appContext helpID="output-xml-xquery" path="topics/output-xml-xquery.html"/>
-   <appContext helpID="dita-ot-transformation" path="topics/dita-ot-transformation-1.html"/>
-   <appContext helpID="dita-transformation-skins-tab"
-               path="topics/dita-transformation-skins-tab-1.html"/>
-   <appContext helpID="fixing-dita-transformation-errors"
-               path="topics/fixing-dita-transformation-errors.html"/>
-   <appContext helpID="ant-transformation" path="topics/ant-transformation.html"/>
-   <appContext helpID="ant-transformation-options-tab"
-               path="topics/ant-transformation-options-tab.html"/>
-   <appContext helpID="ant-transformation-parameters-tab"
-               path="topics/ant-transformation-parameters-tab.html"/>
-   <appContext helpID="ant-transformation-output-tab"
-               path="topics/ant-transformation-output-tab.html"/>
-   <appContext helpID="xslt-transformation" path="topics/xslt-transformation.html"/>
-   <appContext helpID="xslt-tab" path="topics/xslt-tab-1.html"/>
-   <appContext helpID="fo-processor-tab" path="topics/fo-processor-tab-1.html"/>
-   <appContext helpID="the-output-tab" path="topics/the-output-tab-1.html"/>
-   <appContext helpID="xproc-transformation-scenario"
-               path="topics/xproc-transformation-scenario.html"/>
-   <appContext helpID="xproc-transformation-xproc-tab"
-               path="topics/xproc-transformation-xproc-tab.html"/>
-   <appContext helpID="xproc-transformation-inputs-tab"
-               path="topics/xproc-transformation-inputs-tab.html"/>
-   <appContext helpID="xproc-transformation-parameters-tab"
-               path="topics/xproc-transformation-parameters-tab.html"/>
-   <appContext helpID="xproc-transformation-outputs-tab"
-               path="topics/xproc-transformation-outputs-tab.html"/>
-   <appContext helpID="xproc-transformation-options-tab"
-               path="topics/xproc-transformation-options-tab.html"/>
-   <appContext helpID="configuring_calabash_with_xep"
-               path="tasks/configuring_calabash_with_xep.html"/>
-   <appContext helpID="xproc-API-external-engine" path="tasks/xproc-API-external-engine.html"/>
-   <appContext helpID="xquery-transformation" path="topics/xquery-transformation.html"/>
-   <appContext helpID="the-xquery-tab" path="topics/the-xquery-tab-1.html"/>
-   <appContext helpID="fo-processor-tab--xml-xquery"
-               path="topics/fo-processor-tab--xml-xquery-1.html"/>
-   <appContext helpID="output-xml-xquery" path="topics/output-xml-xquery-1.html"/>
-   <appContext helpID="sql-transformation" path="topics/sql-transformation.html"/>
-   <appContext helpID="configure-transformation-dialog"
-               path="topics/configure-transformation-dialog.html"/>
-   <appContext helpID="create-transformation-scenario"
-               path="tasks/create-transformation-scenario.html"/>
-   <appContext helpID="edit-scenario-dialog" path="topics/edit-scenario-dialog.html"/>
-   <appContext helpID="apply-batch-transformation"
-               path="tasks/apply-batch-transformation.html"/>
-   <appContext helpID="builtin-transformation-scenarios"
-               path="topics/builtin-transformation-scenarios.html"/>
-   <appContext helpID="transformation-scenarios-sharing"
-               path="topics/transformation-scenarios-sharing.html"/>
-   <appContext helpID="scenarios-view" path="topics/scenarios-view.html"/>
-   <appContext helpID="debugging-pdf-transformation"
-               path="tasks/debugging-pdf-transformation.html"/>
-   <appContext helpID="xslt-processors" path="topics/xslt-processors.html"/>
-   <appContext helpID="supported-XSLT-processors" path="topics/supported-XSLT-processors.html"/>
-   <appContext helpID="configuring-custom-xslt-processors"
-               path="topics/configuring-custom-xslt-processors.html"/>
-   <appContext helpID="configuring-XSLT-processor-extensions-paths"
-               path="topics/configuring-XSLT-processor-extensions-paths.html"/>
-   <appContext helpID="xsl-fo-processors" path="topics/xsl-fo-processors.html"/>
-   <appContext helpID="builtin-xsl-fo-processor" path="topics/builtin-xsl-fo-processor.html"/>
-   <appContext helpID="add-font-to-builtin-FOP-simplified"
-               path="tasks/add-font-to-builtin-FOP-simplified.html"/>
-   <appContext helpID="add-font-to-builtin-FOP" path="tasks/add-font-to-builtin-FOP.html"/>
-   <appContext helpID="built-in-fop-additional-libraries"
-               path="topics/built-in-fop-additional-libraries.html"/>
-   <appContext helpID="adding-libraries-fop-dita-ot"
-               path="topics/adding-libraries-fop-dita-ot.html"/>
-   <appContext helpID="transformation-output-formats"
-               path="topics/transformation-output-formats.html"/>
-   <appContext helpID="webhelp-output" path="topics/webhelp-output.html"/>
-   <appContext helpID="webhelp_system_description"
-               path="topics/webhelp_system_description.html"/>
-   <appContext helpID="webhelp_with_feedback_system"
-               path="topics/webhelp_with_feedback_system.html"/>
-   <appContext helpID="installation-dita-webhelp-feedback"
-               path="topics/installation-dita-webhelp-feedback.html"/>
-   <appContext helpID="refreshing-webhelp-content"
-               path="topics/refreshing-webhelp-content.html"/>
-   <appContext helpID="manage-comments-webhelp-feedback"
-               path="topics/manage-comments-webhelp-feedback.html"/>
-   <appContext helpID="webhelp-mobile-systems" path="topics/webhelp-mobile-systems.html"/>
-   <appContext helpID="context-sensitive-help-system"
-               path="topics/context-sensitive-help-system.html"/>
-   <appContext helpID="customize_webhelp" path="topics/customize_webhelp.html"/>
-   <appContext helpID="webhelp_skin_builder" path="topics/webhelp_skin_builder.html"/>
-   <appContext helpID="webhelp-customization-css" path="topics/webhelp-customization-css.html"/>
-   <appContext helpID="changing-color-theme-webhelp"
-               path="topics/changing-color-theme-webhelp.html"/>
-   <appContext helpID="webhelp-social-media-integration"
-               path="topics/webhelp-social-media-integration.html"/>
-   <appContext helpID="integrate-facebook" path="tasks/integrate-facebook.html"/>
-   <appContext helpID="integrate-twitter" path="tasks/integrate-twitter.html"/>
-   <appContext helpID="integrate-google-plus" path="tasks/integrate-google-plus.html"/>
-   <appContext helpID="integrate-google-search" path="tasks/integrate-google-search.html"/>
-   <appContext helpID="integrate-google-analytics"
-               path="tasks/integrate-google-analytics.html"/>
-   <appContext helpID="localizing-interface-webhelp-output"
-               path="topics/localizing-interface-webhelp-output.html"/>
-   <appContext helpID="localize-webhelp" path="tasks/localize-webhelp.html"/>
-   <appContext helpID="docbook-localize-webhelp" path="tasks/docbook-localize-webhelp.html"/>
-   <appContext helpID="using-the-webhelp-plugin" path="topics/using-the-webhelp-plugin.html"/>
-   <appContext helpID="dita-webhelp-plugin" path="topics/dita-webhelp-plugin.html"/>
-   <appContext helpID="integrating-webhelp-plugin-with-dita-ot"
-               path="tasks/integrating-webhelp-plugin-with-dita-ot.html"/>
-   <appContext helpID="register-webhelp-plugin" path="tasks/register-webhelp-plugin.html"/>
-   <appContext helpID="upgrading-webhelp-plugin-dita"
-               path="tasks/upgrading-webhelp-plugin-dita.html"/>
-   <appContext helpID="running-dita-transformation-webhelp-plugin"
-               path="topics/running-dita-transformation-webhelp-plugin.html"/>
-   <appContext helpID="webhelp-plugin-additional-parameters"
-               path="topics/webhelp-plugin-additional-parameters.html"/>
-   <appContext helpID="webhelp-feedback-database-configuration"
-               path="topics/webhelp-feedback-database-configuration.html"/>
-   <appContext helpID="docbook-webhelp-plugin" path="topics/docbook-webhelp-plugin.html"/>
-   <appContext helpID="webhelp-plugin-docbook-integration"
-               path="tasks/webhelp-plugin-docbook-integration.html"/>
-   <appContext helpID="register-docbook-webhelp-plugin"
-               path="tasks/register-docbook-webhelp-plugin.html"/>
-   <appContext helpID="upgrading-webhelp-plugin-docbook"
-               path="tasks/upgrading-webhelp-plugin-docbook.html"/>
-   <appContext helpID="running-docbook-transformation-webhelp-plugin"
-               path="topics/running-docbook-transformation-webhelp-plugin.html"/>
-   <appContext helpID="webhelp-plugin-additional-parameters-docbook"
-               path="topics/webhelp-plugin-additional-parameters-docbook.html"/>
-   <appContext helpID="webhelp-feedback-database-configuration-docbook"
-               path="topics/webhelp-feedback-database-configuration-docbook.html"/>
-   <appContext helpID="notifications-localization"
-               path="topics/notifications-localization.html"/>
-   <appContext helpID="scoring-properties-search-results"
-               path="tasks/scoring-properties-search-results.html"/>
-   <appContext helpID="embed_videos" path="topics/embed_videos.html"/>
-   <appContext helpID="webhelp-change-toc-icons" path="tasks/webhelp-change-toc-icons.html"/>
-   <appContext helpID="webhelp-customizations-toc"
-               path="topics/webhelp-customizations-toc.html"/>
-   <appContext helpID="webhelp-customization-add-image-to-title"
-               path="topics/webhelp-customization-add-image-to-title.html"/>
-   <appContext helpID="webhelp-customization-remove-next-previous-links"
-               path="topics/webhelp-customization-remove-next-previous-links.html"/>
-   <appContext helpID="webhelp-customization-custom-header-footer"
-               path="topics/webhelp-customization-custom-header-footer.html"/>
-   <appContext helpID="add-favicon-webhelp" path="tasks/add-favicon-webhelp.html"/>
-   <appContext helpID="webhelp-customization-ol-numbering"
-               path="topics/webhelp-customization-ol-numbering.html"/>
-   <appContext helpID="webhelp_runtime_additional_parameters"
-               path="topics/webhelp_runtime_additional_parameters.html"/>
-   <appContext helpID="disable-caching-in-webhelp-pages"
-               path="topics/disable-caching-in-webhelp-pages.html"/>
-   <appContext helpID="adding-select-all-button" path="tasks/adding-select-all-button.html"/>
-   <appContext helpID="flagging-dita-content" path="tasks/flagging-dita-content.html"/>
-   <appContext helpID="querying-documents" path="topics/querying-documents.html"/>
-   <appContext helpID="running-xpath-expressions" path="topics/running-xpath-expressions.html"/>
-   <appContext helpID="what-is-XPath" path="topics/what-is-XPath.html"/>
-   <appContext helpID="xpath-console" path="topics/xpath-console.html"/>
-   <appContext helpID="xpath-builder-view" path="topics/xpath-builder-view.html"/>
-   <appContext helpID="xpath-results" path="topics/xpath-results.html"/>
-   <appContext helpID="xpath-catalogs" path="topics/xpath-catalogs.html"/>
-   <appContext helpID="xpath-namespace" path="topics/xpath-namespace.html"/>
-   <appContext helpID="working-with-xquery" path="topics/working-with-xquery.html"/>
-   <appContext helpID="what-is-XQuery" path="topics/what-is-XQuery.html"/>
-   <appContext helpID="transforming-xml-documents-using-xquery"
-               path="topics/transforming-xml-documents-using-xquery.html"/>
-   <appContext helpID="xqj-transformers" path="topics/xqj-transformers.html"/>
-   <appContext helpID="configure-xqj-datasource" path="tasks/configure-xqj-datasource.html"/>
-   <appContext helpID="configure-xqj-connection" path="tasks/configure-xqj-connection.html"/>
-   <appContext helpID="transform-xquery-sequence-view"
-               path="topics/transform-xquery-sequence-view.html"/>
-   <appContext helpID="transform-xquery-advanced-saxon-options"
-               path="topics/transform-xquery-advanced-saxon-options.html"/>
-   <appContext helpID="update-xml-documents-using-xquery"
-               path="topics/update-xml-documents-using-xquery.html"/>
-   <appContext helpID="working-with-archives" path="topics/working-with-archives.html"/>
-   <appContext helpID="archive-browser-view" path="topics/archive-browser-view.html"/>
-   <appContext helpID="working-with-epub" path="topics/working-with-epub.html"/>
-   <appContext helpID="create_new_epub" path="tasks/create_new_epub.html"/>
-   <appContext helpID="publish-to-epub" path="tasks/publish-to-epub.html"/>
-   <appContext helpID="archive-file-edit" path="topics/archive-file-edit.html"/>
-   <appContext helpID="working-with-databases" path="topics/working-with-databases.html"/>
-   <appContext helpID="relational-database-support"
-               path="topics/relational-database-support.html"/>
-   <appContext helpID="relational-database-configure-data-sources"
-               path="topics/relational-database-configure-data-sources.html"/>
-   <appContext helpID="relational-database-configure-connections"
-               path="topics/relational-database-configure-connections.html"/>
-   <appContext helpID="how-to-db-support" path="topics/how-to-db-support.html"/>
-   <appContext helpID="how-to-ibm-db2" path="topics/how-to-ibm-db2.html"/>
-   <appContext helpID="configure-db2-datasource" path="tasks/configure-db2-datasource.html"/>
-   <appContext helpID="configure-db2-connection" path="tasks/configure-db2-connection.html"/>
-   <appContext helpID="how-to-ms-sql" path="topics/how-to-ms-sql.html"/>
-   <appContext helpID="configure-sql-server-datasource"
-               path="tasks/configure-sql-server-datasource.html"/>
-   <appContext helpID="configure-sql-server-connection"
-               path="tasks/configure-sql-server-connection.html"/>
-   <appContext helpID="how-to-generic-jdbc" path="topics/how-to-generic-jdbc.html"/>
-   <appContext helpID="configure-generic-jdbc-datasource"
-               path="tasks/configure-generic-jdbc-datasource.html"/>
-   <appContext helpID="configure-generic-jdbc-connection"
-               path="tasks/configure-generic-jdbc-connection.html"/>
-   <appContext helpID="how-to-mysql" path="topics/how-to-mysql.html"/>
-   <appContext helpID="configure-mysql-datasource"
-               path="tasks/configure-mysql-datasource.html"/>
-   <appContext helpID="configure-mysql-connection"
-               path="tasks/configure-mysql-connection.html"/>
-   <appContext helpID="how-to-oracle11g" path="topics/how-to-oracle11g.html"/>
-   <appContext helpID="configure-oracle-datasource"
-               path="tasks/configure-oracle-datasource.html"/>
-   <appContext helpID="configure-oracle-connection"
-               path="tasks/configure-oracle-connection.html"/>
-   <appContext helpID="how_to_postgresql" path="topics/how_to_postgresql.html"/>
-   <appContext helpID="configure-postgreSQL-datasource"
-               path="tasks/configure-postgreSQL-datasource.html"/>
-   <appContext helpID="configure-postgreSQL-connection"
-               path="tasks/configure-postgreSQL-connection.html"/>
-   <appContext helpID="how-to-jdbc-odbc" path="topics/how-to-jdbc-odbc.html"/>
-   <appContext helpID="configure-jdbc-odbc-connection"
-               path="tasks/configure-jdbc-odbc-connection.html"/>
-   <appContext helpID="relational-database-resource-management"
-               path="topics/relational-database-resource-management.html"/>
-   <appContext helpID="relational-database-explorer"
-               path="topics/relational-database-explorer.html"/>
-   <appContext helpID="relational-dbexplorer-connections-actions"
-               path="topics/relational-dbexplorer-connections-actions.html"/>
-   <appContext helpID="relational-dbexplorer-catalog-actions"
-               path="topics/relational-dbexplorer-catalog-actions.html"/>
-   <appContext helpID="relational-dbexplorer-schema-actions"
-               path="topics/relational-dbexplorer-schema-actions.html"/>
-   <appContext helpID="relational-dbexplorer-table-actions"
-               path="topics/relational-dbexplorer-table-actions.html"/>
-   <appContext helpID="relational-database-xml-schema-repository"
-               path="topics/relational-database-xml-schema-repository.html"/>
-   <appContext helpID="oracle-xml-schema-repository-level"
-               path="topics/oracle-xml-schema-repository-level.html"/>
-   <appContext helpID="db2-xml-schema-repository-level"
-               path="topics/db2-xml-schema-repository-level.html"/>
-   <appContext helpID="sqlserver-xml-schema-repository-level"
-               path="topics/sqlserver-xml-schema-repository-level.html"/>
-   <appContext helpID="relational-table-explorer" path="topics/relational-table-explorer.html"/>
-   <appContext helpID="relational-sql-execution-support"
-               path="topics/relational-sql-execution-support.html"/>
-   <appContext helpID="sql-dnd-support" path="tasks/sql-dnd-support.html"/>
-   <appContext helpID="sql-validation" path="topics/sql-validation.html"/>
-   <appContext helpID="executing-sql-statements" path="tasks/executing-sql-statements.html"/>
-   <appContext helpID="native-xml-database-support"
-               path="topics/native-xml-database-support.html"/>
-   <appContext helpID="native-database-configure-data-sources"
-               path="topics/native-database-configure-data-sources.html"/>
-   <appContext helpID="native-database-configure-connections"
-               path="topics/native-database-configure-connections.html"/>
-   <appContext helpID="how-to-native-xml-db-support"
-               path="topics/how-to-native-xml-db-support.html"/>
-   <appContext helpID="how-to-berkeley" path="topics/how-to-berkeley.html"/>
-   <appContext helpID="configure-berkeley-datasource"
-               path="tasks/configure-berkeley-datasource.html"/>
-   <appContext helpID="configure-berkeley-connection"
-               path="tasks/configure-berkeley-connection.html"/>
-   <appContext helpID="how-to-exist" path="topics/how-to-exist.html"/>
-   <appContext helpID="configure-exist-datasource"
-               path="tasks/configure-exist-datasource.html"/>
-   <appContext helpID="configure-exist-connection"
-               path="tasks/configure-exist-connection.html"/>
-   <appContext helpID="fast-exist-connection" path="topics/fast-exist-connection.html"/>
-   <appContext helpID="how-to-marklogic" path="topics/how-to-marklogic.html"/>
-   <appContext helpID="configure-marklogic-datasource"
-               path="tasks/configure-marklogic-datasource.html"/>
-   <appContext helpID="configure-marklogic-connection"
-               path="tasks/configure-marklogic-connection.html"/>
-   <appContext helpID="how-to-documentum-xdb" path="topics/how-to-documentum-xdb.html"/>
-   <appContext helpID="configure-xhive-datasource"
-               path="tasks/configure-xhive-datasource.html"/>
-   <appContext helpID="configure-xhive-connection"
-               path="tasks/configure-xhive-connection.html"/>
-   <appContext helpID="oracle-xml-db-connection" path="topics/oracle-xml-db-connection.html"/>
-   <appContext helpID="postgresql-connection" path="topics/postgresql-connection.html"/>
-   <appContext helpID="berkeley-db-connection" path="topics/berkeley-db-connection.html"/>
-   <appContext helpID="berkeley-connection-level" path="topics/berkeley-connection-level.html"/>
-   <appContext helpID="berkeley-container-level" path="topics/berkeley-container-level.html"/>
-   <appContext helpID="berkeley-resource-level" path="topics/berkeley-resource-level.html"/>
-   <appContext helpID="exist-connection" path="topics/exist-connection.html"/>
-   <appContext helpID="eXist-connection-level" path="topics/eXist-connection-level.html"/>
-   <appContext helpID="eXist-container-level" path="topics/eXist-container-level.html"/>
-   <appContext helpID="eXist-resource-level" path="topics/eXist-resource-level.html"/>
-   <appContext helpID="marklogic-connection" path="topics/marklogic-connection.html"/>
-   <appContext helpID="documentum-connection" path="topics/documentum-connection.html"/>
-   <appContext helpID="xhive-connection-level" path="topics/xhive-connection-level.html"/>
-   <appContext helpID="xhive-schema-catalog-level"
-               path="topics/xhive-schema-catalog-level.html"/>
-   <appContext helpID="xhive-schema-resource-actions"
-               path="topics/xhive-schema-resource-actions.html"/>
-   <appContext helpID="xhive-library-level" path="topics/xhive-library-level.html"/>
-   <appContext helpID="xhive-resource-actions" path="topics/xhive-resource-actions.html"/>
-   <appContext helpID="xhive-parser-configuration"
-               path="topics/xhive-parser-configuration.html"/>
-   <appContext helpID="troubleshooting" path="topics/troubleshooting.html"/>
-   <appContext helpID="webdav-connection" path="topics/webdav-connection.html"/>
-   <appContext helpID="configure-webdav-connection"
-               path="tasks/configure-webdav-connection.html"/>
-   <appContext helpID="webdav-connection-actions" path="topics/webdav-connection-actions.html"/>
-   <appContext helpID="webdav-actions-at-connection-level"
-               path="topics/webdav-actions-at-connection-level.html"/>
-   <appContext helpID="webdav-actions-at-folder-level"
-               path="topics/webdav-actions-at-folder-level.html"/>
-   <appContext helpID="webdav-actions-at-file-level"
-               path="topics/webdav-actions-at-file-level.html"/>
-   <appContext helpID="basex-support" path="topics/basex-support.html"/>
-   <appContext helpID="resource-management-basex" path="topics/resource-management-basex.html"/>
-   <appContext helpID="xquery-execution-basex" path="topics/xquery-execution-basex.html"/>
-   <appContext helpID="import-introduction" path="topics/import-introduction.html"/>
-   <appContext helpID="import-text" path="tasks/import-text.html"/>
-   <appContext helpID="import-from-ms-excel-files"
-               path="tasks/import-from-ms-excel-files.html"/>
-   <appContext helpID="import-excel-new-format" path="topics/import-excel-new-format.html"/>
-   <appContext helpID="import-db-table-content-to-xml"
-               path="tasks/import-db-table-content-to-xml.html"/>
-   <appContext helpID="import-html" path="tasks/import-html.html"/>
-   <appContext helpID="import-dynamic-conversions"
-               path="topics/import-dynamic-conversions.html"/>
-   <appContext helpID="cms-integration" path="topics/cms-integration.html"/>
-   <appContext helpID="documentumcms-support" path="topics/documentumcms-support.html"/>
-   <appContext helpID="configure-documentumcms" path="topics/configure-documentumcms.html"/>
-   <appContext helpID="configure-documentumcms-datasource"
-               path="tasks/configure-documentumcms-datasource.html"/>
-   <appContext helpID="configure-documentumcms-connection"
-               path="tasks/configure-documentumcms-connection.html"/>
-   <appContext helpID="known-issues-documentum" path="topics/known-issues-documentum.html"/>
-   <appContext helpID="documentumcms-connection-actions"
-               path="topics/documentumcms-connection-actions.html"/>
-   <appContext helpID="documentumcms-actions-at-connection-level"
-               path="topics/documentumcms-actions-at-connection-level.html"/>
-   <appContext helpID="documentumcms-actions-at-folder-level"
-               path="topics/documentumcms-actions-at-folder-level.html"/>
-   <appContext helpID="documentumcms-actions-at-file-level"
-               path="topics/documentumcms-actions-at-file-level.html"/>
-   <appContext helpID="dita-transform-on-content-from-documentum"
-               path="topics/dita-transform-on-content-from-documentum.html"/>
-   <appContext helpID="sharepoint-connection" path="topics/sharepoint-connection.html"/>
-   <appContext helpID="configure-sharepoint-connection"
-               path="tasks/configure-sharepoint-connection.html"/>
-   <appContext helpID="sharepoint-view" path="topics/sharepoint-view.html"/>
-   <appContext helpID="sharepoint-connection-actions"
-               path="topics/sharepoint-connection-actions.html"/>
-   <appContext helpID="sharepoint-actions-at-connection-level"
-               path="topics/sharepoint-actions-at-connection-level.html"/>
-   <appContext helpID="sharepoint-actions-at-folder-level"
-               path="topics/sharepoint-actions-at-folder-level.html"/>
-   <appContext helpID="sharepoint-actions-at-file-level"
-               path="topics/sharepoint-actions-at-file-level.html"/>
+   <appContext helpID="api_faq_split_on_enter" path="topics/api_faq_split_on_enter.html"/>
+   <appContext helpID="api-faq-style-entities" path="topics/api-faq-style-entities.html"/>
    <appContext helpID="extending-oxygen" path="topics/extending-oxygen.html"/>
    <appContext helpID="extend-oxygen-with-plugins"
                path="topics/extend-oxygen-with-plugins.html"/>
@@ -1344,27 +1522,28 @@
    <appContext helpID="oxygen-plugin" path="concepts/oxygen-plugin.html"/>
    <appContext helpID="howto-install-plugin" path="tasks/howto-install-plugin.html"/>
    <appContext helpID="pluginTypes" path="topics/pluginTypes.html"/>
-   <appContext helpID="workspace-access-plugin" path="concepts/workspace-access-plugin.html"/>
-   <appContext helpID="workspace-access-plugin-js"
-               path="concepts/workspace-access-plugin-js.html"/>
-   <appContext helpID="optionpage-plugin" path="concepts/optionpage-plugin.html"/>
+   <appContext helpID="author-stylesheet-extension"
+               path="topics/author-stylesheet-extension.html"/>
    <appContext helpID="components-validation-plugin"
                path="concepts/components-validation-plugin.html"/>
    <appContext helpID="custom-protocol-plugin" path="concepts/custom-protocol-plugin.html"/>
+   <appContext helpID="lock-handler-factory" path="concepts/lock-handler-factory.html"/>
+   <appContext helpID="open-redirect-plugin" path="concepts/open-redirect-plugin.html"/>
+   <appContext helpID="optionpage-plugin" path="concepts/optionpage-plugin.html"/>
    <appContext helpID="resource-locking-custom-protocol-plugin"
                path="concepts/resource-locking-custom-protocol-plugin.html"/>
-   <appContext helpID="refactoring-plugin-extension"
-               path="concepts/refactoring-plugin-extension.html"/>
-   <appContext helpID="open-redirect-plugin" path="concepts/open-redirect-plugin.html"/>
+   <appContext helpID="stylesfilter-plugin" path="concepts/stylesfilter-plugin.html"/>
    <appContext helpID="targeted-url-handler-plugin"
                path="concepts/targeted-url-handler-plugin.html"/>
-   <appContext helpID="lock-handler-factory" path="concepts/lock-handler-factory.html"/>
-   <appContext helpID="stylesfilter-plugin" path="concepts/stylesfilter-plugin.html"/>
-   <appContext helpID="author-stylesheet-extension"
-               path="topics/author-stylesheet-extension.html"/>
+   <appContext helpID="workspace-access-plugin" path="concepts/workspace-access-plugin.html"/>
+   <appContext helpID="workspace-access-plugin-js"
+               path="concepts/workspace-access-plugin-js.html"/>
+   <appContext helpID="refactoring-plugin-extension"
+               path="concepts/refactoring-plugin-extension.html"/>
    <appContext helpID="text-editing-mode-plugins" path="topics/text-editing-mode-plugins.html"/>
    <appContext helpID="general-plugin" path="concepts/general-plugin.html"/>
    <appContext helpID="selection-plugin" path="concepts/selection-plugin.html"/>
+   <appContext helpID="example-uppercase-plugin" path="topics/example-uppercase-plugin.html"/>
    <appContext helpID="document-plugin" path="concepts/document-plugin.html"/>
    <appContext helpID="howTo" path="topics/howTo.html"/>
    <appContext helpID="howto-cms-plugin" path="topics/howto-cms-plugin.html"/>
@@ -1375,9 +1554,9 @@
                path="topics/packing-and-deploying-addons-1.html"/>
    <appContext helpID="share-classloader-between-framework-and-plugin"
                path="topics/share-classloader-between-framework-and-plugin.html"/>
-   <appContext helpID="example-uppercase-plugin" path="topics/example-uppercase-plugin.html"/>
    <appContext helpID="automated-tests" path="topics/automated-tests-1.html"/>
-   <appContext helpID="debug-plugin" path="topics/debug-plugin-1.html"/>
+   <appContext helpID="debug-plugin" path="topics/debug-plugin.html"/>
+   <appContext helpID="debug-sdk" path="topics/debug-sdk.html"/>
    <appContext helpID="disable-plugin" path="topics/disable-plugin.html"/>
    <appContext helpID="author-component" path="topics/author-component.html"/>
    <appContext helpID="component_licensing" path="topics/component_licensing.html"/>
@@ -1405,7 +1584,6 @@
    <appContext helpID="author-component-plugins" path="topics/author-component-plugins.html"/>
    <appContext helpID="sample-sharepoint-integration-author-component"
                path="topics/sample-sharepoint-integration-author-component.html"/>
-   <appContext helpID="author-component" path="topics/author-component-1.html"/>
    <appContext helpID="ms-sharepoint" path="topics/ms-sharepoint.html"/>
    <appContext helpID="use-case" path="topics/use-case.html"/>
    <appContext helpID="deploying-resources" path="topics/deploying-resources.html"/>
@@ -1419,6 +1597,8 @@
    <appContext helpID="sharepoint-custom-action" path="topics/sharepoint-custom-action.html"/>
    <appContext helpID="result" path="topics/result.html"/>
    <appContext helpID="component_faq" path="topics/component_faq.html"/>
+   <appContext helpID="api_faq_print_document_in_applet"
+               path="topics/api_faq_print_document_in_applet.html"/>
    <appContext helpID="applet_webapp_comparison" path="topics/applet_webapp_comparison.html"/>
    <appContext helpID="customizing_webapp" path="topics/customizing_webapp.html"/>
    <appContext helpID="customization_overview" path="topics/customization_overview.html"/>
@@ -1429,23 +1609,53 @@
    <appContext helpID="customizing_plugins" path="topics/customizing_plugins.html"/>
    <appContext helpID="customizing_js" path="topics/customizing_js.html"/>
    <appContext helpID="how_to_webapp" path="topics/how_to_webapp.html"/>
-   <appContext helpID="how_to_share_tomcat" path="topics/how_to_share_tomcat.html"/>
-   <appContext helpID="how_to_cms_auth" path="topics/how_to_cms_auth.html"/>
+   <appContext helpID="how_to_security_manager" path="topics/how_to_security_manager.html"/>
+   <appContext helpID="embedding-webapp-iframe" path="topics/embedding-webapp-iframe.html"/>
    <appContext helpID="webapp-file-browsing" path="topics/webapp-file-browsing.html"/>
+   <appContext helpID="how_to_cms_auth" path="topics/how_to_cms_auth.html"/>
+   <appContext helpID="web-author-logs" path="topics/web-author-logs.html"/>
    <appContext helpID="webapp-read-only" path="topics/webapp-read-only.html"/>
+   <appContext helpID="webapp-how-to-create-doc" path="topics/webapp-how-to-create-doc.html"/>
    <appContext helpID="webapp-plugin-prototyping" path="tasks/webapp-plugin-prototyping.html"/>
+   <appContext helpID="how_to_share_tomcat" path="topics/how_to_share_tomcat.html"/>
+   <appContext helpID="webauthor-iis-reverse-proxy"
+               path="topics/webauthor-iis-reverse-proxy.html"/>
    <appContext helpID="webapp_deployment" path="topics/webapp_deployment.html"/>
+   <appContext helpID="webapp_licensing" path="topics/webapp_licensing.html"/>
    <appContext helpID="webapp-admin-page" path="topics/webapp-admin-page.html"/>
    <appContext helpID="webapp-configure-license-server"
                path="topics/webapp-configure-license-server.html"/>
    <appContext helpID="webapp-configure-plugins" path="topics/webapp-configure-plugins.html"/>
+   <appContext helpID="webapp-create-plugin-config-page"
+               path="topics/webapp-create-plugin-config-page.html"/>
    <appContext helpID="webapp-add-framework" path="topics/webapp-add-framework.html"/>
-   <appContext helpID="webapp_licensing" path="topics/webapp_licensing.html"/>
-   <appContext helpID="how_to_security_manager" path="topics/how_to_security_manager.html"/>
-   <appContext helpID="supported-plugins" path="topics/supported-plugins.html"/>
-   <appContext helpID="integrate-github-plugin" path="tasks/integrate-github-plugin.html"/>
+   <appContext helpID="webapp-proxy-settings" path="topics/webapp-proxy-settings.html"/>
+   <appContext helpID="webapp-loadbalancing" path="topics/webapp-loadbalancing.html"/>
    <appContext helpID="applet_webapp_comparison" path="topics/applet_webapp_comparison-1.html"/>
    <appContext helpID="oxygen-tools" path="topics/oxygen-tools.html"/>
+   <appContext helpID="refactoring-xml-documents"
+               path="topics/refactoring-xml-documents-1.html"/>
+   <appContext helpID="predefined-refactoring-operations"
+               path="topics/predefined-refactoring-operations-1.html"/>
+   <appContext helpID="sharing-custom-refactoring-operations"
+               path="topics/sharing-custom-refactoring-operations-1.html"/>
+   <appContext helpID="localizing-refactoring-operations"
+               path="topics/localizing-refactoring-operations-1.html"/>
+   <appContext helpID="format-indent-multiple-files"
+               path="topics/format-indent-multiple-files-1.html"/>
+   <appContext helpID="signing-files" path="topics/signing-files-1.html"/>
+   <appContext helpID="large-file-viewer" path="topics/large-file-viewer.html"/>
+   <appContext helpID="hex-viewer" path="topics/hex-viewer.html"/>
+   <appContext helpID="the-standalone-svg-viewer"
+               path="topics/the-standalone-svg-viewer-1.html"/>
+   <appContext helpID="file-comparison" path="topics/file-comparison-1.html"/>
+   <appContext helpID="file-operations-menu" path="topics/file-operations-menu-1.html"/>
+   <appContext helpID="diff-help-menu" path="topics/diff-help-menu-2.html"/>
+   <appContext helpID="file-compare-toolbar" path="topics/file-compare-toolbar-1.html"/>
+   <appContext helpID="directories-comparison" path="topics/directories-comparison-1.html"/>
+   <appContext helpID="dir-operations-menu" path="topics/dir-operations-menu-1.html"/>
+   <appContext helpID="diff-help-menu" path="topics/diff-help-menu-3.html"/>
+   <appContext helpID="dir-compare-toolbar" path="topics/dir-compare-toolbar-1.html"/>
    <appContext helpID="svn-quick-start" path="topics/svn-quick-start.html"/>
    <appContext helpID="svn-main-window" path="topics/svn-main-window.html"/>
    <appContext helpID="views" path="topics/views.html"/>
@@ -1573,239 +1783,8 @@
    <appContext helpID="repository-access-https" path="topics/repository-access-https.html"/>
    <appContext helpID="using-peg-revisions" path="topics/using-peg-revisions.html"/>
    <appContext helpID="checksum-mismatch-error" path="topics/checksum-mismatch-error.html"/>
-   <appContext helpID="comparing-and-merging-documents"
-               path="topics/comparing-and-merging-documents.html"/>
-   <appContext helpID="directories-comparison" path="topics/directories-comparison.html"/>
-   <appContext helpID="directories-comparison-user-interface"
-               path="topics/directories-comparison-user-interface.html"/>
-   <appContext helpID="dir-operations-menu" path="topics/dir-operations-menu.html"/>
-   <appContext helpID="option-menu" path="topics/option-menu.html"/>
-   <appContext helpID="diff-help-menu" path="topics/diff-help-menu.html"/>
-   <appContext helpID="dir-compare-toolbar" path="topics/dir-compare-toolbar.html"/>
-   <appContext helpID="directories-selector" path="topics/directories-selector.html"/>
-   <appContext helpID="directories-comparison-result"
-               path="topics/directories-comparison-result.html"/>
-   <appContext helpID="compare-images" path="topics/compare-images.html"/>
-   <appContext helpID="file-comparison" path="topics/file-comparison.html"/>
-   <appContext helpID="files-comparison-main-menu"
-               path="topics/files-comparison-main-menu.html"/>
-   <appContext helpID="file-menu" path="topics/file-menu.html"/>
-   <appContext helpID="edit-menu" path="topics/edit-menu.html"/>
-   <appContext helpID="find-menu" path="topics/find-menu.html"/>
-   <appContext helpID="file-operations-menu" path="topics/file-operations-menu.html"/>
-   <appContext helpID="diff-help-menu" path="topics/diff-help-menu-1.html"/>
-   <appContext helpID="file-compare-toolbar" path="topics/file-compare-toolbar.html"/>
-   <appContext helpID="files-selector" path="topics/files-selector.html"/>
-   <appContext helpID="file-contents-panel" path="topics/file-contents-panel.html"/>
-   <appContext helpID="word-comparison" path="topics/word-comparison.html"/>
-   <appContext helpID="char-comparison" path="topics/char-comparison.html"/>
-   <appContext helpID="digital-signature" path="topics/digital-signature.html"/>
-   <appContext helpID="digital-signature-overview"
-               path="topics/digital-signature-overview.html"/>
-   <appContext helpID="canonicalizing-files" path="topics/canonicalizing-files.html"/>
-   <appContext helpID="certificates" path="topics/certificates.html"/>
-   <appContext helpID="signing-files" path="topics/signing-files.html"/>
-   <appContext helpID="verifying-signature" path="topics/verifying-signature.html"/>
-   <appContext helpID="example-signing-files" path="tasks/example-signing-files.html"/>
-   <appContext helpID="large-file-viewer" path="topics/large-file-viewer.html"/>
-   <appContext helpID="hex-viewer" path="topics/hex-viewer.html"/>
    <appContext helpID="integrating-external-tools"
                path="topics/integrating-external-tools.html"/>
-   <appContext helpID="configure-application" path="topics/configure-application.html"/>
-   <appContext helpID="preferences" path="topics/preferences.html"/>
-   <appContext helpID="preferences-global" path="topics/preferences-global.html"/>
-   <appContext helpID="preferences-appearance" path="topics/preferences-appearance.html"/>
-   <appContext helpID="preferences-colors" path="topics/preferences-colors.html"/>
-   <appContext helpID="preferences-fonts" path="topics/preferences-fonts.html"/>
-   <appContext helpID="preferences-application-layout"
-               path="topics/preferences-application-layout.html"/>
-   <appContext helpID="preferences-extensions" path="topics/preferences-extensions.html"/>
-   <appContext helpID="preferences-document-type-association"
-               path="topics/preferences-document-type-association.html"/>
-   <appContext helpID="framework-location" path="topics/framework-location.html"/>
-   <appContext helpID="the-document-type-dialog" path="topics/the-document-type-dialog.html"/>
-   <appContext helpID="document-type-association-rules-tab"
-               path="topics/document-type-association-rules-tab.html"/>
-   <appContext helpID="document-type-schema-tab" path="topics/document-type-schema-tab.html"/>
-   <appContext helpID="document-type-classpath-tab"
-               path="topics/document-type-classpath-tab.html"/>
-   <appContext helpID="document-type-author-tab" path="topics/document-type-author-tab.html"/>
-   <appContext helpID="the-css-sub-tab" path="topics/the-css-sub-tab.html"/>
-   <appContext helpID="the-actions-sub-tab" path="topics/the-actions-sub-tab.html"/>
-   <appContext helpID="the-action-dialog" path="topics/the-action-dialog.html"/>
-   <appContext helpID="xpath-activation-expressions"
-               path="topics/xpath-activation-expressions.html"/>
-   <appContext helpID="oxy-allows-child-element" path="topics/oxy-allows-child-element.html"/>
-   <appContext helpID="oxy-current-selected-element"
-               path="topics/oxy-current-selected-element.html"/>
-   <appContext helpID="the-menu-sub-tab" path="topics/the-menu-sub-tab.html"/>
-   <appContext helpID="the-contextual-menu-sub-tab"
-               path="topics/the-contextual-menu-sub-tab.html"/>
-   <appContext helpID="the-toolbar-tab" path="topics/the-toolbar-tab.html"/>
-   <appContext helpID="the-content-completion-tab"
-               path="topics/the-content-completion-tab.html"/>
-   <appContext helpID="document-type-templates-tab"
-               path="topics/document-type-templates-tab.html"/>
-   <appContext helpID="document-type-catalogs-tab"
-               path="topics/document-type-catalogs-tab.html"/>
-   <appContext helpID="document-type-transformation-tab"
-               path="topics/document-type-transformation-tab.html"/>
-   <appContext helpID="document-type-validation-tab"
-               path="topics/document-type-validation-tab.html"/>
-   <appContext helpID="document-type-extensions-tab"
-               path="topics/document-type-extensions-tab.html"/>
-   <appContext helpID="preferences-encoding" path="topics/preferences-encoding.html"/>
-   <appContext helpID="preferences-editor" path="topics/preferences-editor.html"/>
-   <appContext helpID="preferences-editor-print" path="topics/preferences-editor-print.html"/>
-   <appContext helpID="preferences-editor-pages" path="topics/preferences-editor-pages.html"/>
-   <appContext helpID="preferences-editor-text" path="topics/preferences-editor-text.html"/>
-   <appContext helpID="preferences-grid" path="topics/preferences-grid.html"/>
-   <appContext helpID="preferences-author" path="topics/preferences-author.html"/>
-   <appContext helpID="caret-navigation" path="topics/caret-navigation.html"/>
-   <appContext helpID="preferences-schema-aware" path="topics/preferences-schema-aware.html"/>
-   <appContext helpID="preferences-track-changes" path="topics/preferences-track-changes.html"/>
-   <appContext helpID="callouts-preferences-page" path="topics/callouts-preferences-page.html"/>
-   <appContext helpID="preferences-profiling-conditions"
-               path="topics/preferences-profiling-conditions.html"/>
-   <appContext helpID="colors-and-styles-preferences"
-               path="topics/colors-and-styles-preferences.html"/>
-   <appContext helpID="attributes-rendering-page" path="topics/attributes-rendering-page.html"/>
-   <appContext helpID="preferences-author-mathml" path="topics/preferences-author-mathml.html"/>
-   <appContext helpID="autocorrect-preferences-page"
-               path="topics/autocorrect-preferences-page.html"/>
-   <appContext helpID="autocorrect-dictionaries-preferences"
-               path="topics/autocorrect-dictionaries-preferences.html"/>
-   <appContext helpID="preferences-editor-format" path="topics/preferences-editor-format.html"/>
-   <appContext helpID="preferences-editor-format-xml"
-               path="topics/preferences-editor-format-xml.html"/>
-   <appContext helpID="preferences-editor-format-xml-whitespaces"
-               path="topics/preferences-editor-format-xml-whitespaces.html"/>
-   <appContext helpID="preferences-editor-format-css"
-               path="topics/preferences-editor-format-css.html"/>
-   <appContext helpID="preferences-editor-format-js"
-               path="topics/preferences-editor-format-js.html"/>
-   <appContext helpID="preferences-content-completion"
-               path="topics/preferences-content-completion.html"/>
-   <appContext helpID="preferences-content-completion-annotations"
-               path="topics/preferences-content-completion-annotations.html"/>
-   <appContext helpID="preferences-content-completion-xpath"
-               path="topics/preferences-content-completion-xpath.html"/>
-   <appContext helpID="preferences-content-completion-js"
-               path="topics/preferences-content-completion-js.html"/>
-   <appContext helpID="preferences-colors-sh" path="topics/preferences-colors-sh.html"/>
-   <appContext helpID="preferences-colors-elements-by-prefix"
-               path="topics/preferences-colors-elements-by-prefix.html"/>
-   <appContext helpID="preferences-editor-open-save"
-               path="topics/preferences-editor-open-save.html"/>
-   <appContext helpID="save-hooks" path="topics/save-hooks.html"/>
-   <appContext helpID="preferences-templates" path="topics/preferences-templates.html"/>
-   <appContext helpID="preferences-editor-code-templates"
-               path="topics/preferences-editor-code-templates.html"/>
-   <appContext helpID="preferences-editor-document-templates"
-               path="topics/preferences-editor-document-templates.html"/>
-   <appContext helpID="preferences-editor-spell-check"
-               path="topics/preferences-editor-spell-check.html"/>
-   <appContext helpID="dictionaries-preferences-page"
-               path="topics/dictionaries-preferences-page.html"/>
-   <appContext helpID="preferences-editor-document-checking"
-               path="topics/preferences-editor-document-checking.html"/>
-   <appContext helpID="preferences-editor-custom-validation"
-               path="topics/preferences-editor-custom-validation.html"/>
-   <appContext helpID="increasing-stack" path="topics/increasing-stack.html"/>
-   <appContext helpID="preferences-css-validator" path="topics/preferences-css-validator.html"/>
-   <appContext helpID="preferences-xml" path="topics/preferences-xml.html"/>
-   <appContext helpID="preferences-xml-catalog" path="topics/preferences-xml-catalog.html"/>
-   <appContext helpID="preferences-xml-parser" path="topics/preferences-xml-parser.html"/>
-   <appContext helpID="xml-schema-preferences-page"
-               path="topics/xml-schema-preferences-page.html"/>
-   <appContext helpID="relax-ng-preferences-page" path="topics/relax-ng-preferences-page.html"/>
-   <appContext helpID="schematron-preferences-page"
-               path="topics/schematron-preferences-page.html"/>
-   <appContext helpID="preferences-xproc-engines" path="topics/preferences-xproc-engines.html"/>
-   <appContext helpID="preferences-xslt-fo-xquery"
-               path="topics/preferences-xslt-fo-xquery.html"/>
-   <appContext helpID="preferences-xslt" path="topics/preferences-xslt.html"/>
-   <appContext helpID="preferences-xslt-saxon6" path="topics/preferences-xslt-saxon6.html"/>
-   <appContext helpID="preferences-xslt-saxon8" path="topics/preferences-xslt-saxon8.html"/>
-   <appContext helpID="preferences-advanced-xslt-saxon8"
-               path="topics/preferences-advanced-xslt-saxon8.html"/>
-   <appContext helpID="preferences-xsltproc" path="topics/preferences-xsltproc.html"/>
-   <appContext helpID="preferences-msxml-3-and-4" path="topics/preferences-msxml-3-and-4.html"/>
-   <appContext helpID="preferences-msxml-dot-net" path="topics/preferences-msxml-dot-net.html"/>
-   <appContext helpID="preferences-fo-processors" path="topics/preferences-fo-processors.html"/>
-   <appContext helpID="preferences-xpath" path="topics/preferences-xpath.html"/>
-   <appContext helpID="preferences-custom-engines"
-               path="topics/preferences-custom-engines.html"/>
-   <appContext helpID="ant-preferences" path="topics/ant-preferences.html"/>
-   <appContext helpID="preferences-xml-import" path="topics/preferences-xml-import.html"/>
-   <appContext helpID="date-time-pattern-letters" path="topics/date-time-pattern-letters.html"/>
-   <appContext helpID="preferences-certificates" path="topics/preferences-certificates.html"/>
-   <appContext helpID="preferences-xml-refactoring"
-               path="topics/preferences-xml-refactoring.html"/>
-   <appContext helpID="preferences-dita" path="topics/preferences-dita.html"/>
-   <appContext helpID="preferences-database" path="topics/preferences-database.html"/>
-   <appContext helpID="preferences-data-sources" path="topics/preferences-data-sources.html"/>
-   <appContext helpID="download-database-drivers" path="topics/download-database-drivers.html"/>
-   <appContext helpID="preferences-database-filters"
-               path="topics/preferences-database-filters.html"/>
-   <appContext helpID="preferences-svn" path="topics/preferences-svn.html"/>
-   <appContext helpID="preferences-svn-working-copy"
-               path="topics/preferences-svn-working-copy.html"/>
-   <appContext helpID="preferences-svn-diff" path="topics/preferences-svn-diff.html"/>
-   <appContext helpID="preferences-svn-messages" path="topics/preferences-svn-messages.html"/>
-   <appContext helpID="diff-preferences" path="topics/diff-preferences.html"/>
-   <appContext helpID="preferences-diff-files" path="topics/preferences-diff-files.html"/>
-   <appContext helpID="preferences-diff-appearance"
-               path="topics/preferences-diff-appearance.html"/>
-   <appContext helpID="preferences-diff-dirs" path="topics/preferences-diff-dirs.html"/>
-   <appContext helpID="preferences-diff-dir-appearance"
-               path="topics/preferences-diff-dir-appearance.html"/>
-   <appContext helpID="preferences-archive" path="topics/preferences-archive.html"/>
-   <appContext helpID="preferences-plugins" path="topics/preferences-plugins.html"/>
-   <appContext helpID="preferences-external-tools"
-               path="topics/preferences-external-tools.html"/>
-   <appContext helpID="preferences-menu-shortcut-keys"
-               path="topics/preferences-menu-shortcut-keys.html"/>
-   <appContext helpID="preferences-file-types" path="topics/preferences-file-types.html"/>
-   <appContext helpID="preferences-open-find-resources"
-               path="topics/preferences-open-find-resources.html"/>
-   <appContext helpID="preferences-custom-editor-variables"
-               path="topics/preferences-custom-editor-variables.html"/>
-   <appContext helpID="connection-settings" path="topics/connection-settings.html"/>
-   <appContext helpID="proxy-preferences" path="topics/proxy-preferences.html"/>
-   <appContext helpID="proxy-using-pac" path="topics/proxy-using-pac.html"/>
-   <appContext helpID="https-webdav-preferences" path="topics/https-webdav-preferences.html"/>
-   <appContext helpID="preferences-ftp-configuration"
-               path="topics/preferences-ftp-configuration.html"/>
-   <appContext helpID="trusted-hosts-settings" path="topics/trusted-hosts-settings.html"/>
-   <appContext helpID="ssh-preferences" path="topics/ssh-preferences.html"/>
-   <appContext helpID="preferences-outline" path="topics/preferences-outline.html"/>
-   <appContext helpID="preferences-view" path="topics/preferences-view.html"/>
-   <appContext helpID="preferences-messages" path="topics/preferences-messages.html"/>
-   <appContext helpID="option-layers" path="topics/option-layers.html"/>
-   <appContext helpID="default-options" path="topics/default-options.html"/>
-   <appContext helpID="preferences-sharing" path="topics/preferences-sharing.html"/>
-   <appContext helpID="import-export-preferences" path="topics/import-export-preferences.html"/>
-   <appContext helpID="reset-options" path="topics/reset-options.html"/>
-   <appContext helpID="dockable-views-and-editors"
-               path="topics/dockable-views-and-editors.html"/>
-   <appContext helpID="configure-toolbars" path="topics/configure-toolbars.html"/>
-   <appContext helpID="import-export-global-scenarios"
-               path="topics/import-export-global-scenarios.html"/>
-   <appContext helpID="editor-variables" path="topics/editor-variables-2.html"/>
-   <appContext helpID="custom-system-properties" path="topics/custom-system-properties.html"/>
-   <appContext helpID="changing-user-interface-language"
-               path="changing-user-interface-language.html#changing-user-interface-language"/>
-   <appContext helpID="localizeGUI-using-xml-file"
-               path="changing-user-interface-language.html#localizeGUI-using-xml-file"/>
-   <appContext helpID="set-parameter-in-startup-script"
-               path="topics/set-parameter-in-startup-script.html"/>
-   <appContext helpID="set-parameters-for-application-launchers"
-               path="topics/set-parameters-for-application-launchers.html"/>
-   <appContext helpID="set-parameters-command-line-scripts"
-               path="topics/set-parameters-command-line-scripts.html"/>
-   <appContext helpID="custom-startup-parameters-file"
-               path="topics/custom-startup-parameters-file.html"/>
    <appContext helpID="problems" path="topics/problems.html"/>
    <appContext helpID="performance-problems" path="topics/performance-problems.html"/>
    <appContext helpID="performance-problems-large-documents"
@@ -1814,71 +1793,189 @@
                path="topics/performance-problems-external-processes.html"/>
    <appContext helpID="display-problems-linux" path="topics/display-problems-linux.html"/>
    <appContext helpID="common-problems" path="topics/common-problems.html"/>
-   <appContext helpID="problem-report-submitted-on-technical-support-form"
-               path="topics/problem-report-submitted-on-technical-support-form.html"/>
-   <appContext helpID="xml-document-opened-after-long-time"
-               path="topics/xml-document-opened-after-long-time.html"/>
-   <appContext helpID="oxygen-slow-start" path="topics/oxygen-slow-start.html"/>
-   <appContext helpID="out-of-memory-errors-when-open-large-documents"
-               path="topics/out-of-memory-errors-when-open-large-documents.html"/>
-   <appContext helpID="special-characters-replaced-with-square"
-               path="topics/special-characters-replaced-with-square.html"/>
-   <appContext helpID="scroll-function-not-working-on-notebook"
-               path="topics/scroll-function-not-working-on-notebook.html"/>
-   <appContext helpID="crash-at-startup-on-windows-nvoglv32"
-               path="topics/crash-at-startup-on-windows-nvoglv32.html"/>
-   <appContext helpID="crash-on-macosx" path="topics/crash-on-macosx.html"/>
-   <appContext helpID="highlights-of-search-in-usermanual-have-offset"
-               path="topics/highlights-of-search-in-usermanual-have-offset.html"/>
-   <appContext helpID="keyboard-shortcuts-do-not-work"
-               path="topics/keyboard-shortcuts-do-not-work.html"/>
-   <appContext helpID="cannot-open-xml-files-in-internet-explorer"
-               path="topics/cannot-open-xml-files-in-internet-explorer.html"/>
+   <appContext helpID="address-family-not-supported"
+               path="topics/address-family-not-supported.html"/>
+   <appContext helpID="gnome-main-menu-alignment-issues"
+               path="topics/gnome-main-menu-alignment-issues.html"/>
    <appContext helpID="cannot-associate-with-file-type-on-windows"
                path="topics/cannot-associate-with-file-type-on-windows.html"/>
-   <appContext helpID="grey-window-on-linux-with-compiz"
-               path="topics/grey-window-on-linux-with-compiz.html"/>
-   <appContext helpID="drag-and-drop-without-initial-selection-does-not-work"
-               path="topics/drag-and-drop-without-initial-selection-does-not-work.html"/>
-   <appContext helpID="set-specific-jvm-version-macosx"
-               path="topics/set-specific-jvm-version-macosx.html"/>
-   <appContext helpID="segmentation-fault-macosx" path="topics/segmentation-fault-macosx.html"/>
-   <appContext helpID="damaged-file-associations-mac"
-               path="tasks/damaged-file-associations-mac.html"/>
    <appContext helpID="cannot-connect-to-svn-repository"
                path="topics/cannot-connect-to-svn-repository.html"/>
-   <appContext helpID="signature-verification-failed-error"
-               path="topics/signature-verification-failed-error.html"/>
+   <appContext helpID="cannot-open-xml-files-in-internet-explorer"
+               path="topics/cannot-open-xml-files-in-internet-explorer.html"/>
    <appContext helpID="java-graphics-card-driver-compatibility-issue"
                path="topics/java-graphics-card-driver-compatibility-issue.html"/>
-   <appContext helpID="stretched-images-pdf-output"
-               path="topics/stretched-images-pdf-output.html"/>
+   <appContext helpID="crash-at-startup-on-windows-nvoglv32"
+               path="topics/crash-at-startup-on-windows-nvoglv32.html"/>
+   <appContext helpID="damaged-file-associations-mac"
+               path="topics/damaged-file-associations-mac.html"/>
+   <appContext helpID="problem-report-submitted-on-technical-support-form"
+               path="topics/problem-report-submitted-on-technical-support-form.html"/>
+   <appContext helpID="dita-map-run-Ant-transform"
+               path="topics/dita-map-run-Ant-transform.html"/>
    <appContext helpID="failed-dita-pdf-transformation"
                path="topics/failed-dita-pdf-transformation.html"/>
    <appContext helpID="failed-dita-chm-transformation"
                path="topics/failed-dita-chm-transformation.html"/>
-   <appContext helpID="dita-map-run-Ant-transform"
-               path="topics/dita-map-run-Ant-transform.html"/>
-   <appContext helpID="dita-ot-external-refs" path="topics/dita-ot-external-refs.html"/>
-   <appContext helpID="fop-processing-breaks-dita-pdf"
-               path="topics/fop-processing-breaks-dita-pdf.html"/>
-   <appContext helpID="dita-map-tocjs-transformation"
-               path="tasks/dita-map-tocjs-transformation.html"/>
-   <appContext helpID="chm-network-drive" path="topics/chm-network-drive.html"/>
-   <appContext helpID="gnome-main-menu-alignment-issues"
-               path="topics/gnome-main-menu-alignment-issues.html"/>
-   <appContext helpID="cmyk-color-space" path="topics/cmyk-color-space.html"/>
-   <appContext helpID="svg-rendering-issues" path="topics/svg-rendering-issues.html"/>
-   <appContext helpID="msxml-transformation-issues"
-               path="topics/msxml-transformation-issues.html"/>
+   <appContext helpID="drag-and-drop-without-initial-selection-does-not-work"
+               path="topics/drag-and-drop-without-initial-selection-does-not-work.html"/>
+   <appContext helpID="grey-window-on-linux-with-compiz"
+               path="topics/grey-window-on-linux-with-compiz.html"/>
+   <appContext helpID="stretched-images-pdf-output"
+               path="topics/stretched-images-pdf-output.html"/>
    <appContext helpID="dita-map-increase-Ant-memory"
                path="topics/dita-map-increase-Ant-memory.html"/>
-   <appContext helpID="jar" path="glossary/jar.html"/>
-   <appContext helpID="ant" path="glossary/ant.html"/>
+   <appContext helpID="cmyk-color-space" path="topics/cmyk-color-space.html"/>
+   <appContext helpID="keyboard-shortcuts-do-not-work"
+               path="topics/keyboard-shortcuts-do-not-work.html"/>
+   <appContext helpID="msxml-transformation-issues"
+               path="topics/msxml-transformation-issues.html"/>
+   <appContext helpID="chm-network-drive" path="topics/chm-network-drive.html"/>
+   <appContext helpID="out-of-memory-errors-when-open-large-documents"
+               path="topics/out-of-memory-errors-when-open-large-documents.html"/>
+   <appContext helpID="crash-on-macosx" path="topics/crash-on-macosx.html"/>
+   <appContext helpID="oxygen-slow-start" path="topics/oxygen-slow-start.html"/>
+   <appContext helpID="fop-processing-breaks-dita-pdf"
+               path="topics/fop-processing-breaks-dita-pdf.html"/>
+   <appContext helpID="scroll-function-not-working-on-notebook"
+               path="topics/scroll-function-not-working-on-notebook.html"/>
+   <appContext helpID="segmentation-fault-macosx" path="topics/segmentation-fault-macosx.html"/>
+   <appContext helpID="set-specific-jvm-version-macosx"
+               path="topics/set-specific-jvm-version-macosx.html"/>
+   <appContext helpID="signature-verification-failed-error"
+               path="topics/signature-verification-failed-error.html"/>
+   <appContext helpID="special-characters-replaced-with-square"
+               path="topics/special-characters-replaced-with-square.html"/>
+   <appContext helpID="svg-rendering-issues" path="topics/svg-rendering-issues.html"/>
+   <appContext helpID="syntax-highlight-not-available-Eclipse-plugin"
+               path="topics/syntax-highlight-not-available-Eclipse-plugin.html"/>
+   <appContext helpID="dita-map-tocjs-transformation"
+               path="topics/dita-map-tocjs-transformation.html"/>
+   <appContext helpID="dita-ot-external-refs" path="topics/dita-ot-external-refs.html"/>
+   <appContext helpID="highlights-of-search-in-usermanual-have-offset"
+               path="topics/highlights-of-search-in-usermanual-have-offset.html"/>
+   <appContext helpID="xml-document-opened-after-long-time"
+               path="topics/xml-document-opened-after-long-time.html"/>
+   <appContext helpID="author-dita" path="topics/author-dita.html"/>
+   <appContext helpID="eppo-pathfinder-documents" path="topics/eppo-pathfinder-documents.html"/>
+   <appContext helpID="dita-maps-manager" path="topics/dita-maps-manager.html"/>
+   <appContext helpID="creating-dita-map" path="tasks/creating-dita-map.html"/>
+   <appContext helpID="root-map" path="topics/root-map.html"/>
+   <appContext helpID="eppo-submaps" path="topics/eppo-submaps.html"/>
+   <appContext helpID="eppo-create-book-map" path="tasks/eppo-create-book-map.html"/>
+   <appContext helpID="eppo-manage-map" path="topics/eppo-manage-map.html"/>
+   <appContext helpID="change-order-in-maps" path="topics/change-order-in-maps.html"/>
+   <appContext helpID="eppo-add-topic-to-map" path="topics/eppo-add-topic-to-map.html"/>
+   <appContext helpID="move-rename-resource" path="topics/move-rename-resource.html"/>
+   <appContext helpID="find-unreferenced-resources"
+               path="topics/find-unreferenced-resources.html"/>
+   <appContext helpID="dita-maps-inserting-references"
+               path="topics/dita-maps-inserting-references.html"/>
+   <appContext helpID="dita-insert-topic-ref" path="topics/dita-insert-topic-ref.html"/>
+   <appContext helpID="dita-insert-topic-head" path="topics/dita-insert-topic-head.html"/>
+   <appContext helpID="dita-insert-topic-group" path="topics/dita-insert-topic-group.html"/>
+   <appContext helpID="insert-define-keys" path="topics/insert-define-keys.html"/>
+   <appContext helpID="dita-edit-properties" path="topics/dita-edit-properties.html"/>
+   <appContext helpID="eppo-create-toc" path="tasks/eppo-create-toc.html"/>
+   <appContext helpID="dita-map-resolve-references-through-catalog"
+               path="topics/dita-map-resolve-references-through-catalog.html"/>
+   <appContext helpID="eppo-chunking" path="topics/eppo-chunking.html"/>
+   <appContext helpID="dita-map-validate" path="topics/dita-map-validate.html"/>
+   <appContext helpID="eppo-pathfinder-structure" path="topics/eppo-pathfinder-structure.html"/>
+   <appContext helpID="create-topic-in-map" path="tasks/create-topic-in-map.html"/>
+   <appContext helpID="eppo-edit-topics" path="topics/eppo-edit-topics.html"/>
+   <appContext helpID="eppo-adding-images" path="topics/eppo-adding-images.html"/>
+   <appContext helpID="image-map-dita" path="topics/image-map-dita-1.html"/>
+   <appContext helpID="eppo-tables" path="topics/eppo-tables-1.html"/>
+   <appContext helpID="author-editing-tables-dita"
+               path="topics/author-editing-tables-dita-1.html"/>
+   <appContext helpID="dita-table-properties" path="topics/dita-table-properties-1.html"/>
+   <appContext helpID="working-with-mathml" path="topics/working-with-mathml.html"/>
+   <appContext helpID="eppo-background-keys" path="topics/eppo-background-keys.html"/>
+   <appContext helpID="eppo-pathfinder-reuse" path="topics/eppo-pathfinder-reuse.html"/>
+   <appContext helpID="eppo-reuse-topics" path="tasks/eppo-reuse-topics.html"/>
+   <appContext helpID="working-with-content-references"
+               path="topics/working-with-content-references.html"/>
+   <appContext helpID="eppo-create-conref" path="topics/eppo-create-conref.html"/>
+   <appContext helpID="eppo-create-conkeyref" path="topics/eppo-create-conkeyref.html"/>
+   <appContext helpID="edit-dita-content-reference"
+               path="topics/edit-dita-content-reference.html"/>
+   <appContext helpID="insert-dita-content-reference"
+               path="topics/insert-dita-content-reference.html"/>
+   <appContext helpID="conref-push-mechanism" path="topics/conref-push-mechanism.html"/>
+   <appContext helpID="dita-reusable-components" path="topics/dita-reusable-components.html"/>
+   <appContext helpID="eppo-creating-reusable-content"
+               path="tasks/eppo-creating-reusable-content.html"/>
+   <appContext helpID="eppo-reuse-content" path="tasks/eppo-reuse-content.html"/>
+   <appContext helpID="eppo-variables" path="topics/eppo-variables.html"/>
+   <appContext helpID="eppo-pathfinder-linking" path="topics/eppo-pathfinder-linking.html"/>
+   <appContext helpID="eppo-hierarchical-linking" path="topics/eppo-hierarchical-linking.html"/>
+   <appContext helpID="eppo-inline-linking" path="topics/eppo-inline-linking.html"/>
+   <appContext helpID="eppo-relationship-table-linking"
+               path="tasks/eppo-relationship-table-linking.html"/>
+   <appContext helpID="eppo-pathfinder-output" path="topics/eppo-pathfinder-output.html"/>
+   <appContext helpID="dita-map-transform" path="topics/dita-map-transform.html"/>
+   <appContext helpID="create-dita-ot-transformation"
+               path="topics/create-dita-ot-transformation.html"/>
+   <appContext helpID="dita-transformation-skins-tab"
+               path="topics/dita-transformation-skins-tab-1.html"/>
+   <appContext helpID="templates-tab-whr" path="topics/templates-tab-whr-1.html"/>
+   <appContext helpID="dita-pdf-select-processor"
+               path="topics/dita-pdf-select-processor-1.html"/>
+   <appContext helpID="dita-map-edit-parameters" path="topics/dita-map-edit-parameters-1.html"/>
+   <appContext helpID="dita-map-edit-filters" path="topics/dita-map-edit-filters-1.html"/>
+   <appContext helpID="dita-map-edit-advanced" path="topics/dita-map-edit-advanced-1.html"/>
+   <appContext helpID="dita-map-edit-output" path="topics/dita-map-edit-output-1.html"/>
+   <appContext helpID="dita-ot-customization" path="topics/dita-ot-customization.html"/>
+   <appContext helpID="dita-map-use-your-own-build-file"
+               path="topics/dita-map-use-your-own-build-file.html"/>
+   <appContext helpID="dita-pdf-output" path="topics/dita-pdf-output.html"/>
+   <appContext helpID="dita_pdf_output_customization"
+               path="topics/dita_pdf_output_customization.html"/>
+   <appContext helpID="dita_pdf_header_footer_customization"
+               path="topics/dita_pdf_header_footer_customization.html"/>
+   <appContext helpID="add-watermark-pdf-output" path="tasks/add-watermark-pdf-output.html"/>
+   <appContext helpID="page-breaks-between-block-elements"
+               path="topics/page-breaks-between-block-elements.html"/>
+   <appContext helpID="dita_pdf_output_note_images"
+               path="topics/dita_pdf_output_note_images.html"/>
+   <appContext helpID="DITA-map-set-font-Apache-FOP"
+               path="topics/DITA-map-set-font-Apache-FOP.html"/>
+   <appContext helpID="add-watermark-xhtml-output"
+               path="tasks/add-watermark-xhtml-output.html"/>
+   <appContext helpID="ditamap-pdf-css" path="topics/ditamap-pdf-css-2.html"/>
+   <appContext helpID="dita-profiling-conditional-text"
+               path="topics/dita-profiling-conditional-text.html"/>
+   <appContext helpID="dita-profile-content" path="topics/dita-profile-content.html"/>
+   <appContext helpID="subject-scheme-map" path="topics/subject-scheme-map.html"/>
+   <appContext helpID="profiling-conditional-text-markers"
+               path="topics/profiling-conditional-text-markers.html"/>
+   <appContext helpID="publish-profiled-text" path="topics/publish-profiled-text.html"/>
+   <appContext helpID="dita-ot-support" path="topics/dita-ot-support.html"/>
+   <appContext helpID="simple-dita-ot-plugin" path="topics/simple-dita-ot-plugin.html"/>
+   <appContext helpID="dita-ot-install-plugin" path="topics/dita-ot-install-plugin.html"/>
+   <appContext helpID="use-new-dita-ot" path="tasks/use-new-dita-ot.html"/>
+   <appContext helpID="dita-third-party-plugins" path="topics/dita-third-party-plugins.html"/>
+   <appContext helpID="dita-specialization-support"
+               path="topics/dita-specialization-support.html"/>
+   <appContext helpID="dita-integrate-specialization"
+               path="topics/dita-integrate-specialization.html"/>
+   <appContext helpID="dita-map-edit-map-specializations"
+               path="topics/dita-map-edit-map-specializations.html"/>
+   <appContext helpID="dita-map-edit-topic-specializations"
+               path="topics/dita-map-edit-topic-specializations.html"/>
+   <appContext helpID="eppo-pathfinder-metadata" path="topics/eppo-pathfinder-metadata.html"/>
+   <appContext helpID="eppo-create-index" path="tasks/eppo-create-index.html"/>
+   <appContext helpID="ooxml-to-dita" path="topics/ooxml-to-dita.html"/>
+   <appContext helpID="dita1-3-support" path="topics/dita1-3-support.html"/>
    <appContext helpID="active-cell" path="glossary/active-cell.html"/>
+   <appContext helpID="ant" path="glossary/ant.html"/>
    <appContext helpID="block-element" path="glossary/block-element.html"/>
-   <appContext helpID="inline-element" path="glossary/inline-element.html"/>
-   <appContext helpID="ditamap" path="glossary/ditamap.html"/>
    <appContext helpID="bookmap" path="glossary/bookmap.html"/>
+   <appContext helpID="ditamap" path="glossary/ditamap.html"/>
    <appContext helpID="dita-ot-dir" path="glossary/dita-ot-dir.html"/>
+   <appContext helpID="inline-element" path="glossary/inline-element.html"/>
+   <appContext helpID="jar" path="glossary/jar.html"/>
+   <appContext helpID="named-user" path="glossary/named-user.html"/>
+   <appContext helpID="copyright" path="topics/copyright.html"/>
 </map>

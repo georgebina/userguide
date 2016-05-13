@@ -130,7 +130,7 @@ function highlightSearchTerm() {
     $body.removeHighlight();
     
     try {
-        var jsonString = getParameter('hl');
+        var jsonString = decodeURIComponent(String(getParameter('hl')));
         debug("jsonString: ", jsonString);
         
         if (jsonString !== undefined && jsonString != "") {

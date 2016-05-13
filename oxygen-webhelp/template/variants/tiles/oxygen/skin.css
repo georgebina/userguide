@@ -290,6 +290,19 @@ Example:
     font-size: 1.2em;
 }
 
+@media only screen and (max-width: 767px) {
+    .wh_side_toc {
+        border-radius: 0;
+        padding: 1em 0.5em;
+        margin-top: 10px;
+        border: 1px solid #e0e0e0;
+    }
+    
+    .related-links {
+        border: 1px solid #e0e0e0;
+    }
+}
+
 /*
  * ------------------------------------------------------------------
  *
@@ -385,7 +398,7 @@ Example:
  * Index terms.
  * 
  */
-.wh_index_terms li.first_letter {
+.wh_index_terms span.wh_first_letter {
     color: #346ec5;
 }
 .wh_index_terms #indexList{

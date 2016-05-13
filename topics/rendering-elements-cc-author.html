@@ -1,0 +1,321 @@
+
+<!DOCTYPE html
+  PUBLIC "" "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en-us" lang="en-us">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="description" content="In addition to the support for configuring the proposals that appear in the Content Completion Assistant , Oxygen XML Author also includes support for customizing how the elements are rendered. You ..." /><meta name="copyright" content="(C) Copyright 2016" /><meta name="DC.rights.owner" content="(C) Copyright 2016" /><meta name="DC.Type" content="topic" /><meta name="DC.Title" content="Customizing the Rendering of Elements" /><meta name="indexterms" content="Document Type Association (Framework), Configuring content completion proposals, Configuring content completion proposals, Content completion configuration file (cc_config.xml)" /><meta name="DC.subject" content="Document Type Association (Framework), Configuring content completion proposals, Configuring content completion proposals, Content completion configuration file (cc_config.xml)" /><meta name="keywords" content="Document Type Association (Framework), Configuring content completion proposals, Configuring content completion proposals, Content completion configuration file (cc_config.xml)" /><meta name="DC.Relation" scheme="URI" content="../topics/customize-content-completion.html" /><meta name="DC.Relation" scheme="URI" content="configuring-content-completion-proposals.html#configuring-content-completion-proposals" /><meta name="DC.Relation" scheme="URI" content="configure-elements-attr-cc-individually.html#configure-elements-attr-cc-individually" /><meta name="DC.Relation" scheme="URI" content="configuring-xml-node-renderer-customizer.html#configuring-xml-node-renderer-customizer" /><meta name="DC.Relation" scheme="URI" content="content-completion-schema-annotations-author.html#content-completion-schema-annotations-author" /><meta name="DC.Relation" scheme="URI" content="../tasks/author-styleguide-annotations.html#author-styleguide-annotations" /><meta name="prodname" content="" /><meta name="version" content="17.1" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="rendering-elements-cc-author" /><title>Customizing the Rendering of Elements</title><!--  Generated with Oxygen version 18.0, build number 2016051118.  --><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script>
+          function debug(msg, object){
+              console.log(msg, object);
+          }
+          function executeQuery(){
+              return true;
+          }
+      </script>
+      
+        <link rel="stylesheet" type="text/css" href="../oxygen-webhelp/resources/css/commonltr.css" />
+          
+        <link rel="stylesheet" type="text/css" href="../oxygen-webhelp/resources/css/webhelp_responsive_topic.css" />
+          
+        
+        <link rel="stylesheet" type="text/css" href="../oxygen-webhelp/resources/bootstrap/css/bootstrap.min.css" />
+
+        
+        <link rel="stylesheet" href="../oxygen-webhelp/resources/bootstrap/css/bootstrap-theme.min.css" />
+
+        
+        <link rel="stylesheet" type="text/css" href="../oxygen-webhelp/resources/css/p-side-notes.css" />
+
+
+        
+        <link rel="stylesheet" type="text/css" href="../oxygen-webhelp/template/resources/css/wt_default.css" />
+
+        <script type="text/javascript" src="../oxygen-webhelp/resources/js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="../oxygen-webhelp/resources/localization/strings.js"></script>
+        <script type="text/javascript" src="../oxygen-webhelp/resources/js/localization.js"></script>
+        <script type="text/javascript" src="../oxygen-webhelp/resources/js/parseuri.js"></script>
+        <script type="text/javascript" src="../oxygen-webhelp/resources/js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="../oxygen-webhelp/resources/js/jquery-ui.custom.min.js"></script>
+        <script type="text/javascript" src="../oxygen-webhelp/resources/js/jquery.highlight-3.js"></script>
+        
+    <link rel="stylesheet" type="text/css" href="../oxygen-webhelp/template/variants/tiles/oxygen/skin.css" /></head>
+
+    <body onload="highlightSearchTerm()" class="wh_topic_page frmBody" id="rendering-elements-cc-author">
+        
+        
+<nav class="navbar navbar-default wh_header">
+    <div class="container">
+        <div class="navbar-header wh_logo_and_publication_title_container">
+            <div class="wh_logo_and_publication_title navbar-brand">
+                
+                <a href="../index.html" class=" wh_logo hidden-xs "></a>
+                <div class=" wh_publication_title "><a href="../index.html"><span class="booktitle">  <span class="ph mainbooktitle">  <span class="ph">Oxygen XML Author</span>  <span class="ph">18.0</span>  </span>  </span></a></div>
+                
+            </div>
+            
+            <button type="button" data-target=".wh_top_menu_and_indexterms_link" data-toggle="collapse" class="navbar-toggle collapsed wh_toggle_button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        
+        <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse">
+            
+            <div class=" wh_indexterms_link hidden-xs "><a href="../indexTerms.html" title="Index"><span>Index</span></a></div>
+            <div class=" wh_top_menu "><ul><li class=" has-children "><span class="topicref"><a href="../topics/getting-started-intro.html" data-id="getting-started-intro">Getting Started</a></span><ul><li><span class="topicref"><a href="../topics/what-is-oxygen.html" data-id="what-is-oxygen">What is <span class="ph">Oxygen XML Author</span></a></span></li><li><span class="topicref"><a href="../topics/getting-familiar.html" data-id="getting-familiar">Getting Familiar with the Layout</a></span></li><li><span class="topicref"><a href="../topics/description-of-editor-types.html" data-id="description-of-editor-types">Supported Document Types</a></span></li><li><span class="topicref"><a href="../topics/videos-other-resources.html" data-id="videos-other-resources">Resources to Help You Get Started Using <span class="ph">Oxygen XML Author</span>  </a></span></li><li class=" has-children "><span class="topicref"><a href="../topics/getting-started-task.html" data-id="getting-started-task">Your First Document or Project</a></span><ul><li><span class="topicref"><a href="../topics/getting-started-first-XML-document.html" data-id="getting-started-first-XML-document">Your First XML Document</a></span></li><li><span class="topicref"><a href="../topics/eppo-first-dita-topic.html" data-id="eppo-first-dita-topic">Your First DITA Topic</a></span></li><li><span class="topicref"><a href="../topics/create-new-project.html" data-id="create-new-project">Creating a New Project</a></span></li></ul></li><li class=" has-children "><span class="topicref"><a href="../topics/getting-help.html" data-id="getting-help">Getting Help</a></span><ul><li><span class="topicref"><a href="../topics/help-menu.html" data-id="help-menu">Help Menu</a></span></li></ul></li></ul></li><li class=" has-children "><span class="topicref"><a href="../topics/editing-documents.html" data-id="editing-documents">Editing Documents</a></span><ul><li class=" has-children "><span class="topicref"><a href="../topics/working-with-unicode.html" data-id="working-with-unicode">Working with Unicode</a></span><ul><li><span class="topicref"><a href="../topics/open-save-Unicode-documents.html" data-id="open-save-Unicode-documents">Opening and Saving Documents with Unsupported Characters</a></span></li><li><span class="topicref"><a href="../topics/unicode-toolbar.html" data-id="unicode-toolbar">Inserting Symbols</a></span></li><li><span class="topicref"><a href="../topics/unicode-font-support.html" data-id="unicode-font-support">Unicode Fallback Font Support</a></span></li></ul></li><li class=" has-children "><span class="topicref"><a href="../topics/opening-and-closing-documents.html" data-id="opening-and-closing-documents">Creating and Working with Documents</a></span><ul><li><span class="topicref"><a href="../topics/creating-new-documents.html" data-id="creating-new-documents">Creating New Documents and Templates</a></span></li><li><span class="topicref"><a href="../topics/opening-existing-documents.html" data-id="opening-existing-documents">Opening Documents</a></span></li><li><span class="topicref"><a href="../topics/saving-documents.html" data-id="saving-documents">Saving Documents</a></span></li><li><span class="topicref"><a href="../topics/opening-saving-ftp-webdav.html" data-id="opening-saving-ftp-webdav"><span class="ph">Opening and Saving Remote Documents</span></a></span></li><li><span class="topicref"><a href="../topics/switching-between-open-tabs.html" data-id="switching-between-open-tabs">Switching Between Opened Tabs</a></span></li><li><span class="topicref"><a href="../topics/searching-documents.html" data-id="searching-documents">Searching Documents</a></span></li><li><span class="topicref"><a href="../topics/closing-documents.html" data-id="closing-documents">Closing Documents</a></span></li><li><span class="topicref"><a href="../topics/editor-tab-contextual-menu.html" data-id="editor-tab-contextual-menu">Contextual Menu of the Current Editor Tab</a></span></li><li><span class="topicref"><a href="../topics/viewing-file-properties.html" data-id="viewing-file-properties">Viewing File Properties</a></span></li></ul></li><li class=" has-children "><span class="topicref"><a href="../topics/grouping-documents-xml-projects.html" data-id="grouping-documents-xml-projects">Using Projects to Group Documents</a></span><ul><li><span class="topicref"><a href="../topics/create-new-project-1.html" data-id="create-new-project">Creating a New Project</a></span></li><li><span class="topicref"><a href="../topics/using-the-project-view-2.html" data-id="using-the-project-view"><span class="ph">Project</span> View</a></span></li><li><span class="topicref"><a href="../topics/sharing-projects.html" data-id="sharing-projects">Sharing a Project - Team Collaboration</a></span></li><li><span class="topicref"><a href="../topics/defining_master_files.html" data-id="defining_master_files">Defining Master Files at Project Level</a></span></li></ul></li><li class=" has-children "><span class="topicref"><a href="../topics/editing-xml-documents.html" data-id="editing-xml-documents">Editing XML Documents</a></span><ul><li><span class="topicref"><a href="../topics/xml-editor-specific-actions.html" data-id="xml-editor-specific-actions">Editing XML Documents in Text Mode</a></span></li><li><span class="topicref"><a href="../topics/editing-docs-grid-mode.html" data-id="editing-docs-grid-mode">Editing XML Documents in Grid Mode</a></span></li><li><span class="topicref"><a href="../topics/editing-xml-documents-author.html" data-id="editing-xml-documents-author">Editing XML Documents in Author Mode</a></span></li><li><span class="topicref"><a href="../topics/validating-XML-documents.html" data-id="validating-XML-documents">Validating XML Documents</a></span></li><li><span class="topicref"><a href="../topics/finding-replacing-text.html" data-id="finding-replacing-text">Finding and Replacing Text in the Current File</a></span></li><li><span class="topicref"><a href="../topics/find-and-replace-text-in-files.html" data-id="find-and-replace-text-in-files">Finding and Replacing Text in Multiple Files</a></span></li><li><span class="topicref"><a href="../topics/search-refactor-operations-xml-id-idrefs.html" data-id="search-refactor-operations-xml-id-idrefs">Search and Refactor Actions for IDs and IDREFS</a></span></li><li><span class="topicref"><a href="../topics/search-refactor-scope.html" data-id="search-refactor-scope">Search and Refactor Operations Scope</a></span></li><li><span class="topicref"><a href="../topics/associate-schema-to-document.html" data-id="associate-schema-to-document">Associate a Schema to a Document</a></span></li><li><span class="topicref"><a href="../topics/xml-contextual-editing.html" data-id="xml-contextual-editing">Working with Modular XML Files in the Master Files Context</a></span></li><li><span class="topicref"><a href="../topics/xml-resource-hierarchy-view.html" data-id="xml-resource-hierarchy-view">XML Resource Hierarchy/Dependencies View</a></span></li><li><span class="topicref"><a href="../topics/using-XML-Catalogs.html" data-id="using-XML-Catalogs">Working with XML Catalogs</a></span></li><li><span class="topicref"><a href="../topics/large-documents.html" data-id="large-documents">Editing Large XML Documents with DTD Entities or XInclude</a></span></li><li><span class="topicref"><a href="../topics/view-status-information.html" data-id="view-status-information">Viewing Status Information</a></span></li><li><span class="topicref"><a href="../topics/making-persistent-copy-of-results.html" data-id="making-persistent-copy-of-results">Making a Persistent Copy of Results</a></span></li><li><span class="topicref"><a href="../topics/editor-highlights.html" data-id="editor-highlights">Editor Highlights</a></span></li><li><span class="topicref"><a href="../topics/printing-a-file.html" data-id="printing-a-file">Printing a File</a></span></li><li><span class="topicref"><a href="../topics/xml-quick-fixes.html" data-id="xml-quick-fixes">XML Quick Fixes</a></span></li><li><span class="topicref"><a href="../topics/refactoring-xml-documents.html" data-id="refactoring-xml-documents">Refactoring XML Documents</a></span></li></ul></li><li class=" has-children "><span class="topicref"><a href="../topics/editing-css-stylesheets.html" data-id="editing-css-stylesheets">Editing CSS Stylesheets</a></span><ul><li><span class="topicref"><a href="../topics/validating-css-stylesheets.html" data-id="validating-css-stylesheets">Validating CSS Stylesheets</a></span></li><li><span class="topicref"><a href="../topics/content-completion-css-stylesheets.html" data-id="content-completion-css-stylesheets">Content Completion in CSS Stylesheets</a></span></li><li><span class="topicref"><a href="../topics/css-outline-view.html" data-id="css-outline-view">CSS Outline View</a></span></li><li><span class="topicref"><a href="../topics/folding-in-css-stylesheets.html" data-id="folding-in-css-stylesheets">Folding in CSS Stylesheets</a></span></li><li><span class="topicref"><a href="../topics/formatting-and-indenting-css-stylesheets.html" data-id="formatting-and-indenting-css-stylesheets">Formatting and Indenting CSS Stylesheets (Pretty Print)</a></span></li><li><span class="topicref"><a href="../topics/compress_css.html" data-id="compress_css">Minifying CSS Stylesheets</a></span></li></ul></li><li class=" has-children "><span class="topicref"><a href="../topics/editing-less-css-stylesheets.html" data-id="editing-less-css-stylesheets">Editing LESS CSS Stylesheets</a></span><ul><li><span class="topicref"><a href="../topics/validating-less-css-stylesheets.html" data-id="validating-less-css-stylesheets">Validating LESS Stylesheets</a></span></li><li><span class="topicref"><a href="../topics/content-completion-less-css-stylesheets.html" data-id="content-completion-less-css-stylesheets">Content Completion in LESS Stylesheets</a></span></li><li><span class="topicref"><a href="../topics/compiling-less-stylesheets-to-css.html" data-id="compiling-less-stylesheets-to-css">Compiling LESS Stylesheets to CSS</a></span></li></ul></li><li><span class="topicref"><a href="../topics/editing-stratML.html" data-id="editing-stratML">Editing StratML Documents</a></span></li><li><span class="topicref"><a href="../topics/editing-xliff.html" data-id="editing-xliff">Editing XLIFF Documents</a></span></li><li class=" has-children "><span class="topicref"><a href="../topics/editing-JavaScript.html" data-id="editing-JavaScript">Editing JavaScript Documents</a></span><ul><li><span class="topicref"><a href="../topics/text-mode-javascript.html" data-id="text-mode-javascript">JavaScript Editor Text Mode</a></span></li><li><span class="topicref"><a href="../topics/validating-JavaScript-files.html" data-id="validating-JavaScript-files">Validating JavaScript Files</a></span></li><li><span class="topicref"><a href="../topics/content-completion-JavaScript.html" data-id="content-completion-JavaScript">Content Completion in JavaScript Files</a></span></li><li><span class="topicref"><a href="../topics/outline-view-JavaScript.html" data-id="outline-view-JavaScript">JavaScript Outline View</a></span></li></ul></li><li class=" has-children "><span class="topicref"><a href="../topics/SVG-documents.html" data-id="SVG-documents">Editing SVG Files</a></span><ul><li><span class="topicref"><a href="../topics/the-standalone-svg-viewer.html" data-id="the-standalone-svg-viewer">Standalone SVG Viewer</a></span></li><li><span class="topicref"><a href="../topics/preview-result-pane.html" data-id="preview-result-pane">Integrated SVG Viewer in the Results Panel</a></span></li></ul></li><li><span class="topicref"><a href="../topics/edit-xhtml-documents.html" data-id="edit-xhtml-documents">Editing XHTML Documents</a></span></li><li class=" has-children "><span class="topicref"><a href="../topics/using-check-spelling.html" data-id="using-check-spelling">Spell Checking</a></span><ul><li><span class="topicref"><a href="../topics/spell-checking-dictionaries.html" data-id="spell-checking-dictionaries">Spell Checking Dictionaries</a></span></li><li><span class="topicref"><a href="../topics/learned-words.html" data-id="learned-words">Learned Words</a></span></li><li><span class="topicref"><a href="../topics/spell-check-ignore-words.html" data-id="spell-check-ignore-words">Ignored Words (Elements)</a></span></li><li><span class="topicref"><a href="../topics/spell-check-as-you-type.html" data-id="spell-check-as-you-type">Automatic Spell Check</a></span></li><li><span class="topicref"><a href="../topics/spell-check-in-files.html" data-id="spell-check-in-files">Spell Checking in Multiple Files</a></span></li></ul></li><li class=" has-children "><span class="topicref"><a href="../topics/autocorrect.html" data-id="autocorrect">AutoCorrect Misspelled Words</a></span><ul><li><span class="topicref"><a href="../tasks/add-dictionaries-for-autocorrect.html" data-id="add-dictionaries-for-autocorrect">Add Dictionaries for the AutoCorrect Feature</a></span></li></ul></li><li class=" has-children "><span class="topicref"><a href="../topics/editing-large-documents.html" data-id="editing-large-documents">Loading Large Documents</a></span><ul><li><span class="topicref"><a href="../topics/large-file-editor.html" data-id="large-file-editor">File Sizes Smaller than 300 MB</a></span></li><li><span class="topicref"><a href="../topics/huge-file-editor.html" data-id="huge-file-editor">File Sizes Greater than 300 MB</a></span></li></ul></li><li><span class="topicref"><a href="../topics/scratch-buffer.html" data-id="scratch-buffer">Scratch Buffer</a></span></li><li><span class="topicref"><a href="../topics/handling-read-only-files.html" data-id="handling-read-only-files">Handling Read-Only Files</a></span></li><li><span class="topicref"><a href="../topics/long-lines-document.html" data-id="long-lines-document">Editing Documents with Long Lines</a></span></li><li class=" has-children "><span class="topicref"><a href="../topics/digital-signature.html" data-id="digital-signature">XML Digital Signatures</a></span><ul><li><span class="topicref"><a href="../topics/digital-signature-overview.html" data-id="digital-signature-overview">Digital Signatures Overview</a></span></li><li><span class="topicref"><a href="../topics/certificates.html" data-id="certificates">Certificates</a></span></li><li><span class="topicref"><a href="../topics/canonicalizing-files.html" data-id="canonicalizing-files">Canonicalizing Files</a></span></li><li><span class="topicref"><a href="../topics/signing-files.html" data-id="signing-files">Signing Files</a></span></li><li><span class="topicref"><a href="../topics/verifying-signature.html" data-id="verifying-signature">Verifying Signature</a></span></li><li><span class="topicref"><a href="../tasks/example-signing-files.html" data-id="example-signing-files">Example of How to Digitally Sign XML Files or Content</a></span></li></ul></li><li class=" has-children "><span class="topicref"><a href="../topics/comparing-and-merging-documents.html" data-id="comparing-and-merging-documents">Compare Files or Directories </a></span><ul><li><span class="topicref"><a href="../topics/file-comparison.html" data-id="file-comparison">Compare Files</a></span></li><li><span class="topicref"><a href="../topics/directories-comparison.html" data-id="directories-comparison">Compare Directories</a></span></li></ul></li></ul></li><li class=" has-children "><span class="topicref"><a href="../topics/transforming-documents.html" data-id="transforming-documents">Publishing</a></span><ul><li class=" has-children "><span class="topicref"><a href="../concepts/transformation-scenario.html" data-id="transformation-scenario">Transformation Scenarios</a></span><ul><li><span class="topicref"><a href="../topics/builtin-transformation-scenarios.html" data-id="builtin-transformation-scenarios">Built-in Transformation Scenarios</a></span></li><li><span class="topicref"><a href="../topics/defining-new-transformation-scenario.html" data-id="defining-new-transformation-scenario">Creating New Transformation Scenarios</a></span></li><li><span class="topicref"><a href="../topics/edit-scenario-dialog.html" data-id="edit-scenario-dialog">Editing a Transformation Scenario</a></span></li><li><span class="topicref"><a href="../topics/duplicating-transformations.html" data-id="duplicating-transformations">Duplicating a Transformation Scenario</a></span></li><li><span class="topicref"><a href="../topics/configure-transformation-dialog.html" data-id="configure-transformation-dialog">Configure Transformation Scenario(s) Dialog Box</a></span></li><li><span class="topicref"><a href="../tasks/apply-batch-transformation.html" data-id="apply-batch-transformation">Apply Batch Transformations</a></span></li><li><span class="topicref"><a href="../topics/transformation-scenarios-sharing.html" data-id="transformation-scenarios-sharing">Sharing the Transformation Scenarios</a></span></li><li><span class="topicref"><a href="../topics/scenarios-view.html" data-id="scenarios-view">Transformation Scenarios View</a></span></li><li><span class="topicref"><a href="../tasks/debugging-pdf-transformation.html" data-id="debugging-pdf-transformation">Debugging PDF Transformations</a></span></li><li><span class="topicref"><a href="../tasks/configuring_calabash_with_xep.html" data-id="configuring_calabash_with_xep">Configuring Calabash with XEP </a></span></li><li><span class="topicref"><a href="../tasks/xproc-API-external-engine.html" data-id="xproc-API-external-engine">Integration of an External XProc Engine</a></span></li><li><span class="topicref"><a href="../topics/xslt-processors.html" data-id="xslt-processors">XSLT Processors</a></span></li><li><span class="topicref"><a href="../topics/xsl-fo-processors.html" data-id="xsl-fo-processors">XSL-FO Processors</a></span></li></ul></li><li class=" has-children "><span class="topicref"><a href="../topics/webhelp-output.html" data-id="webhelp-output">WebHelp System Output</a></span><ul><li><span class="topicref"><a href="../topics/webhelp-responsive-description.html" data-id="webhelp-responsive-description">WebHelp Responsive System </a></span></li><li><span class="topicref"><a href="../topics/webhelp_system_description.html" data-id="webhelp_system_description">WebHelp Classic System</a></span></li><li><span class="topicref"><a href="../topics/webhelp-mobile-systems.html" data-id="webhelp-mobile-systems">WebHelp Classic Mobile System</a></span></li><li><span class="topicref"><a href="../topics/using-the-webhelp-plugin.html" data-id="using-the-webhelp-plugin">Using the <span class="ph">Oxygen XML WebHelp</span> Plugin to Automate Output</a></span></li></ul></li></ul></li><li class=" has-children "><span class="topicref"><a href="../topics/db-and-cms-integration.html" data-id="db-and-cms-integration">Databases and CMS</a></span><ul><li class=" has-children "><span class="topicref"><a href="../topics/working-with-databases.html" data-id="working-with-databases">Working with Databases</a></span><ul><li><span class="topicref"><a href="../topics/relational-database-explorer.html" data-id="relational-database-explorer">Data Source Explorer View</a></span></li><li><span class="topicref"><a href="../topics/relational-table-explorer.html" data-id="relational-table-explorer">Table Explorer View</a></span></li><li><span class="topicref"><a href="../topics/database-support.html" data-id="database-support">Database Connection Support</a></span></li><li><span class="topicref"><a href="../topics/webdav-connection.html" data-id="webdav-connection">WebDAV Connections</a></span></li><li><span class="topicref"><a href="../topics/relational-sql-execution-support.html" data-id="relational-sql-execution-support">SQL Execution Support</a></span></li></ul></li><li class=" has-children "><span class="topicref"><a href="../topics/cms-integration.html" data-id="cms-integration">Content Management System (CMS) Integration</a></span><ul><li><span class="topicref"><a href="../topics/documentumcms-support.html" data-id="documentumcms-support">Integration with <span class="ph">Documentum (CMS)</span> (deprecated)</a></span></li><li><span class="topicref"><a href="../topics/sharepoint-connection.html" data-id="sharepoint-connection">Integration with Microsoft SharePoint</a></span></li></ul></li></ul></li></ul></div>
+            
+        </div>
+    </div>
+</nav>
+
+        <div class=" wh_search_input "><form onsubmit="return executeQuery();" id="searchForm" method="get" action="../search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" /><button type="submit" class="wh_search_button"><span>Search</span></button></div></form></div>
+        
+        <div class="container">
+            <div class="row">
+
+                <nav class="wh_tools hidden-print">
+                    <div class=" wh_breadcrumb "><ol class="hidden-print"><li><span class="home"><a href="../index.html"><span>Home</span></a></span></li><li><span class="topicref"><a href="../topics/authoring_customization.html">Author Mode Customization</a></span></li><li><span class="topicref"><a href="../topics/author-devel-guide-intro.html">Author Mode Customization Guide</a></span></li><li><span class="topicref"><a href="../topics/dg-complex-customization-tutorial.html">Advanced Customization Tutorial - Document Type Associations</a></span></li><li><span class="topicref"><a href="../topics/customize-content-completion.html">Customizing the Content Completion Assistant</a></span></li><li class="active"><span class="topicref">Customizing the Rendering of Elements</span></li></ol></div>
+
+                    <div class="wh_right_tools hidden-sm hidden-xs">
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader">
+  </span></div>
+                        <div class=" wh_print_link print "><a href="javascript:window.print();" title="Print this page"></a></div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="row wh_content_area">
+
+                <div class=" wh_topic_content col-lg-8 col-md-8 col-sm-8 col-xs-12 body  "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+  <h1 class="title topictitle1" id="ariaid-title1">Customizing the Rendering of Elements<span class="editlink" style="font-size:14px;margin-left:10px">[ 
+        <a target="_blank" href="https://www.oxygenxml.com/webapp-demo-aws/app/oxygen.html?url=github%3A%2F%2FgetFileContent%2Fctalau%2Fuserguide%2Fmaster%2FDITA%2Ftopics%2Frendering-elements-cc-author.dita&amp;ditamap=github%3A%2F%2FgetFileContent%2Fctalau%2Fuserguide%2Fmaster%2FDITA%2FUserManual.ditamap">edit</a>
+      ]</span></h1>
+
+  
+  <div class="body">
+    <p class="p">In addition to the support for configuring the proposals that appear in the
+        <span class="ph uicontrol">Content Completion Assistant</span>, <span class="ph">Oxygen XML Author</span> also includes
+      support for customizing how the elements are rendered. You can do this by using the <a class="xref" href="configuring-xml-node-renderer-customizer.html#configuring-xml-node-renderer-customizer"><span class="keyword apiname">XMLNodeRendererCustomizer</span> API extension</a>, but you can also use
+      the same configuration file that is used to configure the content completion proposals.</p>
+
+    <p class="p">For an example of a specific use-case, suppose that in DITA you want the names of paragraph
+      elements (<code class="ph codeph">p</code>) to be rendered as <strong class="ph b">"Paragraph"</strong> instead of <strong class="ph b">"p"</strong> in
+      the various components in <span class="ph uicontrol">Author</span> mode (such as in the
+        <span class="ph uicontrol">Outline</span> view, <span class="ph uicontrol">Elements</span> view,
+        <span class="ph uicontrol">Attributes</span> view, and the breadcrumb navigation bar). To achieve this,
+      you can use the <code class="ph codeph">elementRenderings</code> element in the configuration file.</p>
+
+    <section class="section" id="rendering-elements-cc-author__d2e47"><h2 class="title sectiontitle">Setting up the Content Completion Configuration File</h2>
+      
+      <div class="p" id="rendering-elements-cc-author__d152e3794">To customize the configuration file for the
+          <span class="ph uicontrol">Content Completion Assistant</span>, follow these steps:<ol class="ol" id="rendering-elements-cc-author__d152e3799">
+          <li class="li">Create a new <span class="ph filepath">resources</span> folder (if it does not already exist) in
+            the frameworks directory for the particular document type (for example,
+              <span class="ph filepath">OXYGEN_INSTALL_DIR/frameworks/dita/resources</span>).</li>
+
+          <li class="li"><span class="ph"><a class="xref" href="preferences.html">Open the
+            <span class="ph uicontrol">Preferences</span> dialog box <span class="ph menucascade"><span class="ph uicontrol">(Options</span> &gt; <span class="ph uicontrol">Preferences)</span></span></a></span> and go to
+              <span class="ph uicontrol">Document Type Association</span>. Select the particular document type,
+            click the <span class="ph uicontrol">Edit</span> button, and in the <a class="xref" href="document-type-classpath-tab.html#document-type-classpath-tab"><span class="ph uicontrol">Classpath</span> tab</a> add a link to that
+              <span class="ph filepath">resources</span> folder (if it does not already exist).</li>
+
+          <li class="li">Create a new configuration file or edit an existing one.<ol class="ol" type="a">
+              <li class="li">To easily create a new configuration file, you can use the <em class="ph i">Content Completion
+                  Configuration</em> file template that is included in <span class="ph">Oxygen XML Author</span>
+                  (<span class="ph menucascade"><span class="ph uicontrol">File</span> &gt; <span class="ph uicontrol">New</span> &gt; <span class="ph uicontrol">Framework templates</span> &gt; <span class="ph uicontrol">Oxygen Extensions</span> &gt; <span class="ph uicontrol">Content Completion Configuration</span></span>). The file template includes details about how each element and
+                attribute is used in the configuration file.</li>
+
+              <li class="li">If a configuration file (<span class="ph filepath">cc_config.xml</span>) already exists for
+                the particular document type (in the <span class="ph filepath">resources</span> folder), you can
+                modify this existing file. </li>
+
+            </ol>
+</li>
+
+          <li class="li">Make the appropriate changes to your custom configuration file.</li>
+
+          <li class="li">Save the file in the <span class="ph filepath">resources</span> folder for the particular document
+            type, using the fixed name: <span class="ph filepath">cc_config.xml</span> (for example,
+              <span class="ph filepath">OXYGEN_INSTALL_DIR/frameworks/dita/resources/cc_config.xml</span>).</li>
+
+          <li class="li">Restart the application and open an XML document. In the <span class="ph uicontrol">Content Completion
+              Assistant</span> you should see your customizations.<div class="note tip"><span class="tiptitle">Tip:</span> In some
+              cases, you can simply use the <span class="ph uicontrol"><img class="image" src="../reusables/topics/../../img/Refresh16.png" />Refresh (<span class="keyword shortcut">F5</span>)</span> action to test your customizations,
+              without having to restart the application.</div>
+</li>
+
+        </ol>
+</div>
+
+    </section>
+
+    <section class="section" id="rendering-elements-cc-author__configuration_file"><h2 class="title sectiontitle">Changing the Rendering of Elements (Their Names, Annotations, and Icons) </h2>
+      
+      <p class="p">For the purposes of customizing how the content completion elements are rendered, you can
+        use the <code class="ph codeph">render</code> element inside a <code class="ph codeph">elementRenderings</code> element
+        to specify how element names, their annotations, and their icons are rendered.</p>
+
+      <div class="p">You can use the following attributes for the <code class="ph codeph">render</code> element:<ul class="ul" id="rendering-elements-cc-author__ul_ghd_c55_kr">
+          <li class="li"><code class="ph codeph">element</code> - Identifies the element to be customized, in the form of a
+            qualified name. If it does not have a prefix, it is considered to be from
+              <dfn class="term">noNamespace</dfn>.</li>
+
+          <li class="li"><code class="ph codeph">as</code> - Provides the name (label) that will be displayed for the element
+            in various components in <span class="ph uicontrol">Author</span> mode (such as in the
+              <span class="ph uicontrol">Content Completion Assistant</span>, the breadcrumb navigation bar,
+            the <span class="ph uicontrol">Full Tags</span> display mode, and the
+              <span class="ph uicontrol">Outline</span>, <span class="ph uicontrol">Elements</span>, and
+              <span class="ph uicontrol">Attributes</span> views). This attribute is optional. If it is
+            missing, the name of the element is used.</li>
+
+          <li class="li"><code class="ph codeph">iconPath</code> - Optional attribute that specifies the icon for the
+            element. This is shown in the <span class="ph uicontrol">Content Completion Assistant</span> and
+            the <span class="ph uicontrol">Outline</span> view in <span class="ph uicontrol">Author</span> mode. If it is
+            a relative path, the full path of the icon image file will be computed starting from the
+            directory of the configuration file (for example, a value of
+              <code class="ph codeph">"myImg.png"</code> will cause <span class="ph">Oxygen XML Author</span> to load
+              <span class="ph filepath">"frameworks/$ {framework}/resources/myImg.png"</span>). If you want to
+            access a built-in resource, the value can begin with a forward slash
+              <code class="ph codeph">"/"</code>, and the image file will be searched for in the <span class="ph">Oxygen XML Author</span> classpath resources (for
+              example,<code class="ph codeph">"/images/OrderedList16.png"</code> will load an icon from the
+            built-in <span class="ph">Oxygen XML Author</span> JAR file resources.</li>
+
+          <li class="li"><code class="ph codeph">xml:lang</code> - Optional attribute that could be used to render the same
+            element differently, depending on the language. If there are multiple
+              <code class="ph codeph">render</code> elements for the same <code class="ph codeph">element</code> attribute
+            (element name) and the <code class="ph codeph">xml:lang</code> attribute is missing on one of them,
+            that one will be considered the default fallback value to be used if none of the others
+            match the language specified in the interface.<div class="note note"><span class="notetitle">Note:</span> The default entry should be listed
+              first, since the application tries to match them in sequence and the last match found
+              is the one that is used.</div>
+<div class="p">For example, suppose that you want the name of DITA
+              paragraph elements (<code class="ph codeph">p</code>) to be rendered as "Paragraphe" if the language
+              is French, "Absatz" if the language is German, and "Paragraph" if the language is
+              English (or any other language). Your configuration file should look something like
+              this:<pre class="pre codeblock language-xml">       <strong class="hl-tag" style="color:#000096">&lt;elementRenderings&gt;</strong>
+	        <strong class="hl-tag" style="color:#000096">&lt;render</strong> <span class="hl-attribute" style="color: #ff7935">element</span>=<span class="hl-value" style="color: #993300">"p"</span> <span class="hl-attribute" style="color: #ff7935">as</span>=<span class="hl-value" style="color: #993300">"Paragraph"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
+        	<strong class="hl-tag" style="color:#000096">&lt;render</strong> <span class="hl-attribute" style="color: #ff7935">element</span>=<span class="hl-value" style="color: #993300">"p"</span> <span class="hl-attribute" style="color: #ff7935">as</span>=<span class="hl-value" style="color: #993300">"Paragraphe"</span> <span class="hl-attribute" style="color: #ff7935">xml:lang</span>=<span class="hl-value" style="color: #993300">"fr"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
+        	<strong class="hl-tag" style="color:#000096">&lt;render</strong> <span class="hl-attribute" style="color: #ff7935">element</span>=<span class="hl-value" style="color: #993300">"p"</span> <span class="hl-attribute" style="color: #ff7935">as</span>=<span class="hl-value" style="color: #993300">"Absatz"</span> <span class="hl-attribute" style="color: #ff7935">xml:lang</span>=<span class="hl-value" style="color: #993300">"de"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
+       <strong class="hl-tag" style="color:#000096">&lt;/elementRenderings&gt;</strong></pre>
+</div>
+</li>
+
+        </ul>
+</div>
+
+      <div class="p">You can also use the configuration file to customize the annotations for elements. For this
+        purpose, the <code class="ph codeph">render</code> element also accepts the following element to change
+        the tooltip annotations for an element (in both <span class="ph uicontrol">Author</span> mode and
+          <span class="ph uicontrol">Text</span> mode):<ul class="ul">
+          <li class="li"><code class="ph codeph">annotation</code> - This element can be used within the
+              <code class="ph codeph">render</code> element to customize the tooltip annotations that are
+            displayed for the element in various components in <span class="ph uicontrol">Author</span> mode
+            (such as tooltips shown in the <span class="ph uicontrol">Content Completion Assistant</span>
+            documentation window, the breadcrumb navigation bar, the <span class="ph uicontrol">Full
+              Tags</span> display mode, and the <span class="ph uicontrol">Outline</span>,
+              <span class="ph uicontrol">Elements</span>, and <span class="ph uicontrol">Attributes</span> views), as well
+            as the tooltips that are displayed when you hover over elements in
+              <span class="ph uicontrol">Text</span> mode. You can use HTML content to style the annotations
+            (see the <a class="xref" href="#rendering-elements-cc-author__example-rendering">example below</a>).<div class="note note"><span class="notetitle">Note:</span> If this element is missing, the <a class="xref" href="content-completion-schema-annotations-author.html#content-completion-schema-annotations-author">styling for the annotations for that element is collected from the associated
+                schema</a>.</div>
+</li>
+
+        </ul>
+</div>
+
+    </section>
+
+    <section class="section" id="rendering-elements-cc-author__other_important_notes"><h2 class="title sectiontitle">Other Important Notes About the Configuration File for Rendering Elements</h2>
+      
+      <div class="note important"><span class="importanttitle">Important:</span> 
+        <ul class="ul">
+          <li class="li">This configuration file only affects the content completion assistance, not
+            validation.</li>
+
+          <li class="li">To test the effects of your changes, you should restart the application, although in
+            some cases, you can simply use the <span class="ph uicontrol"><img class="image" src="../img/Refresh16.png" />Refresh (<span class="keyword shortcut">F5</span>)</span> action to test your
+            customizations.</li>
+
+          <li class="li">If the framework has an associated <dfn class="term">styleguide</dfn>, then the annotations
+            defined in the configuration file will take precedence over those defined in the
+              <dfn class="term">styleguide</dfn>. To check to see if your framework uses a
+              <dfn class="term">styleguide</dfn>, look for the following folder:
+              <span class="ph filepath">${oXygenInstallDir}frameworks/${framework}/styleguide/</span>. If that
+            folder exists, it is recommended that you make your annotation changes directly in the
+              <dfn class="term">styleguide</dfn>, rather than in the configuration file.</li>
+
+          <li class="li">If an <a class="xref" href="configuring-xml-node-renderer-customizer.html#configuring-xml-node-renderer-customizer"><span class="keyword apiname">XMLNodeRendererCustomizer</span> API extension</a> has been
+            implemented for the framework and a configuration file is also used, the rendering
+            customization for an element will be the result of merging the two. For example, if the
+              <span class="keyword apiname">XMLNodeRendererCustomizer</span> implementation customizes the element
+            name, while the configuration file specifies an icon for the element, the properties of
+            both customizations will be rendered. However, if both implementations define the same
+            property (for example, both specify the rendering of an element name), the
+            customizations defined in the configuration file take precedence.</li>
+
+          <li class="li">The rendering customizations defined in the configuration file also applies to aspects
+            of the <span class="ph">Oxygen XML Web Author Component</span> interface.</li>
+
+        </ul>
+
+      </div>
+
+    </section>
+
+    <section class="section" id="rendering-elements-cc-author__example-rendering"><h2 class="title sectiontitle">Example: Changing the Rendering of an Element</h2>
+      
+      <div class="p">Suppose that you want to render the name of the DITA <code class="ph codeph">title</code> element to
+        begin with a capital letter, use a custom icon for it, and provide specific documentation
+        for that element in the various components in <span class="ph uicontrol">Author</span> mode. The
+        configuration file should look like
+        this:<pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;elementRenderings&gt;</strong>
+	    <strong class="hl-tag" style="color:#000096">&lt;render</strong> <span class="hl-attribute" style="color: #ff7935">element</span>=<span class="hl-value" style="color: #993300">"title"</span>   <span class="hl-attribute" style="color: #ff7935">as</span>=<span class="hl-value" style="color: #993300">"Title"</span>  <span class="hl-attribute" style="color: #ff7935">iconPath</span>=<span class="hl-value" style="color: #993300">"cimg/AcceptAll16.png"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+	         <strong class="hl-tag" style="color:#000096">&lt;annotation&gt;</strong>
+                         <strong class="hl-tag" style="color:#000096">&lt;html</strong> <span class="hl-attribute" style="color: #ff7935">xmlns</span>=<span class="hl-value" style="color: #993300">"http://www.w3.org/1999/xhtml"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+                         <strong class="hl-tag" style="color:#000096">&lt;head&gt;</strong>
+                               <strong class="hl-tag" style="color:#000096">&lt;title&gt;</strong>Documentation for the Title Element<strong class="hl-tag" style="color:#000096">&lt;/title&gt;</strong>
+                         <strong class="hl-tag" style="color:#000096">&lt;/head&gt;</strong>
+                         <strong class="hl-tag" style="color:#000096">&lt;body&gt;</strong>
+                                <strong class="hl-tag" style="color:#000096">&lt;p&gt;</strong>A <strong class="hl-tag" style="color:#000096">&lt;i&gt;</strong>heading<strong class="hl-tag" style="color:#000096">&lt;/i&gt;</strong> or <strong class="hl-tag" style="color:#000096">&lt;b&gt;</strong>label<strong class="hl-tag" style="color:#000096">&lt;/b&gt;</strong> for the main parts of a topic<strong class="hl-tag" style="color:#000096">&lt;/p&gt;</strong>
+                          <strong class="hl-tag" style="color:#000096">&lt;/body&gt;</strong>
+                          <strong class="hl-tag" style="color:#000096">&lt;/html&gt;</strong>
+                 <strong class="hl-tag" style="color:#000096">&lt;/annotation&gt;</strong>
+	    <strong class="hl-tag" style="color:#000096">&lt;/render&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;/elementRenderings&gt;</strong></pre>
+</div>
+
+    </section>
+
+  </div>
+
+  
+<nav role="navigation" class="related-links">
+<div class="linklist linklist relinfo reltasks"><strong>Related tasks</strong><br />
+
+<div class="related_link"><a class="navheader_parent_path" href="../tasks/author-styleguide-annotations.html#author-styleguide-annotations" title="Annotations for XML Elements and Attributes in Content Completion Assistant">Annotations for XML Elements and Attributes in Content Completion Assistant</a></div></div>
+
+<div class="linklist linklist relinfo"><strong>Related information</strong><br />
+
+<div class="related_link"><a class="navheader_parent_path" href="configuring-content-completion-proposals.html#configuring-content-completion-proposals" title="Configuring the Proposals for Attribute and Element Values">Configuring the Proposals for Attribute and Element Values</a></div>
+<div class="related_link"><a class="navheader_parent_path" href="configure-elements-attr-cc-individually.html#configure-elements-attr-cc-individually" title="Configuring the Proposals for Elements">Configuring the Proposals for Elements</a></div>
+<div class="related_link"><a class="navheader_parent_path" href="configuring-xml-node-renderer-customizer.html#configuring-xml-node-renderer-customizer" title="Configuring an XML Node Renderer Customizer">Configuring an XML Node Renderer Customizer</a></div>
+<div class="related_link"><a class="navheader_parent_path" href="content-completion-schema-annotations-author.html#content-completion-schema-annotations-author" title="Schema Annotations in Author Mode">Schema Annotations in Author Mode</a></div></div>
+</nav></article></main></div>
+
+                <nav role="navigation" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 navbar" id="wh_side_toc">
+                    <div class=" wh_side_toc "><ul class="hidden-print"><li><span class="topicref"><a href="../topics/authoring_customization.html">Author Mode Customization</a></span><ul class="nav nav-list"><li><span class="topicref"><a href="../topics/author-devel-guide-intro.html">Author Mode Customization Guide</a></span><ul class="nav nav-list"><li><span class="topicref"><a href="../topics/dg-simple-customization-tutorial.html">Simple Customization Tutorial</a></span></li><li><span class="topicref"><a href="../topics/dg-complex-customization-tutorial.html">Advanced Customization Tutorial - Document Type Associations</a></span><ul class="nav nav-list"><li><span class="topicref"><a href="../topics/dg-author-settings.html">Adding or Editing a Document Type Association (Framework)</a></span></li><li><span class="topicref"><a href="../topics/localizing_frameworks.html">Localizing Frameworks</a></span></li><li><span class="topicref"><a href="../topics/packing-and-deploying-addons.html">Packing and Deploying Plugins or Frameworks as Add-ons</a></span></li><li><span class="topicref"><a href="../topics/dg-basic-association.html">Creating the Basic Association</a></span></li><li><span class="topicref"><a href="../tasks/dg-file-templates.html">Configuring New File Templates</a></span></li><li><span class="topicref"><a href="../tasks/dg-xml-catalogs.html">Configuring XML Catalogs</a></span></li><li><span class="topicref"><a href="../tasks/dg-transformation-scenarios.html">Configuring Transformation Scenarios for a Framework</a></span></li><li><span class="topicref"><a href="../tasks/dg-validation-scenarios.html">Configuring Validation Scenarios for a Framework</a></span></li><li><span class="topicref"><a href="../topics/author-customize-smart-paste.html">Customizing Smart Paste Support</a></span></li><li><span class="topicref"><a href="../tasks/dg-configure-extensions.html">Configuring Extensions</a></span></li><li><span class="topicref"><a href="../tasks/dg-customize-default-CSS.html">Customizing the Main CSS of a Document Type</a></span></li><li><span class="topicref"><a href="../topics/author-document-type-sharing.html">Sharing a Document Type (Framework)</a></span></li><li><span class="topicref"><a href="../topics/author-document-type-extension-sharing.html">Sharing an Extended Document Type (Framework)</a></span></li><li><span class="topicref"><a href="../topics/customize-content-completion.html">Customizing the Content Completion Assistant</a></span><ul class="nav nav-list"><li><span class="topicref"><a href="../topics/configuring-content-completion-proposals.html">Configuring the Proposals for Attribute and Element Values </a></span></li><li><span class="topicref"><a href="../topics/configure-elements-attr-cc-individually.html">Configuring the Proposals for Elements</a></span></li><li class="active"><span class="topicref">Customizing the Rendering of Elements</span></li><li><span class="topicref"><a href="../tasks/author-styleguide-annotations.html">Annotations for XML Elements and Attributes in Content Completion Assistant</a></span></li></ul></li></ul></li><li><span class="topicref"><a href="../topics/dg-sdf-files.html">Example Files for a Custom Framework</a></span></li></ul></li><li><span class="topicref"><a href="../topics/dg-css-support-in-author.html">CSS Support in Author Mode</a></span></li><li><span class="topicref"><a href="../topics/automated-tests.html">Creating and Running Automated Tests</a></span></li><li><span class="topicref"><a href="../topics/api_faq_introduction.html">API Frequently Asked Questions (API FAQ)</a></span></li></ul></li></ul></div>
+                </nav>
+            </div>
+            
+        </div> <nav class="navbar navbar-default wh_footer">
+  <div class=" footer-container text-center ">
+    WebHelp output generated by <a class="oxyFooter" href="http://www.oxygenxml.com" target="_blank"> &lt;oXygen/&gt; XML Author </a>
+  </div>
+</nav>
+ 
+        <script src="../oxygen-webhelp/resources/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="../oxygen-webhelp/template/resources/js/wt_default.js" type="text/javascript"></script>
+        
+    </body>
+</html>

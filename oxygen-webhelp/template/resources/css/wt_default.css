@@ -321,17 +321,19 @@ caption{
 
 
 /* Indexterms page */
-.wh_index_terms li{
+.wh_index_terms li, .wh_index_terms ul{
     padding-left: 10px;
     list-style: none;
-    text-indent: -2em;
-    margin-left: 4em;
 }
-.wh_index_terms li a{
+.wh_index_terms li.wh_term{
+    line-height: 1.5em;
+}
+a.wh_term_target{
+    padding-left:5px;
     vertical-align: super;
     font-size: .8em;
 }
-.wh_index_terms .first_letter{
+.wh_index_terms .wh_first_letter{
     text-indent: 0;
     list-style: none;
     font-size: 2em;

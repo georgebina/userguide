@@ -81,12 +81,12 @@ $(document).ready(function () {
     $("#oldFrames").click(function(){
         var newLink = "";
         try {
-            var currentLink = parseUri(window.location);
+            var currentLink = parseUri($('#frm').attr('src'));
         } catch (e) {
             debug(e);
         }
 
-        newLink = $(this).attr("href") + "?q=" + wh.directory + currentLink.anchor;
+        newLink = $(this).attr("href") + "?q=" + currentLink.relative;
         $(this).attr("href", newLink);
     });
 });
@@ -285,8 +285,8 @@ function loadIframe(dynamicURL) {
 
             debug('#frm.load 2');
             if (navigator.appVersion.indexOf("MSIE 7.") == -1) {
-              $('#navigationLinks').html($('#frm').contents().find('div.navheader .navparent, div.navheader .navprev, div.navheader .navnext'));
-              $('#frm').contents().find('div.navheader').hide();
+                 $('#navigationLinks').html($('#frm').contents().find('.navheader .navparent, .navheader .navprev, .navheader .navnext'));
+								 $('#frm').contents().find('.navheader').hide();
             } else {
                 $('#frm').contents().find("table.nav").find("tr:first-child").hide();
             }
