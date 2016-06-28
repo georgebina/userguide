@@ -2,7 +2,7 @@
 <!DOCTYPE topic
   PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="introduction">
-  <title>Introduction</title>
+  <title>Introduction test</title>
   <shortdesc>Welcome to the User Manual of <ph keyref="product"
       product="author developer editor svnClient authorEclipse developerEclipse editorEclipse"/><ph
       keyref="webappProduct" product="webauthor"/>
