@@ -1,5 +1,7 @@
 # userguide
 
+[![Build Status](https://travis-ci.org/ctalau/userguide.svg?branch=master)](https://travis-ci.org/ctalau/userguide)
+
 How to build it on travis:
 
 1. Create manually the gh-pages branch.
@@ -7,3 +9,5 @@ How to build it on travis:
 1. Create a personal access token, encrypt it with travis and add it to the config file.
 1. Encrypt the license key file with travis and add it in the root directory of the project as licenseKey.txt.
 1. Set the ditamap and the ditaval files as env variables.
+
+View the generated oXygen XML WebHelp at [http://ctalau.github.io/userguide/](http://ctalau.github.io/userguide/).
