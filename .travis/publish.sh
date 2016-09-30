@@ -8,6 +8,7 @@ cp -R com.oxygenxml.* dita-ot-2.2.3/plugins/
 mv dita-ot-2.2.3/plugins/com.oxygenxml.webhelp/plugin_2.x.xml dita-ot-2.2.3/plugins/com.oxygenxml.webhelp/plugin.xml
 # Add the editlink plugin
 git clone https://github.com/ctalau/ditaot-editlink-plugin dita-ot-2.2.3/plugins/com.oxygenxml.editlink/
+git clone https://github.com/ctalau/ditaot-pdf-editlink dita-ot-2.2.3/plugins/com.oxygenxml.pdf.editlink/
 
 cd dita-ot-2.2.3/
 bin/ant -f integrator.xml 
@@ -27,4 +28,5 @@ export ANT_OPTS="$ANT_OPTS -Dcwd=`pwd`"
 export ANT_OPTS="$ANT_OPTS -Drepo.url=github://getFileContent/$USERNAME/$REPONAME/$TRAVIS_BRANCH/"
 export ANT_OPTS="$ANT_OPTS -Dwebapp.url=https://www.oxygenxml.com/webapp-demo-aws/"
 
+dita-ot-2.2.3/bin/dita -i $DITAMAP -f pdf -filter=$DITAVAL
 dita-ot-2.2.3/bin/dita -i $DITAMAP -f webhelp-responsive -filter=$DITAVAL
