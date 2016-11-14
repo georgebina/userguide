@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="installation-licensing-types-of-license">
-  <title>Choosing a License Type kjsdk jf ADD SOME MORE</title>
+  <title>Choosing a License Type
+    <?oxy_delete author="George Bina" timestamp="20161114T164731+0200" content="kjsdk jf"?> ADD SOME
+    MORE</title>
   <body>
     <p>You can use one of the following license types with <ph keyref="product"/>:<ol
         id="ol_xr3_j1z_x4">
@@ -27,3 +29,4 @@
       Agreement available at <ph conkeyref="reusable_links/eula"/>.</p>
   </body>
 </topic>
+<?oxy_options track_changes="on"?>
