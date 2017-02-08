@@ -74,7 +74,9 @@
               </row>
               <row>
                 <entry><codeph>com.oxygenxml.validation.threads.no</codeph></entry>
-                <entry>half of the # of server cores</entry>
+                <entry>half of the
+                  <?oxy_delete author="Cristian Talau" timestamp="20170209T005351+0200" content="#"?><?oxy_insert_start author="Cristian Talau" timestamp="20170209T005351+0200"?>number<?oxy_insert_end?>
+                  of server cores</entry>
                 <entry>The number of threads used for validating documents.</entry>
               </row>
             </tbody>
@@ -94,3 +96,4 @@
     </example>
   </body>
 </topic>
+<?oxy_options track_changes="on"?>
